@@ -6,7 +6,7 @@ import time
 
 DELAY=5
 
-with open('./data/example.yml', 'r') as data:
+with open('./data/config.yml', 'r') as data:
     yml = yaml.safe_load(data)
     for name, group in yml.items():
         if 'skip' in group and group['skip']:
