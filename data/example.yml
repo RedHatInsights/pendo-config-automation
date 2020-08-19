@@ -1,0 +1,177 @@
+user_pref:
+  skip: true
+  pages:
+    email:
+      url_rules:
+        - //cloud.redhat.com/user-preferences/email
+  features:
+    unsubscribe:
+      selectors:
+        - '[data-ouia-page-group="user-preferences"] span:contains("Unsubscribe from all")'
+
+Insights Inventory:
+  color: 2
+  feature:
+    pages:
+      Host list:
+        url_rules:
+          - //cloud.redhat.com/insights/inventory
+      Host view:
+        url_rules:
+          - //cloud.redhat.com/insights/inventory/*/
+      Host view:
+        url_rules:
+          - //cloud.redhat.com/insights/inventory/*/
+
+Insights Advisor:
+  skip: false
+  color: 1
+  features:
+    "Recommendations - Button: Clear filters":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Clear filters")'
+    "Recommendations - Button: Sort total risk":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Total risk")'
+  pages:
+    All:
+      url_rules:
+        - //cloud.redhat.com/insights/**
+    Recommendations system:
+      url_rules:
+        - //cloud.redhat.com/insights/advisor/recommendations/*/*
+        - //cloud.redhat.com/insights/recommendations/*/*
+    Recommendations view:
+      url_rules:
+        - //cloud.redhat.com/insights/advisor/recommendations/*
+        - //cloud.redhat.com/insights/recommendations/*
+    Recommendations list:
+      url_rules:
+        - //cloud.redhat.com/insights/advisor/recommendations
+        - //cloud.redhat.com/insights/recommendations
+
+rbac:
+  skip: true
+  features:
+    create_group:
+      selectors:
+        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]'
+        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button'
+        - '[data-ouia-page-group="settings"] button:contains("Create groups")'
+  pages:
+    all:
+      url_rules:
+        - //cloud.redhat.com/settings/rbac/**
+    landing:
+      url_rules:
+        - //cloud.redhat.com/settings/rbac/groups
+    groups_list:
+      url_rules:
+        - //cloud.redhat.com/settings/rbac/groups
+    group_show:
+      url_rules:
+        - //cloud.redhat.com/settings/rbac/groups/detail/*/roles
+    roles_list:
+      url_rules:
+        - //cloud.redhat.com/settings/rbac/roles
+    role_show:
+      url_rules:
+        - //cloud.redhat.com/settings/rbac/groups/detail/*/roles/detail/*
+        - //cloud.redhat.com/settings/rbac/roles/detail/*
+    users_list:
+      url_rules:
+        - //cloud.redhat.com/settings/rbac/users
+    user_show:
+      url_rules:
+        - //cloud.redhat.com/settings/rbac/users/detail/*
+
+
+
+inventory:
+  skip: true
+  features:
+    list_show_tags:
+      selectors:
+        - '[data-ouia-page-type="inventory"] .ins-c-tag-count'
+    list_clear_filters:
+      selectors:
+        - '[data-ouia-page-type="inventory"] button:contains("Clear filters")'
+    list_kabab:
+      selectors:
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__toggle.pf-m-plain'
+    list_filter_name:
+      selectors:
+        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Name")'
+    list_filter_status:
+      selectors:
+        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Status")'
+    list_filter_source:
+      selectors:
+        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Source")'
+    list_filter_tags:
+      selectors:
+        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Tags")'
+    show_delete:
+      selectors:
+        - '[data-ouia-page-type="inventory"]  button:contains("Delete")'
+
+  pages:
+    landing:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory
+        - //cloud.redhat.com/rhel/inventory
+    system_show:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*
+        - //cloud.redhat.com/rhel/inventory/*
+        - //cloud.redhat.com/insights/inventory/*//general_information
+        - //cloud.redhat.com/insights/inventory/*/general_information
+    system_show_advisor:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/advisor
+        - //cloud.redhat.com/insights/inventory/*//advisor
+        - //cloud.redhat.com/rhel/inventory/*/advisor
+    system_show_vuln:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/vulnerabilities
+        - //cloud.redhat.com/insights/inventory/*//vulnerabilities
+    system_show_compliance:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/compliance
+        - //cloud.redhat.com/insights/inventory/*//compliance
+    system_show_patch:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/patch
+        - //cloud.redhat.com/insights/inventory/*//patch
+
+remediations:
+  skip: true
+  pages:
+    playbook_show:
+      url_rules:
+        - //cloud.redhat.com/insights/remediations/*
+        - //cloud.redhat.com/rhel/remediations/*
+    all:
+      url_rules:
+        - //cloud.redhat.com/rhel/remediations/**
+        - //cloud.redhat.com/insights/remediations/**
+  features:
+    add_to_remedation:
+      selectors:
+        - button:contains('Remediate')
+    download_playbook:
+      selectors:
+        - button:contains('Download Playbook')
+        - button:contains('Download playbook')
+    execute_playbook:
+      selectors:
+        - button:contains('Execute playbook')
+    remove_actions:
+      selectors:
+        - .ins-c-remediations-details-table__toolbar button:contains('Remove actions')
+    toggle_auto_reboot:
+      selectors:
+        - .ins-c-playbookSummary__overview button:contains('auto reboot')
+    show_activities:
+      selectors:
+        - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
