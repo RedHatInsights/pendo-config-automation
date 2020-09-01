@@ -135,28 +135,29 @@ vulnerability:
   features:
     "CVEs - Link: Download executive report":
       selectors:
-        - 'a:contains("Download executive report")'
+        - '[data-ouia-page-type="cves"] a:contains("Download executive report")'
     "CVEs - Filter: Security rules":
       selectors:
-        - 'button#pf-toggle-id-55:contains("Security rules")'
+        - '[data-ouia-page-type="cves"] button:contains("Security rules")'
     "CVEs - Filter: Severity":
       selectors:
-        - 'button#pf-toggle-id-57:contains("Severity")'
+        - '[data-ouia-page-type="cves"] button:contains("Severity")'
     "CVEs - Filter: CVSS base score":
       selectors:
-        - 'button#pf-toggle-id-59:contains("CVSS base score")'
+        - '[data-ouia-page-type="cves"] button:contains("CVSS base score")'
     "CVEs - Filter: Business risk":
       selectors:
-        - 'button#pf-toggle-id-61:contains("Business risk")'
+        - '[data-ouia-page-type="cves"] button:contains("Business risk")'
     "CVEs - Filter: Status":
       selectors:
-        - 'button#pf-toggle-id-63:contains("Status")'
+        - '[data-ouia-page-type="cves"] button:contains("Status")'
     "CVEs - Filter: Publish date":
       selectors:
-        - 'button#pf-toggle-id-65:contains("Publish date")'
-    "Systems - Button: Export":
-      selectors:
-        - 'button#pf-toggle-id-190.pf-c-dropdown__toggle'
+        - '[data-ouia-page-type="cves"] button:contains("Publish date")'
+    # Cant reliably target this one
+    # "Systems - Button: Export":
+    #   selectors:
+    #    - '[data-ouia-page-type="systems"] button.pf-c-dropdown__toggle'
 
 compliance:
   color: 4
@@ -182,25 +183,26 @@ compliance:
   features:
     "Reports - Link: View report":
       selectors:
-        - 'a:contains("View report")'
+        - '[data-ouia-page-type="reports"] a:contains("View report")'
     "Reports - Link: View policy":
       selectors:
-        - 'a:contains("View policy")'
+        - '[data-ouia-page-type="reports"] a:contains("View policy")'
     "Reports - Button: Ansible Remediate":
       selectors:
-        - 'div:contains("Remediate").pf-c-toolbar__item'
+        - '[data-ouia-page-type="reports"] div:contains("Remediate").pf-c-toolbar__item'
     "SCAP Policies - Button: Create new policy":
       selectors:
-        - 'button:contains("Create new policy")'
+        - '[data-ouia-page-type="scappolicies"] button:contains("Create new policy")'
+    # Need a way to scope to Compliance here page-type="compliance-reports" is so bad
     "Systems - Filter: Status":
       selectors:
-        - 'button#pf-toggle-id-209:contains("Status")'
+        - '[data-ouia-page-type="systems"] [page-type="compliance-reports"] button:contains("Status")'
     "Systems - Filter: Source":
       selectors:
-        - 'button#pf-toggle-id-211:contains("Source")'
+        - '[data-ouia-page-type="systems"] [page-type="compliance-reports"] button:contains("Source")'
     "Systems - Link: Clear filters":
       selectors:
-        - 'button:contains("Clear filters").pf-c-button'
+        - '[data-ouia-page-type="systems"] [page-type="compliance-reports"] button:contains("Clear filters").pf-c-button'
 
 patch:
   color: 5
@@ -220,16 +222,16 @@ patch:
   features:
     "Advisories - Filter: Type":
       selectors:
-        - 'button#pf-dropdown-toggle-id-24:contains("Type")'
+        - '[data-ouia-page-type="advisories"] button:contains("Type")'
     "Advisories - Filter: Publish date":
       selectors:
-        - 'button#pf-dropdown-toggle-id-26:contains("Publish date")'
+        - '[data-ouia-page-type="advisories"] button:contains("Publish date")'
     "Advisories - Button: Export":
       selectors:
-        - 'button#pf-dropdown-toggle-id-42.pf-c-dropdown__toggle'
+        - '[data-ouia-page-type="advisories"] button.pf-c-dropdown__toggle'
     "Systems - Button: Export":
       selectors:
-        - 'button#pf-toggle-id-17.pf-c-dropdown__toggle'
+        - '[data-ouia-page-type="systems"] button.pf-c-dropdown__toggle'
 
 drift:
   color: 6
@@ -299,19 +301,19 @@ inventory:
   features:
     "Inventory - Filter: Status":
       selectors:
-        - 'button#pf-toggle-id-17:contains("Status")'
+        - '[data-ouia-page-type="inventory"] button:contains("Status")'
     "Inventory - Filter: Source":
       selectors:
-        - 'button#pf-toggle-id-21:contains("Source")'
+        - '[data-ouia-page-type="inventory"] button:contains("Source")'
     "Inventory - Filter: Tags":
       selectors:
-        - 'button#pf-toggle-id-23:contains("Tags")'
+        - '[data-ouia-page-type="inventory"] button:contains("Tags")'
     "Inventory - Button: Delete":
       selectors:
-        - 'div:contains("Delete").pf-c-toolbar__item'
-      "Inventory - Link: Clear filters":
-        selectors:
-        - 'button:contains("Clear filters").pf-c-button'
+        - '[data-ouia-page-type="inventory"] div:contains("Delete").pf-c-toolbar__item'
+    "Inventory - Link: Clear filters":
+      selectors:
+        - '[data-ouia-page-type="inventory"] button:contains("Clear filters").pf-c-button'
 
 remediations:
   color: 9
