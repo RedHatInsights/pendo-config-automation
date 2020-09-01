@@ -26,7 +26,7 @@ Insights Inventory:
 Insights Advisor:
   skip: false
   color: 1
-    features:
+  featurez:
       "Recommendations - Button: Clear filters":
         selectors:
           - '[data-ouia-page-type="recommendations"] button:contains("Clear filters")'
