@@ -26,13 +26,13 @@ Insights Inventory:
 Insights Advisor:
   skip: false
   color: 1
-  features:
-    "Recommendations - Button: Clear filters":
-      selectors:
-        - '[data-ouia-page-type="recommendations"] button:contains("Clear filters")'
-    "Recommendations - Button: Sort total risk":
-      selectors:
-        - '[data-ouia-page-type="recommendations"] button:contains("Total risk")'
+    features:
+      "Recommendations - Button: Clear filters":
+        selectors:
+          - '[data-ouia-page-type="recommendations"] button:contains("Clear filters")'
+      "Recommendations - Button: Sort total risk":
+        selectors:
+          - '[data-ouia-page-type="recommendations"] button:contains("Total risk")'
   pages:
     All:
       url_rules:
