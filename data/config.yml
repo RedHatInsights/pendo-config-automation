@@ -1,5 +1,4 @@
 user_pref:
-  skip: true
   pages:
     email:
       url_rules:
@@ -45,7 +44,6 @@ dashboard:
         - '[data-ouia-page-type="dashboard"] div:contains("Red Hat OpenShift")'
 
 advisor:
-  skip: false
   color: 2
   features:
     "Recommendations - Link: Clear filters":
@@ -387,7 +385,6 @@ subscription watch:
         - 'a:contains("Subscription threshold")'
 
 rbac:
-  skip: true
   features:
     create_group:
       selectors:
@@ -423,7 +420,6 @@ rbac:
 
 
 inventory:
-  skip: true
   features:
     list_show_tags:
       selectors:
@@ -480,7 +476,6 @@ inventory:
         - //cloud.redhat.com/insights/inventory/*//patch
 
 remediations:
-  skip: true
   pages:
     playbook_show:
       url_rules:
