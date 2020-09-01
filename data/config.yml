@@ -432,19 +432,19 @@ inventory:
         - '[data-ouia-page-type="inventory"] .pf-c-dropdown__toggle.pf-m-plain'
     list_filter_name:
       selectors:
-        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Name")'
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Name")'
     list_filter_status:
       selectors:
-        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Status")'
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Status")'
     list_filter_source:
       selectors:
-        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Source")'
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Source")'
     list_filter_tags:
       selectors:
-        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Tags")'
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Tags")'
     show_delete:
       selectors:
-        - '[data-ouia-page-type="inventory"]  button:contains("Delete")'
+        - '[data-ouia-page-type="inventory"] button:contains("Delete")'
 
   pages:
     landing:
