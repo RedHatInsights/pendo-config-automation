@@ -2,7 +2,6 @@
 
 import sys
 import yaml
-import validators
 
 CONFIG='./data/config.yml'
 
