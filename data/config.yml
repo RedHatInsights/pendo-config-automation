@@ -1,5 +1,4 @@
 user_pref:
-  skip: true
   pages:
     email:
       url_rules:
@@ -9,30 +8,84 @@ user_pref:
       selectors:
         - '[data-ouia-page-group="user-preferences"] span:contains("Unsubscribe from all")'
 
-Insights Inventory:
+dashboard:
+  color: 1
+  pages:
+      Host list:
+        url_rules:
+          - //cloud.redhat.com/insights/dashboard
+  features:
+    "Dashboard - Link: Systems running insights-client":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] a:contains("Systems running insights-client")'
+    "Dashboard - Link: X stale systems":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] p:contains("stale systems")'
+    "Dashboard - Link: X systems to be removed":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] p:contains("systems to be removed")'
+    "Dashboard - Link: X incidents detected":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] a:contains("Incidents detected")'
+    "Dashboard - Link: X Recommendations affecting X systems":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] a[href="./insights/advisor/recommendations?reports_shown=undefined&impacting=true&offset=0&limit=10&sort=-publish_date"]'
+    "Dashboard - Link: X CVEs impacting your systems":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] a:contains("CVEs impacting your systems")'
+    "Dashboard - Link: X systems affected":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] a:contains("systems affected")'
+    "Dashboard - Link: Subscription Watch utilization - Red Hat Enterprise Linux":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] div:contains("Red Hat Enterprise Linux")'
+    "Dashboard - Link: Subscription Watch utilization - Red Hat OpenShift":
+      selectors:
+        - '[data-ouia-page-type="dashboard"] div:contains("Red Hat OpenShift")'
+
+advisor:
   color: 2
   features:
-  pages:
-    Host list:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory
-    Host view:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/
-    Host view:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/
-
-Insights Advisor:
-  skip: false
-  color: 1
-  features:
-    "Recommendations - Button: Clear filters":
+    "Recommendations - Link: Clear filters":
       selectors:
         - '[data-ouia-page-type="recommendations"] button:contains("Clear filters")'
-    "Recommendations - Button: Sort total risk":
+    "Recommendations - Filter: Total risk":
       selectors:
         - '[data-ouia-page-type="recommendations"] button:contains("Total risk")'
+    "Recommendations - Filter: Risk of change":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Risk of change")'
+    "Recommendations - Filter: Impact":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Impact")'
+    "Recommendations - Filter: Likelihood":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Likelihood")'
+    "Recommendations - Filter: Category":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Category")'
+    "Recommendations - Filter: Incidents":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Incidents")'
+    "Recommendations - Filter: Ansible support":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Ansible support")'
+    "Recommendations - Filter: Reboot required":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Reboot required")'
+    "Recommendations - Filter: Status":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] button:contains("Status")'
+    "Recommendations - Link: Download executive report":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] a:contains("Download executive report")'
+    "Recommendations - Button: Ansible":
+      selectors:
+        - '[data-ouia-page-type="recommendations"] span:contains("Ansible")'
+    "Systems - Filter: Total risk":
+      selectors:
+        - '[data-ouia-page-type="systems"] button.pf-c-dropdown__menu-item:contains("Total Risk")'
+
   pages:
     All:
       url_rules:
@@ -49,9 +102,290 @@ Insights Advisor:
       url_rules:
         - //cloud.redhat.com/insights/advisor/recommendations
         - //cloud.redhat.com/insights/recommendations
+    Systems view:
+      url_rules:
+        - //cloud.redhat.com/insights/advisor/systems/*
+    Systems list:
+      url_rules:
+        - //cloud.redhat.com/insights/advisor/systems
+    Topics view:
+      url_rules:
+        - //cloud.redhat.com/insights/advisor/topics/*
+    Topics list:
+      url_rules:
+        - //cloud.redhat.com/insights/advisor/topics
+
+vulnerability:
+  color: 3
+  pages:
+    CVE list:
+      url_rules:
+        - //cloud.redhat.com/insights/vulnerability/cves
+    CVE view:
+      url_rules:
+        - //cloud.redhat.com/insights/vulnerability/cves/*
+    Systems list:
+      url_rules:
+        - //cloud.redhat.com/insights/vulnerability/systems
+    Systems view:
+      url_rules:
+        - //cloud.redhat.com/insights/vulnerability/systems/*
+  features:
+    "CVEs - Link: Download executive report":
+      selectors:
+        - '[data-ouia-page-type="cves"] a:contains("Download executive report")'
+    "CVEs - Filter: Security rules":
+      selectors:
+        - '[data-ouia-page-type="cves"] button:contains("Security rules")'
+    "CVEs - Filter: Severity":
+      selectors:
+        - '[data-ouia-page-type="cves"] button:contains("Severity")'
+    "CVEs - Filter: CVSS base score":
+      selectors:
+        - '[data-ouia-page-type="cves"] button:contains("CVSS base score")'
+    "CVEs - Filter: Business risk":
+      selectors:
+        - '[data-ouia-page-type="cves"] button:contains("Business risk")'
+    "CVEs - Filter: Status":
+      selectors:
+        - '[data-ouia-page-type="cves"] button:contains("Status")'
+    "CVEs - Filter: Publish date":
+      selectors:
+        - '[data-ouia-page-type="cves"] button:contains("Publish date")'
+    # Cant reliably target this one
+    # "Systems - Button: Export":
+    #   selectors:
+    #    - '[data-ouia-page-type="systems"] button.pf-c-dropdown__toggle'
+
+compliance:
+  color: 4
+  pages:
+    Reports list - By policy:
+      url_rules:
+        - //cloud.redhat.com/insights/compliance/reports
+    Reports list - By system:
+      url_rules:
+        - //cloud.redhat.com/insights/compliance/reports/systems
+    Reports view:
+      url_rules:
+        - //cloud.redhat.com/insights/compliance/reports/*
+    SCAP Policies list:
+      url_rules:
+        - //cloud.redhat.com/insights/compliance/scappolicies
+    SCAP Policies view:
+      url_rules:
+        - //cloud.redhat.com/insights/compliance/scappolicies/*
+    Systems list:
+      url_rules:
+        - //cloud.redhat.com/insights/compliance/systems
+  features:
+    "Reports - Link: View report":
+      selectors:
+        - '[data-ouia-page-type="reports"] a:contains("View report")'
+    "Reports - Link: View policy":
+      selectors:
+        - '[data-ouia-page-type="reports"] a:contains("View policy")'
+    "Reports - Button: Ansible Remediate":
+      selectors:
+        - '[data-ouia-page-type="reports"] div:contains("Remediate").pf-c-toolbar__item'
+    "SCAP Policies - Button: Create new policy":
+      selectors:
+        - '[data-ouia-page-type="scappolicies"] button:contains("Create new policy")'
+    # Need a way to scope to Compliance here page-type="compliance-reports" is so bad
+    "Systems - Filter: Status":
+      selectors:
+        - '[data-ouia-page-type="systems"] [page-type="compliance-reports"] button:contains("Status")'
+    "Systems - Filter: Source":
+      selectors:
+        - '[data-ouia-page-type="systems"] [page-type="compliance-reports"] button:contains("Source")'
+    "Systems - Link: Clear filters":
+      selectors:
+        - '[data-ouia-page-type="systems"] [page-type="compliance-reports"] button:contains("Clear filters").pf-c-button'
+
+patch:
+  color: 5
+  pages:
+    Advisories list:
+      url_rules:
+        - //cloud.redhat.com/insights/patch/
+    Advisory view:
+      url_rules:
+        - //cloud.redhat.com/insights/patch/advisories/*/
+    Systems list:
+      url_rules:
+        - //cloud.redhat.com/insights/patch/systems/
+    Systems view:
+      url_rules:
+        - //cloud.redhat.com/insights/patch/systems/*/
+  features:
+    "Advisories - Filter: Type":
+      selectors:
+        - '[data-ouia-page-type="advisories"] button:contains("Type")'
+    "Advisories - Filter: Publish date":
+      selectors:
+        - '[data-ouia-page-type="advisories"] button:contains("Publish date")'
+    "Advisories - Button: Export":
+      selectors:
+        - '[data-ouia-page-type="advisories"] button.pf-c-dropdown__toggle'
+    # This one is scoped too high needs work
+    # "Systems - Button: Export":
+    #  selectors:
+    #    - '[data-ouia-page-type="systems"] button.pf-c-dropdown__toggle'
+
+drift:
+  color: 6
+  pages:
+    Comparison list:
+      url_rules:
+        - //cloud.redhat.com/insights/drift
+    Comparison view:
+      url_rules:
+        - //cloud.redhat.com/insights/drift/*
+    Baseline list:
+      url_rules:
+        - //cloud.redhat.com/insights/drift/baselines
+    Baseline view:
+      url_rules:
+        - //cloud.redhat.com/insights/drift/baselines/*
+  features:
+    "Comparison - Button: Add to comparison":
+      selectors:
+        - 'button:contains("Add to comparison")'
+    "Baselines - Button: Create baseline":
+      selectors:
+        - 'button#create-baseline-button:contains("Create baseline")'
+
+policies:
+  color: 7
+  pages:
+    Policies list:
+      url_rules:
+        - //cloud.redhat.com/insights/policies/list
+  features:
+    "Policies - Link: Open email preferences":
+      selectors:
+        - 'a:contains("Open email preferences")'
+    "Policies - Button: Create policy":
+      selectors:
+        - 'button:contains("Create policy").pf-c-button'
+
+inventory:
+  color: 8
+  pages:
+    Host list:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory
+    Host view:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/
+    Host view - General Information:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/general_information
+    Host view - Advisor:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/advisor
+        - //cloud.redhat.com/insights/inventory/*//advisor
+    Host view - Vulnerability:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/vulnerabilities
+        - //cloud.redhat.com/insights/inventory/*//vulnerabilities
+    Host view - Compliance:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/compliance
+        - //cloud.redhat.com/insights/inventory/*//compliance
+    Host view - Patch:
+        url_rules:
+          - //cloud.redhat.com/insights/inventory/*/patch
+          - //cloud.redhat.com/insights/inventory/*//patch
+  features:
+    "Inventory - Filter: Status":
+      selectors:
+        - '[data-ouia-page-type="inventory"] button:contains("Status")'
+    "Inventory - Filter: Source":
+      selectors:
+        - '[data-ouia-page-type="inventory"] button:contains("Source")'
+    "Inventory - Filter: Tags":
+      selectors:
+        - '[data-ouia-page-type="inventory"] button:contains("Tags")'
+    "Inventory - Button: Delete":
+      selectors:
+        - '[data-ouia-page-type="inventory"] div:contains("Delete").pf-c-toolbar__item'
+    "Inventory - Link: Clear filters":
+      selectors:
+        - '[data-ouia-page-type="inventory"] button:contains("Clear filters").pf-c-button'
+
+remediations:
+  color: 9
+  pages:
+    Host list:
+      url_rules:
+        - //cloud.redhat.com/insights/remediations
+
+register systems:
+  color: 10
+  pages:
+    Host list:
+      url_rules:
+        - //cloud.redhat.com/insights/registration
+  features:
+    "Register Systems - Select: Red Hat Subscription Manager":
+      selectors:
+        - 'div:contains("Red Hat Subscription Manager").pf-c-radio'
+    "Register Systems - Select: Red Hat Satellite":
+      selectors:
+        - 'div:contains("Red Hat Satellite").pf-c-radio'
+    "Register Systems - Select: Public cloud/RHUI":
+      selectors:
+        - 'div:contains("Public cloud/RHUI").pf-c-radio'
+
+subscription watch:
+  color: 1
+  pages:
+    Red Hat Enterprise Linux - All:
+      url_rules:
+        - //cloud.redhat.com/subscriptions/rhel-sw/all
+    Red Hat Enterprise Linux - ARM:
+      url_rules:
+        - //cloud.redhat.com/subscriptions/rhel-sw/arm
+    Red Hat Enterprise Linux - IBM Power:
+      url_rules:
+        - //cloud.redhat.com/subscriptions/rhel-sw/ibmpower
+    Red Hat Enterprise Linux - IBM Z Systems:
+      url_rules:
+        - //cloud.redhat.com/subscriptions/rhel-sw/ibmz
+    Red Hat Enterprise Linux - x86:
+      url_rules:
+        - //cloud.redhat.com/subscriptions/rhel-sw/x86
+    Red Hat OpenShift:
+      url_rules:
+        - //cloud.redhat.com/subscriptions/openshift-sw
+    Red Hat OpenShift:
+      url_rules:
+        - //cloud.redhat.com/subscriptions/openshift-sw
+  features:
+    "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
+      selectors:
+        - 'a:contains("Learn more about Subscription Watch reporting")'
+    "Red Hat Enterprise Linux - Link: Physical RHEL":
+      selectors:
+        - 'a:contains("Physical RHEL")'
+    "Red Hat Enterprise Linux - Link: Virtualized RHEL":
+      selectors:
+        - 'a:contains("Virtualized RHEL")'
+    "Red Hat Enterprise Linux - Link: Public cloud":
+      selectors:
+        - 'a:contains("Public cloud")'
+    "Red Hat Enterprise Linux - Link: Subscription threshold":
+      selectors:
+        - 'a:contains("Subscription threshold")'
+    "Red Hat OpenShift - Link: Cores":
+      selectors:
+        - 'a:contains("Cores")'
+    "Red Hat OpenShift - Link: Cores":
+      selectors:
+        - 'a:contains("Subscription threshold")'
 
 rbac:
-  skip: true
   features:
     create_group:
       selectors:
@@ -86,9 +420,7 @@ rbac:
         - //cloud.redhat.com/settings/rbac/users/detail/*
 
 
-
 inventory:
-  skip: true
   features:
     list_show_tags:
       selectors:
@@ -101,19 +433,19 @@ inventory:
         - '[data-ouia-page-type="inventory"] .pf-c-dropdown__toggle.pf-m-plain'
     list_filter_name:
       selectors:
-        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Name")'
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Name")'
     list_filter_status:
       selectors:
-        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Status")'
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Status")'
     list_filter_source:
       selectors:
-        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Source")'
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Source")'
     list_filter_tags:
       selectors:
-        - '[data-ouia-page-type="inventory"]  .pf-c-dropdown__menu-item:contains("Tags")'
+        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Tags")'
     show_delete:
       selectors:
-        - '[data-ouia-page-type="inventory"]  button:contains("Delete")'
+        - '[data-ouia-page-type="inventory"] button:contains("Delete")'
 
   pages:
     landing:
@@ -145,7 +477,6 @@ inventory:
         - //cloud.redhat.com/insights/inventory/*//patch
 
 remediations:
-  skip: true
   pages:
     playbook_show:
       url_rules:
