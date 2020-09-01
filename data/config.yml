@@ -11,17 +11,17 @@ user_pref:
 
 Insights Inventory:
   color: 2
-  feature:
-    pages:
-      Host list:
-        url_rules:
-          - //cloud.redhat.com/insights/inventory
-      Host view:
-        url_rules:
-          - //cloud.redhat.com/insights/inventory/*/
-      Host view:
-        url_rules:
-          - //cloud.redhat.com/insights/inventory/*/
+  features:
+  pages:
+    Host list:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory
+    Host view:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/
+    Host view:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/
 
 Insights Advisor:
   skip: false
