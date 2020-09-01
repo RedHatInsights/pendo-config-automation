@@ -227,9 +227,10 @@ patch:
     "Advisories - Button: Export":
       selectors:
         - '[data-ouia-page-type="advisories"] button.pf-c-dropdown__toggle'
-    "Systems - Button: Export":
-      selectors:
-        - '[data-ouia-page-type="systems"] button.pf-c-dropdown__toggle'
+    # This one is scoped too high needs work
+    # "Systems - Button: Export":
+    #  selectors:
+    #    - '[data-ouia-page-type="systems"] button.pf-c-dropdown__toggle'
 
 drift:
   color: 6
