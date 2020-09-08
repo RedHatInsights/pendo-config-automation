@@ -179,6 +179,10 @@ compliance:
       url_rules:
         - //cloud.redhat.com/insights/compliance/systems
   features:
+    "Any - Button: Remediate":
+      page_id: vhrjVxrz8JAXBHA9p7PO4wRevc0
+      selectors:
+        - '[data-ouia-page-type="systems"] button:contains("Remediate")'
     "Reports - Link: View report":
       selectors:
         - '[data-ouia-page-type="reports"] a:contains("View report")'

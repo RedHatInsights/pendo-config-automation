@@ -6,10 +6,17 @@ import time
 
 DELAY=5
 
+def get_skip_list():
+    with open('./secrets/skiplist.yml') as data:
+        yml = yaml.safe_load(data)
+        return yml
+
 with open('./data/config.yml', 'r') as data:
     yml = yaml.safe_load(data)
+    skip_list = get_skip_list()
     for name, group in yml.items():
-        if 'skip' in group and group['skip']:
+
+        if name in skip_list:
             print ('Skipping group: [{}]'.format(name))
             continue
 

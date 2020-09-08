@@ -56,14 +56,20 @@ def _create_feature_idempotent(name, data):
     return _create_feature(name, data)
 
 def _create_feature(name, data):
-    r = s.post(url('/feature?includeMobileRuleset=1'), json = {
+    payload = {
         "appId": 6245718179446784,
         "kind": "Feature",
         "name": name,
         "color": "",
         "eventPropertyConfigurations": [],
         "elementPathRules": data['selectors']
-    })
+    }
+
+    if 'page_id' in data:
+        log('setting page_id {}'.format(data['page_id']))
+        payload['pageId'] = data['page_id']
+
+    r = s.post(url('/feature?includeMobileRuleset=1'), json = payload)
 
     r.raise_for_status()
     feature = r.json()
