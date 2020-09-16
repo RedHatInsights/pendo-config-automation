@@ -16,10 +16,10 @@ insights:
         - //cloud.redhat.com/insights
         - //cloud.redhat.com/insights/**
   features:
-    "All - Tabs: host view tab click":
+    "All Pages - Tab: host view tab click":
       selectors:
         - '[data-ouia-page-group="insights"] .ins-c-inventory-detail__app-tabs li'
-    "All - Button: host view show drawer":
+    "All Pages - Button: host view show drawer":
       selectors:
         - '[data-ouia-page-group="insights"] button:contains("Show more information")'
 
