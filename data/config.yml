@@ -8,6 +8,21 @@ user_pref:
       selectors:
         - '[data-ouia-page-group="user-preferences"] span:contains("Unsubscribe from all")'
 
+insights:
+  color: 9
+  pages:
+    All:
+      url_rules:
+        - //cloud.redhat.com/insights
+        - //cloud.redhat.com/insights/**
+  features:
+    "All - Tabs: host view tab click":
+      selectors:
+        - '[data-ouia-page-group="insights"] .ins-c-inventory-detail__app-tabs li'
+    "All - Button: host view show drawer":
+      selectors:
+        - '[data-ouia-page-group="insights"] button:contains("Show more information")'
+
 dashboard:
   color: 1
   pages:
