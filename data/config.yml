@@ -510,3 +510,149 @@ remediations:
     show_activities:
       selectors:
         - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
+
+Red Hat OpenShift Cluster Manager
+cluster manager:
+  color: 2
+  pages: 
+    Clusters list:
+      url_rules:
+          - //cloud.redhat.com/openshift/
+    Clusters view:
+      url_rules:
+          - //cloud.redhat.com/openshift/details/*
+    Subscriptions:
+      url_rules:
+          - //cloud.redhat.com/openshift/subscriptions
+    Overview:
+      url_rules:
+          - //cloud.redhat.com/openshift/overview  
+  features:
+    "Clusters - Button: Create cluster":
+      selectors:
+        - 'button:contains("Create cluster")'
+    "Clusters - Filter: Cluster type" 
+      selectors:
+        - 'button:contains("Filter")'
+    "Clusters - Filter: Cluster type" 
+      selectors:
+        - 'button:contains("Filter")'
+    "Subscriptions - Button: Open Subscription Watch" 
+      selectors:
+        - 'a:contains("Open Subscription Watch")'
+
+Ansible
+automation analytics:
+color: 3
+  pages: 
+    Clusters:
+      url_rules:
+          - //cloud.redhat.com/ansible/automation-analytics/clusters
+    Organization Statistics:
+      url_rules:
+          - //cloud.redhat.com/ansible/automation-analytics/organization-statistics     
+    Automation Calculator:
+      url_rules:
+          - //cloud.redhat.com/ansible/automation-analytics/automation-calculator
+    Notifications:
+      url_rules:
+          - //cloud.redhat.com/ansible/automation-analytics/notifications
+
+automation hub:
+color: 4
+  pages: 
+    Collections list:
+      url_rules:
+          - //cloud.redhat.com/ansible/automation-hub/
+    Partners:
+      url_rules:
+          - //cloud.redhat.com/ansible/automation-hub/partners
+    My Namespaces list:
+      url_rules:
+          - //cloud.redhat.com/ansible/automation-hub/my-namespaces
+    My Namespaces view:
+      url_rules:
+          - //cloud.redhat.com/ansible/automation-hub/my-namespaces/*
+  features:
+    "Partners - Link: View collections":
+      selectors:
+        - 'a:contains("View collections")'
+
+automation services catalog:
+color: 5
+  pages: 
+    Products:
+      url_rules:
+          - //cloud.redhat.com/ansible/catalog/products/*
+    Portfolio:
+      url_rules:
+          - //cloud.redhat.com/ansible/catalog/portfolios/*
+    Orders:
+      url_rules:
+          - //cloud.redhat.com/ansible/catalog/orders/*          
+    Approval:
+      url_rules:
+          - //cloud.redhat.com/ansible/catalog/approval/* 
+
+automation services catalog:
+color: 5
+  pages: 
+    Products:
+      url_rules:
+          - //cloud.redhat.com/ansible/catalog/products/*
+    Portfolio:
+      url_rules:
+          - //cloud.redhat.com/ansible/catalog/portfolios/*
+    Orders:
+      url_rules:
+          - //cloud.redhat.com/ansible/catalog/orders/*          
+    Approval:
+      url_rules:
+          - //cloud.redhat.com/ansible/catalog/approval/*  
+
+Cost Management
+cost management:
+color: 6
+  pages: 
+    Overview:
+      url_rules:
+          - //cloud.redhat.com/cost-management/
+    Details - OpenShift:
+      url_rules:
+          - //cloud.redhat.com/cost-management/details/*
+    Details - Infrastructure:
+      url_rules:
+          - //cloud.redhat.com/cost-management/details/aws
+    Cost Models:
+      url_rules:
+          - //cloud.redhat.com/cost-management/cost-models
+
+Migration Services
+migration analytics:
+color: 7
+  pages: 
+    Getting Started:
+      url_rules: //cloud.redhat.com/migrations/migration-analytics/getting-started
+    Report - upload:
+      url_rules: //cloud.redhat.com/migrations/migration-analytics/reports/upload
+    Report - list:
+      url_rules: //cloud.redhat.com/migrations/migration-analytics/reports
+  features:
+    "Migration Analytics - Button: Create":
+      selectors:
+        - 'a:contains("Create")'
+
+Subscription Watch
+migration analytics:
+color: 8
+  pages: 
+    Getting Started:
+      url_rules: //cloud.redhat.com/migrations/migration-analytics/getting-started
+    Report - upload:
+      url_rules: //cloud.redhat.com/migrations/migration-analytics/reports/upload
+    Report - list:
+      url_rules: //cloud.redhat.com/migrations/migration-analytics/reports
+  features:
+    "Migration Analytics - Button: Create":
+      selectors:
+        - 'a:contains("Create")'
