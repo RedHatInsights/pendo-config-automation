@@ -395,7 +395,11 @@ rbac:
       selectors:
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]'
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button'
-        - '[data-ouia-page-group="settings"] button:contains("Create groups")'
+        - '[data-ouia-page-group="settings"] button:contains("Create group")'
+    complete_group_creation:
+      selectors:
+        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]button:contains("Create")
+        
   pages:
     all:
       url_rules:
