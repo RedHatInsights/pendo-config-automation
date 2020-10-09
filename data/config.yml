@@ -461,7 +461,7 @@ cluster manager:
         - //cloud.redhat.com/openshift/install/metal
     Create cluster - Assisted Bare Metal Installer:
       url_rules:
-        - //https://cloud.redhat.com/openshift/assisted-installer/clusters/~new
+        - //cloud.redhat.com/openshift/assisted-installer/clusters/~new
     Subscriptions:
       url_rules:
         - //cloud.redhat.com/openshift/subscriptions
