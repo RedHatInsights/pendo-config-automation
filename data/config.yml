@@ -313,6 +313,7 @@ remediations:
       selectors:
         - .ins-c-playbookSummary__overview button:contains('auto reboot')
     "Remediations - Button: Activity":
+      selectors:
         - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
 
 register systems:
