@@ -1,3 +1,4 @@
+---
 user_pref:
   pages:
     email:
@@ -26,9 +27,9 @@ insights:
 dashboard:
   color: 1
   pages:
-      Host list:
-        url_rules:
-          - //cloud.redhat.com/insights/dashboard
+    Host list:
+      url_rules:
+        - //cloud.redhat.com/insights/dashboard
   features:
     "Dashboard - Link: Systems running insights-client":
       selectors:
@@ -299,23 +300,28 @@ inventory:
         - //cloud.redhat.com/insights/inventory/*/
     Host view - General Information:
       url_rules:
+        - //cloud.redhat.com/insights/inventory/*/?appName=general_information
         - //cloud.redhat.com/insights/inventory/*/general_information
     Host view - Advisor:
       url_rules:
+        - //cloud.redhat.com/insights/inventory/*/?appName=advisor
         - //cloud.redhat.com/insights/inventory/*/advisor
         - //cloud.redhat.com/insights/inventory/*//advisor
     Host view - Vulnerability:
       url_rules:
+        - //cloud.redhat.com/insights/inventory/*/?appName=vulnerabilities
         - //cloud.redhat.com/insights/inventory/*/vulnerabilities
         - //cloud.redhat.com/insights/inventory/*//vulnerabilities
     Host view - Compliance:
       url_rules:
+        - //cloud.redhat.com/insights/inventory/*/?appName=compliance
         - //cloud.redhat.com/insights/inventory/*/compliance
         - //cloud.redhat.com/insights/inventory/*//compliance
     Host view - Patch:
-        url_rules:
-          - //cloud.redhat.com/insights/inventory/*/patch
-          - //cloud.redhat.com/insights/inventory/*//patch
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*/?appName=patch
+        - //cloud.redhat.com/insights/inventory/*/patch
+        - //cloud.redhat.com/insights/inventory/*//patch
   features:
     "Inventory - Filter: Status":
       selectors:
@@ -339,6 +345,27 @@ remediations:
     Host list:
       url_rules:
         - //cloud.redhat.com/insights/remediations
+  features:
+    add_to_remedation:
+      selectors:
+        - button:contains('Remediate')
+    download_playbook:
+      selectors:
+        - button:contains('Download Playbook')
+        - button:contains('Download playbook')
+    execute_playbook:
+      selectors:
+        - button:contains('Execute playbook')
+    remove_actions:
+      selectors:
+        - .ins-c-remediations-details-table__toolbar button:contains('Remove actions')
+    toggle_auto_reboot:
+      selectors:
+        - .ins-c-playbookSummary__overview button:contains('auto reboot')
+    show_activities:
+      selectors:
+        - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
+
 
 register systems:
   color: 10
@@ -378,9 +405,6 @@ subscription watch:
     Red Hat OpenShift:
       url_rules:
         - //cloud.redhat.com/subscriptions/openshift-sw
-    Red Hat OpenShift:
-      url_rules:
-        - //cloud.redhat.com/subscriptions/openshift-sw
   features:
     "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
       selectors:
@@ -400,9 +424,6 @@ subscription watch:
     "Red Hat OpenShift - Link: Cores":
       selectors:
         - 'a:contains("Cores")'
-    "Red Hat OpenShift - Link: Cores":
-      selectors:
-        - 'a:contains("Subscription threshold")'
 
 rbac:
   features:
@@ -437,91 +458,3 @@ rbac:
     user_show:
       url_rules:
         - //cloud.redhat.com/settings/rbac/users/detail/*
-
-
-inventory:
-  features:
-    list_show_tags:
-      selectors:
-        - '[data-ouia-page-type="inventory"] .ins-c-tag-count'
-    list_clear_filters:
-      selectors:
-        - '[data-ouia-page-type="inventory"] button:contains("Clear filters")'
-    list_kabab:
-      selectors:
-        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__toggle.pf-m-plain'
-    list_filter_name:
-      selectors:
-        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Name")'
-    list_filter_status:
-      selectors:
-        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Status")'
-    list_filter_source:
-      selectors:
-        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Source")'
-    list_filter_tags:
-      selectors:
-        - '[data-ouia-page-type="inventory"] .pf-c-dropdown__menu-item:contains("Tags")'
-    show_delete:
-      selectors:
-        - '[data-ouia-page-type="inventory"] button:contains("Delete")'
-
-  pages:
-    landing:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory
-        - //cloud.redhat.com/rhel/inventory
-    system_show:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*
-        - //cloud.redhat.com/rhel/inventory/*
-        - //cloud.redhat.com/insights/inventory/*//general_information
-        - //cloud.redhat.com/insights/inventory/*/general_information
-    system_show_advisor:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/advisor
-        - //cloud.redhat.com/insights/inventory/*//advisor
-        - //cloud.redhat.com/rhel/inventory/*/advisor
-    system_show_vuln:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/vulnerabilities
-        - //cloud.redhat.com/insights/inventory/*//vulnerabilities
-    system_show_compliance:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/compliance
-        - //cloud.redhat.com/insights/inventory/*//compliance
-    system_show_patch:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/patch
-        - //cloud.redhat.com/insights/inventory/*//patch
-
-remediations:
-  pages:
-    playbook_show:
-      url_rules:
-        - //cloud.redhat.com/insights/remediations/*
-        - //cloud.redhat.com/rhel/remediations/*
-    all:
-      url_rules:
-        - //cloud.redhat.com/rhel/remediations/**
-        - //cloud.redhat.com/insights/remediations/**
-  features:
-    add_to_remedation:
-      selectors:
-        - button:contains('Remediate')
-    download_playbook:
-      selectors:
-        - button:contains('Download Playbook')
-        - button:contains('Download playbook')
-    execute_playbook:
-      selectors:
-        - button:contains('Execute playbook')
-    remove_actions:
-      selectors:
-        - .ins-c-remediations-details-table__toolbar button:contains('Remove actions')
-    toggle_auto_reboot:
-      selectors:
-        - .ins-c-playbookSummary__overview button:contains('auto reboot')
-    show_activities:
-      selectors:
-        - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
