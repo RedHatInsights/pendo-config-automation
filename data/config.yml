@@ -511,8 +511,7 @@ remediations:
       selectors:
         - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
 
-Red Hat OpenShift Cluster Manager
-cluster manager:
+cluster manager: 
   color: 2
   pages: 
     Clusters list:
