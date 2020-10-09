@@ -258,6 +258,9 @@ policies:
     Policies list:
       url_rules:
         - //cloud.redhat.com/insights/policies/list
+    Policies view:
+      url_rules:
+        - //cloud.redhat.com/insights/policies/policy/*        
   features:
     "Policies - Link: Open email preferences":
       selectors:
@@ -265,6 +268,20 @@ policies:
     "Policies - Button: Create policy":
       selectors:
         - 'button:contains("Create policy").pf-c-button'
+
+inventory:
+  color: 8
+  pages:
+    Inventory list:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/
+    Inventory view:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*
+  features:
+    "Inventory - Button: Delete":
+      selectors:
+        - 'button:contains("Delete")'
 
 remediations:
   color: 9
