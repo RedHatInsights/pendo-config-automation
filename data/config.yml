@@ -168,10 +168,6 @@ vulnerability:
     "CVEs - Filter: Publish date":
       selectors:
         - '[data-ouia-page-type="cves"] button:contains("Publish date")'
-    # Cant reliably target this one
-    # "Systems - Button: Export":
-    #   selectors:
-    #    - '[data-ouia-page-type="systems"] button.pf-c-dropdown__toggle'
 
 compliance:
   color: 4
@@ -247,10 +243,6 @@ patch:
     "Advisories - Button: Export":
       selectors:
         - '[data-ouia-page-type="advisories"] button.pf-c-dropdown__toggle'
-    # This one is scoped too high needs work
-    # "Systems - Button: Export":
-    #  selectors:
-    #    - '[data-ouia-page-type="systems"] button.pf-c-dropdown__toggle'
 
 drift:
   color: 6
@@ -289,62 +281,17 @@ policies:
       selectors:
         - 'button:contains("Create policy").pf-c-button'
 
-inventory:
-  color: 8
-  pages:
-    Host list:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory
-    Host view:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/
-    Host view - General Information:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=general_information
-        - //cloud.redhat.com/insights/inventory/*/general_information
-    Host view - Advisor:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=advisor
-        - //cloud.redhat.com/insights/inventory/*/advisor
-        - //cloud.redhat.com/insights/inventory/*//advisor
-    Host view - Vulnerability:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=vulnerabilities
-        - //cloud.redhat.com/insights/inventory/*/vulnerabilities
-        - //cloud.redhat.com/insights/inventory/*//vulnerabilities
-    Host view - Compliance:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=compliance
-        - //cloud.redhat.com/insights/inventory/*/compliance
-        - //cloud.redhat.com/insights/inventory/*//compliance
-    Host view - Patch:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=patch
-        - //cloud.redhat.com/insights/inventory/*/patch
-        - //cloud.redhat.com/insights/inventory/*//patch
-  features:
-    "Inventory - Filter: Status":
-      selectors:
-        - '[data-ouia-page-type="inventory"] button:contains("Status")'
-    "Inventory - Filter: Source":
-      selectors:
-        - '[data-ouia-page-type="inventory"] button:contains("Source")'
-    "Inventory - Filter: Tags":
-      selectors:
-        - '[data-ouia-page-type="inventory"] button:contains("Tags")'
-    "Inventory - Button: Delete":
-      selectors:
-        - '[data-ouia-page-type="inventory"] div:contains("Delete").pf-c-toolbar__item'
-    "Inventory - Link: Clear filters":
-      selectors:
-        - '[data-ouia-page-type="inventory"] button:contains("Clear filters").pf-c-button'
-
 remediations:
   color: 9
   pages:
-    Host list:
+    playbook_show:
       url_rules:
-        - //cloud.redhat.com/insights/remediations
+        - //cloud.redhat.com/insights/remediations/*
+        - //cloud.redhat.com/rhel/remediations/*
+    all:
+      url_rules:
+        - //cloud.redhat.com/rhel/remediations/**
+        - //cloud.redhat.com/insights/remediations/**
   features:
     add_to_remedation:
       selectors:
@@ -365,7 +312,6 @@ remediations:
     show_activities:
       selectors:
         - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
-
 
 register systems:
   color: 10
@@ -458,3 +404,118 @@ rbac:
     user_show:
       url_rules:
         - //cloud.redhat.com/settings/rbac/users/detail/*
+
+cluster manager:
+  color: 2
+  pages:
+    Clusters list:
+      url_rules:
+        - //cloud.redhat.com/openshift/
+    Clusters view:
+      url_rules:
+        - //cloud.redhat.com/openshift/details/*
+    Subscriptions:
+      url_rules:
+        - //cloud.redhat.com/openshift/subscriptions
+    Overview:
+      url_rules:
+        - //cloud.redhat.com/openshift/overview
+  features:
+    "Clusters - Button: Create cluster":
+      selectors:
+        - 'button:contains("Create cluster")'
+    "Clusters - Filter: Cluster type":
+      selectors:
+        - 'button:contains("Filter")'
+    "Subscriptions - Button: Open Subscription Watch":
+      selectors:
+        - 'a:contains("Open Subscription Watch")'
+
+automation analytics:
+  color: 3
+  pages:
+    Clusters:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-analytics/clusters
+    Organization Statistics:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-analytics/organization-statistics
+    Automation Calculator:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-analytics/automation-calculator
+    Notifications:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-analytics/notifications
+  features:
+    "Clusters - Filter: Past week":
+      selectors:
+        - '[data-ouia-page-group="ansible"][data-ouia-page-type="clusters"] option:contains("Past week")'
+
+automation hub:
+  color: 4
+  pages:
+    Collections list:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-hub/
+    Partners:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-hub/partners
+    My Namespaces list:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-hub/my-namespaces
+    My Namespaces view:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-hub/my-namespaces/*
+  features:
+    "Partners - Link: View collections":
+      selectors:
+        - 'a:contains("View collections")'
+
+automation services catalog:
+  color: 5
+  pages:
+    Products:
+      url_rules:
+        - //cloud.redhat.com/ansible/catalog/products/*
+    Portfolio:
+      url_rules:
+        - //cloud.redhat.com/ansible/catalog/portfolios/*
+    Orders:
+      url_rules:
+        - //cloud.redhat.com/ansible/catalog/orders/*
+    Approval:
+      url_rules:
+        - //cloud.redhat.com/ansible/catalog/approval/*
+
+cost management:
+  color: 6
+  pages:
+    Overview:
+      url_rules:
+        - //cloud.redhat.com/cost-management/
+    Details - OpenShift:
+      url_rules:
+        - //cloud.redhat.com/cost-management/details/*
+    Details - Infrastructure:
+      url_rules:
+        - //cloud.redhat.com/cost-management/details/aws
+    Cost Models:
+      url_rules:
+        - //cloud.redhat.com/cost-management/cost-models
+
+migration analytics:
+  color: 7
+  pages:
+    Getting Started:
+      url_rules:
+        - //cloud.redhat.com/migrations/migration-analytics/getting-started
+    Report - upload:
+      url_rules:
+        - //cloud.redhat.com/migrations/migration-analytics/reports/upload
+    Report - list:
+      url_rules:
+        - //cloud.redhat.com/migrations/migration-analytics/reports
+  features:
+    "Migration Analytics - Button: Create":
+      selectors:
+        - 'a:contains("Create")'
