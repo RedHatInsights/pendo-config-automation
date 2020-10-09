@@ -456,12 +456,42 @@ cluster manager:
     Create cluster - GCP - User provisioned infrastructure:
       url_rules:
         - //cloud.redhat.com/openshift/install/gcp/user-provisioned
-    Create cluster - Bare metal:
+    Create cluster - Run on bare metal:
       url_rules:
         - //cloud.redhat.com/openshift/install/metal
     Create cluster - Assisted Bare Metal Installer:
       url_rules:
         - //cloud.redhat.com/openshift/assisted-installer/clusters/~new
+    Assisted Bare Metal Installer - Cluster list:
+      url_rules:
+        - //cloud.redhat.com/openshift/assisted-installer/clusters
+    Assisted Bare Metal Installer - Cluster conifiguration:
+      url_rules:
+        - //cloud.redhat.com/openshift/assisted-installer/clusters/*
+    Create cluster - Openstack:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/openstack
+    Create cluster - Openstack - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/openstack/installer-provisioned
+    Create cluster - Openstack - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/openstack/user-provisioned
+    Create cluster - Red Hat Virtualization - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/rhv/installer-provisioned
+    Create cluster - VMware vSphere - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/vsphere/user-provisioned
+    Create cluster - Power Systems - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/power/user-provisioned
+    Create cluster - IBM Z - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/ibmz/user-provisioned
+    Create cluster - Run on your laptop with Code Ready Containers:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/crc/installer-provisioned
     Subscriptions:
       url_rules:
         - //cloud.redhat.com/openshift/subscriptions
