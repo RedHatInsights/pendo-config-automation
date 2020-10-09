@@ -440,25 +440,25 @@ cluster manager:
         - //cloud.redhat.com/openshift/install/aws/user-provisioned
     Create cluster - Azure:
       url_rules:
-        - //cloud.redhat.com/openshift/install/azure    
+        - //cloud.redhat.com/openshift/install/azure
     Create cluster - Azure - Installer provisioned infrastructure:
       url_rules:
-        - //cloud.redhat.com/openshift/install/azure/installer-provisioned  
+        - //cloud.redhat.com/openshift/install/azure/installer-provisioned
     Create cluster - Azure - User provisioned infrastructure:
       url_rules:
         - //cloud.redhat.com/openshift/install/azure/user-provisioned
     Create cluster - GCP:
       url_rules:
-        - //cloud.redhat.com/openshift/install/gcp   
+        - //cloud.redhat.com/openshift/install/gcp
     Create cluster - GCP - Installer provisioned infrastructure:
       url_rules:
-        - //cloud.redhat.com/openshift/install/gcp/installer-provisioned  
+        - //cloud.redhat.com/openshift/install/gcp/installer-provisioned
     Create cluster - GCP - User provisioned infrastructure:
       url_rules:
-        - //cloud.redhat.com/openshift/install/gcp/user-provisioned        
+        - //cloud.redhat.com/openshift/install/gcp/user-provisioned
     Create cluster - Bare metal:
       url_rules:
-        - //cloud.redhat.com/openshift/install/metal   
+        - //cloud.redhat.com/openshift/install/metal
     Create cluster - Assisted Bare Metal Installer:
       url_rules:
         - //https://cloud.redhat.com/openshift/assisted-installer/clusters/~new
