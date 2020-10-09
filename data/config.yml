@@ -423,6 +423,45 @@ cluster manager:
     Clusters view:
       url_rules:
         - //cloud.redhat.com/openshift/details/*
+    Clusters - Create a cluster to get started:
+      url_rules:
+        - //cloud.redhat.com/openshift/create
+    Create cluster - OpenShift Container Platform:
+      url_rules:
+        - //cloud.redhat.com/openshift/install
+    Create cluster - AWS:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/aws
+    Create cluster - AWS - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/aws/installer-provisioned
+    Create cluster - AWS - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/aws/user-provisioned
+    Create cluster - Azure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/azure    
+    Create cluster - Azure - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/azure/installer-provisioned  
+    Create cluster - Azure - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/azure/user-provisioned
+    Create cluster - GCP:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/gcp   
+    Create cluster - GCP - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/gcp/installer-provisioned  
+    Create cluster - GCP - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/gcp/user-provisioned        
+    Create cluster - Bare metal:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/metal   
+    Create cluster - Assisted Bare Metal Installer:
+      url_rules:
+        - //https://cloud.redhat.com/openshift/assisted-installer/clusters/~new
     Subscriptions:
       url_rules:
         - //cloud.redhat.com/openshift/subscriptions
