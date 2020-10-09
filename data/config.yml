@@ -260,7 +260,7 @@ policies:
         - //cloud.redhat.com/insights/policies/list
     Policies view:
       url_rules:
-        - //cloud.redhat.com/insights/policies/policy/*        
+        - //cloud.redhat.com/insights/policies/policy/*
   features:
     "Policies - Link: Open email preferences":
       selectors:
