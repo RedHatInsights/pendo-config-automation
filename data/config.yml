@@ -1,7 +1,7 @@
 ---
-user_pref:
+user preferences:
   pages:
-    email:
+    Email Preferences:
       url_rules:
         - //cloud.redhat.com/user-preferences/email
   features:
@@ -286,33 +286,33 @@ inventory:
 remediations:
   color: 9
   pages:
-    playbook_show:
+    Remediations - Insights view:
       url_rules:
         - //cloud.redhat.com/insights/remediations/*
+    Remediations - RHEL view:
+      url_rules:
         - //cloud.redhat.com/rhel/remediations/*
-    all:
+    All:
       url_rules:
         - //cloud.redhat.com/rhel/remediations/**
         - //cloud.redhat.com/insights/remediations/**
   features:
-    add_to_remedation:
+    "Remediations - Button: Remediate":
       selectors:
         - button:contains('Remediate')
-    download_playbook:
+    "Remediations - Button: Download playbook":
       selectors:
-        - button:contains('Download Playbook')
         - button:contains('Download playbook')
-    execute_playbook:
+    "Remediations - Button: Execute playbook":
       selectors:
         - button:contains('Execute playbook')
-    remove_actions:
+    "Remediations - Button: Remove actions":
       selectors:
         - .ins-c-remediations-details-table__toolbar button:contains('Remove actions')
-    toggle_auto_reboot:
+    "Remediations - Button: Auto reboot":
       selectors:
         - .ins-c-playbookSummary__overview button:contains('auto reboot')
-    show_activities:
-      selectors:
+    "Remediations - Button: Activity":
         - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
 
 register systems:
