@@ -1,4 +1,3 @@
----
 user_pref:
   pages:
     email:
@@ -12,9 +11,9 @@ user_pref:
 dashboard:
   color: 1
   pages:
-    Host list:
-      url_rules:
-        - //cloud.redhat.com/insights/dashboard
+      Host list:
+        url_rules:
+          - //cloud.redhat.com/insights/dashboard
   features:
     "Dashboard - Link: Systems running insights-client":
       selectors:
@@ -285,28 +284,23 @@ inventory:
         - //cloud.redhat.com/insights/inventory/*/
     Host view - General Information:
       url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=general_information
         - //cloud.redhat.com/insights/inventory/*/general_information
     Host view - Advisor:
       url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=advisor
         - //cloud.redhat.com/insights/inventory/*/advisor
         - //cloud.redhat.com/insights/inventory/*//advisor
     Host view - Vulnerability:
       url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=vulnerabilities
         - //cloud.redhat.com/insights/inventory/*/vulnerabilities
         - //cloud.redhat.com/insights/inventory/*//vulnerabilities
     Host view - Compliance:
       url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=compliance
         - //cloud.redhat.com/insights/inventory/*/compliance
         - //cloud.redhat.com/insights/inventory/*//compliance
     Host view - Patch:
-      url_rules:
-        - //cloud.redhat.com/insights/inventory/*/?appName=patch
-        - //cloud.redhat.com/insights/inventory/*/patch
-        - //cloud.redhat.com/insights/inventory/*//patch
+        url_rules:
+          - //cloud.redhat.com/insights/inventory/*/patch
+          - //cloud.redhat.com/insights/inventory/*//patch
   features:
     "Inventory - Filter: Status":
       selectors:
@@ -330,27 +324,6 @@ remediations:
     Host list:
       url_rules:
         - //cloud.redhat.com/insights/remediations
-  features:
-    add_to_remedation:
-      selectors:
-        - button:contains('Remediate')
-    download_playbook:
-      selectors:
-        - button:contains('Download Playbook')
-        - button:contains('Download playbook')
-    execute_playbook:
-      selectors:
-        - button:contains('Execute playbook')
-    remove_actions:
-      selectors:
-        - .ins-c-remediations-details-table__toolbar button:contains('Remove actions')
-    toggle_auto_reboot:
-      selectors:
-        - .ins-c-playbookSummary__overview button:contains('auto reboot')
-    show_activities:
-      selectors:
-        - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
-
 
 register systems:
   color: 10
@@ -390,6 +363,9 @@ subscription watch:
     Red Hat OpenShift:
       url_rules:
         - //cloud.redhat.com/subscriptions/openshift-sw
+    Red Hat OpenShift:
+      url_rules:
+        - //cloud.redhat.com/subscriptions/openshift-sw
   features:
     "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
       selectors:
@@ -409,6 +385,9 @@ subscription watch:
     "Red Hat OpenShift - Link: Cores":
       selectors:
         - 'a:contains("Cores")'
+    "Red Hat OpenShift - Link: Cores":
+      selectors:
+        - 'a:contains("Subscription threshold")'
 
 rbac:
   features:
@@ -443,6 +422,7 @@ rbac:
     user_show:
       url_rules:
         - //cloud.redhat.com/settings/rbac/users/detail/*
+
 
 inventory:
   features:
@@ -550,19 +530,18 @@ cluster manager:
     "Clusters - Button: Create cluster":
       selectors:
         - 'button:contains("Create cluster")'
-    "Clusters - Filter: Cluster type" 
+    "Clusters - Filter: Cluster type": 
       selectors:
         - 'button:contains("Filter")'
-    "Clusters - Filter: Cluster type" 
+    "Clusters - Filter: Cluster type": 
       selectors:
         - 'button:contains("Filter")'
-    "Subscriptions - Button: Open Subscription Watch" 
+    "Subscriptions - Button: Open Subscription Watch": 
       selectors:
         - 'a:contains("Open Subscription Watch")'
 
-Ansible
 automation analytics:
-color: 3
+  color: 3
   pages: 
     Clusters:
       url_rules:
@@ -575,10 +554,10 @@ color: 3
           - //cloud.redhat.com/ansible/automation-analytics/automation-calculator
     Notifications:
       url_rules:
-          - //cloud.redhat.com/ansible/automation-analytics/notifications
+         - //cloud.redhat.com/ansible/automation-analytics/notifications
 
 automation hub:
-color: 4
+  color: 4
   pages: 
     Collections list:
       url_rules:
@@ -598,7 +577,7 @@ color: 4
         - 'a:contains("View collections")'
 
 automation services catalog:
-color: 5
+  color: 5
   pages: 
     Products:
       url_rules:
@@ -614,7 +593,7 @@ color: 5
           - //cloud.redhat.com/ansible/catalog/approval/* 
 
 automation services catalog:
-color: 5
+  color: 5
   pages: 
     Products:
       url_rules:
@@ -629,9 +608,8 @@ color: 5
       url_rules:
           - //cloud.redhat.com/ansible/catalog/approval/*  
 
-Cost Management
 cost management:
-color: 6
+  color: 6
   pages: 
     Overview:
       url_rules:
@@ -646,24 +624,8 @@ color: 6
       url_rules:
           - //cloud.redhat.com/cost-management/cost-models
 
-Migration Services
 migration analytics:
-color: 7
-  pages: 
-    Getting Started:
-      url_rules: //cloud.redhat.com/migrations/migration-analytics/getting-started
-    Report - upload:
-      url_rules: //cloud.redhat.com/migrations/migration-analytics/reports/upload
-    Report - list:
-      url_rules: //cloud.redhat.com/migrations/migration-analytics/reports
-  features:
-    "Migration Analytics - Button: Create":
-      selectors:
-        - 'a:contains("Create")'
-
-Subscription Watch
-migration analytics:
-color: 8
+  color: 7
   pages: 
     Getting Started:
       url_rules: //cloud.redhat.com/migrations/migration-analytics/getting-started
