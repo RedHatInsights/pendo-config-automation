@@ -22,18 +22,20 @@ with open(CONFIG, 'r') as config_yml:
         if not 'pages'    in group:
             print('Error: no *pages* section found in group "{}"'.format(name))
             sys.exit(1)
-        if not 'features' in group:
-            print('Error: no *features* section found in group "{}"'.format(name))
-            sys.exit(1)
 
-        for feature_name, feature in group['features'].items():
-            if 'selectors' not in feature:
-                print('Error: found a feature without a "selectors" array ({} -> {})'.format(name, feature_name))
-                sys.exit(1)
-            for selector in feature['selectors']:
-                if REG_IDS.match(selector):
-                    print('Error: found an id-NN pattern in a feature selector ({} -> {} -> {})'.format(name, feature_name, selector))
+        # if not 'features' in group:
+        #     print('Error: no *features* section found in group "{}"'.format(name))
+        #     sys.exit(1)
+
+        if 'features' in group:
+            for feature_name, feature in group['features'].items():
+                if 'selectors' not in feature:
+                    print('Error: found a feature without a "selectors" array ({} -> {})'.format(name, feature_name))
                     sys.exit(1)
+                for selector in feature['selectors']:
+                    if REG_IDS.match(selector):
+                        print('Error: found an id-NN pattern in a feature selector ({} -> {} -> {})'.format(name, feature_name, selector))
+                        sys.exit(1)
 
         for page_name, page in group['pages'].items():
             for url in page['url_rules']:
