@@ -332,6 +332,12 @@ register systems:
     "Register Systems - Select: Public cloud/RHUI":
       selectors:
         - 'div:contains("Public cloud/RHUI").pf-c-radio'
+    "Operating System - Select: RHEL 8":
+      selectors:
+        - '.pf-c-radio:contains("RHEL 8")'
+    "Operating System - Select: RHEL 7 and 6":
+      selectors:
+        - '.pf-c-radio:contains("RHEL 7 & 6")'
 
 subscription watch:
   color: 1
@@ -381,6 +387,9 @@ rbac:
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]'
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button'
         - '[data-ouia-page-group="settings"] button:contains("Create groups")'
+    "Groups - Button: Complete group creation":
+      selectors:
+        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]button:contains("Create")'
   pages:
     All:
       url_rules:
