@@ -13,10 +13,10 @@ user preferences:
         - '[data-ouia-page-group="user-preferences"] span:contains("Daily digest")'
     "User Preferences - Check box: Instant notification":
       selectors:
-        - '[data-ouia-page-group="user-preferences"] span:contains("Instant notification")'        
+        - '[data-ouia-page-group="user-preferences"] span:contains("Instant notification")'
     "User Preferences - Check box: Weekly Report":
       selectors:
-        - '[data-ouia-page-group="user-preferences"] span:contains("Weekly Report")'         
+        - '[data-ouia-page-group="user-preferences"] span:contains("Weekly Report")'
 
 dashboard:
   color: 1
