@@ -361,7 +361,7 @@ rbac:
     "Button: Create group":
       selectors:
         - '[data-ouia-page-group="settings"] button:contains("Create group")'
-    "Button: Create at end of wizard":
+    "Button: Create group wizard submission":
       selectors:
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]button:contains("Create")'
   pages:
