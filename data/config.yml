@@ -384,33 +384,31 @@ rbac:
   features:
     "Groups - Button: Add group":
       selectors:
-        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]'
-        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button'
-        - '[data-ouia-page-group="settings"] button:contains("Create groups")'
-    "Groups - Button: Complete group creation":
+        - '[data-ouia-page-group="settings"] button:contains("Create group")'
+    "Groups - Button: Create Group wizard submission":
       selectors:
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]button:contains("Create")'
   pages:
     All:
       url_rules:
         - //cloud.redhat.com/settings/rbac/**
-    RBAC - Groups list:
+    Groups list:
       url_rules:
         - //cloud.redhat.com/settings/rbac/groups
-    RBAC - Group view:
+    Group view:
       url_rules:
         - //cloud.redhat.com/settings/rbac/groups/detail/*/roles
-    RBAC - Roles list:
+    Roles list:
       url_rules:
         - //cloud.redhat.com/settings/rbac/roles
-    RBAC - Role view:
+    Role view:
       url_rules:
         - //cloud.redhat.com/settings/rbac/groups/detail/*/roles/detail/*
         - //cloud.redhat.com/settings/rbac/roles/detail/*
-    RBAC - Users list:
+    Users list:
       url_rules:
         - //cloud.redhat.com/settings/rbac/users
-    RBAC - Users view:
+    Users view:
       url_rules:
         - //cloud.redhat.com/settings/rbac/users/detail/*
 
