@@ -5,9 +5,18 @@ user preferences:
       url_rules:
         - //cloud.redhat.com/user-preferences/email
   features:
-    unsubscribe:
+    "User Preferences - Check box: Unsubscribe from all":
       selectors:
         - '[data-ouia-page-group="user-preferences"] span:contains("Unsubscribe from all")'
+    "User Preferences - Check box: Daily digest":
+      selectors:
+        - '[data-ouia-page-group="user-preferences"] span:contains("Daily digest")'
+    "User Preferences - Check box: Instant notification":
+      selectors:
+        - '[data-ouia-page-group="user-preferences"] span:contains("Instant notification")'
+    "User Preferences - Check box: Weekly Report":
+      selectors:
+        - '[data-ouia-page-group="user-preferences"] span:contains("Weekly Report")'
 
 dashboard:
   color: 1
