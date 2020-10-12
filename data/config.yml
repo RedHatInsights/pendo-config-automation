@@ -1,7 +1,7 @@
 ---
-user_pref:
+user preferences:
   pages:
-    email:
+    Email Preferences:
       url_rules:
         - //cloud.redhat.com/user-preferences/email
   features:
@@ -258,6 +258,9 @@ policies:
     Policies list:
       url_rules:
         - //cloud.redhat.com/insights/policies/list
+    Policies view:
+      url_rules:
+        - //cloud.redhat.com/insights/policies/policy/*
   features:
     "Policies - Link: Open email preferences":
       selectors:
@@ -266,35 +269,50 @@ policies:
       selectors:
         - 'button:contains("Create policy").pf-c-button'
 
+inventory:
+  color: 8
+  pages:
+    Inventory list:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/
+    Inventory view:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory/*
+  features:
+    "Inventory - Button: Delete":
+      selectors:
+        - 'button:contains("Delete")'
+
 remediations:
   color: 9
   pages:
-    playbook_show:
+    Remediations - Insights view:
       url_rules:
         - //cloud.redhat.com/insights/remediations/*
+    Remediations - RHEL view:
+      url_rules:
         - //cloud.redhat.com/rhel/remediations/*
-    all:
+    All:
       url_rules:
         - //cloud.redhat.com/rhel/remediations/**
         - //cloud.redhat.com/insights/remediations/**
   features:
-    add_to_remedation:
+    "Remediations - Button: Remediate":
       selectors:
         - button:contains('Remediate')
-    download_playbook:
+    "Remediations - Button: Download playbook":
       selectors:
-        - button:contains('Download Playbook')
         - button:contains('Download playbook')
-    execute_playbook:
+    "Remediations - Button: Execute playbook":
       selectors:
         - button:contains('Execute playbook')
-    remove_actions:
+    "Remediations - Button: Remove actions":
       selectors:
         - .ins-c-remediations-details-table__toolbar button:contains('Remove actions')
-    toggle_auto_reboot:
+    "Remediations - Button: Auto reboot":
       selectors:
         - .ins-c-playbookSummary__overview button:contains('auto reboot')
-    show_activities:
+    "Remediations - Button: Activity":
       selectors:
         - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
 
@@ -314,6 +332,12 @@ register systems:
     "Register Systems - Select: Public cloud/RHUI":
       selectors:
         - 'div:contains("Public cloud/RHUI").pf-c-radio'
+    "Operating System - Select: RHEL 8":
+      selectors:
+        - '.pf-c-radio:contains("RHEL 8")'
+    "Operating System - Select: RHEL 7 and 6":
+      selectors:
+        - '.pf-c-radio:contains("RHEL 7 & 6")'
 
 subscription watch:
   color: 1
@@ -358,35 +382,35 @@ subscription watch:
 
 rbac:
   features:
-    create_group:
+    "Groups - Button: Add group":
       selectors:
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]'
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button'
         - '[data-ouia-page-group="settings"] button:contains("Create groups")'
+    "Groups - Button: Complete group creation":
+      selectors:
+        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]button:contains("Create")'
   pages:
-    all:
+    All:
       url_rules:
         - //cloud.redhat.com/settings/rbac/**
-    landing:
+    RBAC - Groups list:
       url_rules:
         - //cloud.redhat.com/settings/rbac/groups
-    groups_list:
-      url_rules:
-        - //cloud.redhat.com/settings/rbac/groups
-    group_show:
+    RBAC - Group view:
       url_rules:
         - //cloud.redhat.com/settings/rbac/groups/detail/*/roles
-    roles_list:
+    RBAC - Roles list:
       url_rules:
         - //cloud.redhat.com/settings/rbac/roles
-    role_show:
+    RBAC - Role view:
       url_rules:
         - //cloud.redhat.com/settings/rbac/groups/detail/*/roles/detail/*
         - //cloud.redhat.com/settings/rbac/roles/detail/*
-    users_list:
+    RBAC - Users list:
       url_rules:
         - //cloud.redhat.com/settings/rbac/users
-    user_show:
+    RBAC - Users view:
       url_rules:
         - //cloud.redhat.com/settings/rbac/users/detail/*
 
@@ -399,6 +423,75 @@ cluster manager:
     Clusters view:
       url_rules:
         - //cloud.redhat.com/openshift/details/*
+    Clusters - Create a cluster to get started:
+      url_rules:
+        - //cloud.redhat.com/openshift/create
+    Create cluster - OpenShift Container Platform:
+      url_rules:
+        - //cloud.redhat.com/openshift/install
+    Create cluster - AWS:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/aws
+    Create cluster - AWS - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/aws/installer-provisioned
+    Create cluster - AWS - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/aws/user-provisioned
+    Create cluster - Azure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/azure
+    Create cluster - Azure - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/azure/installer-provisioned
+    Create cluster - Azure - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/azure/user-provisioned
+    Create cluster - GCP:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/gcp
+    Create cluster - GCP - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/gcp/installer-provisioned
+    Create cluster - GCP - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/gcp/user-provisioned
+    Create cluster - Run on bare metal:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/metal
+    Create cluster - Assisted Bare Metal Installer:
+      url_rules:
+        - //cloud.redhat.com/openshift/assisted-installer/clusters/~new
+    Assisted Bare Metal Installer - Cluster list:
+      url_rules:
+        - //cloud.redhat.com/openshift/assisted-installer/clusters
+    Assisted Bare Metal Installer - Cluster conifiguration:
+      url_rules:
+        - //cloud.redhat.com/openshift/assisted-installer/clusters/*
+    Create cluster - Openstack:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/openstack
+    Create cluster - Openstack - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/openstack/installer-provisioned
+    Create cluster - Openstack - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/openstack/user-provisioned
+    Create cluster - Red Hat Virtualization - Installer provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/rhv/installer-provisioned
+    Create cluster - VMware vSphere - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/vsphere/user-provisioned
+    Create cluster - Power Systems - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/power/user-provisioned
+    Create cluster - IBM Z - User provisioned infrastructure:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/ibmz/user-provisioned
+    Create cluster - Run on your laptop with Code Ready Containers:
+      url_rules:
+        - //cloud.redhat.com/openshift/install/crc/installer-provisioned
     Subscriptions:
       url_rules:
         - //cloud.redhat.com/openshift/subscriptions
