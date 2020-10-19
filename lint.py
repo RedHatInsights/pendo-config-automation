@@ -6,7 +6,7 @@ import re
 
 CONFIG = './data/config.yml'
 REG_IDS = re.compile('.*-id-[0-9]+.*')
-
+MISSING_SPACE_AFTER_PARAMS = re.compile('.*?[a-z]\[.*?\][a-z].*')
 
 with open(CONFIG, 'r') as config_yml:
     try:
@@ -33,6 +33,9 @@ with open(CONFIG, 'r') as config_yml:
                     print('Error: found a feature without a "selectors" array ({} -> {})'.format(name, feature_name))
                     sys.exit(1)
                 for selector in feature['selectors']:
+                    if MISSING_SPACE_AFTER_PARAMS.match(selector):
+                        print('Error: found a selector that has no space after a param block "example: [...]button" ({} -> {} -> {})'.format(name, feature_name, selector))
+                        sys.exit(1)
                     if REG_IDS.match(selector):
                         print('Error: found an id-NN pattern in a feature selector ({} -> {} -> {})'.format(name, feature_name, selector))
                         sys.exit(1)

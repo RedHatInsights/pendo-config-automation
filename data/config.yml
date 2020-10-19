@@ -411,7 +411,7 @@ rbac:
         - '[data-ouia-page-group="settings"] button:contains("Create group")'
     "Groups - Button: Create Group wizard submission":
       selectors:
-        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"]button:contains("Create")'
+        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button:contains("Create")'
   pages:
     All:
       url_rules:
