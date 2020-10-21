@@ -7,16 +7,24 @@ user preferences:
   features:
     "User Preferences - Check box: Unsubscribe from all":
       selectors:
-        - '[data-ouia-page-group="user-preferences"] span:contains("Unsubscribe from all")'
+        - '.pf-c-check:contains("Unsubscribe from all")'
+        - '[name="unsubscribe.from-all"]'
+        - 'input[name="unsubscribe.from-all"]'
     "User Preferences - Check box: Daily digest":
       selectors:
-        - '[data-ouia-page-group="user-preferences"] span:contains("Daily digest")'
+        - 'input#descriptive-checkbox-dailyEmail'
+        - '.pf-c-check:contains("Daily digestDaily summary of all systems with triggered policies in 24 hour span")'
+        - '#descriptive-checkbox-dailyEmail[name="dailyEmail"]'
     "User Preferences - Check box: Instant notification":
       selectors:
-        - '[data-ouia-page-group="user-preferences"] span:contains("Instant notification")'
+        - 'input[name="immediateEmail"]'
+        - '.pf-c-check__input[name="immediateEmail"]'
+        - 'span:contains("Instant notification")'
     "User Preferences - Check box: Weekly Report":
       selectors:
-        - '[data-ouia-page-group="user-preferences"] span:contains("Weekly Report")'
+        - 'span:contains("Weekly Report")'
+        - '[name="is_subscribed"]'
+        - '.pf-c-check__input[name="is_subscribed"]'
 
 insights:
   color: 9
@@ -549,7 +557,8 @@ automation analytics:
   features:
     "Clusters - Filter: Past week":
       selectors:
-        - '[data-ouia-page-group="ansible"][data-ouia-page-type="clusters"] option:contains("Past week")'
+        - '[name="clusterTimeFrame"]'
+        - 'select:contains("Select date rangePast weekPast 2 weeksPast month")'
 
 automation hub:
   color: 4
