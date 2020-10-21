@@ -315,7 +315,7 @@ remediations:
         - //cloud.redhat.com/insights/remediations/*
     Remediations - RHEL view:
       url_rules:
-        - //cloud.redhat.com/rhel/remediations/*
+        - //cloud.redhat.com/rhel/remediations/**
     All:
       url_rules:
         - //cloud.redhat.com/rhel/remediations/**
@@ -576,13 +576,13 @@ automation services catalog:
   pages:
     Products:
       url_rules:
-        - //cloud.redhat.com/ansible/catalog/products/*
+        - //cloud.redhat.com/ansible/catalog/products/**
     Portfolio:
       url_rules:
         - //cloud.redhat.com/ansible/catalog/portfolios/*
     Orders:
       url_rules:
-        - //cloud.redhat.com/ansible/catalog/orders/*
+        - //cloud.redhat.com/ansible/catalog/orders/**
     Approval:
       url_rules:
         - //cloud.redhat.com/ansible/catalog/approval/*
