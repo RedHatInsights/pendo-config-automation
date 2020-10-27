@@ -21,7 +21,7 @@ user preferences:
 insights:
   color: 9
   pages:
-    All:
+    All pages:
       url_rules:
         - //cloud.redhat.com/insights
         - //cloud.redhat.com/insights/**
@@ -112,9 +112,10 @@ advisor:
         - '[data-ouia-page-type="systems"] button.pf-c-dropdown__menu-item:contains("Total Risk")'
 
   pages:
-    All:
+    All pages:
       url_rules:
-        - //cloud.redhat.com/insights/**
+        - //cloud.redhat.com/insights/advisor
+        - //cloud.redhat.com/insights/advisor/**
     Recommendations system:
       url_rules:
         - //cloud.redhat.com/insights/advisor/recommendations/*/*
@@ -143,6 +144,10 @@ advisor:
 vulnerability:
   color: 3
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/insights/vulnerability
+        - //cloud.redhat.com/insights/vulnerability/**
     CVE list:
       url_rules:
         - //cloud.redhat.com/insights/vulnerability/cves
@@ -181,6 +186,10 @@ vulnerability:
 compliance:
   color: 4
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/insights/compliance
+        - //cloud.redhat.com/insights/compliance/**
     Reports list - By policy:
       url_rules:
         - //cloud.redhat.com/insights/compliance/reports
@@ -230,6 +239,10 @@ compliance:
 patch:
   color: 5
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/insights/patch
+        - //cloud.redhat.com/insights/patch/**
     Advisories list:
       url_rules:
         - //cloud.redhat.com/insights/patch/
@@ -256,6 +269,10 @@ patch:
 drift:
   color: 6
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/insights/drift
+        - //cloud.redhat.com/insights/drift/**
     Comparison list:
       url_rules:
         - //cloud.redhat.com/insights/drift
@@ -279,6 +296,10 @@ drift:
 policies:
   color: 7
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/insights/policies
+        - //cloud.redhat.com/insights/policies/**
     Policies list:
       url_rules:
         - //cloud.redhat.com/insights/policies/list
@@ -296,6 +317,10 @@ policies:
 inventory:
   color: 8
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/insights/inventory
+        - //cloud.redhat.com/insights/inventory/**
     Inventory list:
       url_rules:
         - //cloud.redhat.com/insights/inventory/
@@ -316,9 +341,10 @@ remediations:
     Remediations - RHEL view:
       url_rules:
         - //cloud.redhat.com/rhel/remediations/**
-    All:
+    All pages:
       url_rules:
         - //cloud.redhat.com/rhel/remediations/**
+        - //cloud.redhat.com/insights/remediations
         - //cloud.redhat.com/insights/remediations/**
   features:
     "Remediations - Button: Remediate":
@@ -366,6 +392,10 @@ register systems:
 subscription watch:
   color: 1
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/subscriptions
+        - //cloud.redhat.com/subscriptions/**
     Red Hat Enterprise Linux - All:
       url_rules:
         - //cloud.redhat.com/subscriptions/rhel-sw/all
@@ -413,8 +443,9 @@ rbac:
       selectors:
         - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button:contains("Create")'
   pages:
-    All:
+    All pags:
       url_rules:
+        - //cloud.redhat.com/settings/rbac
         - //cloud.redhat.com/settings/rbac/**
     Groups list:
       url_rules:
@@ -439,6 +470,10 @@ rbac:
 cluster manager:
   color: 2
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/openshift
+        - //cloud.redhat.com/openshift/**
     Clusters list:
       url_rules:
         - //cloud.redhat.com/openshift/
@@ -534,6 +569,10 @@ cluster manager:
 automation analytics:
   color: 3
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-analytics
+        - //cloud.redhat.com/ansible/automation-analytics/**
     Clusters:
       url_rules:
         - //cloud.redhat.com/ansible/automation-analytics/clusters
@@ -554,6 +593,10 @@ automation analytics:
 automation hub:
   color: 4
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/ansible/automation-hub
+        - //cloud.redhat.com/ansible/automation-hub/**
     Collections list:
       url_rules:
         - //cloud.redhat.com/ansible/automation-hub/
@@ -574,6 +617,10 @@ automation hub:
 automation services catalog:
   color: 5
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/ansible/catalog
+        - //cloud.redhat.com/ansible/catalog/**
     Products:
       url_rules:
         - //cloud.redhat.com/ansible/catalog/products/**
@@ -606,6 +653,10 @@ cost management:
 migration analytics:
   color: 7
   pages:
+    All pages:
+      url_rules:
+        - //cloud.redhat.com/migrations
+        - //cloud.redhat.com/migrations/**
     Getting Started:
       url_rules:
         - //cloud.redhat.com/migrations/migration-analytics/getting-started
