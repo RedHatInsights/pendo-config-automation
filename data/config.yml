@@ -7,24 +7,22 @@ user preferences:
   features:
     "User Preferences - Check box: Unsubscribe from all":
       selectors:
-        - '.pf-c-check:contains("Unsubscribe from all")'
-        - '[name="unsubscribe.from-all"]'
-        - 'input[name="unsubscribe.from-all"]'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Unsubscribe from all") label'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Unsubscribe from all") input'
     "User Preferences - Check box: Daily digest":
       selectors:
-        - 'input#descriptive-checkbox-dailyEmail'
-        - '.pf-c-check:contains("Daily digestDaily summary of all systems with triggered policies in 24 hour span")'
-        - '#descriptive-checkbox-dailyEmail[name="dailyEmail"]'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Daily digest") label'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Daily digest") input'
     "User Preferences - Check box: Instant notification":
       selectors:
-        - 'input[name="immediateEmail"]'
-        - '.pf-c-check__input[name="immediateEmail"]'
-        - 'span:contains("Instant notification")'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Instant notification") label'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Instant notification") input'
     "User Preferences - Check box: Weekly Report":
       selectors:
-        - 'span:contains("Weekly Report")'
-        - '[name="is_subscribed"]'
-        - '.pf-c-check__input[name="is_subscribed"]'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Weekly Report") label'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Weekly Report") input'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Weekly report") label'
+        - '[data-ouia-bundle="user-preferences"] .pf-c-check:contains("Weekly report") input'
 
 insights:
   color: 9
@@ -596,8 +594,13 @@ automation analytics:
   features:
     "Clusters - Filter: Past week":
       selectors:
-        - '[name="clusterTimeFrame"]'
-        - 'select:contains("Select date rangePast weekPast 2 weeksPast month")'
+        - '[data-ouia-app-id="automation-analytics"][data-ouia-subnav="clusters"] option:contains("Past week")'
+    "Clusters - Filter: Past 2 weeks":
+      selectors:
+        - '[data-ouia-app-id="automation-analytics"][data-ouia-subnav="clusters"] option:contains("Past 2 weeks")'
+    "Clusters - Filter: Past month":
+      selectors:
+        - '[data-ouia-app-id="automation-analytics"][data-ouia-subnav="clusters"] option:contains("Past month")'
 
 automation hub:
   color: 4
