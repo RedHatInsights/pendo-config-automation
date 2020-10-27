@@ -8,22 +8,22 @@ user preferences:
     _scope: '[data-ouia-bundle="user-preferences"]'
     "User Preferences - Check box: Unsubscribe from all":
       selectors:
-        - '.pf-c-check:contains("Unsubscribe from all") label'
-        - '.pf-c-check:contains("Unsubscribe from all") input'
+        - '{} .pf-c-check:contains("Unsubscribe from all") label'
+        - '{} .pf-c-check:contains("Unsubscribe from all") input'
     "User Preferences - Check box: Daily digest":
       selectors:
-        - '.pf-c-check:contains("Daily digest") label'
-        - '.pf-c-check:contains("Daily digest") input'
+        - '{} .pf-c-check:contains("Daily digest") label'
+        - '{} .pf-c-check:contains("Daily digest") input'
     "User Preferences - Check box: Instant notification":
       selectors:
-        - '.pf-c-check:contains("Instant notification") label'
-        - '.pf-c-check:contains("Instant notification") input'
+        - '{} .pf-c-check:contains("Instant notification") label'
+        - '{} .pf-c-check:contains("Instant notification") input'
     "User Preferences - Check box: Weekly Report":
       selectors:
-        - '.pf-c-check:contains("Weekly Report") label'
-        - '.pf-c-check:contains("Weekly Report") input'
-        - '.pf-c-check:contains("Weekly report") label'
-        - '.pf-c-check:contains("Weekly report") input'
+        - '{} .pf-c-check:contains("Weekly Report") label'
+        - '{} .pf-c-check:contains("Weekly Report") input'
+        - '{} .pf-c-check:contains("Weekly report") label'
+        - '{} .pf-c-check:contains("Weekly report") input'
 
 insights:
   color: 9
@@ -36,10 +36,10 @@ insights:
     _scope: '[data-ouia-bundle="insights"]'
     "All Pages - Tab: host view tab click":
       selectors:
-        - '.ins-c-inventory-detail__app-tabs li'
+        - '{} .ins-c-inventory-detail__app-tabs li'
     "All Pages - Button: host view show drawer":
       selectors:
-        - 'button:contains("Show more information")'
+        - '{} button:contains("Show more information")'
 
 dashboard:
   color: 1
@@ -51,31 +51,31 @@ dashboard:
     _scope: '[data-ouia-bundle="insights"]'
     "Dashboard - Link: Systems running insights-client":
       selectors:
-        - '[data-ouia-app-id="dashboard"] a:contains("Systems running insights-client")'
+        - '{}[data-ouia-app-id="dashboard"] a:contains("Systems running insights-client")'
     "Dashboard - Link: X stale systems":
       selectors:
-        - '[data-ouia-app-id="dashboard"] p:contains("stale systems")'
+        - '{}[data-ouia-app-id="dashboard"] p:contains("stale systems")'
     "Dashboard - Link: X systems to be removed":
       selectors:
-        - '[data-ouia-app-id="dashboard"] p:contains("systems to be removed")'
+        - '{}[data-ouia-app-id="dashboard"] p:contains("systems to be removed")'
     "Dashboard - Link: X incidents detected":
       selectors:
-        - '[data-ouia-app-id="dashboard"] a:contains("Incidents detected")'
+        - '{}[data-ouia-app-id="dashboard"] a:contains("Incidents detected")'
     "Dashboard - Link: X Recommendations affecting X systems":
       selectors:
-        - '[data-ouia-app-id="dashboard"] a[href="./insights/advisor/recommendations?reports_shown=undefined&impacting=true&offset=0&limit=10&sort=-publish_date"]'
+        - '{}[data-ouia-app-id="dashboard"] a[href="./insights/advisor/recommendations?reports_shown=undefined&impacting=true&offset=0&limit=10&sort=-publish_date"]'
     "Dashboard - Link: X CVEs impacting your systems":
       selectors:
-        - '[data-ouia-app-id="dashboard"] a:contains("CVEs impacting your systems")'
+        - '{}[data-ouia-app-id="dashboard"] a:contains("CVEs impacting your systems")'
     "Dashboard - Link: X systems affected":
       selectors:
-        - '[data-ouia-app-id="dashboard"] a:contains("systems affected")'
+        - '{}[data-ouia-app-id="dashboard"] a:contains("systems affected")'
     "Dashboard - Link: Subscription Watch utilization - Red Hat Enterprise Linux":
       selectors:
-        - '[data-ouia-app-id="dashboard"] div:contains("Red Hat Enterprise Linux")'
+        - '{}[data-ouia-app-id="dashboard"] div:contains("Red Hat Enterprise Linux")'
     "Dashboard - Link: Subscription Watch utilization - Red Hat OpenShift":
       selectors:
-        - '[data-ouia-app-id="dashboard"] div:contains("Red Hat OpenShift")'
+        - '{}[data-ouia-app-id="dashboard"] div:contains("Red Hat OpenShift")'
 
 advisor:
   color: 2
@@ -83,43 +83,43 @@ advisor:
     _scope: '[data-ouia-app-id="advisor"]'
     "Recommendations - Link: Clear filters":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Clear filters")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Clear filters")'
     "Recommendations - Filter: Total risk":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Total risk")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Total risk")'
     "Recommendations - Filter: Risk of change":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Risk of change")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Risk of change")'
     "Recommendations - Filter: Impact":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Impact")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Impact")'
     "Recommendations - Filter: Likelihood":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Likelihood")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Likelihood")'
     "Recommendations - Filter: Category":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Category")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Category")'
     "Recommendations - Filter: Incidents":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Incidents")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Incidents")'
     "Recommendations - Filter: Ansible support":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Ansible support")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Ansible support")'
     "Recommendations - Filter: Reboot required":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Reboot required")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Reboot required")'
     "Recommendations - Filter: Status":
       selectors:
-        - '[data-ouia-subnav="recommendations"] button:contains("Status")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Status")'
     "Recommendations - Link: Download executive report":
       selectors:
-        - '[data-ouia-subnav="recommendations"] a:contains("Download executive report")'
+        - '{}[data-ouia-subnav="recommendations"] a:contains("Download executive report")'
     "Recommendations - Button: Ansible":
       selectors:
-        - '[data-ouia-subnav="recommendations"] span:contains("Ansible")'
+        - '{}[data-ouia-subnav="recommendations"] span:contains("Ansible")'
     "Systems - Filter: Total risk":
       selectors:
-        - '[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Total Risk")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Total Risk")'
 
   pages:
     All pages:
@@ -174,25 +174,25 @@ vulnerability:
     _scope: '[data-ouia-app-id="vulnerability"]'
     "CVEs - Link: Download executive report":
       selectors:
-        - '[data-ouia-subnav="cves"] a:contains("Download executive report")'
+        - '{}[data-ouia-subnav="cves"] a:contains("Download executive report")'
     "CVEs - Filter: Security rules":
       selectors:
-        - '[data-ouia-subnav="cves"] button:contains("Security rules")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Security rules")'
     "CVEs - Filter: Severity":
       selectors:
-        - '[data-ouia-subnav="cves"] button:contains("Severity")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Severity")'
     "CVEs - Filter: CVSS base score":
       selectors:
-        - '[data-ouia-subnav="cves"] button:contains("CVSS base score")'
+        - '{}[data-ouia-subnav="cves"] button:contains("CVSS base score")'
     "CVEs - Filter: Business risk":
       selectors:
-        - '[data-ouia-subnav="cves"] button:contains("Business risk")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Business risk")'
     "CVEs - Filter: Status":
       selectors:
-        - '[data-ouia-subnav="cves"] button:contains("Status")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Status")'
     "CVEs - Filter: Publish date":
       selectors:
-        - '[data-ouia-subnav="cves"] button:contains("Publish date")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Publish date")'
 
 compliance:
   color: 4
@@ -223,28 +223,28 @@ compliance:
     _scope: '[data-ouia-app-id="compliance"]'
     "Any - Button: Remediate":
       selectors:
-        - 'button:contains("Remediate")'
+        - '{} button:contains("Remediate")'
     "Reports - Link: View report":
       selectors:
-        - '[data-ouia-subnav="reports"] a:contains("View report")'
+        - '{}[data-ouia-subnav="reports"] a:contains("View report")'
     "Reports - Link: View policy":
       selectors:
-        - '[data-ouia-subnav="reports"] a:contains("View policy")'
+        - '{}[data-ouia-subnav="reports"] a:contains("View policy")'
     "Reports - Button: Ansible Remediate":
       selectors:
-        - '[data-ouia-subnav="reports"] div:contains("Remediate").pf-c-toolbar__item'
+        - '{}[data-ouia-subnav="reports"] div:contains("Remediate").pf-c-toolbar__item'
     "SCAP Policies - Button: Create new policy":
       selectors:
-        - '[data-ouia-subnav="scappolicies"] button:contains("Create new policy")'
+        - '{}[data-ouia-subnav="scappolicies"] button:contains("Create new policy")'
     "Systems - Filter: Status":
       selectors:
-        - '[data-ouia-subnav="systems"] button:contains("Status")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Status")'
     "Systems - Filter: Source":
       selectors:
-        - '[data-ouia-subnav="systems"] button:contains("Source")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Source")'
     "Systems - Link: Clear filters":
       selectors:
-        - '[data-ouia-subnav="systems"] button:contains("Clear filters").pf-c-button'
+        - '{}[data-ouia-subnav="systems"] button:contains("Clear filters").pf-c-button'
 
 patch:
   color: 5
@@ -269,13 +269,13 @@ patch:
     _scope: '[data-ouia-app-id="patch"]'
     "Advisories - Filter: Type":
       selectors:
-        - '[data-ouia-subnav="advisories"] button:contains("Type")'
+        - '{}[data-ouia-subnav="advisories"] button:contains("Type")'
     "Advisories - Filter: Publish date":
       selectors:
-        - '[data-ouia-subnav="advisories"] button:contains("Publish date")'
+        - '{}[data-ouia-subnav="advisories"] button:contains("Publish date")'
     "Advisories - Button: Export":
       selectors:
-        - '[data-ouia-subnav="advisories"] button.pf-c-dropdown__toggle'
+        - '{}[data-ouia-subnav="advisories"] button.pf-c-dropdown__toggle'
 
 drift:
   color: 6
@@ -300,10 +300,10 @@ drift:
     _scope: '[data-ouia-app-id="drift"]'
     "Comparison - Button: Add to comparison":
       selectors:
-        - 'button:contains("Add to comparison")'
+        - '{} button:contains("Add to comparison")'
     "Baselines - Button: Create baseline":
       selectors:
-        - 'button#create-baseline-button:contains("Create baseline")'
+        - '{} button#create-baseline-button:contains("Create baseline")'
 
 policies:
   color: 7
@@ -322,10 +322,10 @@ policies:
     _scope: '[data-ouia-app-id="policies"]'
     "Policies - Link: Open email preferences":
       selectors:
-        - 'a:contains("Open email preferences")'
+        - '{} a:contains("Open email preferences")'
     "Policies - Button: Create policy":
       selectors:
-        - 'button:contains("Create policy").pf-c-button'
+        - '{} button:contains("Create policy").pf-c-button'
 
 inventory:
   color: 8
@@ -344,7 +344,7 @@ inventory:
     _scope: '[data-ouia-app-id="inventory"]'
     "Inventory - Button: Delete":
       selectors:
-        - 'button:contains("Delete")'
+        - '{} button:contains("Delete")'
 
 remediations:
   color: 9
@@ -364,22 +364,22 @@ remediations:
     _scope: '[data-ouia-app-id="remediations"]'
     "Remediations - Button: Remediate":
       selectors:
-        - button:contains('Remediate')
+        - '{} button:contains("Remediate")'
     "Remediations - Button: Download playbook":
       selectors:
-        - button:contains('Download playbook')
+        - '{} button:contains("Download playbook")'
     "Remediations - Button: Execute playbook":
       selectors:
-        - button:contains('Execute playbook')
+        - '{} button:contains("Execute playbook")'
     "Remediations - Button: Remove actions":
       selectors:
-        - .ins-c-remediations-details-table__toolbar button:contains('Remove actions')
+        - '{} .ins-c-remediations-details-table__toolbar button:contains("Remove actions")'
     "Remediations - Button: Auto reboot":
       selectors:
-        - .ins-c-playbookSummary__overview button:contains('auto reboot')
+        - '{} .ins-c-playbookSummary__overview button:contains("auto reboot")'
     "Remediations - Button: Activity":
       selectors:
-        - .pf-l-stack__item ins-c-playbookSummary__tabs button:contains('Activity')
+        - '{} .pf-l-stack__item ins-c-playbookSummary__tabs button:contains("Activity")'
 
 register systems:
   color: 10
@@ -391,19 +391,19 @@ register systems:
     _scope: '[data-ouia-app-id="registration"]'
     "Register Systems - Select: Red Hat Subscription Manager":
       selectors:
-        - 'div:contains("Red Hat Subscription Manager").pf-c-radio'
+        - '{} div:contains("Red Hat Subscription Manager").pf-c-radio'
     "Register Systems - Select: Red Hat Satellite":
       selectors:
-        - 'div:contains("Red Hat Satellite").pf-c-radio'
+        - '{} div:contains("Red Hat Satellite").pf-c-radio'
     "Register Systems - Select: Public cloud/RHUI":
       selectors:
-        - 'div:contains("Public cloud/RHUI").pf-c-radio'
+        - '{} div:contains("Public cloud/RHUI").pf-c-radio'
     "Operating System - Select: RHEL 8":
       selectors:
-        - '.pf-c-radio:contains("RHEL 8")'
+        - '{} .pf-c-radio:contains("RHEL 8")'
     "Operating System - Select: RHEL 7 and 6":
       selectors:
-        - '.pf-c-radio:contains("RHEL 7 & 6")'
+        - '{} .pf-c-radio:contains("RHEL 7 & 6")'
 
 subscription watch:
   color: 1
@@ -434,32 +434,32 @@ subscription watch:
     _scope: '[data-ouia-bundle="subscriptions"]'
     "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
       selectors:
-        - 'a:contains("Learn more about Subscription Watch reporting")'
+        - '{} a:contains("Learn more about Subscription Watch reporting")'
     "Red Hat Enterprise Linux - Link: Physical RHEL":
       selectors:
-        - 'a:contains("Physical RHEL")'
+        - '{} a:contains("Physical RHEL")'
     "Red Hat Enterprise Linux - Link: Virtualized RHEL":
       selectors:
-        - 'a:contains("Virtualized RHEL")'
+        - '{} a:contains("Virtualized RHEL")'
     "Red Hat Enterprise Linux - Link: Public cloud":
       selectors:
-        - 'a:contains("Public cloud")'
+        - '{} a:contains("Public cloud")'
     "Red Hat Enterprise Linux - Link: Subscription threshold":
       selectors:
-        - 'a:contains("Subscription threshold")'
+        - '{} a:contains("Subscription threshold")'
     "Red Hat OpenShift - Link: Cores":
       selectors:
-        - 'a:contains("Cores")'
+        - '{} a:contains("Cores")'
 
 rbac:
   features:
     _scope: '[data-ouia-app-id="rbac"]'
     "Groups - Button: Add group":
       selectors:
-        - '[data-ouia-page-group="settings"] button:contains("Create group")'
+        - '{}[data-ouia-page-group="settings"] button:contains("Create group")'
     "Groups - Button: Create Group wizard submission":
       selectors:
-        - '[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button:contains("Create")'
+        - '{}[data-ouia-page-group="settings"] a[href="/settings/rbac/groups/add-group"] button:contains("Create")'
   pages:
     All pags:
       url_rules:
@@ -577,13 +577,13 @@ cluster manager:
     _scope: '[data-ouia-bundle="openshift"]'
     "Clusters - Button: Create cluster":
       selectors:
-        - 'button:contains("Create cluster")'
+        - '{} button:contains("Create cluster")'
     "Clusters - Filter: Cluster type":
       selectors:
-        - 'button:contains("Filter")'
+        - '{} button:contains("Filter")'
     "Subscriptions - Button: Open Subscription Watch":
       selectors:
-        - 'a:contains("Open Subscription Watch")'
+        - '{} a:contains("Open Subscription Watch")'
 
 automation analytics:
   color: 3
@@ -608,13 +608,13 @@ automation analytics:
     _scope: '[data-ouia-app-id="automation-analytics"][data-ouia-subnav="clusters"]'
     "Clusters - Filter: Past week":
       selectors:
-        - 'option:contains("Past week")'
+        - '{} option:contains("Past week")'
     "Clusters - Filter: Past 2 weeks":
       selectors:
-        - 'option:contains("Past 2 weeks")'
+        - '{} option:contains("Past 2 weeks")'
     "Clusters - Filter: Past month":
       selectors:
-        - 'option:contains("Past month")'
+        - '{} option:contains("Past month")'
 
 automation hub:
   color: 4
@@ -639,7 +639,7 @@ automation hub:
     _scope: '[data-ouia-app-id="automation-hub"]'
     "Partners - Link: View collections":
       selectors:
-        - 'a:contains("View collections")'
+        - '{} a:contains("View collections")'
 
 automation services catalog:
   color: 5
@@ -697,4 +697,4 @@ migration analytics:
     _scope: '[data-ouia-subnav="migration-analytics"]'
     "Migration Analytics - Button: Create":
       selectors:
-        - 'a:contains("Create report")'
+        - '{} a:contains("Create report")'

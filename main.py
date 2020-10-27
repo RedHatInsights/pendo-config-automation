@@ -44,10 +44,9 @@ with open('./data/config.yml', 'r') as data:
             for feature_name, feature in group['features'].items():
                 if scope:
                     for i, selector in enumerate(feature['selectors']):
-                        if selector.startswith('['):
-                            feature['selectors'][i] = '{}{}'.format(scope, feature['selectors'][i])
-                        else:
-                            feature['selectors'][i] = '{} {}'.format(scope, feature['selectors'][i])
+                        txt = feature['selectors'][i]
+                        txt = txt.replace('{}', scope, 1)
+                        feature['selectors'][i] = txt
 
                 print('- Creating feature: [{}] {}'.format(feature_name, feature))
                 if not DRY_RUN:
