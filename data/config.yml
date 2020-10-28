@@ -496,7 +496,8 @@ cluster manager:
       url_rules:
         - /openshift/
     Cluster view - All:
-      - /openshift/details/*
+      url_rules:
+        - /openshift/details/*
     Cluster view - Overview:
       url_rules:
         - /openshift/details/*#overview
