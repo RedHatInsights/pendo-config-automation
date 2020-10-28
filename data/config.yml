@@ -495,17 +495,18 @@ cluster manager:
     Clusters list:
       url_rules:
         - /openshift/
-    Cluster view - overview:
+    Cluster view - All:
+      - /openshift/details/*
+    Cluster view - Overview:
       url_rules:
         - /openshift/details/*#overview
-        - /openshift/details/*
-    Cluster view - monitoring:
+    Cluster view - Monitoring:
       url_rules:
         - /openshift/details/*#monitoring
     Cluster view - Insights:
       url_rules:
         - /openshift/details/*#insights
-    Cluster view - support:
+    Cluster view - Support:
       url_rules:
         - /openshift/details/*#support
     Clusters - Create a cluster to get started:
