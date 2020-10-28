@@ -128,12 +128,12 @@ advisor:
         - /insights/advisor/**
     Recommendations system:
       url_rules:
-        - /insights/advisor/recommendations/*/*
-        - /insights/recommendations/*/*
+        - /insights/advisor/recommendations/*rule_id*/*
+        - /insights/recommendations/*rule_id*/*
     Recommendations view:
       url_rules:
-        - /insights/advisor/recommendations/*
-        - /insights/recommendations/*
+        - /insights/advisor/recommendations/*rule_id*
+        - /insights/recommendations/*rule_id*
     Recommendations list:
       url_rules:
         - /insights/advisor/recommendations
@@ -146,7 +146,7 @@ advisor:
         - /insights/advisor/systems
     Topics view:
       url_rules:
-        - /insights/advisor/topics/*
+        - /insights/advisor/topics/*topic_id*
     Topics list:
       url_rules:
         - /insights/advisor/topics
@@ -504,9 +504,12 @@ cluster manager:
     Cluster view - Monitoring:
       url_rules:
         - /openshift/details/*#monitoring
-    Cluster view - Insights:
+    Cluster view - Insights recommendation view:
       url_rules:
         - /openshift/details/*#insights
+    Cluster view - Insights :
+      url_rules:
+        - /openshift/details/*/insights/*rule_id*
     Cluster view - Support:
       url_rules:
         - /openshift/details/*#support
