@@ -83,43 +83,43 @@ advisor:
     _scope: '[data-ouia-app-id="advisor"]'
     "Recommendations - Link: Clear filters":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Clear filters")'
+        - '{} button:contains("Clear filters")'
     "Recommendations - Filter: Total risk":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Total risk")'
+        - '{} button:contains("Total risk")'
     "Recommendations - Filter: Risk of change":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Risk of change")'
+        - '{} button:contains("Risk of change")'
     "Recommendations - Filter: Impact":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Impact")'
+        - '{} button:contains("Impact")'
     "Recommendations - Filter: Likelihood":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Likelihood")'
+        - '{} button:contains("Likelihood")'
     "Recommendations - Filter: Category":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Category")'
+        - '{} button:contains("Category")'
     "Recommendations - Filter: Incidents":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Incidents")'
+        - '{} button:contains("Incidents")'
     "Recommendations - Filter: Ansible support":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Ansible support")'
+        - '{} button:contains("Ansible support")'
     "Recommendations - Filter: Reboot required":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Reboot required")'
+        - '{} button:contains("Reboot required")'
     "Recommendations - Filter: Status":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Status")'
+        - '{} button:contains("Status")'
     "Recommendations - Link: Download executive report":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] a:contains("Download executive report")'
-    "Recommendations - Button: Ansible":
+        - '{} a:contains("Download executive report")'
+    "Recommendations - Button: Remediate":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] span:contains("Ansible")'
+        - '{} button:contains("Remediate")'
     "Systems - Filter: Total risk":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Total Risk")'
+        - '{} button.pf-c-dropdown__menu-item:contains("Total Risk")'
 
   pages:
     All pages:
@@ -128,12 +128,12 @@ advisor:
         - /insights/advisor/**
     Recommendations system:
       url_rules:
-        - /insights/advisor/recommendations/*rule_id*/*
-        - /insights/recommendations/*rule_id*/*
+        - /insights/advisor/recommendations/*parameter*/*
+        - /insights/recommendations/*parameter*/*
     Recommendations view:
       url_rules:
-        - /insights/advisor/recommendations/*rule_id*
-        - /insights/recommendations/*rule_id*
+        - /insights/advisor/recommendations/*parameter*
+        - /insights/recommendations/*parameter*
     Recommendations list:
       url_rules:
         - /insights/advisor/recommendations
@@ -146,7 +146,7 @@ advisor:
         - /insights/advisor/systems
     Topics view:
       url_rules:
-        - /insights/advisor/topics/*topic_id*
+        - /insights/advisor/topics/*parameter*
     Topics list:
       url_rules:
         - /insights/advisor/topics
@@ -163,7 +163,7 @@ vulnerability:
         - /insights/vulnerability/cves
     CVE view:
       url_rules:
-        - /insights/vulnerability/cves/*cve_id*/
+        - /insights/vulnerability/cves/*parameter*/
     Systems list:
       url_rules:
         - /insights/vulnerability/systems
@@ -258,7 +258,7 @@ patch:
         - /insights/patch/
     Advisory view:
       url_rules:
-        - /insights/patch/advisories/*rhsa_id*/
+        - /insights/patch/advisories/*parameter*/
     Systems list:
       url_rules:
         - /insights/patch/systems/
@@ -509,7 +509,7 @@ cluster manager:
         - /openshift/details/*#insights
     Cluster view - Insights:
       url_rules:
-        - /openshift/details/*/insights/*rule_id*
+        - /openshift/details/*/insights/*parameter*
     Cluster view - Support:
       url_rules:
         - /openshift/details/*#support
