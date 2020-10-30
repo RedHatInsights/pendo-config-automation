@@ -115,7 +115,7 @@ def create_page_in_group(group, page_name, page_data):
     r = s.put(url('/group/{}/page/{}'.format(group['id'], page['id'])))
     r.raise_for_status()
 
-    _ensure_page_url_rules(page_name, page['id'], page_data['url_rules'], page['rules'])
+    _ensure_page_url_rules(page_full_name, page['id'], page_data['url_rules'], page['rules'])
 
 def _ensure_page_url_rules(page_name, page_id, input_rules, existing_rules):
     input_rules = list(map(lambda u : { "rule": u }, input_rules))
@@ -133,7 +133,7 @@ def create_feature_in_group(group, feature_name, feature_data):
     feature = _create_feature_idempotent(feature_full_name, feature_data)
     _set_feature_app_name(feature['id'])
     _add_feature_to_group(group['id'], feature['id'])
-    _ensure_feature_rules(feature_name, feature['id'], feature_data['selectors'], feature['elementPathRules'])
+    _ensure_feature_rules(feature_full_name, feature['id'], feature_data['selectors'], feature['elementPathRules'])
 
 def _ensure_feature_rules(feature_name, feature_id, input_selectors, existing_selectors):
     #  PUT https://app.pendo.io/api/s/5300167311360000/feature/HPfHlgH8MgHemhfc_YTeLrV_RNE
