@@ -504,10 +504,10 @@ cluster manager:
     Cluster view - Monitoring:
       url_rules:
         - /openshift/details/*#monitoring
-    Cluster view - Insights recommendation view:
+    Cluster view - Insights:
       url_rules:
         - /openshift/details/*#insights
-    Cluster view - Insights:
+    Cluster view - Insights recommendation view:
       url_rules:
         - /openshift/details/*/insights/*parameter*
     Cluster view - Support:
