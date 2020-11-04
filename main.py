@@ -52,3 +52,6 @@ with open('./data/config.yml', 'r') as data:
                 if not DRY_RUN:
                     client.create_feature_in_group(pendo_group, feature_name, feature)
                     time.sleep(DELAY)
+
+with open('./stash/id_map.yaml', 'w') as outfile:
+    yaml.dump(client.get_ids_map(), outfile)

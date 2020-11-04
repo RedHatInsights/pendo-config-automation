@@ -12,6 +12,7 @@ HEADERS = {
     'cookie': '; '.join(auth.get_cookies()),
 }
 
+ids_map = {}
 s = requests.Session()
 s.headers.update(HEADERS)
 
@@ -36,6 +37,12 @@ cache_getter = CacheGetter()
 def log(msg):
     print('> DEBUG: {}'.format(msg), file=sys.stderr)
 
+def stash_ids(pendo_id, config_id):
+    ids_map[config_id] = pendo_id
+
+def get_ids_map():
+    return ids_map
+
 def get_name(name):
     if name.startswith(PREFIX):
         return name
@@ -52,6 +59,7 @@ def _create_feature_idempotent(name, data):
     for feature in cache_getter.get('/feature?expand=*'):
         if feature['name'] == name:
             log('found feature [{}] {}'.format(feature['id'], name))
+            stash_ids(feature['id'], name)
             return feature
     return _create_feature(name, data)
 
@@ -75,6 +83,7 @@ def _create_feature(name, data):
     feature = r.json()
 
     log('created feature [{}] {}'.format(feature['id'], feature['name']))
+    stash_ids(feature['id'], feature['name'])
     return feature
 
 def _create_page(page_full_name, page_data):
@@ -89,6 +98,7 @@ def _create_page(page_full_name, page_data):
     r.raise_for_status()
     page = r.json()
     log('created page [{}] {}'.format(page['id'], page_full_name))
+    stash_ids(page['id'], page_full_name)
     return page
 
 def _create_page_idempotent(page_full_name, page_data):
@@ -97,6 +107,7 @@ def _create_page_idempotent(page_full_name, page_data):
     for page in cache_getter.get('/page?expand=*'):
         if page['name'] == page_full_name:
             log('found page [{}] {}'.format(page['id'], page_full_name))
+            stash_ids(page['id'], page_full_name)
             return page
 
     return _create_page(page_full_name, page_data)
@@ -127,6 +138,7 @@ def _ensure_page_url_rules(page_name, page_id, input_rules, existing_rules):
         })
         r.raise_for_status()
         log('added rules to page [{}] {}'.format(page_id, input_rules))
+        stash_ids(page_id, input_rules)
 
 def create_feature_in_group(group, feature_name, feature_data):
     feature_full_name = get_feature_full_name(group['name'], feature_name)
@@ -144,6 +156,7 @@ def _ensure_feature_rules(feature_name, feature_id, input_selectors, existing_se
         })
         r.raise_for_status()
         log('added selectors to feature [{}] {}'.format(feature_id, input_selectors))
+        stash_ids(feature_id, input_selectors)
 
 def _set_feature_app_name(feature_id):
     r = s.post(url('/feature/{}/apply'.format(feature_id)), json = {
@@ -163,6 +176,7 @@ def _add_feature_to_group(group_id, feature_id):
 
     r.raise_for_status()
     log('added feature [{}] to group [{}]'.format(feature_id, group_id))
+    # stash_ids(feature_id, group_id)
 
 def _int_to_color_str(i):
     return '.groupColor{:02d}'.format(i)
@@ -185,10 +199,12 @@ def create_group_idempotent(name, color):
     for group in cache_getter.get('/group'):
         if group['name'] == name:
             log('found group {}'.format(group['id']))
+            stash_ids(group['id'], group['name'])
             return group
 
     group = _create_group(name, color)
     log('created group {}'.format(group['id']))
+    stash_ids(group['id'], group['name'])
     return group
 
 def _create_group(name, color):
