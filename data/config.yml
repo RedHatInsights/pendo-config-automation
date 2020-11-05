@@ -712,7 +712,7 @@ cost management:
   pages:
     All pages:
       url_rules:
-        - /cost-management/**  
+        - /cost-management/**
     Overview:
       url_rules:
         - /cost-management/
