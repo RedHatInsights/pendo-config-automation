@@ -630,7 +630,7 @@ ansible:
     All pages:
       url_rules:
         - /ansible/**
-        
+
 automation analytics:
   color: 3
   pages:
