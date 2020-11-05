@@ -193,6 +193,12 @@ vulnerability:
     "CVEs - Filter: Publish date":
       selectors:
         - '{}[data-ouia-subnav="cves"] button:contains("Publish date")'
+    "Reports - Link: Download PDF":
+      selectors:
+        - '{}a:contains("Download PDF")'
+    "Reports - Link: Create report":
+      selectors:
+        - '{}a:contains("Create report")'
 
 compliance:
   color: 4
