@@ -596,10 +596,41 @@ cluster manager:
     "Clusters - Filter: Cluster type":
       selectors:
         - '{} button:contains("Filter")'
+    "Clusters - Tab: Overview":
+      selectors:
+        - '{} button:contains("Overview")'
+    "Clusters - Tab: Monitoring":
+      selectors:
+        - '{} button:contains("Monitoring")'
+    "Clusters - Tab: Access control":
+      selectors:
+        - '{} button:contains("Access control")'
+    "Clusters - Tab: Add ons":
+      selectors:
+        - '{} button:contains("Add-ons")'
+    "Clusters - Tab: Networking":
+      selectors:
+        - '{} button:contains("Networking")'
+    "Clusters - Tab: Insights":
+      selectors:
+        - '{} button:contains("Insights")'
+    "Clusters - Tab: Machine pools":
+      selectors:
+        - '{} button:contains("Machine pools")'
+    "Clusters - Tab: Support":
+      selectors:
+        - '{} button:contains("Support")'
     "Subscriptions - Button: Open Subscription Watch":
       selectors:
         - '{} a:contains("Open Subscription Watch")'
 
+ansible:
+  color: 3
+  pages:
+    All pages:
+      url_rules:
+        - /ansible/**
+        
 automation analytics:
   color: 3
   pages:
@@ -679,6 +710,9 @@ automation services catalog:
 cost management:
   color: 6
   pages:
+    All pages:
+      url_rules:
+        - /cost-management/**  
     Overview:
       url_rules:
         - /cost-management/
