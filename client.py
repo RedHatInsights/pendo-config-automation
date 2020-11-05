@@ -1,3 +1,4 @@
+import os
 import sys
 import json
 import requests
@@ -157,6 +158,17 @@ def _ensure_feature_rules(feature_name, feature_id, input_selectors, existing_se
         r.raise_for_status()
         log('added selectors to feature [{}] {}'.format(feature_id, input_selectors))
         stash_ids(feature_id, input_selectors)
+
+def get_entity(t):
+    headers = { 'x-pendo-integration-key': auth.API_KEY }
+    r = requests.get('https://app.pendo.io/api/v1/{}?expand=*'.format(t), headers=headers)
+    r.raise_for_status()
+    return r.json()
+
+def delete_entity(t, eid):
+    # https://app.pendo.io/api/s/5300167311360000/feature/QynmTYtT1EJsSlzMEaa61Z6Fl-c
+    r = s.delete(url('/{}/{}'.format(t, eid)))
+    r.raise_for_status()
 
 def _set_feature_app_name(feature_id):
     r = s.post(url('/feature/{}/apply'.format(feature_id)), json = {
