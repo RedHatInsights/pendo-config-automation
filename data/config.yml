@@ -195,10 +195,10 @@ vulnerability:
         - '{}[data-ouia-subnav="cves"] button:contains("Publish date")'
     "Reports - Link: Download PDF":
       selectors:
-        - '{}a:contains("Download PDF")'
+        - '{}[data-ouia-subnav="reports"] a:contains("Download PDF")'
     "Reports - Link: Create report":
       selectors:
-        - '{}a:contains("Create report")'
+        - '{}[data-ouia-subnav="reports"] a:contains("Create report")'
 
 compliance:
   color: 4
