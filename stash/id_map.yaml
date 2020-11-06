@@ -20,6 +20,8 @@ _advisor | Systems list: RckBbLhpSj6PRV-v91NMaaxF78c
 _advisor | Systems view: i0SZSt56jIqAxsgUKwVdL2v6yhs
 _advisor | Topics list: a5pN0ObiQONDZU2fOXSJRBD4yEI
 _advisor | Topics view: -ggeeaN1lmfn71Ajab2UhAqB9Kg
+_ansible: XQjJMLeI4nJKFd5oAF_nhCMViqo
+_ansible | All pages: CfPct3fECOpGwH8bc8n_m_cSE6s
 _automation analytics: fb31oR0a7-3c8wIZLcqiI4NlAEs
 _automation analytics | All pages: aLd2Dz99iELWW54WL6BFwfr6Lto
 _automation analytics | Automation Calculator: D7qUdC1M2wD17R_Jb_KQAAdqO1o
@@ -55,6 +57,14 @@ _cluster manager | Cluster view - Support: Lze0FclT85e0kRDgIMIA1QzEyeQ
 '_cluster manager | Clusters - Button: Create cluster': wtPGWUgknQFr9kDcNcFlRIv2cu4
 _cluster manager | Clusters - Create a cluster to get started: wp5tkPgv_AuRPWQhV6fRyNrHdmc
 '_cluster manager | Clusters - Filter: Cluster type': urMuXmmxspSq6Clk0C6N4501bRE
+'_cluster manager | Clusters - Tab: Access control': C5Dlp0INH9sNyhLhC4tWAv7flYM
+'_cluster manager | Clusters - Tab: Add ons': m_FjXkMTaudCkAyMn8qvmE27KBM
+'_cluster manager | Clusters - Tab: Insights': HbSlRdVSwuSyiyCcl8tvH8Z_T1Q
+'_cluster manager | Clusters - Tab: Machine pools': 7yFZYNrsb0N9D0NiiytZ1dpHqSk
+'_cluster manager | Clusters - Tab: Monitoring': zqCSHsb5qCFNoDX8p42IZJuCOi0
+'_cluster manager | Clusters - Tab: Networking': 0lEzMHZzZGWHqBC0mVO6JQxWoPs
+'_cluster manager | Clusters - Tab: Overview': OLsT6aKX3hyG9gYTY1Z4-ZNeTXo
+'_cluster manager | Clusters - Tab: Support': 7FhqCuPb5qmI-6xEPYt4jH1U-uo
 _cluster manager | Clusters list: SMq38Z18pK-Mt8gsZ17bvsfnNFk
 _cluster manager | Create cluster - AWS: xFRJEfP6E8-lRu8H6SPaMKdXx6g
 _cluster manager | Create cluster - AWS - Installer provisioned infrastructure: h29kItH2e6oLl8zPGbL-inoxe00
@@ -96,6 +106,7 @@ _compliance | SCAP Policies view: NOMp3jDCD1HxtmI3Rm1tAPIpOPE
 '_compliance | Systems - Link: Clear filters': eGk2HOEaeICfjvt5pMp41QWP_Sk
 _compliance | Systems list: nNKuovgrR_cGtad_qtwY9Zsh4EI
 _cost management: LKxxbb1dWzIX8gRJmEFERcpU570
+_cost management | All pages: UZqfJhwYFjmTR4lh9TjbqrWBTNA
 _cost management | Cost Models: MeLHULckKllN-hXykvhvUkgNjGA
 _cost management | Details - Infrastructure: fzQpQiwaP9-ao6YcEHg9RrsMmqQ
 _cost management | Details - OpenShift: h28N9nThWwzsHwTOTSNG2_6YEbY
@@ -207,5 +218,7 @@ _vulnerability | CVE view: dGean-nhSyDobFX4GFcYuf9eIRU
 '_vulnerability | CVEs - Filter: Severity': lTjWwUkwcJ6J_1iUMeTndV_ND68
 '_vulnerability | CVEs - Filter: Status': FeIekFzfN2tP8QmPsfui46ciKAw
 '_vulnerability | CVEs - Link: Download executive report': gWVKNu2MEnuULRWLCQl8IL9eGGc
+'_vulnerability | Reports - Link: Create report': OwINaa5aMPit5THV3FewX2FQjQI
+'_vulnerability | Reports - Link: Download PDF': c4AjG8AJpWXuKZmaGuwyD_xNBho
 _vulnerability | Systems list: hoTU8C4fN_5iDd2p9M-5a1Qg9aM
 _vulnerability | Systems view: 6RyLQHLVEXJhc7oWJikXWC9vWiI
