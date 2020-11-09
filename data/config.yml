@@ -658,9 +658,15 @@ automation analytics:
         - /ansible/automation-analytics/notifications
   features:
     _scope: '[data-ouia-app-id="automation-analytics"][data-ouia-subnav="clusters"]'
-    "Clusters - Filter: Time period":
+    "Clusters - Filter: Past week":
       selectors:
-        - '{} select:contains("Select date rangePast weekPast 2 weeksPast month")'
+        - '{} option:contains("Past week")'
+    "Clusters - Filter: Past 2 weeks":
+      selectors:
+        - '{} option:contains("Past 2 weeks")'
+    "Clusters - Filter: Past month":
+      selectors:
+        - '{} option:contains("Past month")'
 
 automation hub:
   color: 4
