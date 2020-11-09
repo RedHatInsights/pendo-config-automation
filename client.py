@@ -157,7 +157,7 @@ def _ensure_feature_rules(feature_name, feature_id, input_selectors, existing_se
         })
         r.raise_for_status()
         log('added selectors to feature [{}] {}'.format(feature_id, input_selectors))
-        stash_ids(feature_id, input_selectors)
+        stash_ids(feature_id, feature_name)
 
 def get_entity(t):
     headers = { 'x-pendo-integration-key': auth.API_KEY }
