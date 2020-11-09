@@ -101,8 +101,9 @@ _compliance | Reports view: bnzu1AVyrunUPrcLnXj8ZxfVaL8
 '_compliance | SCAP Policies - Button: Create new policy': ZKFhtR4TKAljBlqXDKZhq0GwWo4
 _compliance | SCAP Policies list: 1KQmCj_ivdOdtDUnWjDDc_N-2Do
 _compliance | SCAP Policies view: NOMp3jDCD1HxtmI3Rm1tAPIpOPE
-'_compliance | Systems - Filter: Source': HfKLCB3PvoEjgKZ8n0QtEFbU4yA
-'_compliance | Systems - Filter: Status': 3vXjFM_Gc5ZFxzSl9pxry4G0_uA
+'_compliance | Systems - Filter: Name': VLEfPQlo1HdehwmoJpmEs4heNe8
+'_compliance | Systems - Filter: Operating system': UHYQ7A39tCDuJCeKkL7Vpois85U
+'_compliance | Systems - Filter: Policy': MMPiWAFbmdvO02H0qN5r7JuSWNY
 '_compliance | Systems - Link: Clear filters': eGk2HOEaeICfjvt5pMp41QWP_Sk
 _compliance | Systems list: nNKuovgrR_cGtad_qtwY9Zsh4EI
 _cost management: LKxxbb1dWzIX8gRJmEFERcpU570
@@ -112,12 +113,11 @@ _cost management | Details - Infrastructure: fzQpQiwaP9-ao6YcEHg9RrsMmqQ
 _cost management | Details - OpenShift: h28N9nThWwzsHwTOTSNG2_6YEbY
 _cost management | Overview: fsV30wn4HuNu_IgCdjvZFS-qB4I
 _dashboard: HAohHTbgBjDDfObUcjfgPzY5Vr0
+'_dashboard | Dashboard - Link: Recommendations': 1Kzrp0nTKu1dd2PZWJ3VD7Nnbvw
 '_dashboard | Dashboard - Link: Subscription Watch utilization - Red Hat Enterprise Linux': JOk6kGCfDeiXWc1VSReZrRpAoJc
 '_dashboard | Dashboard - Link: Subscription Watch utilization - Red Hat OpenShift': 8PjrMNKDPugrmL0W-98vDiebfYk
 '_dashboard | Dashboard - Link: Systems running insights-client': gNuH8yL-xf6ek-WEprvfXF2kASE
 '_dashboard | Dashboard - Link: X CVEs impacting your systems': aeQ44wfY5wK0dfDjlK09E_oX004
-'_dashboard | Dashboard - Link: X Recommendations affecting X systems': wb23srR-MkL_JgQE4ErqMtlm5UY
-'_dashboard | Dashboard - Link: X incidents detected': OEuvvdDmbRYdZ6SofpZfQ7M2KMs
 '_dashboard | Dashboard - Link: X stale systems': DTUQJ7zQ0-bE0B_IsppYHlUy2J8
 '_dashboard | Dashboard - Link: X systems affected': C5aAreBvb6yQ_N7WL6-OLVQp0Ic
 '_dashboard | Dashboard - Link: X systems to be removed': Z_rxkr0s-yR9wbnQPU7W1jJq12c
