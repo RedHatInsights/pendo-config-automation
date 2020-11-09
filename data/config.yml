@@ -58,12 +58,9 @@ dashboard:
     "Dashboard - Link: X systems to be removed":
       selectors:
         - '{}[data-ouia-app-id="dashboard"] p:contains("systems to be removed")'
-    "Dashboard - Link: X incidents detected":
+    "Dashboard - Link: Recommendations":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] a:contains("Incidents detected")'
-    "Dashboard - Link: X Recommendations affecting X systems":
-      selectors:
-        - '{}[data-ouia-app-id="dashboard"] a[href="./insights/advisor/recommendations?reports_shown=undefined&impacting=true&offset=0&limit=10&sort=-publish_date"]'
+        - '{}[data-ouia-app-id="dashboard"] a:contains("recommendations")'
     "Dashboard - Link: X CVEs impacting your systems":
       selectors:
         - '{}[data-ouia-app-id="dashboard"] a:contains("CVEs impacting your systems")'
@@ -119,7 +116,7 @@ advisor:
         - '{} button:contains("Remediate")'
     "Systems - Filter: Total risk":
       selectors:
-        - '{} button.pf-c-dropdown__menu-item:contains("Total Risk")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Total Risk")'
 
   pages:
     All pages:
@@ -242,12 +239,15 @@ compliance:
     "SCAP Policies - Button: Create new policy":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] button:contains("Create new policy")'
-    "Systems - Filter: Status":
+    "Systems - Filter: Name":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Status")'
-    "Systems - Filter: Source":
+        - '{}[data-ouia-subnav="systems"] button:contains("Name")'
+    "Systems - Filter: Policy":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Source")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Policy")'
+    "Systems - Filter: Operating system":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Operating system")'
     "Systems - Link: Clear filters":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Clear filters").pf-c-button'
@@ -379,13 +379,13 @@ remediations:
         - '{} button:contains("Execute playbook")'
     "Remediations - Button: Remove actions":
       selectors:
-        - '{} .ins-c-remediations-details-table__toolbar button:contains("Remove actions")'
+        - '{} button:contains("Remove actions")'
     "Remediations - Button: Auto reboot":
       selectors:
-        - '{} .ins-c-playbookSummary__overview button:contains("auto reboot")'
+        - '{} button:contains("Auto Reboot")'
     "Remediations - Button: Activity":
       selectors:
-        - '{} .pf-l-stack__item ins-c-playbookSummary__tabs button:contains("Activity")'
+        - '{} button:contains("Activity")'
 
 register systems:
   color: 10
