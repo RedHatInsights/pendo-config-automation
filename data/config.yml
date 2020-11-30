@@ -757,9 +757,12 @@ cost management:
     Details - OpenShift:
       url_rules:
         - /cost-management/details/*
-    Details - Infrastructure:
+    Details - AWS Infrastructure:
       url_rules:
         - /cost-management/details/aws
+    Details - Azure Infrastructure:
+      url_rules:
+        - /cost-management/details/azure
     Cost Models:
       url_rules:
         - /cost-management/cost-models
