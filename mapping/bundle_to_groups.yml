@@ -1,0 +1,36 @@
+insights:
+  - dashboard
+  - insights
+  - advisor
+  - vulnerability
+  - compliance
+  - patch
+  - drift
+  - policies
+  - inventory
+  - remediations
+  - register systems
+
+subscription watch:
+  - subscription watch
+
+settings:
+  - rbac
+
+openshift:
+  - cluster manager
+
+ansible:
+  - ansible
+  - automation analytics
+  - automation hub
+  - automation services catalog
+
+user preferences:
+  - user preferences
+
+cost management:
+  - cost management
+
+migration analytics:
+  - migration analytics
