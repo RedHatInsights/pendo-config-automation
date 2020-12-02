@@ -139,7 +139,7 @@ def _ensure_page_url_rules(page_name, page_id, input_rules, existing_rules):
         })
         r.raise_for_status()
         log('added rules to page [{}] {}'.format(page_id, input_rules))
-        stash_ids(page_id, input_rules)
+        stash_ids(page_id, page_name)
 
 def create_feature_in_group(group, feature_name, feature_data):
     feature_full_name = get_feature_full_name(group['name'], feature_name)
