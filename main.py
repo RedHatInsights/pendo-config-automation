@@ -28,7 +28,7 @@ with open('./data/config.yml', 'r') as data:
         if 'pages' in group:
             for page_name, page in group['pages'].items():
                 for i, url in enumerate(page['url_rules']):
-                    page['url_rules'][i] = '//cloud.redhat.com{}'.format(page['url_rules'][i])
+                    page['url_rules'][i] = '//*.redhat.com{}'.format(page['url_rules'][i])
 
                 print('- Creating page: [{}] {}'.format(page_name, page))
                 if not DRY_RUN:
