@@ -12,14 +12,16 @@ def get_skip_list():
         yml = yaml.safe_load(data)
         return yml
 
-with open('./data/config.yml', 'r') as data:
+def main_loop(is_beta):
     yml = yaml.safe_load(data)
     skip_list = get_skip_list()
     for name, group in yml.items():
-
         if name in skip_list:
             print ('Skipping group: [{}]'.format(name))
             continue
+
+        if is_beta:
+            name = '_beta {}'.format(name)
 
         print('Creating group: [{}]'.format(name))
         if not DRY_RUN:
@@ -28,14 +30,16 @@ with open('./data/config.yml', 'r') as data:
         if 'pages' in group:
             for page_name, page in group['pages'].items():
                 for i, url in enumerate(page['url_rules']):
-                    page['url_rules'][i] = '//*.redhat.com{}'.format(page['url_rules'][i])
+                    page['url_rules'][i] = '//*{}'.format(page['url_rules'][i])
+                    if is_beta:
+                        page['url_rules'][i] = page['url_rules'][i].replace('//*/', '//*/beta/')
 
                 print('- Creating page: [{}] {}'.format(page_name, page))
                 if not DRY_RUN:
                     client.create_page_in_group(pendo_group, page_name, page)
                     time.sleep(DELAY)
 
-        if 'features' in group:
+        if 'features' in group and not is_beta:
             scope = False
             if '_scope' in group['features']:
                 scope = group['features']['_scope']
@@ -52,6 +56,11 @@ with open('./data/config.yml', 'r') as data:
                 if not DRY_RUN:
                     client.create_feature_in_group(pendo_group, feature_name, feature)
                     time.sleep(DELAY)
+
+with open('./data/config.yml', 'r') as data:
+    main_loop(False)
+with open('./data/config.yml', 'r') as data:
+    main_loop(True)
 
 if not DRY_RUN:
     with open('./stash/id_map.yaml', 'w') as outfile:
