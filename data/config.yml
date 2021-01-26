@@ -559,7 +559,7 @@ cluster manager:
         - /openshift/details/*#support
     Cluster view - Add ons:
       url_rules:
-        - /openshift/details/*#addOns        
+        - /openshift/details/*#addOns
     Clusters - Create a cluster to get started:
       url_rules:
         - /openshift/create
