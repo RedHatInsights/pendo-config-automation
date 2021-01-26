@@ -126,6 +126,8 @@ _beta cost management | Infrastructure - Amazon Web Services: q1olimop790pO-r1of
 _beta cost management | Infrastructure - Microsoft Azure: F_Tb2T3SJBzkgSSeuOjg6LoC5Bs
 _beta cost management | OpenShift: 0h6CoBmrAXIM3CdThPxPjtO1aWs
 _beta cost management | Overview: Vy1BUA13z-jLS26R8q3mSZbv1UQ
+_beta crc: IuR_80WdIJLVLlVUWg8FkLJPyf0
+_beta crc | All pages: WXCsuys0qMvAKLG8f6BWEqOsO8g
 _beta dashboard: 1iPWUunY564DdYU7TL48VThHhf4
 _beta dashboard | Host list: aGkcFEH5IJLc7Rgyj2aSslRzUFc
 _beta drift: kY90bO53Yf6dJyaaXqcU3f9BWw4
@@ -162,7 +164,7 @@ _beta policies | Policies list: nbqIULbWoWuIj3ueSh_ahtqU0Ls
 _beta policies | Policies view: C_6jjaJK6ZhXfslOW8_fgSjUj5c
 _beta rbac: G1-B3vCngA61iePepGbcAo9i6gU
 _beta rbac | Add group: 4KMf-hDQ5KhCq9SqVIIIuJbmVe4
-_beta rbac | All pags: IWeWCpXvSsjuNxJgtWXU4G-Szck
+_beta rbac | All pages: _6cXnokEgELE23a0XFpwVWlqcA4
 _beta rbac | Group view: WEb1qESN9Biw4zAVzd8S-uxP4qY
 _beta rbac | Groups list: NSy36n6vMpx6hrAbcdj1LxUFghk
 _beta rbac | Role view: 4xE1c-mX_uCGJ5oJTkBP4Nf2fls
@@ -174,8 +176,8 @@ _beta register systems: kgEJcMJoNIUkrudhTOIRACHgYXI
 _beta register systems | Host list: hwXdRMZ_aCm8-FebGubmJlT-9X4
 _beta remediations: IJU9vfIpDKLxqq8onclIeTdi8Z8
 _beta remediations | All pages: M_1HzzzaK8J90aYmKENT34-c_cQ
-_beta remediations | Remediations - Insights view: 4km2i2hxKp497lJDB5knHnHbBIw
-_beta remediations | Remediations - RHEL view: lWzTev_Q4yVxJuabXnEqZUrq96o
+_beta settings: 6sy30GicxDb2gCjx3NaMQ3x9CjA
+_beta settings | All pages: iKEXlGlsUZntsEkTGBlBvyplpvI
 _beta subscription watch: fiAjOJay4uKAdHQZmT8DX8pmLRw
 _beta subscription watch | All pages: Ekszugfl8crG5hMKYK1pSrUJCHU
 _beta subscription watch | Red Hat Enterprise Linux - ARM: 4n-oCkFUs4fZbBGjqgA0TBMukqQ
@@ -263,6 +265,8 @@ _cost management | Infrastructure - Amazon Web Services: 2w5XioCCLAV_vUCWYzTqtQW
 _cost management | Infrastructure - Microsoft Azure: IkRdc9u4Texsqc7sOG3DLHlrjmA
 _cost management | OpenShift: MPdbVTsCGHla8p7Gb4RQ-UwPgDg
 _cost management | Overview: fsV30wn4HuNu_IgCdjvZFS-qB4I
+_crc: QkZnLa5f7FOp_YZfUnDcddXkHp0
+_crc | All pages: bHVOproIyOM2__OggX5ST9j6Fkk
 _dashboard: HAohHTbgBjDDfObUcjfgPzY5Vr0
 '_dashboard | Dashboard - Link: Recommendations': 1Kzrp0nTKu1dd2PZWJ3VD7Nnbvw
 '_dashboard | Dashboard - Link: Subscription Watch utilization - Red Hat Enterprise Linux': JOk6kGCfDeiXWc1VSReZrRpAoJc
@@ -323,7 +327,7 @@ _policies | Policies list: QHVXAa6Vnwq2HiePZThxz92hzI0
 _policies | Policies view: fQWXZLH4wFd1lG-trttCqF62boE
 _rbac: C8QuKEdKenYaAAKmH_bMp_P_5gk
 _rbac | Add group: AFOk94ipD3Vh0uyPba3uNi-6kh4
-_rbac | All pags: 6ggBCdg1hbEUCle6mSztYwykqZY
+_rbac | All pages: r8ETUpTbC8SDjd8SiNZ6JtTST8w
 _rbac | Group view: oTm6kZAUIdeoqKtsgQoHHr_v0bE
 '_rbac | Groups - Button: Add group': P1H45KkCtnAAYFE4v8MzuMtVSEM
 '_rbac | Groups - Button: Create Group wizard submission': y6wLutQrk9pWSIglEVMQHJ95bJo
@@ -348,8 +352,8 @@ _remediations | All pages: GJE-dJEaVM8hlNmQ8JXFvMyNG0E
 '_remediations | Remediations - Button: Execute playbook': ABqa8LopBnqooMj-lo9cEQpBn6I
 '_remediations | Remediations - Button: Remediate': TQ0K8qeltvWjKQHakcARDmNujTI
 '_remediations | Remediations - Button: Remove actions': fvGBstaHBjZ-6MwGoPaaAnm4jgE
-_remediations | Remediations - Insights view: fD8QyyWCJqgnh0spapnADF81QF8
-_remediations | Remediations - RHEL view: sagRiFiHL0IKj289UeyLWhfqWdU
+_settings: HmOUa_nZJqRt3xnKVgL8gwQdR30
+_settings | All pages: CaicMeffnwmXnRsfD94CuYMp_Ow
 _subscription watch: 3SnPawgtVguQ9gsG-1-7swcOmU4
 _subscription watch | All pages: hDj9Xzg2DBEdMOnTTIjxRRdLOQU
 _subscription watch | Red Hat Enterprise Linux - ARM: uON7V7gFvrJs0IzxnoKr1jzWplc
