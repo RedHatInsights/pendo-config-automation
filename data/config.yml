@@ -1,4 +1,11 @@
 ---
+crc:
+  pages:
+    All pages:
+      url_rules:
+        - /
+        - /**
+
 user preferences:
   pages:
     Email Preferences:
@@ -387,14 +394,9 @@ inventory:
 remediations:
   color: 9
   pages:
-    Remediations - Insights view:
-      url_rules:
-        - /insights/remediations/*
-    Remediations - RHEL view:
-      url_rules:
-        - /rhel/remediations/**
     All pages:
       url_rules:
+        - /rhel/remediations
         - /rhel/remediations/**
         - /insights/remediations
         - /insights/remediations/**
@@ -489,6 +491,12 @@ subscription watch:
       selectors:
         - '{} a:contains("Cores")'
 
+settings:
+  pages:
+    All pages:
+      url_rules:
+        - /settings
+        - /settings/**
 rbac:
   features:
     _scope: '[data-ouia-app-id="rbac"]'
@@ -499,7 +507,7 @@ rbac:
       selectors:
         - '{}[data-ouia-bundle="settings"] a[href="/settings/rbac/groups/add-group"] button:contains("Create")'
   pages:
-    All pags:
+    All pages:
       url_rules:
         - /settings/rbac
         - /settings/rbac/**
