@@ -604,7 +604,7 @@ cluster manager:
         - /openshift/assisted-installer/clusters/~new
     Assisted Bare Metal Installer - Cluster list:
       url_rules:
-        - /openshift/assisted-installer/clusters     
+        - /openshift/assisted-installer/clusters
     Assisted Bare Metal Installer - Cluster conifiguration:
       url_rules:
         - /openshift/assisted-installer/clusters/*
