@@ -677,7 +677,7 @@ cluster manager:
         - '{} button:contains("Machine pools")'
     "Clusters - Tab: Support":
       selectors:
-        - '{} button:contains("Support")'       
+        - '{} button:contains("Support")'
     "Subscriptions - Button: Open Subscription Watch":
       selectors:
         - '{} a:contains("Open Subscription Watch")'
@@ -816,7 +816,7 @@ migration analytics:
     "Migration Analytics - Button: Create":
       selectors:
         - '{} a:contains("Create report")'
-        
+
 application services (kafka):
   color: 7
   pages:
