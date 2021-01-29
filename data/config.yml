@@ -733,6 +733,9 @@ automation hub:
     Collections list:
       url_rules:
         - /ansible/automation-hub/
+    Collections view:
+      url_rules:
+        - /ansible/automation-hub/*/*
     Partners:
       url_rules:
         - /ansible/automation-hub/partners
