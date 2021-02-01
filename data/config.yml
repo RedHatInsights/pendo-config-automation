@@ -823,3 +823,10 @@ migration analytics:
     "Migration Analytics - Button: Create":
       selectors:
         - '{} a:contains("Create report")'
+
+kafka:
+  color: 7
+  pages:
+    Landing:
+      url_rules:
+        - /application-services/openshift-streams/
