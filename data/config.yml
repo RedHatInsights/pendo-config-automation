@@ -476,6 +476,11 @@ subscription watch:
     Red Hat OpenShift:
       url_rules:
         - /subscriptions/openshift-sw
+    Unentitled modal:
+      url_rules:
+        - /?not_entitled=subscriptions
+        - /subscriptions/soon
+
   features:
     _scope: '[data-ouia-bundle="subscriptions"]'
     "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
@@ -824,6 +829,9 @@ migration analytics:
     Report - list:
       url_rules:
         - /migrations/migration-analytics/reports
+    Unentitlement modal:
+      url_rules:
+        - /?not_entitled=migrations
   features:
     _scope: '[data-ouia-subnav="migration-analytics"]'
     "Migration Analytics - Button: Create":
