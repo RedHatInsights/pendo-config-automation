@@ -39,6 +39,9 @@ insights:
       url_rules:
         - /insights
         - /insights/**
+    Security:
+      url_rules:
+        - /security/insights
   features:
     _scope: '[data-ouia-bundle="insights"]'
     "All Pages - Tab: host view tab click":
