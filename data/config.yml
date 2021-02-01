@@ -3,8 +3,11 @@ crc:
   pages:
     All pages:
       url_rules:
-        - /
         - /**
+        - /
+    Landing page:
+      url_rules:
+        - /
 
 user preferences:
   pages:
