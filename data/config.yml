@@ -4,6 +4,7 @@ crc:
     All pages:
       url_rules:
         - /**
+        - /        
     Landing page:
       url_rules:
         - /
