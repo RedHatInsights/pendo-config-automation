@@ -817,9 +817,9 @@ migration analytics:
       selectors:
         - '{} a:contains("Create report")'
 
-application services (kafka):
+kafka:
   color: 7
   pages:
-    OpenShift streams:
+    Landing:
       url_rules:
         - /application-services/openshift-streams/
