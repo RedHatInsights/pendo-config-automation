@@ -841,6 +841,6 @@ migration analytics:
 kafka:
   color: 7
   pages:
-    Landing:
+    Landing page:
       url_rules:
         - /application-services/openshift-streams/
