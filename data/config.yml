@@ -42,6 +42,9 @@ insights:
       url_rules:
         - /insights
         - /insights/**
+    Security:
+      url_rules:
+        - /security/insights
   features:
     _scope: '[data-ouia-bundle="insights"]'
     "All Pages - Tab: host view tab click":
@@ -500,6 +503,10 @@ settings:
       url_rules:
         - /settings
         - /settings/**
+    Sources list:
+      url_rules:
+        - /settings/sources
+
 rbac:
   features:
     _scope: '[data-ouia-app-id="rbac"]'
