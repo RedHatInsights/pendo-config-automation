@@ -408,9 +408,9 @@ remediations:
         - /insights/remediations/**
   features:
     _scope: '[data-ouia-app-id="remediations"]'
-    "Remediations - Button: Remediate":
+    "Remediations - All apps - Button: Remediate":
       selectors:
-        - '{} button:contains("Remediate")'
+        - 'button:contains("Remediate")'
     "Remediations - Button: Download playbook":
       selectors:
         - '{} button:contains("Download playbook")'
@@ -476,6 +476,11 @@ subscription watch:
     Red Hat OpenShift:
       url_rules:
         - /subscriptions/openshift-sw
+    Unentitled modal:
+      url_rules:
+        - /?not_entitled=subscriptions
+        - /subscriptions/soon
+
   features:
     _scope: '[data-ouia-bundle="subscriptions"]'
     "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
@@ -842,6 +847,9 @@ migration analytics:
     Report - list:
       url_rules:
         - /migrations/migration-analytics/reports
+    Unentitlement modal:
+      url_rules:
+        - /?not_entitled=migrations
   features:
     _scope: '[data-ouia-subnav="migration-analytics"]'
     "Migration Analytics - Button: Create":
@@ -851,6 +859,6 @@ migration analytics:
 kafka:
   color: 7
   pages:
-    Landing:
+    Landing page:
       url_rules:
         - /application-services/openshift-streams/
