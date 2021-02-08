@@ -508,9 +508,27 @@ settings:
       url_rules:
         - /settings
         - /settings/**
+    My User Access:
+      url_rules:
+        - /settings/my-user-access/**
     Sources list:
       url_rules:
         - /settings/sources
+    Sources - Cloud sources:
+      url_rules:
+        - /settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud
+    Sources - Red Hat sources:
+      url_rules:
+        - /settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
+    Sources - Specific source view:
+      url_rules:
+        - /settings/sources/detail/**
+    Sources - Add Cloud Source wizard:
+      url_rules:
+        - /settings/sources/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud
+    Sources - Add Red Hat Source wizard:
+      url_rules:
+        - /settings/sources/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
 
 rbac:
   features:
