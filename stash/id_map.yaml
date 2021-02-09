@@ -35,6 +35,7 @@ _automation analytics | Organization Statistics: UMlGwA9BhkCs67pHpcPa42ghu4Q
 _automation hub: QUXyIwIOeYXRh2YMYnzFgZVE0JU
 _automation hub | All pages: tqQPZZIBpjNAZBPvLrYuaBUxXXU
 _automation hub | Collections list: nexSevuY6MJyQpXZ7Y9NMTdzyzs
+_automation hub | Collections view: 4Lokz0vBVLgRne7khMnOmS3aziY
 _automation hub | My Namespaces list: WdOfwmHgZ-u4hqXtwCO8_kfd5xA
 _automation hub | My Namespaces view: 2NlDmY_TKBMvkjFC4dw0zo8laY8
 _automation hub | Partners: 61V21rUfZi5TIiFwU2XlzdAqLUY
@@ -66,6 +67,7 @@ _beta automation analytics | Organization Statistics: dOlyufsrWhZD4PqsOvlMjXYxO8
 _beta automation hub: rLh0QwTT_QUutIe-do-PEL8ndEU
 _beta automation hub | All pages: OPJt2sKJLQpiEpDK45TOAlKjSyk
 _beta automation hub | Collections list: XvEe4y7N86Q2ooAAK7_WIYeaBrM
+_beta automation hub | Collections view: Wpz_P9S79Inn8F8u0T1-Ud0Z6IQ
 _beta automation hub | My Namespaces list: aEv_n6eQG7EJDvNZ_negnml0Lss
 _beta automation hub | My Namespaces view: 3d-6MTNgDk-VeALWE9Vdc_10S98
 _beta automation hub | Partners: xtB4IlB1vk_Rog53_kSPEjB5_MI
@@ -128,6 +130,7 @@ _beta cost management | OpenShift: 0h6CoBmrAXIM3CdThPxPjtO1aWs
 _beta cost management | Overview: Vy1BUA13z-jLS26R8q3mSZbv1UQ
 _beta crc: IuR_80WdIJLVLlVUWg8FkLJPyf0
 _beta crc | All pages: WXCsuys0qMvAKLG8f6BWEqOsO8g
+_beta crc | Landing page: _VKU75Sm1mSNZqoa6XEeNvnqD1s
 _beta dashboard: 1iPWUunY564DdYU7TL48VThHhf4
 _beta dashboard | Host list: aGkcFEH5IJLc7Rgyj2aSslRzUFc
 _beta drift: kY90bO53Yf6dJyaaXqcU3f9BWw4
@@ -138,6 +141,7 @@ _beta drift | Comparison list: j82yceGXDQhcq8tSTnJBneGzMB8
 _beta drift | Comparison view: Jpl50OX6pEAvuRuF99ZfViV76BI
 _beta insights: Tv1UfmBHlD7gPgnbIul81o5CGn0
 _beta insights | All pages: oLiHOHL7AC4-XOBCtodWMm74R0I
+_beta insights | Security: -jNxedWU-Js3d3TC9MqFnEALIzk
 _beta inventory: 73eF0LbGN3hPMyAutx1q1pF48q0
 _beta inventory | All pages: YAjbbhblWdv983uKDJwd0Cosmu0
 _beta inventory | Inventory list: hggbV3bKN-eE5WLhRTqbpRq_njo
@@ -147,11 +151,14 @@ _beta inventory | Inventory view - Compliance tab: RoI1ZhpvDPWYLubZ4nvZ82nPn2k
 _beta inventory | Inventory view - General info tab: ROOPxghH_VppQgrJo_LfX87PtIg
 _beta inventory | Inventory view - Patch tab: iEHSwUUOA29xKeUZT3Xim6cZ1NM
 _beta inventory | Inventory view - Vulnerability tab: tLY93CNlQnZ_1QPTSUF4NpSeE2k
+_beta kafka: 5XKCHw6sOr_f63Zj8su5VOaPGyQ
+_beta kafka | Landing page: 3qmeY0qR8NnE9Dat_zl_TbGyUJQ
 _beta migration analytics: YPZ1c-clRBaf6Bx42TQ-_HGDzPM
 _beta migration analytics | All pages: YkvpHN6Fe0HuCt1VUZ-1yE0BxY8
 _beta migration analytics | Getting Started: MAgcA-ejS5U1YTOVNGg4K_Ep7AI
 _beta migration analytics | Report - list: dLt22OQe5tN-0oa-ZIfMmy_Vc7Y
 _beta migration analytics | Report - upload: x9in03x92PMg7JWaE_iact3MFDg
+_beta migration analytics | Unentitlement modal: oTj8k-T8echnDYvHPI7c9fVz3dI
 _beta patch: MVRgKdyxCT3tPNQicsGWxWYtoFw
 _beta patch | Advisories list: T6kW-AKJFUSOSQ2fHj19LkbpkSg
 _beta patch | Advisory view: 9a5sl6YEPhYaAJHsKVIzJCMutPU
@@ -178,6 +185,13 @@ _beta remediations: IJU9vfIpDKLxqq8onclIeTdi8Z8
 _beta remediations | All pages: M_1HzzzaK8J90aYmKENT34-c_cQ
 _beta settings: 6sy30GicxDb2gCjx3NaMQ3x9CjA
 _beta settings | All pages: iKEXlGlsUZntsEkTGBlBvyplpvI
+_beta settings | My User Access: LuRWIq2vx1-0TxIT8zw97KrARlk
+_beta settings | Sources - Add Cloud Source wizard: ibvE3J6hJjEEWzXiWm6aPR4wXZs
+_beta settings | Sources - Add Red Hat Source wizard: Lx8CQeGYsXlbeXU1w4OuN485wMA
+_beta settings | Sources - Cloud sources: u2kUBw-UGy3lbmgqUCfsMHrbeFY
+_beta settings | Sources - Red Hat sources: NkttmmG7HblYTdMvmTSBbi_qVbw
+_beta settings | Sources - Specific source view: kcVmsAOcMZo1UrcZc8ghe8nVrfs
+_beta settings | Sources list: K6mL0c0tywR9T2lKpmZyYKWMtic
 _beta subscription watch: fiAjOJay4uKAdHQZmT8DX8pmLRw
 _beta subscription watch | All pages: Ekszugfl8crG5hMKYK1pSrUJCHU
 _beta subscription watch | Red Hat Enterprise Linux - ARM: 4n-oCkFUs4fZbBGjqgA0TBMukqQ
@@ -186,6 +200,7 @@ _beta subscription watch | Red Hat Enterprise Linux - IBM Power: xtQ4FN1a_fobPBp
 _beta subscription watch | Red Hat Enterprise Linux - IBM Z Systems: J8O_7hmJQHb1spGNMybB3S0fVsM
 _beta subscription watch | Red Hat Enterprise Linux - x86: CebJjI8sLz8J2j_5O2tZ9sn4ckU
 _beta subscription watch | Red Hat OpenShift: 6qCklpJTFbtCdAPYs3smnXG0YKs
+_beta subscription watch | Unentitled modal: i-IE5rFCkh_W1v2jSLm-RTAzQSg
 _beta user preferences: RxrBEz6o8TyyZ3WPWsWuYpqwnjo
 _beta user preferences | Email Preferences: pVLLrYWIvMGAUDUSvkKfxT6ZDV8
 _beta vulnerability: yLeTf0fJ0yO3hVhhcgjsIPS5CUs
@@ -267,6 +282,7 @@ _cost management | OpenShift: MPdbVTsCGHla8p7Gb4RQ-UwPgDg
 _cost management | Overview: fsV30wn4HuNu_IgCdjvZFS-qB4I
 _crc: QkZnLa5f7FOp_YZfUnDcddXkHp0
 _crc | All pages: bHVOproIyOM2__OggX5ST9j6Fkk
+_crc | Landing page: uAs_P-t1oVHUKbh4ghjjH9fBxjg
 _dashboard: HAohHTbgBjDDfObUcjfgPzY5Vr0
 '_dashboard | Dashboard - Link: Recommendations': 1Kzrp0nTKu1dd2PZWJ3VD7Nnbvw
 '_dashboard | Dashboard - Link: Subscription Watch utilization - Red Hat Enterprise Linux': JOk6kGCfDeiXWc1VSReZrRpAoJc
@@ -289,6 +305,7 @@ _insights: MCGTenK_AyH54qE2GlW5Kk91BII
 '_insights | All Pages - Button: host view show drawer': bjOO4TGnctZVbf364swyaHNyRp4
 '_insights | All Pages - Tab: host view tab click': 84LGHsqgVg2525d7NZAIVCvgadk
 _insights | All pages: H2oZVM0Lc7sf6dmOo_1xOjicTHs
+_insights | Security: H9dwkQGiTCzO2Ht6VvakmrURuHA
 _inventory: ggVbxGVJRwWEUyKd5Y15qlwbSZ8
 _inventory | All pages: mwAibJHPcnycYJKxusA9hxLL9EE
 '_inventory | Inventory - Button: Delete': T4J_Mt_iz82HLorEIW1y6bcPmY0
@@ -304,12 +321,15 @@ _inventory | Inventory view - Compliance tab: o11hyg6H4hOwPUmsPdMh85-VaNc
 _inventory | Inventory view - General info tab: j_8HjTZThUCcIGqLPQl1UJscw_Q
 _inventory | Inventory view - Patch tab: Hi6z4nUfcITdSRuxnG5ypDvSeqw
 _inventory | Inventory view - Vulnerability tab: in94sjC_20ZQF_ykzz4K2hI-YLw
+_kafka: vssr53SYGQN-qOw5QvSkD2tnTXw
+_kafka | Landing page: dfUGLoZnGebaDG71TZijecOuLpA
 _migration analytics: 4CKLaFABWIenaGJlIyXTicuCEm0
 _migration analytics | All pages: 1iTb1Qado6MyOa6u0GxTTPobdgc
 _migration analytics | Getting Started: ho6W5y75ePACpS5SHeEK3lfIyuM
 '_migration analytics | Migration Analytics - Button: Create': 9J4p2dzwSwdFsFOFJbx66iez9rM
 _migration analytics | Report - list: wuGCIvJYtnFd5r___E_lA9SyzT8
 _migration analytics | Report - upload: oZvMGEX_Q01wAGK0iduqpqKdgp4
+_migration analytics | Unentitlement modal: Hyb09NIkAqPpqOl0Zg7tDEbP9-I
 _patch: 2KicdoRY3ylcII2Dqm543CZcR3A
 '_patch | Advisories - Button: Export': lehFRVFglwcMUjezweVA3bNYs2w
 '_patch | Advisories - Filter: Publish date': vTHYg2BDEjFFX38ango3HeU48Rs
@@ -346,14 +366,21 @@ _register systems | Host list: Qm8hWtOhqVfCLovTm_ULa4YosSQ
 '_register systems | Register Systems - Select: Red Hat Subscription Manager': bf_9R-ppuQUu7R8u8340IpS-s64
 _remediations: XUCwt0eefqQ2rqtb3mj1VbL883A
 _remediations | All pages: GJE-dJEaVM8hlNmQ8JXFvMyNG0E
+'_remediations | Remediations - All apps - Button: Remediate': AU1b2N0g4EG8WlXTSlgtaumpyWM
 '_remediations | Remediations - Button: Activity': WlTbWQAVqqCFTZnWr_YQGhb0P0o
 '_remediations | Remediations - Button: Auto reboot': SbPZeLti2_KINWEGs5o8cRSif6A
 '_remediations | Remediations - Button: Download playbook': 95QKEobn3l7MO4vxPpFGUxKIPtA
 '_remediations | Remediations - Button: Execute playbook': ABqa8LopBnqooMj-lo9cEQpBn6I
-'_remediations | Remediations - Button: Remediate': TQ0K8qeltvWjKQHakcARDmNujTI
 '_remediations | Remediations - Button: Remove actions': fvGBstaHBjZ-6MwGoPaaAnm4jgE
 _settings: HmOUa_nZJqRt3xnKVgL8gwQdR30
 _settings | All pages: CaicMeffnwmXnRsfD94CuYMp_Ow
+_settings | My User Access: gO6N4aHJVlzI-yz6P7bQHmAjF3s
+_settings | Sources - Add Cloud Source wizard: 3x49WzsN8ygwjvFAaZLA9kEY8K8
+_settings | Sources - Add Red Hat Source wizard: 7RT3wxZsXfVkfXSBFRbEBgaBFxM
+_settings | Sources - Cloud sources: i_U84s5MOde7ZcT5nIuvI7ZOO1Y
+_settings | Sources - Red Hat sources: YpJOlhNvAGYR0xnMpcSq2_Ylmp0
+_settings | Sources - Specific source view: OMjgrqWlV0UEBs8GmnyXHZEqGb0
+_settings | Sources list: cMl2vsUERPkAAipWNL8Tyeri_qc
 _subscription watch: 3SnPawgtVguQ9gsG-1-7swcOmU4
 _subscription watch | All pages: hDj9Xzg2DBEdMOnTTIjxRRdLOQU
 _subscription watch | Red Hat Enterprise Linux - ARM: uON7V7gFvrJs0IzxnoKr1jzWplc
@@ -368,6 +395,7 @@ _subscription watch | Red Hat Enterprise Linux - IBM Z Systems: O54RglZbKbDRB1FD
 _subscription watch | Red Hat Enterprise Linux - x86: Vp_Q7nWyWIiKyCSrE0ggvwY0A4I
 _subscription watch | Red Hat OpenShift: MtK84Au9Mx0oGTDf8wt5IFdy_rI
 '_subscription watch | Red Hat OpenShift - Link: Cores': nVPQG6wQ1rmXom7mGOAWK9TZp-o
+_subscription watch | Unentitled modal: xY3jSy-YpO1yX54FErCqmpn4upA
 _user preferences: OFrw1d-NCPhh33SH1uw9dG7RlrY
 _user preferences | Email Preferences: z6PR5k_BkdUl2CZS0TTXNzRt7zA
 '_user preferences | User Preferences - Check box: Daily digest': _eKg6h-4EcV4GGWZA663hHahh2Q
