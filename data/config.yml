@@ -317,7 +317,10 @@ drift:
         - /insights/drift
     Comparison view:
       url_rules:
-        - /insights/drift/*
+        - /insights/drift/?system_ids=*parameter*
+        - /insights/drift/?baseline_ids=*parameter*
+        - /insights/drift/?hsp_ids=*parameter*
+        - /insights/drift/?reference_id=*parameter*
     Baseline list:
       url_rules:
         - /insights/drift/baselines
