@@ -284,6 +284,12 @@ patch:
     Systems view:
       url_rules:
         - /insights/patch/systems/*/
+    Packages list:
+      url_rules:
+        - /insights/patch/packages/
+    Packages view:
+      url_rules:
+        - /insights/patch/packages/*/
   features:
     _scope: '[data-ouia-app-id="patch"]'
     "Advisories - Filter: Type":
