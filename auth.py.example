@@ -1,0 +1,24 @@
+API_KEY = String: a r/w pendo API key
+
+# this can be any valid uuid I think
+XSRF    = 'c98c4a72-3906-4dad-7720-2b506b2735a7'
+
+# A pendo identity object... get from your browsers cookies
+# looks like %7B%22visitorId%22%3A%22ihands%40redha...
+IDENT   = String: cookies['pendo_identity']
+
+# A pendo JWT... get from your browsers cookies
+JWT = String: cookies['pendo.sess.jwt']
+
+#######
+# This stuff below could be moved to client.py
+def get_xsrf():
+    return XSRF
+
+def get_cookies():
+    return [
+        'PendoXSRFToken='     + XSRF,
+        'pendo.sess.jwt='     + JWT,
+        'pendo.sess.jwt_C80=' + JWT,
+        'pendo_identity='     + IDENT,
+    ]
