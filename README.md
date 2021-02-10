@@ -15,7 +15,7 @@ $ pip install -r requirements.txt
 ```shell
 $ mkdir ./secrets
 $ cp auth.py.example ./secrets/auth.py
-$ dummy > ./secrets/skiplist.yml
+$ echo '- dummy' > ./secrets/skiplist.yml
 ```
 
 Fill out the secrets.
