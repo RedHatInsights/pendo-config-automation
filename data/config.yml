@@ -45,6 +45,9 @@ insights:
     Security:
       url_rules:
         - /security/insights
+    Image builder:
+      url_rules:
+        - /insights/image-builder/landing=
   features:
     _scope: '[data-ouia-bundle="insights"]'
     "All Pages - Tab: host view tab click":
@@ -569,6 +572,9 @@ rbac:
     Roles - Add roles to group:
       url_rules:
         - /settings/rbac/groups/detail/*/roles/add_roles
+    Create role wizard:
+      url_rules:
+        - /settings/rbac/roles/add-role
     Users list:
       url_rules:
         - /settings/rbac/users
