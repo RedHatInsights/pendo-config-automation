@@ -16,9 +16,10 @@ $ pip install -r requirements.txt
 $ mkdir ./secrets
 $ cp auth.py.example ./secrets/auth.py
 $ echo '- dummy' > ./secrets/skiplist.yml
+$ touch secrets/__init__.py
 ```
 
-Fill out the secrets.
+Fill out the secrets. The pendo cookies are found on app.pendio.io, _not_ on cloud.redhat.com
 
 ## Running
 ```shell
@@ -34,6 +35,11 @@ $ python --dry=false scrub.py # optionally
 The `skiplist.yml` is a list of groups that will be skipped in the run.
 You can add all groups there to skip all... then uncomment one to not skip it.
 This does! goof up the stash file though (will make it incomplete).
+
+### Dry Run
+The `DRY_RUN` flag in `main.py` determines if the data will actually be added/removed from pendo.
+* DRY_RUN=False means it's a real run
+* DRY_RUN=True means it's in debug mode
 
 ### Stash list
 This list is an automatically maintained list of the 'names' we have for each page and the IDs
