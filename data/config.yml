@@ -512,6 +512,13 @@ subscription watch:
         - '{} a:contains("Cores")'
 
 settings:
+  features:
+    "Cloud sources - Button: AWS":
+      selectors:
+        - 'div:contains("Amazon Web Services").disabled-tile-with-tooltip'
+    "Cloud sources - Button: Microsoft Azure":
+      selectors:
+        - 'div:contains("Microsoft Azure").disabled-tile-with-tooltip'
   pages:
     All pages:
       url_rules:
