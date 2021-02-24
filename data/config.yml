@@ -335,6 +335,15 @@ drift:
     "Baselines - Button: Create baseline":
       selectors:
         - '{} button#create-baseline-button:contains("Create baseline")'
+    "Baselines - Button: Create baseline from scratch":
+      selectors:
+        - '{}[data-ouia-component-id="create-baseline-button-fromscratch"] button:contains("Create baseline")'
+    "Baselines - Button: Copy an existing baseline":
+      selectors:
+        - '{}[data-ouia-component-id="create-baseline-button-copybaseline"] button:contains("Create baseline")'
+    "Baselines - Button: Copy an existing system":
+      selectors:
+        - '{}[data-ouia-component-id="create-baseline-button-copysystem"] button:contains("Create baseline")'
 
 policies:
   color: 7
