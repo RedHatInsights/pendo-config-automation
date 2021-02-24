@@ -335,6 +335,9 @@ drift:
     "Baselines - Button: Create baseline":
       selectors:
         - '{} button#create-baseline-button:contains("Create baseline")'
+    "Baselines - Button: Export baselines list":
+      selectors:
+        - '{}[data-ouia-component-id="export-to-csv-dropdown-item-baselines"] button.pf-c-dropdown__menu-item'
 
 policies:
   color: 7
