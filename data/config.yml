@@ -335,13 +335,21 @@ drift:
     "Baselines - Button: Create baseline":
       selectors:
         - '{} button#create-baseline-button:contains("Create baseline")'
+    "Baselines - Button: Create baseline from scratch":
+      selectors:
+        - '{}[data-ouia-component-id="create-baseline-button-fromscratch"] button:contains("Create baseline")'
+    "Baselines - Button: Copy an existing baseline":
+      selectors:
+        - '{}[data-ouia-component-id="create-baseline-button-copybaseline"] button:contains("Create baseline")'
+    "Baselines - Button: Copy an existing system":
+      selectors:
+        - '{}[data-ouia-component-id="create-baseline-button-copysystem"] button:contains("Create baseline")'
     "Baselines - Button: Export baseline":
       selectors:
         - '{}[data-ouia-component-id="edit-baseline-export-to-csv"] button.pf-c-dropdown__menu-item'
     "Baselines - Button: Export baselines list":
       selectors:
         - '{}[data-ouia-component-id="export-to-csv-dropdown-item-baselines"] button.pf-c-dropdown__menu-item'
-
 policies:
   color: 7
   pages:
