@@ -332,6 +332,9 @@ drift:
     "Comparison - Button: Add to comparison":
       selectors:
         - '{} button:contains("Add to comparison")'
+    "Comparison - Button: Export to CSV":
+      selectors:
+        - '{}[data-ouia-component-id="export-to-csv-dropdown-item-comparison"] button:contains("Export to CSV")'
     "Baselines - Button: Create baseline":
       selectors:
         - '{} button#create-baseline-button:contains("Create baseline")'
