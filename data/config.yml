@@ -183,6 +183,9 @@ vulnerability:
     Systems view:
       url_rules:
         - /insights/vulnerability/systems/*
+    Reports:
+      url_rules:
+        - /insights/vulnerability/reports
   features:
     _scope: '[data-ouia-app-id="vulnerability"]'
     "CVEs - Link: Download executive report":
