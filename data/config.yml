@@ -753,16 +753,16 @@ cluster manager:
     "Subscriptions - Button: Open Subscription Watch":
       selectors:
         - '{} a:contains("Open Subscription Watch")'
-    "Clusters - Nav: Support Cases":
+    "Nav: Support Cases":
       selectors:
         - '[ouiaid="extra-openshift-support"]'
-    "Clusters - Nav: Cluster Manager Feedback":
+    "Nav: Cluster Manager Feedback":
       selectors:
         - '[ouiaid="extra-openshift-cm"]'
-    "Clusters - Nav: Red Hat Marketplace":
+    "Nav: Red Hat Marketplace":
       selectors:
         - '[ouiaid="extra-openshift-marketplace"]'
-    "Clusters - Nav: Documentation":
+    "Nav: Documentation":
       selectors:
         - '[ouiaid="extra-openshift-docs"]'
 
