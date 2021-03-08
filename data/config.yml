@@ -756,6 +756,18 @@ cluster manager:
     "Subscriptions - Button: Open Subscription Watch":
       selectors:
         - '{} a:contains("Open Subscription Watch")'
+    "Nav: Support Cases":
+      selectors:
+        - '[ouiaid="extra-openshift-support"]'
+    "Nav: Cluster Manager Feedback":
+      selectors:
+        - '[ouiaid="extra-openshift-cm"]'
+    "Nav: Red Hat Marketplace":
+      selectors:
+        - '[ouiaid="extra-openshift-marketplace"]'
+    "Nav: Documentation":
+      selectors:
+        - '[ouiaid="extra-openshift-docs"]'
 
 ansible:
   color: 3
@@ -852,6 +864,7 @@ cost management:
     All pages:
       url_rules:
         - /cost-management/**
+        - /cost-management/
     Overview:
       url_rules:
         - /cost-management/
