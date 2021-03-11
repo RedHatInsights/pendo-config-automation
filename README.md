@@ -22,14 +22,16 @@ $ touch secrets/__init__.py
 Fill out the secrets. The pendo cookies are found on app.pendio.io, _not_ on cloud.redhat.com
 
 ## Running
+
+* Make sure to update the auth secrets with your new jwt before each run
+
 ```shell
 $ source venv/bin/activate
 $ bash lint.sh
 $ python main.py
 $ python scrub.py # check the results
-$ python --dry=false scrub.py # optionally
+$ python scrub.py --dry=false # optionally
 ```
-
 ## Notes
 ### Skip list
 The `skiplist.yml` is a list of groups that will be skipped in the run.
