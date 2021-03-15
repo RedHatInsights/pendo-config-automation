@@ -122,14 +122,14 @@ _beta compliance | SCAP Policies list: jOk5Q8gzxiJVZnUAKVng1lpfazs
 _beta compliance | SCAP Policies view: mbXN9sCAKqoWU08XSGEsileogOU
 _beta compliance | Systems list: -MwjdW4M-ciXRUas4gnzOLXKuQk
 _beta cost management: Gfq3_H10_w4ZrpD-vD9lS7BpNcs
-_beta cost management | All pages: lYr-bZAjruJf44nktX5lqR47qlI
+_beta cost management | All pages: YujEOxAdtAd9KgZ4Hvj6Gm4wgaA
 _beta cost management | Cost Models: Grbq1hwvhHgZ7oKS7Ddoj5amzjk
 _beta cost management | Infrastructure - Amazon Web Services: q1olimop790pO-r1ofgcj50HOjI
 _beta cost management | Infrastructure - Microsoft Azure: F_Tb2T3SJBzkgSSeuOjg6LoC5Bs
 _beta cost management | OpenShift: 0h6CoBmrAXIM3CdThPxPjtO1aWs
 _beta cost management | Overview: Vy1BUA13z-jLS26R8q3mSZbv1UQ
 _beta crc: IuR_80WdIJLVLlVUWg8FkLJPyf0
-_beta crc | All pages: WXCsuys0qMvAKLG8f6BWEqOsO8g
+_beta crc | All pages: 2qzu2dzbEGwSTqpptgYWYVqDlW0
 _beta crc | Landing page: _VKU75Sm1mSNZqoa6XEeNvnqD1s
 _beta dashboard: 1iPWUunY564DdYU7TL48VThHhf4
 _beta dashboard | Host list: aGkcFEH5IJLc7Rgyj2aSslRzUFc
@@ -138,10 +138,10 @@ _beta drift | All pages: Lk5C1lCZIjY5JygFtHMgZ434wro
 _beta drift | Baseline list: LCDWtFGXb3q1Uni_EpjNZG3ddsk
 _beta drift | Baseline view: eJOi4dsksNA6gQInA6qLYIaNVbI
 _beta drift | Comparison list: j82yceGXDQhcq8tSTnJBneGzMB8
-_beta drift | Comparison view: Jpl50OX6pEAvuRuF99ZfViV76BI
+_beta drift | Comparison view: zfFKZF3bj6GsBjbiBjfc7ExTSkE
 _beta insights: Tv1UfmBHlD7gPgnbIul81o5CGn0
 _beta insights | All pages: oLiHOHL7AC4-XOBCtodWMm74R0I
-_beta insights | Image builder: 0v6MOwpvR3dtnGqfp_Cp-Lg_3ac
+_beta insights | Image builder: U0SnDoyOexWi9Koi_I0jYCMEuTw
 _beta insights | Security: -jNxedWU-Js3d3TC9MqFnEALIzk
 _beta inventory: 73eF0LbGN3hPMyAutx1q1pF48q0
 _beta inventory | All pages: YAjbbhblWdv983uKDJwd0Cosmu0
@@ -164,8 +164,8 @@ _beta patch: MVRgKdyxCT3tPNQicsGWxWYtoFw
 _beta patch | Advisories list: T6kW-AKJFUSOSQ2fHj19LkbpkSg
 _beta patch | Advisory view: 9a5sl6YEPhYaAJHsKVIzJCMutPU
 _beta patch | All pages: ejXWTi5RfaAItBEcgQ3uJoh2vSM
-_beta patch | Packages list: FMdfcYn2B9p8--flcMl2m2HTrMk
-_beta patch | Packages view: AnEv7yufykh-bygKKDX7FveI_Ao
+_beta patch | Packages list: AdmRSba1JxcpL7jTNMXC1ztPOlA
+_beta patch | Packages view: X0X94vdmhijRjQcU7yFDRZD5Dww
 _beta patch | Systems list: -E36tmtZY9E9_HFmfsj6hdOnPlI
 _beta patch | Systems view: 2Iwe8S_qW1Clz8G97Y3P9M1pZPc
 _beta policies: 8kaK_TfntmmNSOO6Cw3nKVFppJY
@@ -175,7 +175,7 @@ _beta policies | Policies view: C_6jjaJK6ZhXfslOW8_fgSjUj5c
 _beta rbac: G1-B3vCngA61iePepGbcAo9i6gU
 _beta rbac | Add group: 4KMf-hDQ5KhCq9SqVIIIuJbmVe4
 _beta rbac | All pages: _6cXnokEgELE23a0XFpwVWlqcA4
-_beta rbac | Create role wizard: UzwxY9hxjHJZOGyU7Gkjq-P9BWg
+_beta rbac | Create role wizard: mvEf2vwuWhnFKpAk1w1JUdjTra8
 _beta rbac | Group view: WEb1qESN9Biw4zAVzd8S-uxP4qY
 _beta rbac | Groups list: NSy36n6vMpx6hrAbcdj1LxUFghk
 _beta rbac | Role view: 4xE1c-mX_uCGJ5oJTkBP4Nf2fls
@@ -211,7 +211,7 @@ _beta vulnerability: yLeTf0fJ0yO3hVhhcgjsIPS5CUs
 _beta vulnerability | All pages: L_Lei6g_v9Dei00Mu2NWLQyCwq0
 _beta vulnerability | CVE list: 2N_CFJXWQCkH6OWbmZnbB6C9bSk
 _beta vulnerability | CVE view: nXwGJuv2-cywC1IXHqgzdObMJAw
-_beta vulnerability | Reports: rGvGaz4Uxr5rCZNXkPCCZRQ_0to
+_beta vulnerability | Reports: ECJ_a4dz-ngz3HHKCVTEENpdmS8
 _beta vulnerability | Systems list: JVnlt7VBtpU8WhSJfkLmu88dMmI
 _beta vulnerability | Systems view: QLuXiQaMkYVYjjmzHgheVz7STAU
 _cluster manager: 8r33EBKuXWJiz5zAr9aBTg-U63Q
@@ -258,10 +258,10 @@ _cluster manager | Create cluster - Run on bare metal: hL5PusSxBeCAJe4vB7n7vUkQC
 _cluster manager | Create cluster - Run on bare metal - User provisioned infrastructure: nhwlW7rlhUcuFRC0ZlMBTAv8VR4
 _cluster manager | Create cluster - Run on your laptop with Code Ready Containers: 7W25KQgplTL8aLkkaxchFkRD5hc
 _cluster manager | Create cluster - VMware vSphere - User provisioned infrastructure: DwhhtPNXslT4cSMuCoa8C5onnos
-'_cluster manager | Nav: Cluster Manager Feedback': 6LsAiJLVHODO3y1pkC0zcbg0aXE
-'_cluster manager | Nav: Documentation': KOpjvegQ_P1UP-qbGCk47p1hrLY
-'_cluster manager | Nav: Red Hat Marketplace': O80Wb5l1qMsnMhg89B489KTgNag
-'_cluster manager | Nav: Support Cases': ExuBifJdftiXXQt53zIPclgkfOk
+'_cluster manager | Nav: Cluster Manager Feedback': XSTNEdUw10-rQzSQ50JCiobxVRk
+'_cluster manager | Nav: Documentation': SFupJbBmXnBRMDuk8HKd5EXYpe8
+'_cluster manager | Nav: Red Hat Marketplace': tzmRURYY0ezbXNs9JlfGXN5Ii8M
+'_cluster manager | Nav: Support Cases': OWZb5XdAhtqvj6fmRBBE8-zilXY
 _cluster manager | Overview: UtQz58d8HEg2DciAahL8202lsQc
 _cluster manager | Subscriptions: SA37aBV6SWw7olsDvkeXtumuJGU
 '_cluster manager | Subscriptions - Button: Open Subscription Watch': UHF6Hh0fnOWPbOSaI08nlML_ciI
@@ -306,14 +306,14 @@ _drift: fGPaGHRR3rr2VEHlXbVtmmL6KK4
 _drift | All pages: crK1IIAz9a_kTRcHNf3OVBB9H6M
 _drift | Baseline list: jm9IglyC8TYq9xyh3g7sXYws6ak
 _drift | Baseline view: aL6i9wGs0pYKNFSeOhJy_zldTik
-'_drift | Baselines - Button: Copy an existing baseline': iDbY30cvmAhPCTelyj_YLVxRCfM
-'_drift | Baselines - Button: Copy an existing system': m_mkSflFJTa39Fj9omuFw3IjqF4
+'_drift | Baselines - Button: Copy an existing baseline': jb6RRd4Em6L8MrL_WmCYT3grDhQ
+'_drift | Baselines - Button: Copy an existing system': U_g_vaTBY1_KlTSj8BrPfFNPk5w
 '_drift | Baselines - Button: Create baseline': 2f1C5Oxy6LZhLsYs4qYfchsd-lw
-'_drift | Baselines - Button: Create baseline from scratch': N_neD8zQg_QaLO64xbeW_eevQMk
-'_drift | Baselines - Button: Export baseline': tRYPNIO1lgANEk8DSoiJ3ZNXXXA
-'_drift | Baselines - Button: Export baselines list': 2kA4lJkmA_2Sg5kejrbMZwWNs9w
+'_drift | Baselines - Button: Create baseline from scratch': jKcrzuUGAzC_nXmXAGMJl1V-X_o
+'_drift | Baselines - Button: Export baseline': nv8wGXS_99PwAdv-_3cXPmQgSi8
+'_drift | Baselines - Button: Export baselines list': efsEkd9_OgaU0OUaGrPDVLPvoiM
 '_drift | Comparison - Button: Add to comparison': nU3XnfdhI9BUSSDP6U-sz3cXKlg
-'_drift | Comparison - Button: Export to CSV': jP4mt70fpmV8MdQtE88Zmfko-FA
+'_drift | Comparison - Button: Export to CSV': xq9enDk_qeMAo95K9M7FpJ9pawA
 _drift | Comparison list: sjQzYobh1-oVk5qkve0Y0WW1dSQ
 _drift | Comparison view: hE7HH2gRNo7De2CWD2GQj3aeUK0
 _insights: MCGTenK_AyH54qE2GlW5Kk91BII
@@ -393,8 +393,8 @@ _remediations | All pages: GJE-dJEaVM8hlNmQ8JXFvMyNG0E
 '_remediations | Remediations - Button: Remove actions': fvGBstaHBjZ-6MwGoPaaAnm4jgE
 _settings: HmOUa_nZJqRt3xnKVgL8gwQdR30
 _settings | All pages: CaicMeffnwmXnRsfD94CuYMp_Ow
-'_settings | Cloud sources - Button: AWS': zOQc8dZJxgio0AcaRXA3Sx01ycI
-'_settings | Cloud sources - Button: Microsoft Azure': adIZcYD-hTKt2HFeHQp3d2gmOgE
+'_settings | Cloud sources - Button: AWS': YxbVewh6pOc5teyXfMRESZqs0vE
+'_settings | Cloud sources - Button: Microsoft Azure': 75_EJ9iuiXrDSNFPJe-6d_XZ89E
 _settings | My User Access: gO6N4aHJVlzI-yz6P7bQHmAjF3s
 _settings | Sources - Add Cloud Source wizard: 3x49WzsN8ygwjvFAaZLA9kEY8K8
 _settings | Sources - Add Red Hat Source wizard: 7RT3wxZsXfVkfXSBFRbEBgaBFxM

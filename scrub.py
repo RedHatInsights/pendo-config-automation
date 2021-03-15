@@ -21,7 +21,7 @@ def delete_entities(t):
             last_updated_by = feature['lastUpdatedByUser']['username']
             kind = feature['kind']
             if group_name.startswith('_'):
-                if created_by != 'ihands@redhat.com' or last_updated_by != 'ihands@redhat.com' or not name.startswith('_'):
+                if created_by not in ['ihands@redhat.com', 'rlong@redhat.com'] or last_updated_by not in ['ihands@redhat.com', 'rlong@redhat.com'] or not name.startswith('_'):
                     print('Removing ({}) {} [{}] {} {}'.format(kind, eid, name, created_by, last_updated_by))
                     _del(t, eid)
 
