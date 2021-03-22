@@ -625,22 +625,22 @@ cluster manager:
     Cluster view - All:
       url_rules:
         - /openshift/details/*
-    Cluster view - Overview pre 01172021:
+    Cluster view - Overview.pre01172021:
       url_rules:
         - /openshift/details/*#overview
-    Cluster view - Overview post 01172021:
+    Cluster view - Overview.post01172021:
       url_rules:
         - /openshift/details/s/*#overview
-    Cluster view - Monitoring pre 01172021:
+    Cluster view - Monitoring.pre01172021:
       url_rules:
         - /openshift/details/*#monitoring
-    Cluster view - Monitoring post 01172021:
+    Cluster view - Monitoring.post01172021:
       url_rules:
         - /openshift/details/s/*#monitoring
-    Cluster view - Insights pre 01172021:
+    Cluster view - Insights.pre01172021:
       url_rules:
         - /openshift/details/*#insights
-     Cluster view - Insights post 01172021:
+     Cluster view - Insights.post01172021:
       url_rules:
         - /openshift/details/s/*#insights
     Cluster view - Insights recommendation view:
