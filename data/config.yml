@@ -640,7 +640,7 @@ cluster manager:
     Cluster view - Insights.pre01172021:
       url_rules:
         - /openshift/details/*#insights
-     Cluster view - Insights.post01172021:
+    Cluster view - Insights.post01172021:
       url_rules:
         - /openshift/details/s/*#insights
     Cluster view - Insights recommendation view:
