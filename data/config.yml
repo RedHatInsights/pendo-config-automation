@@ -730,6 +730,12 @@ cluster manager:
     Overview:
       url_rules:
         - /openshift/overview
+    OSD Trial page:
+      url_rules:
+        - /openshift/create/osdtrial?trial=osd
+    OCP Trial page:
+      url_rules:
+        - /openshift/create/datacenter?trial=ocp
   features:
     _scope: '[data-ouia-bundle="openshift"]'
     "Clusters - Button: Create cluster":
