@@ -542,6 +542,15 @@ settings:
     "Cloud sources - Button: Microsoft Azure":
       selectors:
         - 'div:contains("Microsoft Azure").disabled-tile-with-tooltip'
+    "Cloud sources - Link: Learn more about Red Hat Gold Images":
+      selectors:
+        - 'a:contains("Learn more about Red Hat Gold Images")'
+    "Cloud sources - Link: Enable additional Insights services":
+      selectors:
+        - 'a:contains("Enable additional Insights services")'
+    "Cloud sources - Link: Go to Subscription Watch":
+      selectors:
+        - 'a:contains("Go to Subscription Watch")'
   pages:
     All pages:
       url_rules:
