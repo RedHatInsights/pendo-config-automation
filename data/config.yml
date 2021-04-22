@@ -1217,19 +1217,19 @@ console landing page:
         - '[href="/beta/settings/sources"]'
     "Console Landing Page - Link: Connect with Sources - Manage your Red Hat products in the cloud":
       selectors:
-        - '[href="https://cloud.redhat.com/settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud"]'        
+        - '[href="https://cloud.redhat.com/settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud"]'
     "Console Landing Page - Link: Get started - Configure Automation Services Catalog":
       selectors:
-        - '[href="https://cloud.redhat.com/settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud"]'        
+        - '[href="https://cloud.redhat.com/settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud"]'
     "Console Landing Page - Link: Get started - Install the OpenShift Application Services operator in your OpenShift cluster":
       selectors:
-        - '[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/getting_started_with_automation_services_catalog/index"]'         
+        - '[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/getting_started_with_automation_services_catalog/index"]'
     "Console Landing Page - Link: View - Tour Job Explorer":
       selectors:
         - '[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/installing_and_upgrading_private_automation_hub/index"]'
     "Console Landing Page - Link: Learn More - Integrate Insights with Satellite 6.7+":
       selectors:
-        - '[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/publishing_proprietary_content_collections_in_automation_hub/index"]'        
+        - '[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/publishing_proprietary_content_collections_in_automation_hub/index"]'
     "Console Landing Page - Link: Get started - Cost Management now has forecasting":
       selectors:
         - 'a:contains("Calculate")[href="./ansible/automation-analytics/automation-calculator"]'
