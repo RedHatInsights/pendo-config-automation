@@ -1076,9 +1076,6 @@ application services:
     "Application Services - Button: Create Kafka instance (table view)":
       selectors:
         - 'data-testid="tableStreams-buttonCreateKafka"'
-    "Application Services - Button: Create instance (in modal)":
-      selectors:
-        - 'data-testid="modalCreateKafka-buttonSubmit"'
 
 rhel:
   color: 8
