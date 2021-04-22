@@ -1154,26 +1154,24 @@ application services:
     "Application Services - Topic view: Create topic - Basic - Cancel":
       selectors:
         - '[data-testid="topicBasicCreate-Wizard"] .pf-c-button:contains("Cancel")'
-    _scope: '[data-ouia-app-id="controlPlane-streams"]'
     "Application Services - Tab: Connect (in drawer) control plane":
       selectors:
-        - 'data-testid="drawerStreams-tabConnect"'
+        - '[data-ouia-app-id="controlPlane-streams"]data-testid="drawerStreams-tabConnect"'
     "Application Services - Button: Copy external server (in drawer) control plane":
       selectors:
-        - 'data-testid="drawerStreams-copyBootstrapURL"'
+        - '[data-ouia-app-id="controlPlane-streams"]data-testid="drawerStreams-copyBootstrapURL"'
     "Application Services - Button: Generate credentials (in drawer) control plane":
       selectors:
-        - 'data-testid="drawerStreams-buttonCreateServiceAccount"'
-    _scope: '[data-ouia-app-id="dataPlane-streams"]'
+        - '[data-ouia-app-id="controlPlane-streams"]data-testid="drawerStreams-buttonCreateServiceAccount"'
     "Application Services - Tab: Connect (in drawer) data plane":
       selectors:
-        - 'data-testid="drawerStreams-tabConnect"'
+        - '[data-ouia-app-id="dataPlane-streams"]data-testid="drawerStreams-tabConnect"'
     "Application Services - Button: Copy external server (in drawer) data plane":
       selectors:
-        - 'data-testid="drawerStreams-copyBootstrapURL"'
+        - '[data-ouia-app-id="dataPlane-streams"]data-testid="drawerStreams-copyBootstrapURL"'
     "Application Services - Button: Generate credentials (in drawer) data plane":
       selectors:
-        - 'data-testid="drawerStreams-buttonCreateServiceAccount"'
+        - '[data-ouia-app-id="dataPlane-streams"]data-testid="drawerStreams-buttonCreateServiceAccount"'
 
 rhel:
   color: 8
