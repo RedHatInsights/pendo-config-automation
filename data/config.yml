@@ -47,7 +47,7 @@ insights:
         - /security/insights
     Image builder:
       url_rules:
-        - /insights/image-builder/landing=
+        - /insights/image-builder/landing
   features:
     _scope: '[data-ouia-bundle="insights"]'
     "All Pages - Tab: host view tab click":
@@ -749,6 +749,18 @@ cluster manager:
     OCP Trial page:
       url_rules:
         - /openshift/create/datacenter?trial=ocp
+    Subscriptions - Container Platform:
+      url_rules:
+        - /openshift/quota
+    Subscriptions - Dedicated (On Demand):
+      url_rules:
+        - /openshift/subscriptions/openshift-dedicated*
+    Subscriptions - Dedicated On Demand Limits:
+      url_rules:
+        - /openshift/quota/resource-limits
+    Trial expiration page:
+      url_rules:
+        - /openshift/create?trial=expired
   features:
     _scope: '[data-ouia-bundle="openshift"]'
     "Clusters - Button: Create cluster":
@@ -913,6 +925,9 @@ cost management:
       url_rules:
         - /cost-management/cost-models
         - /cost-management/cost-models/**
+    Explorer:
+      url_rules:
+        - /cost-management/explorer/*
 
 migration analytics:
   color: 7
@@ -945,3 +960,14 @@ kafka:
     Landing page:
       url_rules:
         - /application-services/openshift-streams/
+
+rhel:
+  color: 8
+  pages:
+    All pages:
+      url_rules:
+        - /rhel
+        - /rhel/**
+    Resource optimization:
+      url_rules:
+        - /rhel/ros
