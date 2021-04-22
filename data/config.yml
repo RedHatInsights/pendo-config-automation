@@ -1006,9 +1006,6 @@ application services:
     "Application Services - Button: Delete (in Delete Topic modal)":
       selectors:
         - 'data-testid="modalDeleteTopic-buttonDelete"'
-    "Application Services - Button: Delete (in Delete Topic modal)":
-      selectors:
-        - 'data-testid="modalDeleteTopic-buttonDelete"'
     _scope: '[data-ouia-bundle="application-services"]'
     "Application Services - Button: Try OpenShift Streams for Apache Kafka":
       selectors:
@@ -1079,9 +1076,6 @@ application services:
     "Application Services - Button: Create Kafka instance (table view)":
       selectors:
         - 'data-testid="tableStreams-buttonCreateKafka"'
-    "Application Services - Button: Create instance (in modal)":
-      selectors:
-        - 'data-testid="modalCreateKafka-buttonSubmit"'
     "Application Services - Button: Create instance (in modal)":
       selectors:
         - 'data-testid="modalCreateKafka-buttonSubmit"'
