@@ -954,12 +954,128 @@ migration analytics:
       selectors:
         - '{} a:contains("Create report")'
 
-kafka:
+application services:
   color: 7
   pages:
-    Landing page:
+    Overview:
       url_rules:
-        - /application-services/openshift-streams/
+        - /application-services/overview
+    All pages:
+      url_rules:
+        - /application-services/**
+    Streams for Apache Kafka - Kafka instances:
+      url_rules:
+        - /application-services/streams/kafkas
+    Streams for Apache Kafka -  Service Accounts:
+      url_rules:
+        - /application-services/streams/service-accounts
+    Streams for Apache Kafka - Resources:
+      url_rules:
+        - /application-services/streams/resources
+    Streams for Apache Kafka - Documentation:
+      url_rules:
+        - /application-services/api-management
+    Data Science:
+      url_rules:
+        - /application-services/data-science
+    Demo experience:
+      url_rules:
+        - /application-services/streams/kafkas/?*parameter*
+  features:
+    "Application Services - Button: Create instance (in modal)":
+      selectors:
+        - 'data-testid="modalCreateKafka-buttonSubmit"'
+    "Application Services - Button: Cancel (in modal)":
+      selectors:
+        - 'data-testid="modalCreateKafka-buttonCancel"'
+    "Application Services - Button: X (in modal)":
+      selectors:
+        - '[id="modalCreateKafka"] .pf-m-plain'
+    "Application Services - Button: Copy access key (in modal)":
+      selectors:
+        - 'data-testid="modalCredentials-copyClientID"'
+    "Application Services - Button: Copy for secret (in modal)":
+      selectors:
+        - 'data-testid="modalCredentials-copyClientSecret"'
+    "Application Services - Button: Close (in modal)":
+      selectors:
+        - 'data-testid="modalCredentials-buttonClose"'
+    "Application Services - Button: Delete (in modal)":
+      selectors:
+        - 'data-testid="modalDeleteKafka-buttonDelete"'
+    "Application Services - Button: Delete (in Delete Topic modal)":
+      selectors:
+        - 'data-testid="modalDeleteTopic-buttonDelete"'
+    _scope: '[data-ouia-bundle="application-services"]'
+    "Application Services - Button: Try OpenShift Streams for Apache Kafka":
+      selectors:
+        - 'data-testid="hero-buttonTryKafka"'
+    "Application Services - Button: Create a Kafka instance":
+      selectors:
+        - 'data-testid="cardRHOSAK-buttonCreateKafka"'
+    "Application Services - Link: OpenShift link from OpenShift API Management card":
+      selectors:
+        - 'data-testid="cardRHOAM-linkOpenShift"'
+    "Application Services - Button: Get Started":
+      selectors:
+        - 'data-testid="cardRHOAM-buttonCTA"'
+    "Application Services - Link: OpenShift link from OpenShift Data Science card":
+      selectors:
+        - 'data-testid="cardRHODS-linkOpenShift"'
+    "Application Services - Link: Learn more":
+      selectors:
+        - 'data-testid="cardRHODS-buttonCTA"'
+    "Application Services - Button: Go to OpenShift Cluster Manager":
+      selectors:
+        - 'data-testid="cardHaveRHOAM-buttonGoOCM"'
+    "Application Services - Link: View documentation from Already have.. card":
+      selectors:
+        - 'data-testid="cardTryRHOAM-buttonGetStarted"'
+    "Application Services - Link: View documentation from try OpenShift API Management card":
+      selectors:
+        - 'data-testid="cardHaveRHOAM-linkViewDocs"'
+    "Application Services - Button: Get started with API Management":
+      selectors:
+        - 'data-testid="cardTryRHOAM-buttonGetStarted"'
+    "Application Services - Video: Build an app demo":
+      selectors:
+        - 'data-testid="videoRHOAMDemo"'
+    "Application Services - Button: Learn more about OpenShift Data Science":
+      selectors:
+        - 'data-testid="hero-buttonLearnMore"'
+    "Application Services - Video: Data science demo":
+      selectors:
+        - 'data-testid="videoRHODSDemo"'
+    "Application Services - Left Hand Nav: Overview":
+      selectors:
+        - 'a.pf-c-nav__link:contains("Overview")'
+    "Application Services - Left Hand Nav: Stream for Apache Kafka":
+      selectors:
+        - '.pf-c-nav__link:contains("Streams for Apache Kafka")'
+    "Application Services - Left Hand Nav: Kafka Instances":
+      selectors:
+        - '.pf-c-nav__link:contains("Streams for Apache Kafka")'
+    "Application Services - Left Hand Nav: Service Accounts":
+      selectors:
+        - '.pf-c-nav__link:contains("Service Accounts")'
+    "Application Services - Left Hand Nav: Resources":
+      selectors:
+        - '.pf-c-nav__link:contains("Resources")'
+    "Application Services - Left Hand Nav: Documentation":
+      selectors:
+        - '.pf-c-nav__link:contains("Documentation")'
+    "Application Services - Left Hand Nav: API Management":
+      selectors:
+        - '.pf-c-nav__link:contains("API Management")'
+    "Application Services - Left Hand Nav: Data Science":
+      selectors:
+        - '.pf-c-nav__link:contains("API Management")'
+    "Application Services - Button: Create Kafka instance (empty state)":
+      selectors:
+        - 'data-testid="emptyStateStreams-buttonCreateKafka"'
+    "Application Services - Button: Create Kafka instance (table view)":
+      selectors:
+        - 'data-testid="tableStreams-buttonCreateKafka"'
 
 rhel:
   color: 8
