@@ -664,7 +664,7 @@ cluster manager:
         - /openshift/details/s/*/insights/*parameter*
     Cluster view - node installer degraded:
       url_rules:
-        - /openshift/details/s/*/insights/ccx_rules_ocp%7Cexternal%7Crules%7C/*parameter*/NODE_INSTALLER_DEGRADED    
+        - /openshift/details/s/*/insights/ccx_rules_ocp%7Cexternal%7Crules%7C/*parameter*/NODE_INSTALLER_DEGRADED
     Cluster view - Support:
       url_rules:
         - /openshift/details/*#support
