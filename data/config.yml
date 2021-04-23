@@ -494,28 +494,46 @@ subscription watch:
       url_rules:
         - /subscriptions
         - /subscriptions/**
-    Red Hat Enterprise Linux - All:
+    Red Hat Enterprise Linux - All.pre04262021:
       url_rules:
         - /subscriptions/rhel-sw/all
-    Red Hat Enterprise Linux - ARM:
+    Red Hat Enterprise Linux - ARM.pre04262021:
       url_rules:
         - /subscriptions/rhel-sw/arm
-    Red Hat Enterprise Linux - IBM Power:
+    Red Hat Enterprise Linux - IBM Power.pre04262021:
       url_rules:
         - /subscriptions/rhel-sw/ibmpower
-    Red Hat Enterprise Linux - IBM Z Systems:
+    Red Hat Enterprise Linux - IBM Z Systems.pre04262021:
       url_rules:
         - /subscriptions/rhel-sw/ibmz
-    Red Hat Enterprise Linux - x86:
+    Red Hat Enterprise Linux - x86.pre04262021:
       url_rules:
         - /subscriptions/rhel-sw/x86
-    Red Hat OpenShift:
+    Red Hat OpenShift.pre04262021:
       url_rules:
         - /subscriptions/openshift-sw
     Unentitled modal:
       url_rules:
         - /?not_entitled=subscriptions
         - /subscriptions/soon
+    Red Hat Enterprise Linux - All.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel*
+    Red Hat Enterprise Linux - ARM.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel-sw/arm
+    Red Hat Enterprise Linux - IBM Power.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel-sw/ibmpower
+    Red Hat Enterprise Linux - IBM Z Systems.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel-sw/ibmz
+    Red Hat Enterprise Linux - x86.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel-sw/x86
+    Red Hat OpenShift.post04262021:
+      url_rules:
+        - /insights/subscriptions/openshift-sw
 
   features:
     _scope: '[data-ouia-bundle="subscriptions"]'
@@ -825,23 +843,23 @@ ansible:
 automation analytics:
   color: 3
   pages:
-    All pages:
+    All pages.pre04262021:
       url_rules:
         - /ansible/automation-analytics
         - /ansible/automation-analytics/**
-    Clusters:
+    Clusters.pre04262021:
       url_rules:
         - /ansible/automation-analytics/clusters
-    Organization Statistics:
+    Organization Statistics.pre04262021:
       url_rules:
         - /ansible/automation-analytics/organization-statistics
-    Automation Calculator:
+    Automation Calculator.pre04262021:
       url_rules:
         - /ansible/automation-analytics/automation-calculator
-    Job Explorer:
+    Job Explorer.pre04262021:
       url_rules:
         - /ansible/automation-analytics/job-explorer
-    Notifications:
+    Notifications.pre04262021:
       url_rules:
         - /ansible/automation-analytics/notifications
   features:
@@ -855,6 +873,29 @@ automation analytics:
     "Clusters - Filter: Past month":
       selectors:
         - '{} option:contains("Past month")'
+        
+insights for ansible:
+  color: 4
+  pages:
+    All pages.post04262021:
+      url_rules:
+        - /ansible/insights
+        - /ansible/insights/**
+    Clusters.post04262021:
+      url_rules:
+        - /ansible/insights/clusters
+    Organization Statistics.post04262021:
+      url_rules:
+        - /ansible/insights/organization-statistics
+    Automation Calculator.post04262021:
+      url_rules:
+        - /ansible/insights/automation-calculator
+    Job Explorer.post04262021:
+      url_rules:
+        - /ansible/insights/job-explorer
+    Notifications.post04262021:
+      url_rules:
+        - /ansible/insight/notifications
 
 automation hub:
   color: 4
@@ -907,33 +948,60 @@ automation services catalog:
 cost management:
   color: 6
   pages:
-    All pages:
+    All pages.pre04262021:
       url_rules:
         - /cost-management/**
         - /cost-management/
-    Overview:
+    Overview.pre04262021:
       url_rules:
         - /cost-management/
-    OpenShift:
+    OpenShift.pre04262021:
       url_rules:
         - /cost-management/ocp
         - /cost-management/ocp/**
-    Infrastructure - Amazon Web Services:
+    Infrastructure - Amazon Web Services.pre04262021:
       url_rules:
         - /cost-management/infrastructure/aws
         - /cost-management/infrastructure/aws/**
         - /cost-management/details/aws
-    Infrastructure - Microsoft Azure:
+    Infrastructure - Microsoft Azure.pre04262021:
       url_rules:
         - /cost-management/infrastructure/azure
         - /cost-management/infrastructure/azure/**
-    Cost Models:
+    Cost Models.pre04262021:
       url_rules:
         - /cost-management/cost-models
         - /cost-management/cost-models/**
-    Explorer:
+    Explorer.pre04262021:
       url_rules:
         - /cost-management/explorer/*
+    All pages.post04262021:
+      url_rules:
+        - /openshift/cost-management/**
+        - /openshift/cost-management/
+    Overview.post04262021:
+      url_rules:
+        - /openshift/cost-management/
+    OpenShift.post04262021:
+      url_rules:
+        - /openshift/cost-management/ocp
+        - /openshift/cost-management/ocp/**
+    Infrastructure - Amazon Web Services.post04262021:
+      url_rules:
+        - /openshift/cost-management/infrastructure/aws
+        - /openshift/cost-management/infrastructure/aws/**
+        - /openshift/cost-management/details/aws
+    Infrastructure - Microsoft Azure.post04262021:
+      url_rules:
+        - /openshift/cost-management/infrastructure/azure
+        - /openshift/cost-management/infrastructure/azure/**
+    Cost Models.post04262021:
+      url_rules:
+        - /openshift/cost-management/cost-models
+        - /openshift/cost-management/cost-models/**
+    Explorer.post04262021:
+      url_rules:
+        - /openshift/cost-management/explorer/*
 
 migration analytics:
   color: 7
