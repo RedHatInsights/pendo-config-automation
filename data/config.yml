@@ -873,7 +873,7 @@ automation analytics:
     "Clusters - Filter: Past month":
       selectors:
         - '{} option:contains("Past month")'
-        
+
 insights for ansible:
   color: 4
   pages:
