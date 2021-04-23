@@ -656,9 +656,15 @@ cluster manager:
     Cluster view - Insights.post01172021:
       url_rules:
         - /openshift/details/s/*#insights
-    Cluster view - Insights recommendation view:
+    Cluster view - Insights recommendation view.pre01172021:
       url_rules:
         - /openshift/details/*/insights/*parameter*
+    Cluster view - Insights recommendation view.post01172021:
+      url_rules:
+        - /openshift/details/s/*/insights/*parameter*
+    Cluster view - node installer degraded:
+      url_rules:
+        - /openshift/details/s/*/insights/ccx_rules_ocp%7Cexternal%7Crules%7C/*parameter*/NODE_INSTALLER_DEGRADED    
     Cluster view - Support:
       url_rules:
         - /openshift/details/*#support
