@@ -1230,7 +1230,7 @@ application services:
         - '[data-testid="topicBasicCreate-Wizard"] .pf-c-button:contains("Cancel")'
     "Application Services - Tab: Connect (in drawer) control plane":
       selectors:
-        - '[data-ouia-app-id="controlPlane-streams"][data-testid="drawerStreams-tabConnect"]'
+        - '[data-ouia-app-id="controlPlane-streams"] [data-testid="drawerStreams-tabConnect"]'
     "Application Services - Button: Copy external server (in drawer) control plane":
       selectors:
         - '[data-ouia-app-id="controlPlane-streams"] [data-testid="drawerStreams-copyBootstrapURL"]'
