@@ -1056,70 +1056,70 @@ application services:
       url_rules:
         - /application-services/streams/kafkas/?*parameter*
   features:
+    _scope: '[data-ouia-bundle="application-services"]'
     "Application Services - Button: Create instance (in modal)":
       selectors:
-        - 'data-testid="modalCreateKafka-buttonSubmit"'
+        - '[data-testid="modalCreateKafka-buttonSubmit"]'
     "Application Services - Button: Cancel (in modal)":
       selectors:
-        - 'data-testid="modalCreateKafka-buttonCancel"'
+        - '[data-testid="modalCreateKafka-buttonCancel"]'
     "Application Services - Button: X (in modal)":
       selectors:
         - '[id="modalCreateKafka"] .pf-m-plain'
     "Application Services - Button: Copy access key (in modal)":
       selectors:
-        - 'data-testid="modalCredentials-copyClientID"'
+        - '[data-testid="modalCredentials-copyClientID"]'
     "Application Services - Button: Copy for secret (in modal)":
       selectors:
-        - 'data-testid="modalCredentials-copyClientSecret"'
+        - '[data-testid="modalCredentials-copyClientSecret"]'
     "Application Services - Button: Close (in modal)":
       selectors:
-        - 'data-testid="modalCredentials-buttonClose"'
+        - '[data-testid="modalCredentials-buttonClose"]'
     "Application Services - Button: Delete (in modal)":
       selectors:
-        - 'data-testid="modalDeleteKafka-buttonDelete"'
+        - '[data-testid="modalDeleteKafka-buttonDelete"]'
     "Application Services - Button: Delete (in Delete Topic modal)":
       selectors:
-        - 'data-testid="modalDeleteTopic-buttonDelete"'
-    _scope: '[data-ouia-bundle="application-services"]'
+        - '[data-testid="modalDeleteTopic-buttonDelete"]'
     "Application Services - Button: Try OpenShift Streams for Apache Kafka":
       selectors:
-        - 'data-testid="hero-buttonTryKafka"'
+        - '[data-testid="hero-buttonTryKafka"]'
     "Application Services - Button: Create a Kafka instance":
       selectors:
-        - 'data-testid="cardRHOSAK-buttonCreateKafka"'
+        - '[data-testid="cardRHOSAK-buttonCreateKafka"]'
     "Application Services - Link: OpenShift link from OpenShift API Management card":
       selectors:
-        - 'data-testid="cardRHOAM-linkOpenShift"'
+        - '[data-testid="cardRHOAM-linkOpenShift"]'
     "Application Services - Button: Get Started":
       selectors:
-        - 'data-testid="cardRHOAM-buttonCTA"'
+        - '[data-testid="cardRHOAM-buttonCTA"]'
     "Application Services - Link: OpenShift link from OpenShift Data Science card":
       selectors:
-        - 'data-testid="cardRHODS-linkOpenShift"'
+        - '[data-testid="cardRHODS-linkOpenShift"]'
     "Application Services - Link: Learn more":
       selectors:
-        - 'data-testid="cardRHODS-buttonCTA"'
+        - '[data-testid="cardRHODS-buttonCTA"]'
     "Application Services - Button: Go to OpenShift Cluster Manager":
       selectors:
-        - 'data-testid="cardHaveRHOAM-buttonGoOCM"'
+        - '[data-testid="cardHaveRHOAM-buttonGoOCM"]'
     "Application Services - Link: View documentation from Already have.. card":
       selectors:
-        - 'data-testid="cardTryRHOAM-buttonGetStarted"'
+        - '[data-testid="cardTryRHOAM-buttonGetStarted"]'
     "Application Services - Link: View documentation from try OpenShift API Management card":
       selectors:
-        - 'data-testid="cardHaveRHOAM-linkViewDocs"'
+        - '[data-testid="cardHaveRHOAM-linkViewDocs"]'
     "Application Services - Button: Get started with API Management":
       selectors:
-        - 'data-testid="cardTryRHOAM-buttonGetStarted"'
+        - '[data-testid="cardTryRHOAM-buttonGetStarted"]'
     "Application Services - Video: Build an app demo":
       selectors:
-        - 'data-testid="videoRHOAMDemo"'
+        - '[data-testid="videoRHOAMDemo"]'
     "Application Services - Button: Learn more about OpenShift Data Science":
       selectors:
-        - 'data-testid="hero-buttonLearnMore"'
+        - '[data-testid="hero-buttonLearnMore"]'
     "Application Services - Video: Data science demo":
       selectors:
-        - 'data-testid="videoRHODSDemo"'
+        - '[data-testid="videoRHODSDemo"]'
     "Application Services - Left Hand Nav: Overview":
       selectors:
         - 'a.pf-c-nav__link:contains("Overview")'
@@ -1146,16 +1146,16 @@ application services:
         - '.pf-c-nav__link:contains("API Management")'
     "Application Services - Button: Create Kafka instance (empty state)":
       selectors:
-        - 'data-testid="emptyStateStreams-buttonCreateKafka"'
+        - '[data-testid="emptyStateStreams-buttonCreateKafka"]'
     "Application Services - Button: Create Kafka instance (table view)":
       selectors:
-        - 'data-testid="tableStreams-buttonCreateKafka"'
+        - '[data-testid="tableStreams-buttonCreateKafka"]'
     "Application Services - Kebab: View connection details":
       selectors:
-        - 'data-testid="tableStreams-actionConnection"'
+        - '[data-testid="tableStreams-actionConnection"]'
     "Application Services - Kebab: View instance details":
       selectors:
-        - 'data-testid="tableStreams-actionDetails"'
+        - '[data-testid="tableStreams-actionDetails"]'
     "Application Services - Table row":
       selectors:
         - 'tableStreams-row'
@@ -1164,64 +1164,64 @@ application services:
         - 'tableStreams-row'
     "Application Services - Link: Kafka instance to open Data Plane UI":
       selectors:
-        - 'data-testid="tableStreams-linkKafka"'
+        - '[data-testid="tableStreams-linkKafka"]'
     "Application Services - Link: Kafka (table view)":
       selectors:
-        - 'data-testid="tableStreams-linkKafka"'
+        - '[data-testid="tableStreams-linkKafka"]'
     "Application Services - Tab: Topics":
       selectors:
-        - 'data-testid="pageKafka-tabTopics"'
+        - '[data-testid="pageKafka-tabTopics"]'
     "Application Services - Tab: Consumer Groups":
       selectors:
-        - 'data-testid="pageKafka-tabConsumers"'
+        - '[data-testid="pageKafka-tabConsumers"]'
     "Application Services - Row: Consumer groups tab - Table":
       selectors:
-        - 'data-testid="tableConsumers-row"'
+        - '[data-testid="tableConsumers-row"]'
     "Application Services - Tab: Consumer Groups -Table - Open details drawer":
       selectors:
-        - 'data-testid="tableConsumers-actionDetails"'
+        - '[data-testid="tableConsumers-actionDetails"]'
     "Application Services - Tab: Topics - Create topic action":
       selectors:
-        - 'data-testid="tabTopics-actionCreate"'
+        - '[data-testid="tabTopics-actionCreate"]'
     "Application Services - Tab: Topics - Table - Topic name":
       selectors:
-        - 'data-testid="tabTopics-actionCreate"'
+        - '[data-testid="tabTopics-actionCreate"]'
     "Application Services - Tab: Topics - Table - Kebab Delete Action":
       selectors:
-        - 'data-testid="tableTopics-actionDelete"'
+        - '[data-testid="tableTopics-actionDelete"]'
     "Application Services - Tab: Topics - Table - Kebab Edit Action":
       selectors:
-        - 'data-testid="tableTopics-actionEdit"'
+        - '[data-testid="tableTopics-actionEdit"]'
     "Application Services - Tab: Properties - Topic view":
       selectors:
-        - 'data-testid="pageTopic-tabProperties"'
+        - '[data-testid="pageTopic-tabProperties"]'
     "Application Services - Tab: Consumer Groups - Topic view":
       selectors:
-        - 'data-testid="pageTopic-tabConsumerss"'
+        - '[data-testid="pageTopic-tabConsumerss"]'
     "Application Services - Drawer: Open Details - Topic view - Consumer groups tab - table":
       selectors:
-        - 'data-testid="tableTopicConsumers-actionDetails"'
+        - '[data-testid="tableTopicConsumers-actionDetails"]'
     "Application Services - Row: Topic view - Consumer groups tab - table":
       selectors:
-        - 'data-testid="tableTopicConsumers-row"'
+        - '[data-testid="tableTopicConsumers-row"]'
     "Application Services - Button: Delete - Topic view - Properties tab":
       selectors:
-        - 'data-testid="tabProperties-actionDelete"'
+        - '[data-testid="tabProperties-actionDelete"]'
     "Application Services - Button: Edit - Topic view - Properties tab":
       selectors:
-        - 'data-testid="tabProperties-actionEdit"'
+        - '[data-testid="tabProperties-actionEdit"]'
     "Application Services - Button: Submit - Topic view - Properties tab (Edit Mode)":
       selectors:
-        - 'data-testid="tabProperties-actionSave"'
+        - '[data-testid="tabProperties-actionSave"]'
     "Application Services - Button: Cancel - Topic view - Properties tab (Edit Mode)":
       selectors:
-        - 'data-testid="tabProperties-actionCancel"'
+        - '[data-testid="tabProperties-actionCancel"]'
     "Application Services - Topic view: Create topic - Advance - Create":
       selectors:
-        - 'data-testid="topicAdvanceCreate-actionCreate"'
+        - '[data-testid="topicAdvanceCreate-actionCreate"]'
     "Application Services - Topic view: Create topic - Advance - Cancel":
       selectors:
-        - 'data-testid="topicAdvanceCreate-actionCancel"'
+        - '[data-testid="topicAdvanceCreate-actionCancel"]'
     "Application Services - Topic view: Create topic - Basic - Finish":
       selectors:
         - '[data-testid="topicBasicCreate-Wizard"] .pf-c-button:contains("Finish")'
@@ -1230,22 +1230,22 @@ application services:
         - '[data-testid="topicBasicCreate-Wizard"] .pf-c-button:contains("Cancel")'
     "Application Services - Tab: Connect (in drawer) control plane":
       selectors:
-        - '[data-ouia-app-id="controlPlane-streams"]data-testid="drawerStreams-tabConnect"'
+        - '[data-ouia-app-id="controlPlane-streams"][data-testid="drawerStreams-tabConnect"]'
     "Application Services - Button: Copy external server (in drawer) control plane":
       selectors:
-        - '[data-ouia-app-id="controlPlane-streams"]data-testid="drawerStreams-copyBootstrapURL"'
+        - '[data-ouia-app-id="controlPlane-streams"] [data-testid="drawerStreams-copyBootstrapURL"]'
     "Application Services - Button: Generate credentials (in drawer) control plane":
       selectors:
-        - '[data-ouia-app-id="controlPlane-streams"]data-testid="drawerStreams-buttonCreateServiceAccount"'
+        - '[data-ouia-app-id="controlPlane-streams"] [data-testid="drawerStreams-buttonCreateServiceAccount"]'
     "Application Services - Tab: Connect (in drawer) data plane":
       selectors:
-        - '[data-ouia-app-id="dataPlane-streams"]data-testid="drawerStreams-tabConnect"'
+        - '[data-ouia-app-id="dataPlane-streams"] [data-testid="drawerStreams-tabConnect"]'
     "Application Services - Button: Copy external server (in drawer) data plane":
       selectors:
-        - '[data-ouia-app-id="dataPlane-streams"]data-testid="drawerStreams-copyBootstrapURL"'
+        - '[data-ouia-app-id="dataPlane-streams"] [data-testid="drawerStreams-copyBootstrapURL"]'
     "Application Services - Button: Generate credentials (in drawer) data plane":
       selectors:
-        - '[data-ouia-app-id="dataPlane-streams"]data-testid="drawerStreams-buttonCreateServiceAccount"'
+        - '[data-ouia-app-id="dataPlane-streams"] [data-testid="drawerStreams-buttonCreateServiceAccount"]'
 
 rhel:
   color: 8
@@ -1263,8 +1263,9 @@ console landing page:
   pages:
     Main page:
       url_rules:
-        /cloud.redhat.com
+        - /cloud.redhat.com
   features:
+    _scope: '[data-ouia-app-id="landing"]'
     "Console Landing Page - Left Nav: OpenShift":
       selectors:
         - '.pf-c-nav__link:contains("OpenShift")'
@@ -1279,7 +1280,7 @@ console landing page:
         - '[href="./ansible/automation-hub/token"]'
     "Console Landing Page - Link: Configure - Connect your Ansible platform clusters to Analytics":
       selectors:
-        - '[[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/managing_user_access_in_private_automation_hub/index"]]'
+        - '[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/managing_user_access_in_private_automation_hub/index"]'
     "Console Landing Page - Link: Create - Setup user access":
       selectors:
         - '[href="https://docs.ansible.com/ansible-tower/latest/html/administration/usability_data_collection.html"]'
