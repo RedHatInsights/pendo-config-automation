@@ -1065,7 +1065,7 @@ application services:
     Streams for Apache Kafka - Resources:
       url_rules:
         - /application-services/streams/resources
-    Streams for Apache Kafka - Documentation:
+    API Management:
       url_rules:
         - /application-services/api-management
     Data Science:
