@@ -599,6 +599,12 @@ settings:
     Sources - Add Red Hat Source wizard:
       url_rules:
         - /settings/sources/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
+    Integrations:
+      url_rules:
+        - /settings/integrations
+    Notifications:
+      url_rules:
+        - /settings/notifications
 
 rbac:
   features:
@@ -896,6 +902,19 @@ insights for ansible:
     Notifications.post04262021:
       url_rules:
         - /ansible/insight/notifications
+  features:
+    "Clusters - Graph: Job status":
+      selectors:
+        - 'svg[width="1328"]'
+    "Job Explorer - List: Job templates (compact)":
+      selectors:
+        - '#automation-analytics-application > section:nth-child(2) > article > div > ul'
+    "Job Explorer - Filter by":
+      selectors:
+        - '#filterable-toolbar-with-chip-groups'
+    "Job Explorer - Pagination":
+      selectors:
+        - '#pagination-options-menu-bottom-11'
 
 automation hub:
   color: 4
