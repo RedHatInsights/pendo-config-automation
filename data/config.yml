@@ -1361,4 +1361,8 @@ insights for openshift:
     All pages.post04262021:
       url_rules:
         - /openshift/subscriptions/**
+        - /openshift/subscriptions
+        - /openshift/quota
+        - /openshift/quota/**
         - /openshift/cost-management/**
+        - /openshift/cost-management
