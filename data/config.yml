@@ -1354,3 +1354,11 @@ console landing page:
     "Console Landing Page - Link: Data and Security - Red Hat Insights Data and Security Information":
       selectors:
         - '[href="https://docs.ansible.com/ansible-tower/latest/html/userguide/projects.html?extIdCarryOver=true&sc_cid=701f2000001Css5AAC#using-collections-in-tower"]'
+
+insights for openshift:
+  color: 5
+  pages:
+    All pages.post04262021:
+      url_rules:
+        - /openshift/subscriptions/**
+        - /openshift/cost-management/**
