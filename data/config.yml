@@ -165,8 +165,8 @@ advisor:
         - /insights/advisor/topics
     Recommendations - remediation steps:
       url_rules:
-        - /advisor/recommendations/*parameter*/*
-        - /advisor/recommendations/*parameter*/**
+        - /insights/advisor/recommendations/*parameter*/*
+        - /insights/advisor/recommendations/*parameter*/**
 
 vulnerability:
   color: 3
