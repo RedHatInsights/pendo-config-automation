@@ -1282,7 +1282,7 @@ console landing page:
   pages:
     Main page:
       url_rules:
-        - /cloud.redhat.com
+        - /*/
   features:
     _scope: '[data-ouia-app-id="landing"]'
     "Console Landing Page - Left Nav: OpenShift":
