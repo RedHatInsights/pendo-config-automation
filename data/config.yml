@@ -518,7 +518,7 @@ subscription watch:
         - /subscriptions/soon
     Red Hat Enterprise Linux - All.post04262021:
       url_rules:
-        - /insights/subscriptions/rhel*
+        - /insights/subscriptions/*
     Red Hat Enterprise Linux - ARM.post04262021:
       url_rules:
         - /insights/subscriptions/rhel-sw/arm
