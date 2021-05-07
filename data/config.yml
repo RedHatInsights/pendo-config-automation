@@ -48,6 +48,9 @@ insights:
     Image builder:
       url_rules:
         - /insights/image-builder/landing
+    Image builder - All pages:
+      url_rules:
+        - /insights/image-builder/*
   features:
     _scope: '[data-ouia-bundle="insights"]'
     "All Pages - Tab: host view tab click":
