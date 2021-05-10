@@ -1297,6 +1297,9 @@ console landing page:
     "Console Landing Page - Left Nav: Ansible Automation Platform":
       selectors:
         - '.pf-c-nav__link:contains("Ansible Automation Platform")'
+    "Console Landing Page - Left Nav: Application Services":
+      selectors:
+        - '.pf-c-nav__link:contains("Application Services")'
     "Console Landing Page - Link: Learn More - Setup user access for your Private Automation Hub":
       selectors:
         - '[href="./ansible/automation-hub/token"]'
