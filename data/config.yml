@@ -1374,11 +1374,12 @@ insights for openshift:
         - /openshift/cost-management
 
 header:
-  color: 6
+  color: 8
   pages:
     All pages:
-        - /**
+      url_rules:
         - /
+        - /**
   features:
     "Red Hat logo":
       selectors:
