@@ -1372,3 +1372,13 @@ insights for openshift:
         - /openshift/quota/**
         - /openshift/cost-management/**
         - /openshift/cost-management
+
+header:
+  color: 6
+  features:
+    "Red Hat logo":
+      selectors:
+        - 'img[src="/apps/chrome/js/fonts/logo.svg"]'
+    "Find an app or service":
+      selectors:
+        - 'button:contains("Find an app or service")'
