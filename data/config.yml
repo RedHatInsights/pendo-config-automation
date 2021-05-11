@@ -1375,6 +1375,10 @@ insights for openshift:
 
 header:
   color: 6
+  pages:
+    All pages:
+        - /**
+        - /
   features:
     "Red Hat logo":
       selectors:
