@@ -48,6 +48,9 @@ insights:
     Image builder:
       url_rules:
         - /insights/image-builder/landing
+    Image builder - All pages:
+      url_rules:
+        - /insights/image-builder/*
   features:
     _scope: '[data-ouia-bundle="insights"]'
     "All Pages - Tab: host view tab click":
@@ -1055,6 +1058,18 @@ cluster manager:
     "Nav: Documentation":
       selectors:
         - '[ouiaid="extra-openshift-docs"]'
+    "Button: Install Red Hat OpenShift API Management":
+      selectors:
+        - '[install-addon-managed-api-service]'
+    "Link: View Documentation - Red Hat OpenShift API Management":
+      selectors:
+        - '[card-addon-managed-api-service > “View documentation”]'
+    "Button: Install Red Hat OpenShift Data Science":
+      selectors:
+        - '[install-addon-managed-data-service]'
+    "Link: View Documentation - Red Hat OpenShift Data Science":
+      selectors:
+        - '[card-addon-managed-data-service > “View documentation”]'
 
 ansible:
   color: 3
@@ -1511,6 +1526,9 @@ console landing page:
     "Console Landing Page - Left Nav: Ansible Automation Platform":
       selectors:
         - '.pf-c-nav__link:contains("Ansible Automation Platform")'
+    "Console Landing Page - Left Nav: Application Services":
+      selectors:
+        - '.pf-c-nav__link:contains("Application Services")'
     "Console Landing Page - Link: Learn More - Setup user access for your Private Automation Hub":
       selectors:
         - '[href="./ansible/automation-hub/token"]'
@@ -1583,3 +1601,18 @@ insights for openshift:
         - /openshift/quota/**
         - /openshift/cost-management/**
         - /openshift/cost-management
+
+header:
+  color: 8
+  pages:
+    All pages:
+      url_rules:
+        - /
+        - /**
+  features:
+    "Red Hat logo":
+      selectors:
+        - 'img[src="/apps/chrome/js/fonts/logo.svg"]'
+    "Find an app or service":
+      selectors:
+        - 'button:contains("Find an app or service")'
