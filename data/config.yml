@@ -825,6 +825,7 @@ settings:
     Notifications:
       url_rules:
         - /settings/notifications
+        - /settings/notifications/*
 
 rbac:
   features:
