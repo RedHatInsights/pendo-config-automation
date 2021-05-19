@@ -842,6 +842,18 @@ cluster manager:
     "Nav: Documentation":
       selectors:
         - '[ouiaid="extra-openshift-docs"]'
+    "Button: Install Red Hat OpenShift API Management":
+      selectors:
+        - '[install-addon-managed-api-service]'
+    "Link: View Documentation - Red Hat OpenShift API Management":
+      selectors:
+        - '[card-addon-managed-api-service > “View documentation”]'
+    "Button: Install Red Hat OpenShift Data Science":
+      selectors:
+        - '[install-addon-managed-data-service]'
+    "Link: View Documentation - Red Hat OpenShift Data Science":
+      selectors:
+        - '[card-addon-managed-data-service > “View documentation”]'
 
 ansible:
   color: 3
