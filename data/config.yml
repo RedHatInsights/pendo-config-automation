@@ -104,6 +104,19 @@ dashboard:
     "Dashboard - Link to Vulnerability: Security rule details":
       selectors:
         - '{} .ins-c-dashboard-data-list a'
+    "Dashboard - Link to Patch: View all systems affected":
+      selectors:
+        - '{} .ins-c-dashboard__card--PatchManager a:contains("systems affected")'
+    "Dashboard - Link to Patch: View security advisories":
+      selectors:
+        - '{} .ins-c-dashboard__card--PatchManager a:contains("Security advisories")'
+    "Dashboard - Link to Patch: View bug fix advisories":
+      selectors:
+        - '{} .ins-c-dashboard__card--PatchManager a:contains("Bug fixes")'
+    "Dashboard - Link to Patch: View enhancement advisories":
+      selectors:
+        - '{} .ins-c-dashboard__card--PatchManager a:contains("Enhancement")'
+
 advisor:
   color: 2
   features:
@@ -528,9 +541,228 @@ patch:
     "Advisories - Filter: Publish date":
       selectors:
         - '{}[data-ouia-subnav="advisories"] button:contains("Publish date")'
-    "Advisories - Button: Export":
+    "Advisories - Select all":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] button.pf-c-dropdown__toggle'
+        - '{}[data-ouia-subnav="advisories"] button:contains("Select all")'
+    "Advisories - Select page":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("Select page")'
+    "Advisories - Per page: 10":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("10 per page")'
+    "Advisories - Per page: 20":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("20 per page")'
+    "Advisories - Per page: 50":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("50 per page")'
+    "Advisories - Per page: 100":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("100 per page")'
+    "Advisories - Export: CSV":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("Export to CSV")'
+    "Advisories - Export: JSON":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("Export to JSON")'
+    "Advisories - Sort by: Name":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("Name")'
+    "Advisories - Sort by: Synopsis":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("Synopsis")'
+    "Advisories - Sort by: Type":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("Type")'
+    "Advisories - Sort by: Applicable systems":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("Applicable systems")'
+    "Advisories - Sort by: Publish date":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("Publish date")'
+    "Systems list - Select all":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Select all")'
+    "Systems list - Select page":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Select page")'
+    "Systems list - Sort by: Name":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Name")'
+    "Systems list - Sort by: Packages":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Packages")'
+    "Systems list - Sort by: Applicable advisories":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Applicable advisories")'
+    "Systems list - Sort by: Last seen":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
+    "Systems list - Per page: 10":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("10 per page")'
+    "Systems list - Per page: 20":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("20 per page")'
+    "Systems list - Per page: 50":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("50 per page")'
+    "Systems list - Per page: 100":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("100 per page")'
+    "Systems list - Export: CSV":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-c-inventory__table--toolbar-has-items button:contains("Export to CSV")'
+    "Systems list - Export: JSON":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-c-inventory__table--toolbar-has-items button:contains("Export to JSON")'
+    "Systems list - Apply all applicable advisories":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Apply all applicable advisories")'
+    "Advisories view - Per page: 10":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("10 per page")'
+    "Advisories view - Per page: 20":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("20 per page")'
+    "Advisories view - Per page: 50":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("50 per page")'
+    "Advisories view - Per page: 100":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("100 per page")'
+    "Advisories view - Link: View packages and errata at access.redhat.com":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] a:contains("View packages and errata at access.redhat.com")'
+    "Advisories view - Open Cves modal":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button:contains("associated with this patch")'
+    "Advisories view - Select all":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("Select all")'
+    "Advisories view - Select page":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("Select page")'
+    "Advisories view - Remediate":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button.remediationButtonPatch:contains("Remediate")'
+    "Advisories view - Sort by: Name":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .patchCompactInventory button.pf-c-table__button:contains("Name")'
+    "Advisories view - Sort by: Packages":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .patchCompactInventory button.pf-c-table__button:contains("Packages")'
+    "Advisories view - Sort by: Applicable advisories":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .patchCompactInventory button.pf-c-table__button:contains("Applicable advisories")'
+    "Advisories view - Sort by: Last seen":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] .patchCompactInventory button.pf-c-table__button:contains("Last seen")'
+    "Advisories view - Apply all applicable advisories":
+      selectors:
+        - '{}[data-ouia-subnav="advisories"] button.pf-c-dropdown__menu-item:contains("Apply all applicable advisories")'
+    "Systems view - Select all":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Select all")'
+    "Systems view - Select page":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Select page")'
+    "Systems view - Filter: Type":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch [role="menuitem"] button:contains("Type")'
+    "Systems view - Filter: Publish date":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch [role="menuitem"] button:contains("Publish date")'
+    "Systems view - Sort by: Name":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Name")'
+    "Systems view - Sort by: Synopsis":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Synopsis")'
+    "Systems view - Sort by: Type":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Type")'
+    "Systems view - Sort by: Publish date":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Publish date")'
+    "Systems view - Per page: 10":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("10 per page")'
+    "Systems view - Per page: 20":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("20 per page")'
+    "Systems view - Per page: 50":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("50 per page")'
+    "Systems view - Per page: 100":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("100 per page")'
+    "Systems view - Remediate":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button.remediationButtonPatch:contains("Remediate")'
+    "Systems view - Tab: Advisories":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .pf-c-tabs__item button:contains("Advisories")'
+    "Systems view - Tab: Packages":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .pf-c-tabs__item button:contains("Packages")'
+    "Packages list - Sort by: Name":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] button.pf-c-table__button:contains("Name")'
+    "Packages list - Sort by: Applicable systems":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] button.pf-c-table__button:contains("Applicable systems")'
+    "Packages list - Sort by: Upgradable":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] button.pf-c-table__button:contains("Upgradable")'
+    "Packages list - Sort by: Summary":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] button.pf-c-table__button:contains("Summary")'
+    "Packages list - Per page: 10":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("10 per page")'
+    "Packages list - Per page: 20":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("20 per page")'
+    "Packages list - Per page: 50":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("50 per page")'
+    "Packages list - Per page: 100":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("100 per page")'
+    "Packages list - Export: CSV":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
+    "Packages list - Export: JSON":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
+    "Packages list - Filter: Status":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .ins-c-conditional-filter__group button:contains("Status")'
+    "Packages view - Sort by: Name":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Name")'
+    "Packages view - Sort by: Installed version":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Installed version")'
+    "Packages view - Sort by: Latest version":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Latest version")'
+    "Packages view - Sort by: Status":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Status")'
+    "Packages view - Per page: 10":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("10 per page")'
+    "Packages view - Per page: 20":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("20 per page")'
+    "Packages view - Per page: 50":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("50 per page")'
+    "Packages view - Per page: 100":
+      selectors:
+        - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("100 per page")'
 
 drift:
   color: 6
