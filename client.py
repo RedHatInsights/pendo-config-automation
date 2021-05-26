@@ -96,6 +96,10 @@ def _create_page(page_full_name, page_data):
         "rules": list(map(lambda u : { "rule": u }, page_data['url_rules']))
     })
 
+    ##
+    if r.status_code == 409:
+        return
+
     r.raise_for_status()
     page = r.json()
     log('created page [{}] {}'.format(page['id'], page_full_name))
@@ -120,12 +124,12 @@ def create_page_in_group(group, page_name, page_data):
     # POST https://app.pendo.io/api/s/5300167311360000/page/H9FF-czQ7RZTTb9aUB4fBbk3Cdo/apply
     # no data?
     r = s.post(url('/page/{}/apply'.format(page['id'])))
-    r.raise_for_status()
+    # r.raise_for_status()
 
     # PUT https://app.pendo.io/api/s/5300167311360000/group/G7YaDIq_AjRz-1Y6m2x2FP_Bbe0/page/H9FF-czQ7RZTTb9aUB4fBbk3Cdo
     # no data?
     r = s.put(url('/group/{}/page/{}'.format(group['id'], page['id'])))
-    r.raise_for_status()
+    # r.raise_for_status()
 
     _ensure_page_url_rules(page_full_name, page['id'], page_data['url_rules'], page['rules'])
 
@@ -176,6 +180,10 @@ def _set_feature_app_name(feature_id):
         "type": "PageFeatures",
         "applicationName": "cloud_redhat_com"
     })
+
+    ##
+    if r.status_code == 409:
+        return
 
     r.raise_for_status()
     log('set app name on feature [{}]'.format(feature_id))
