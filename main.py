@@ -4,7 +4,7 @@ import yaml
 import client as client
 import time
 
-DELAY=1
+DELAY=3
 DRY_RUN=False
 
 def get_skip_list():

@@ -177,6 +177,9 @@ def _set_feature_app_name(feature_id):
         "applicationName": "cloud_redhat_com"
     })
 
+    if r.status_code == 409:
+        return
+
     r.raise_for_status()
     log('set app name on feature [{}]'.format(feature_id))
 

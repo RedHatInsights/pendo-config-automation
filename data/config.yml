@@ -67,43 +67,43 @@ dashboard:
       url_rules:
         - /insights/dashboard
   features:
-    _scope: '[data-ouia-bundle="insights"]'
+    _scope: '[data-ouia-app-id="dashboard"]'
     "Dashboard - Link: Systems running insights-client":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] a:contains("Systems running insights-client")'
+        - '{} a:contains("Systems running insights-client")'
     "Dashboard - Link: X stale systems":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] p:contains("stale systems")'
+        - '{} a:contains("stale systems")'
     "Dashboard - Link: X systems to be removed":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] p:contains("systems to be removed")'
+        - '{} a:contains("systems to be removed")'
     "Dashboard - Link: Recommendations":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] a:contains("recommendations")'
+        - '{} a:contains("recommendations")'
     "Dashboard - Link: X CVEs impacting your systems":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] a:contains("CVEs impacting your systems")'
+        - '{} a:contains("CVEs impacting your systems")'
     "Dashboard - Link: X systems affected":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] a:contains("systems affected")'
+        - '{} a:contains("systems affected")'
     "Dashboard - Link: Subscription Watch utilization - Red Hat Enterprise Linux":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] div:contains("Red Hat Enterprise Linux")'
+        - '{} a:contains("Red Hat Enterprise Linux")'
     "Dashboard - Link: Subscription Watch utilization - Red Hat OpenShift":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] div:contains("Red Hat OpenShift")'
+        - '{} a:contains("Red Hat OpenShift")'
     "Dashboard - Link to Vulnerability: View CVEs":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] .ins-c-dashboard__card--compound--Vulnerabilities a:contains("View CVEs")'
+        - '{} .ins-c-dashboard__card--compound--Vulnerabilities a:contains("View CVEs")'
     "Dashboard - Link to Vulnerability: View known exploits":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] .ins-c-dashboard__card--compound--Vulnerabilities a:contains("View known exploits"  )'
+        - '{} .ins-c-dashboard__card--compound--Vulnerabilities a:contains("View known exploits")'
     "Dashboard - Link to Vulnerability: CVEs by CVSS score filters":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] .ins-c-dashboard__card--compound--Vulnerabilities .ins-c-dashboard__card-chart-container a'
+        - '{} .ins-c-dashboard__card--compound--Vulnerabilities .ins-c-dashboard__card-chart-container a'
     "Dashboard - Link to Vulnerability: Security rule details":
       selectors:
-        - '{}[data-ouia-app-id="dashboard"] .ins-c-dashboard-data-list a'
+        - '{} .ins-c-dashboard-data-list a'
 advisor:
   color: 2
   features:
@@ -208,238 +208,238 @@ vulnerability:
     _scope: '[data-ouia-app-id="vulnerability"]'
     "CVEs - Select all":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("Select all")'
+        - '{} [data-ouia-subnav="cves"] button:contains("Select all")'
     "CVEs - Select page":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("Select page")'
+        - '{} [data-ouia-subnav="cves"] button:contains("Select page")'
     "CVEs - Filter: Security rules":
       selectors:
-        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Security rules")'
+        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Security rules")'
     "CVEs - Filter: Known exploit":
       selectors:
-        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Known exploit")'
+        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Known exploit")'
     "CVEs - Filter: Severity":
       selectors:
-        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Severity")'
+        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Severity")'
     "CVEs - Filter: CVSS base score":
       selectors:
-        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("CVSS base score")'
+        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("CVSS base score")'
     "CVEs - Filter: Business risk":
       selectors:
-        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Business risk")'
+        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Business risk")'
     "CVEs - Filter: Exposed systems ":
       selectors:
-        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Exposed systems")'
+        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Exposed systems")'
     "CVEs - Filter: Status":
       selectors:
-        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Status")'
+        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Status")'
     "CVEs - Filter: Publish date":
       selectors:
-        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Publish date")'
+        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Publish date")'
     "CVEs - Sort by: CVE ID":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("CVE ID")'
+        - '{} [data-ouia-subnav="cves"] button:contains("CVE ID")'
     "CVEs - Sort by: Publish date":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("Publish date")'
+        - '{} [data-ouia-subnav="cves"] button:contains("Publish date")'
     "CVEs - Sort by: Severity":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("Severity")'
+        - '{} [data-ouia-subnav="cves"] button:contains("Severity")'
     "CVEs - Sort by: CVSS base score":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("CVSS base score")'
+        - '{} [data-ouia-subnav="cves"] button:contains("CVSS base score")'
     "CVEs - Sort by: Systems exposed":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("Systems exposed")'
+        - '{} [data-ouia-subnav="cves"] button:contains("Systems exposed")'
     "CVEs - Sort by: Business risk":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("Business risk")'
+        - '{} [data-ouia-subnav="cves"] button:contains("Business risk")'
     "CVEs - Sort by: Status":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("Status")'
+        - '{} [data-ouia-subnav="cves"] button:contains("Status")'
     "CVEs - Per page: 10":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("10 per page")'
+        - '{} [data-ouia-subnav="cves"] button:contains("10 per page")'
     "CVEs - Per page: 20":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("20 per page")'
+        - '{} [data-ouia-subnav="cves"] button:contains("20 per page")'
     "CVEs - Per page: 50":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("50 per page")'
+        - '{} [data-ouia-subnav="cves"] button:contains("50 per page")'
     "CVEs - Per page: 100":
       selectors:
-        - '{}[data-ouia-subnav="cves"] button:contains("100 per page")'
+        - '{} [data-ouia-subnav="cves"] button:contains("100 per page")'
     "CVEs - Export: CSV":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{} [data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "CVEs - Export: JSON":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{} [data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "CVEs - Export: PDF":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export as PDF")'
+        - '{} [data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export as PDF")'
     "Reports - Link: Download PDF":
       selectors:
-        - '{}[data-ouia-subnav="reports"] a:contains("Download PDF")'
+        - '{} [data-ouia-subnav="reports"] a:contains("Download PDF")'
     "Reports - Link: Create report":
       selectors:
-        - '{}[data-ouia-subnav="reports"] a:contains("Create report")'
+        - '{} [data-ouia-subnav="reports"] a:contains("Create report")'
     "Reports - Button: Export report":
       selectors:
-        - '{}[data-ouia-subnav="reports"] button:contains("Export report")'
+        - '{} [data-ouia-subnav="reports"] button:contains("Export report")'
     "Systems list - Select all":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Select all")'
+        - '{} [data-ouia-subnav="systems"] button:contains("Select all")'
     "Systems list - Select page":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Select page")'
+        - '{} [data-ouia-subnav="systems"] button:contains("Select page")'
     "Systems list - Filter: Name":
       selectors:
-        - '{}[data-ouia-subnav="systems"] [role="menuitem"] button:contains("Name")'
+        - '{} [data-ouia-subnav="systems"] [role="menuitem"] button:contains("Name")'
     "Systems list - Sort by: Name":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Name")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Name")'
     "Systems list - Sort by: Applicable CVEs":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Applicable CVEs")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Applicable CVEs")'
     "Systems list - Sort by: Last seen":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
     "Systems list - Per page: 10":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("10 per page")'
+        - '{} [data-ouia-subnav="systems"] button:contains("10 per page")'
     "Systems list - Per page: 20":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("20 per page")'
+        - '{} [data-ouia-subnav="systems"] button:contains("20 per page")'
     "Systems list - Per page: 50":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("50 per page")'
+        - '{} [data-ouia-subnav="systems"] button:contains("50 per page")'
     "Systems list - Per page: 100":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("100 per page")'
+        - '{} [data-ouia-subnav="systems"] button:contains("100 per page")'
     "Systems list - Export: CSV":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{} [data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "Systems list - Export: JSON":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{} [data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "Systems list - Export: PDF":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export as PDF")'
+        - '{} [data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export as PDF")'
     "Systems view - Select all":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Select all")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Select all")'
     "Systems view - Select page":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Select page")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Select page")'
     "Systems view - Filter: Security rules":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Security rules")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Security rules")'
     "Systems view - Filter: Known exploit":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Known exploit")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Known exploit")'
     "Systems view - Filter: Severity":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Severity")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Severity")'
     "Systems view - Filter: CVSS base score":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("CVSS base score")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("CVSS base score")'
     "Systems view - Filter: Business risk":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Business risk")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Business risk")'
     "Systems view - Filter: Advisory":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Advisory")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Advisory")'
     "Systems view - Filter: Status":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Status")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Status")'
     "Systems view - Filter: Publish date":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Publish date")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Publish date")'
     "Systems view - Sort by: CVE ID":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("CVE ID")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("CVE ID")'
     "Systems view - Sort by: Publish date":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Publish date")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Publish date")'
     "Systems view - Sort by: Severity":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Severity")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Severity")'
     "Systems view - Sort by: CVSS base score":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("CVSS base score")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("CVSS base score")'
     "Systems view - Sort by: Systems exposed":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Systems exposed")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Systems exposed")'
     "Systems view - Sort by: Business risk":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Business risk")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Business risk")'
     "Systems view - Sort by: Status":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Status")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Status")'
     "Systems view - Per page: 10":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("10 per page")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("10 per page")'
     "Systems view - Per page: 20":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("20 per page")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("20 per page")'
     "Systems view - Per page: 50":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("50 per page")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("50 per page")'
     "Systems view - Per page: 100":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("100 per page")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("100 per page")'
     "Systems view - Export: CSV":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "Systems view - Export: JSON":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "Systems view - Remediate":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Remediate")'
+        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Remediate")'
     "CVE view - Filter: Name":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Name")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Name")'
     "CVE view - Filter: Security rule":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Security rule")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Security rule")'
     "CVE view - Filter: Status":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Status")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Status")'
     "CVE view - Filter: Advisory":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Advisory")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Advisory")'
     "CVE view - Sort by: Name":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Name")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Name")'
     "CVE view - Sort by: Status":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Status")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Status")'
     "CVE view - Sort by: Last seen":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Last seen")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Last seen")'
     "CVE view - Per page: 10":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("10 per page")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("10 per page")'
     "CVE view - Per page: 20":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("20 per page")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("20 per page")'
     "CVE view - Per page: 50":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("50 per page")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("50 per page")'
     "CVE view - Per page: 100":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("100 per page")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("100 per page")'
     "CVE view - Export: CSV":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "CVE view - Export: JSON":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "CVE view - Remediate":
       selectors:
-        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("Remediate")'
+        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("Remediate")'
 compliance:
   color: 4
   pages:
