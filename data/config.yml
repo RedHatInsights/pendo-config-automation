@@ -916,6 +916,15 @@ cluster manager:
     Cluster view - Add ons:
       url_rules:
         - /openshift/details/*#addOns
+    Clusters - Create trial cluster:
+      url_rules:
+        - /openshift/create/osdtrial?trial=osd
+    Create clusters - AWS - Install OSD cluster:
+      url_rules:
+        - /openshift/create/osdtrial/aws
+    Create clusters - GCP - Install OSD cluster:
+      url_rules:
+        - /openshift/create/osdtrial/gcp
     Clusters - Create a cluster to get started:
       url_rules:
         - /openshift/create
@@ -1017,6 +1026,15 @@ cluster manager:
     "Clusters - Button: Create cluster":
       selectors:
         - '{} button:contains("Create cluster")'
+    "Clusters - Button: Create trial cluster":
+      selectors:
+        - '{} button:contains("Create trial cluster")'
+    "Clusters - Button: Run on Amazon Web Services":
+      selectors:
+        - '{} a:contains("Run on Amazon Web Services")'
+    "Clusters - Button: Run on Google Cloud Platform":
+      selectors:
+        - '{} a:contains("Run on Google Cloud Platform")'
     "Clusters - Filter: Cluster type":
       selectors:
         - '{} button:contains("Filter")'
