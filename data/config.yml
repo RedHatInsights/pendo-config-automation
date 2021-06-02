@@ -1560,7 +1560,7 @@ console landing page:
         - '{} [href="https://docs.ansible.com/ansible-tower/latest/html/administration/usability_data_collection.html"]'
     "Console Landing Page - Link: Connect - Add public cloud sources to better track your finances":
       selectors:
-        - '{} [href="./settings/rbac/users"]'
+        - 'a:contains("Connect")[href="./settings/sources"]'
     "Console Landing Page - Link: Connect with Sources - Connect to your public clouds":
       selectors:
         - '{} [href="/beta/settings/sources"]'
@@ -1584,7 +1584,7 @@ console landing page:
         - '{} a:contains("Calculate")[href="./ansible/automation-analytics/automation-calculator"]'
     "Console Landing Page - Link: Get started - Cost Management supports Google Cloud Platform":
       selectors:
-        - '{} [href="./ansible/automation-analytics/job-explorer?attributes[]=id&attributes[]=status&attributes[]=job_type&attributes[]=started&attributes[]=finished&attributes[]=elapsed&attributes[]=created&attributes[]=cluster_name&attributes[]=org_name&attributes[]=most_failed_tasks&limit=5"]'
+        - 'a:contains("Get started")[href="./settings/sources/new"]'
     "Console Landing Page - Link: Get started - Create a new portfolio":
       selectors:
         - '{} [href="https://www.redhat.com/en/about/videos/setup-and-use-cloud-connector-integrate-insights-satellite"]'
@@ -1602,13 +1602,64 @@ console landing page:
         - '{} [href="https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-api-management"]'
     "Console Landing Page - Link: Learn more - Learn about namespaces":
       selectors:
-        - '[href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"]'
+        - 'a:contains("Learn more")[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/curating_collections_using_namespaces_in_automation_hub/index"]'
     "Console Landing Page - Link: Explore - Explore Red Hat certified collections":
       selectors:
         - '{} [href="https://www.redhat.com/en/about/videos/setup-and-use-cloud-connector-integrate-insights-satellite"]'
     "Console Landing Page - Link: Data and Security - Red Hat Insights Data and Security Information":
       selectors:
         - '{} [href="https://docs.ansible.com/ansible-tower/latest/html/userguide/projects.html?extIdCarryOver=true&sc_cid=701f2000001Css5AAC#using-collections-in-tower"]'
+    "Console Landing Page - Button: View - Learn how to create and use a Kafka instance":
+      selectors:
+        - 'a:contains("View")[href="./beta/application-services/streams/resources?quickstart=getting-started"]'
+    "Console Landing Page - Button: View - Download and install the Application Services CLI":
+      selectors:
+        - 'a:contains("View")[href="https://access.redhat.com/documentation/en-us/red_hat_openshift_streams_for_apache_kafka/1/guide/f520e427-cad2-40ce-823d-96234ccbc047"]'
+    "Console Landing Page - Button: View - Learn how to connect to your Kafka instance from a Quarkus application":
+      selectors:
+        - 'a:contains("View")[href="./beta/application-services/streams/resources?quickstart=quarkus"]'
+    "Console Landing Page - Button: Learn more - Get started with Red Hat OpenShift API Management":
+      selectors:
+        - 'a:contains("Learn more")[href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"]'
+    "Console Landing Page - Button: Orders - Automation Services Catalog last orders (0)":
+      selectors:
+        - 'a:contains("Orders")[href="./ansible/catalog/orders"]'
+    "Console Landing Page - Button: View - Automation Services Catalog approvals":
+      selectors:
+        - 'a:contains("View")[href="./ansible/catalog/approval/requests"]'
+    "Console Landing Page - Button: Get started - Create an Ansible Playbook to remediate or mitigate vulnerabilities or configuration issues":
+      selectors:
+        - 'a:contains("Get started")[href="./insights/remediations"]'
+    "Console Landing Page - Button: View - Insights has identified 4 incidents affecting your systems":
+      selectors:
+        - 'a:contains("View")[href="./insights/advisor/recommendations?impacting=true&rule_status=enabled&sort=-publish_date&limit=10&offset=0&reports_shown=true&incident=true"]'
+    "Console Landing Page - Button: Create - Create a remediation playbook to fix issues identified by Insights on your systems":
+      selectors:
+        - 'a:contains("Create")[href="/insights/remediations"]'
+    "Console Landing Page - Link: Get started - Manage user access permissions":
+      selectors:
+        - 'a:contains("Get started")[href="./settings/rbac/roles"]'
+    "Console Landing Page - Link: Get started - Cost Management now provides forecasting":
+      selectors:
+        - 'a:contains("Get started")[href="./cost-management"]'
+    "Console Landing Page - Link: Learn more - Red Hat Insights Data and Security Information":
+      selectors:
+        - 'a:contains("Learn more")[href="./security/insights"]'
+    "Console Landing Page - Link: Learn more - Learn how to create and use a Kafka instance":
+      selectors:
+        - 'a:contains("Learn more")[href="./beta/application-services/streams/resources?quickstart=quarkus"]'
+    "Console Landing Page - Link: Learn more - Explore Red Hat certified collections":
+      selectors:
+        - 'a:contains("Learn more")[href="https://www.ansible.com/partners"]'
+    "Console Landing Page - Link: Get started - Get started with Automation Analytics":
+      selectors:
+        - 'a:contains("Get started")[href="https://docs.ansible.com/ansible-tower/latest/html/administration/usability_data_collection.html#automation-analytics"]'
+    "Console Landing Page - Link: Read - Learn about adding a source to Cost Management when it is not connected to the Internet":
+      selectors:
+        - 'a:contains("Read")[href="https://access.redhat.com/documentation/en-us/cost_management_service/2021/html/getting_started_with_cost_management/assembly-adding-openshift-container-platform-source#assembly-adding-a-restricted-network-source_adding-an-ocp-source"]'
+    "Console Landing Page - Link: Read - How to use the Cost Management API":
+      selectors:
+        - 'a[href="https://medium.com/@chargio/using-cost-management-through-the-api-with-a-token-1d0f4c3d349a"]'
 
 insights for openshift:
   color: 5
