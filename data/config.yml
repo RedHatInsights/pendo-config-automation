@@ -1560,7 +1560,7 @@ console landing page:
         - '{} [href="https://docs.ansible.com/ansible-tower/latest/html/administration/usability_data_collection.html"]'
     "Console Landing Page - Link: Connect - Add public cloud sources to better track your finances":
       selectors:
-        - '{} [href="./settings/rbac/users"]'
+        - 'a:contains("Connect")[href="./settings/sources"]'
     "Console Landing Page - Link: Connect with Sources - Connect to your public clouds":
       selectors:
         - '{} [href="/beta/settings/sources"]'
@@ -1584,7 +1584,7 @@ console landing page:
         - '{} a:contains("Calculate")[href="./ansible/automation-analytics/automation-calculator"]'
     "Console Landing Page - Link: Get started - Cost Management supports Google Cloud Platform":
       selectors:
-        - '{} [href="./ansible/automation-analytics/job-explorer?attributes[]=id&attributes[]=status&attributes[]=job_type&attributes[]=started&attributes[]=finished&attributes[]=elapsed&attributes[]=created&attributes[]=cluster_name&attributes[]=org_name&attributes[]=most_failed_tasks&limit=5"]'
+        - 'a:contains("Get started")[href="./settings/sources/new"]'
     "Console Landing Page - Link: Get started - Create a new portfolio":
       selectors:
         - '{} [href="https://www.redhat.com/en/about/videos/setup-and-use-cloud-connector-integrate-insights-satellite"]'
@@ -1602,7 +1602,7 @@ console landing page:
         - '{} [href="https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-api-management"]'
     "Console Landing Page - Link: Learn more - Learn about namespaces":
       selectors:
-        - '[href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"]'
+        - 'a:contains("Learn more")[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/curating_collections_using_namespaces_in_automation_hub/index"]'
     "Console Landing Page - Link: Explore - Explore Red Hat certified collections":
       selectors:
         - '{} [href="https://www.redhat.com/en/about/videos/setup-and-use-cloud-connector-integrate-insights-satellite"]'
@@ -1639,30 +1639,15 @@ console landing page:
     "Console Landing Page - Link: Get started - Manage user access permissions":
       selectors:
         - 'a:contains("Get started")[href="./settings/rbac/roles"]'
-    "Console Landing Page - Link: Connect - Add public cloud sources to better track your finances":
-      selectors:
-        - 'a:contains("Connect")[href="./settings/sources"]'
     "Console Landing Page - Link: Get started - Cost Management now provides forecasting":
       selectors:
         - 'a:contains("Get started")[href="./cost-management"]'
-    "Console Landing Page - Link: Get started - Cost Management supports Google Cloud Platform":
-      selectors:
-        - 'a:contains("Get started")[href="./settings/sources/new"]'
     "Console Landing Page - Link: Learn more - Red Hat Insights Data and Security Information":
       selectors:
         - 'a:contains("Learn more")[href="./security/insights"]'
     "Console Landing Page - Link: Learn more - Learn how to create and use a Kafka instance":
       selectors:
         - 'a:contains("Learn more")[href="./beta/application-services/streams/resources?quickstart=quarkus"]'
-    "Console Landing Page - Link: Learn more - Learn how to connect to your Kafka instance from a Quarkus application":
-      selectors:
-        - 'a:contains("Learn more")[href="./beta/application-services/streams/resources?quickstart=quarkus"]'
-    "Console Landing Page - Link: Learn more - Learn how to connect to your Kafka instance from a Quarkus application":
-      selectors:
-        - 'a:contains("Learn more")[href="./beta/application-services/streams/resources?quickstart=quarkus"]'
-    "Console Landing Page - Link: Learn more - Learn about namespaces":
-      selectors:
-        - 'a:contains("Learn more")[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/1.2/html/curating_collections_using_namespaces_in_automation_hub/index"]'
     "Console Landing Page - Link: Learn more - Explore Red Hat certified collections":
       selectors:
         - 'a:contains("Learn more")[href="https://www.ansible.com/partners"]'
