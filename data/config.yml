@@ -1152,7 +1152,7 @@ insights for ansible:
         - /ansible/insights/job-explorer
     Notifications.post04262021:
       url_rules:
-        - /ansible/insight/notifications
+        - /ansible/insights/notifications
   features:
     _scope: '[data-ouia-app-id="automation-analytics"]'
     "Clusters - Graph: Job status":
