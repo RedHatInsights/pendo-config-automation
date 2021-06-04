@@ -1034,7 +1034,7 @@ cluster manager:
       selectors:
         - '{} button:contains("Create trial cluster")'
     "Clusters - Button: Run on Amazon Web Services":
-        - '{} a:contains("Run on Amazon Web Services")'
+        - '{} a:contains("Run on Amazon Web Service")'
     "Clusters - Button: Run on Google Cloud Platform":
       selectors:
         - '{} a:contains("Run on Google Cloud Platform")'
