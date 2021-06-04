@@ -753,7 +753,8 @@ subscription watch:
         - /insights/subscriptions/rhel-sw/x86
     Red Hat OpenShift.post04262021:
       url_rules:
-        - /insights/subscriptions/openshift-sw
+        - /*/openshift/subscriptions/**
+        - /*/openshift/quota/**
 
   features:
     _scope: '[data-ouia-bundle="subscriptions"]'
