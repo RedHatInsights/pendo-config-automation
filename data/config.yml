@@ -8,6 +8,10 @@ crc:
     Landing page:
       url_rules:
         - /
+  features:
+    "Selector: Beta switcher":
+      selectors:
+        - 'button:contains("Use the beta release")'
 
 user preferences:
   pages:
