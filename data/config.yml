@@ -1100,9 +1100,6 @@ cluster manager:
     "Clusters - Button: Download installer":
       selectors:
         - '{} a:contains("Download installer")'
-    "Clusters - Button: Download installer":
-      selectors:
-        - '{} a:contains("Download pre-release builds")'
     "Clusters - Button: Download command-line tools":
       selectors:
         - '{} a:contains("Download command-line tools")'
