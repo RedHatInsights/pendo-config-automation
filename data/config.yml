@@ -1028,21 +1028,93 @@ cluster manager:
         - /openshift/create?trial=expired
   features:
     _scope: '[data-ouia-bundle="openshift"]'
+    "Clusters - Button: Register cluster":
+      selectors:
+        - '{} button:contains("Register cluster")'
     "Clusters - Button: Create cluster":
       selectors:
         - '{} button:contains("Create cluster")'
+    "Clusters - Button: Learn more OSD trial":
+      selectors:
+        - '{} a:contains("Learn more")'
+    "Clusters - Button: Try it on Azure":
+      selectors:
+        - '{} a:contains("Try it on Azure")'
+    "Clusters - Button: Try it on IBM":
+      selectors:
+        - '{} a:contains("Try it on IBM")'
+    "Clusters - Button: Try it on AWS":
+      selectors:
+        - '{} a:contains("Try it on AWS")'
     "Clusters - Button: Cancel":
       selectors:
         - '{} button:contains("Cancel")'
+    "Clusters - Link: Bare metal":
+      selectors:
+        - '{} a:contains("Bare Metal")'
+    "Clusters - Link: IBM Z":
+      selectors:
+        - '{} a:contains("IBM Z")'
+    "Clusters - Link: Power":
+      selectors:
+        - '{} a:contains("Power")'
+    "Clusters - Link: Red Hat OpenStack":
+      selectors:
+        - '{} a:contains("Red Hat OpenStack")'
+    "Clusters - Link: Red Hat Virtualization":
+      selectors:
+        - '{} a:contains("Red Hat Virtualization")'
+    "Clusters - Link: vSphere":
+      selectors:
+        - '{} a:contains("vSphere")'
+    "Clusters - Link: Platform agnostic":
+      selectors:
+        - '{} a:contains("Platform agnostic")'
+    "Clusters - Button: Download CodeReady Containers":
+      selectors:
+        - '{} a:contains("Download CodeReady Containers")'
+    "Clusters - Button: Download pull secret":
+      selectors:
+        - '{} button:contains("Download pull secret")'
+    "Clusters - Button: Copy pull secret":
+      selectors:
+        - '{} button:contains("Copy pull secret")'
+    "Clusters - Link: View the CodeReady Containers Getting started guide":
+      selectors:
+        - '{} a:contains("View the CodeReady Containers Getting started guide")'
     "Clusters - Button: Create trial cluster":
       selectors:
         - '{} button:contains("Create trial cluster")'
     "Clusters - Button: Run on Google Cloud Platform":
       selectors:
         - '{} a:contains("Run on Google Cloud Platform")'
-    "Clusters - Button: Run on AWS":
+    "Clusters - Button: Installer provisioned infrastructure":
+      selectors:
+        - '{} a:contains("Installer-provisioned infrastructure Deploy an OpenShift cluster on infrastructure that the installation program pro")'
+    "Clusters - Button: User provisioned infrastructure":
+      selectors:
+        - '{} a:contains("User-provisioned infrastructureDeploy an OpenShift cluster on infrastructure that you prepare and maintain.")'
+    "Clusters - Button: Run on Amazon Web Services":
       selectors:
         - '{} a:contains("Run on Amazon Web Services")'
+    "Clusters - Button: Download installer":
+      selectors:
+        - '{} a:contains("Download installer")'
+    "Clusters - Button: Download command-line tools":
+      selectors:
+        - '{} a:contains("Download command-line tools")'
+    "Clusters - Button: Get started":
+      selectors:
+        - '{} a:contains("Get started")'
+    "Clusters - Link: Install with customizations":
+      selectors:
+        - '{} a:contains("install with customizations")'
+    "Clusters - Button: Download RHCOS ISO":
+      selectors:
+        - '{} a:contains("Download RHCOS ISO")'
+    "Clusters - Button: Download RHCOS RAW":
+      selectors:
+        - '{} a:contains("Download RHCOS RAW")'
     "Clusters - Filter: Cluster type":
       selectors:
         - '{} button:contains("Filter")'
