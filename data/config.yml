@@ -522,6 +522,7 @@ patch:
     Advisories list:
       url_rules:
         - /insights/patch/
+        - /insights/patch/advisories
     Advisory view:
       url_rules:
         - /insights/patch/advisories/*parameter*/
