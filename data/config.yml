@@ -8,10 +8,142 @@ crc:
     Landing page:
       url_rules:
         - /
+    All pages EXCEPT landing page:
+      url_rules:
+        - /**
   features:
     "Selector: Beta switcher":
       selectors:
         - 'button:contains("Use the beta release")'
+    "Red Hat logo":
+      selectors:
+        - 'img[src="/apps/chrome/js/fonts/logo.svg"]'
+    "Find an app or service":
+      selectors:
+        - 'button:contains("Find an app or service")'
+    "Apps & Services Dropdown - Application Services: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="application-services/overview"]'
+    "Apps & Services Dropdown - Application Services: Streams for Apache Kafka":
+      selectors:
+        - 'a:contains("Streams for Apache Kafka")[href="/beta/application-services/streams"]'
+    "Apps & Services Dropdown - Application Services: API Management":
+      selectors:
+        - 'a:contains("API Management")[href="application-services/api-management"]'
+    "Apps & Services Dropdown - Application Services: Data Science":
+      selectors:
+        - 'a:contains("Data Science")[href="application-services/data-science"]'
+    "Apps & Services Dropdown - OpenShift: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="openshift/overview"]'
+    "Apps & Services Dropdown - OpenShift: Clusters":
+      selectors:
+        - 'a:contains("Clusters")[href="openshift/"]'
+    "Apps & Services Dropdown - OpenShift: Releases":
+      selectors:
+        - 'a:contains("Releases")[href="openshift/releases"]'
+    "Apps & Services Dropdown - OpenShift: Subscriptions":
+      selectors:
+        - 'a:contains("Subscriptions")[href="openshift/subscriptions/openshift-container"]'
+    "Apps & Services Dropdown - OpenShift: Cost Management":
+      selectors:
+        - 'a:contains("Cost Management")[href="openshift/cost-management"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Dashboard":
+      selectors:
+        - 'a:contains("Dashboard")[href="insights/dashboard"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Advisor":
+      selectors:
+        - 'a:contains("Advisor")[href="insights/advisor"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Drift":
+      selectors:
+        - 'a:contains("Drift")[href="insights/drift"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Inventory":
+      selectors:
+        - 'a:contains("Inventory")[href="insights/inventory"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Compliance":
+      selectors:
+        - 'a:contains("Compliance")[href="insights/compliance"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Policies":
+      selectors:
+        - 'a:contains("Policies")[href="insights/policies"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Patch":
+      selectors:
+        - 'a:contains("Patch")[href="insights/patch"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Subscriptions":
+      selectors:
+        - 'a:contains("Subscriptions")[href="insights/subscriptions/rhel"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Register Systems":
+      selectors:
+        - 'a:contains("Register Systems")[href="insights/registration"]'
+    "Apps & Services Dropdown - Ansible Automation Platform: Automation Hub":
+      selectors:
+        - 'a:contains("Automation Hub")[href="ansible/automation-hub"]'
+    "Apps & Services Dropdown - Ansible Automation Platform: Automation Services Catalogue":
+      selectors:
+        - 'a:contains("Automation Services Catalog")[href="ansible/catalog"]'
+    "Apps & Services Dropdown - Ansible Automation Platform: Analytics":
+      selectors:
+        - 'a:contains("Analytics")[href="ansible/automation-analytics"]'
+    "Apps & Services Dropdown - Subscriptions: All RHEL":
+      selectors:
+        - 'a:contains("All RHEL")[href="openshift/subscriptions/rhel/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: ARM":
+      selectors:
+        - 'a:contains("ARM")[href="openshift/subscriptions/rhel-arm/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: IBM Power":
+      selectors:
+        - 'a:contains("IBM Power")[href="openshift/subscriptions/rhel-ibmpower/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: IBM Z Systems":
+      selectors:
+        - 'a:contains("IBM Z systems")[href="openshift/subscriptions/rhel-ibmz/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: x86":
+      selectors:
+        - 'a:contains("X86")[href="openshift/subscriptions/rhel-x86/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: OpenShift Subscriptions":
+      selectors:
+        - 'a:contains("OpenShift Subscriptions")[href="openshift/../openshift/subscriptions/openshift-container/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: Documentation":
+      selectors:
+        - 'a:contains("Documentation")[href="openshift/subscriptions/subscriptions-documentation/openshift-container"]'
+    "Apps & Services Dropdown - Cost Management: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="openshift/cost-management/"]'
+    "Apps & Services Dropdown - Cost Management: OpenShift":
+      selectors:
+        - 'a:contains("OpenShift")[href="openshift/cost-management/ocp"]'
+    "Apps & Services Dropdown - Cost Management: Amazon Web Services":
+      selectors:
+        - 'a:contains("Amazon Web Services")[href="openshift/cost-management/aws"]'
+    "Apps & Services Dropdown - Cost Management: Microsoft Azure":
+      selectors:
+        - 'a:contains("Microsoft Azure")[href="openshift/cost-management/azure"]'
+    "Apps & Services Dropdown - Cost Management: Google Cloud Platform":
+      selectors:
+        - 'a:contains("Google Cloud Platform")[href="openshift/cost-management/gcp"]'
+    "Apps & Services Dropdown - Cost Management: Cost Models":
+      selectors:
+        - 'a:contains("Cost Models")[href="openshift/cost-management/cost-models"]'
+    "Apps & Services Dropdown - Cost Management: Cost Explorer":
+      selectors:
+        - 'a:contains("Cost Explorer")[href="openshift/cost-management/explorer"]'
+    "Apps & Services Dropdown - Settings: My User Access":
+      selectors:
+        - 'a:contains("My User Access")[href="settings/my-user-access"]'
+    "Apps & Services Dropdown - Settings: Sources":
+      selectors:
+        - 'a:contains("Sources")[href="settings/sources"]'
+    "Apps & Services Dropdown - Settings: Integrations":
+      selectors:
+        - 'a:contains("Integrations")[href="settings/integrations"]'
+    "Apps & Services Dropdown - Settings: Notifications":
+      selectors:
+        - 'a:contains("Notifications")[href="settings/notifications"]'
+    "Apps & Services Dropdown - Settings: Applications":
+      selectors:
+        - 'a:contains("Applications")[href="settings/applications"]'
+    "Apps & Services Dropdown - Settings: Documentation":
+      selectors:
+        - 'a:contains("Documentation")[href="settings/settings-documentation"]'
 
 user preferences:
   pages:
@@ -1984,18 +2116,3 @@ insights for openshift:
         - /openshift/quota/**
         - /openshift/cost-management/**
         - /openshift/cost-management
-
-header:
-  color: 8
-  pages:
-    All pages:
-      url_rules:
-        - /
-        - /**
-  features:
-    "Red Hat logo":
-      selectors:
-        - 'img[src="/apps/chrome/js/fonts/logo.svg"]'
-    "Find an app or service":
-      selectors:
-        - 'button:contains("Find an app or service")'
