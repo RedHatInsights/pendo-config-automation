@@ -1147,24 +1147,63 @@ subscription watch:
 
 settings:
   features:
-    "Cloud sources - Button: AWS":
+    "Sources - Button: AWS":
       selectors:
         - 'div:contains("Amazon Web Services").disabled-tile-with-tooltip'
-    "Cloud sources - Button: Microsoft Azure":
+    "Sources - Button: Microsoft Azure":
       selectors:
         - 'div:contains("Microsoft Azure").disabled-tile-with-tooltip'
-    "Cloud sources - Link: Learn more about Red Hat Gold Images":
+    "Sources - Link: Learn more about Red Hat Gold Images":
       selectors:
         - 'a:contains("Learn more about Red Hat Gold Images")'
-    "Cloud sources - Link: Enable additional Insights services":
+    "Sources - Link: Enable additional Insights services":
       selectors:
         - 'a:contains("Enable additional Insights services")'
-    "Cloud sources - Link: Go to Subscription Watch":
+    "Sources - Link: Go to Subscription Watch":
       selectors:
         - 'a:contains("Go to Subscription Watch")'
-    "Cloud sources - Button: Red Hat Sources - Add source":
+    "Sources - Button: Add source":
       selectors:
-        - 'div:contains("Add source").pf-c-toolbar__item'
+        - '.pf-m-primary:contains("Add source")[aria-disabled="false"]'
+    "Sources - Button: Remove source (menu button)":
+      selectors:
+        - '.pf-c-dropdown__menu-item:contains("Remove")'
+    "Sources - Button: Remove source and its data":
+      selectors:
+        - '.pf-m-danger:contains("Remove source and its data")'
+    "Sources - Button: Edit credentials (menu button)":
+      selectors:
+        - '.pf-c-dropdown__menu-item:contains("Edit")'
+    "Sources - Button: Add application (wizard confirmation)":
+      selectors:
+        - '.pf-m-primary:contains("Add")'
+    "Sources - Button: Remove application (modal confirmation)":
+      selectors:
+        - '.pf-m-danger:contains("Remove")'
+    "Sources - Button: Cloud Sources tab":
+      selectors:
+        - '.pf-c-tabs__link:contains("Cloud sources")'
+    "Sources - Button: Red Hat sources tab":
+      selectors:
+        - '.pf-c-tabs__link:contains("Red Hat sources")'
+    "Sources - Link: Use Red Hat gold images in AWS":
+      selectors:
+        - 'a.text:contains("Use Red Hat gold images in AWS")'
+    "Sources - Link: Use Red Hat gold images in Microsoft Azure":
+      selectors:
+        - 'a.text:contains("Use Red Hat gold images in Microsoft Azure")'
+    "Sources - Link: Learn more about Red Hat Insights":
+      selectors:
+        - 'a.text:contains("Learn more about Red Hat Insights")'
+    "Sources - Link: Learn more about Subscriptions":
+      selectors:
+        - 'a.text:contains("Learn more about Subscriptions")'
+    "Sources - Link: Go to Subscriptions":
+      selectors:
+        - 'a.text:contains("Go to Subscriptions")'
+    "Sources - Button: Cancel Add source":
+      selectors:
+        - '.pf-m-link:contains("Cancel")'
     "Integrations - Button: Add integration":
       selectors:
         - 'div.pf-c-toolbar__item:contains("Add integration")'
@@ -1181,7 +1220,18 @@ settings:
     "Red Hat Connector - Button: Save Changes":
       selectors:
         - 'div:contains("Save changesView log")'
-
+    "User Access - Button: MUA Application Services card":
+      selectors:
+        - '.pf-c-card:contains("Application Services")'
+    "User Access - Button: MUA OpenShift card":
+      selectors:
+        - '.pf-c-card:contains("OpenShift")'
+    "User Access - Button: MUA RHEL card":
+      selectors:
+        - '.pf-c-card:contains("Red Hat Enterprise Linux")'
+    "User Access - Button: MUA Ansible card":
+      selectors:
+        - '.pf-c-card:contains("Ansible Automation Platform")'
   pages:
     All pages:
       url_rules:
@@ -1229,6 +1279,15 @@ settings:
     Applications - Advisor:
       url_rules:
         - /settings/applications/advisor
+    Sources - Add application wizard:
+      url_rules:
+        - /settings/sources/detail/*/add_app/**
+    Sources - Remove application modal:
+      url_rules:
+        - /settings/sources/detail/*/remove_app/**
+    Sources - Remove source modal:
+      url_rules:
+        - /settings/sources/remove/**
 
 rbac:
   features:
@@ -1239,6 +1298,13 @@ rbac:
     "Groups - Button: Create Group wizard submission":
       selectors:
         - '{}[data-ouia-bundle="settings"] a[href="/settings/rbac/groups/add-group"] button:contains("Create")'
+    "Default user access group - Button: Add role":
+      selectors:
+        - '.pf-m-primary:contains("Add role")'
+    "Default user access group - Button: Submit on Add role modal":
+      selectors:
+        - '.pf-m-primary:contains("Add to group")[aria-disabled="false"]'
+
   pages:
     All pages:
       url_rules:
