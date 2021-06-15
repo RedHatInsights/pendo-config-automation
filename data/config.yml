@@ -1162,6 +1162,26 @@ settings:
     "Cloud sources - Link: Go to Subscription Watch":
       selectors:
         - 'a:contains("Go to Subscription Watch")'
+    "Cloud sources - Button: Red Hat Sources - Add source":
+      selectors:
+        - 'div:contains("Add source").pf-c-toolbar__item'
+    "Integrations - Button: Add integration":
+      selectors:
+        - 'div.pf-c-toolbar__item:contains("Add integration")'
+    "Red Hat Connector - Button: Connect systems":
+      selectors:
+        - 'button:contains("Connect systems")'
+    "Red Hat Connector - Link: Registration Assistant":
+      selectors:
+        - 'a:contains("Registration Assistant")[href="./insights/registration"]'
+        - 'button:contains("Connect systems")'
+    "Red Hat Connector - Link: View in Inventory":
+      selectors:
+        - 'a:contains("View in Inventory")[href="./insights/inventory"]'
+    "Red Hat Connector - Button: Save Changes":
+      selectors:
+        - 'div:contains("Save changesView log")'
+
   pages:
     All pages:
       url_rules:
@@ -1195,6 +1215,20 @@ settings:
       url_rules:
         - /settings/notifications
         - /settings/notifications/*
+    Notifications - RHEL:
+      url_rules:
+        - /settings/notifications/rhel
+    Red Hat Connector:
+      url_rules:
+        - /settings/connector
+        - /settings/connector/*
+    Applications:
+      url_rules:
+        - /settings/applications
+        - /settings/applications/*
+    Applications - Advisor:
+      url_rules:
+        - /settings/applications/advisor
 
 rbac:
   features:
