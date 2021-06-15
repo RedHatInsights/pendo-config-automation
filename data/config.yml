@@ -1231,7 +1231,7 @@ settings:
         - '.pf-c-card:contains("Red Hat Enterprise Linux")'
     "User Access - Button: MUA Ansible card":
       selectors:
-        - '.pf-c-card:contains("Ansible Automation Platform")'      
+        - '.pf-c-card:contains("Ansible Automation Platform")'
   pages:
     All pages:
       url_rules:
