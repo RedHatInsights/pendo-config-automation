@@ -1627,16 +1627,16 @@ cluster manager:
     "Clusters - Add-ons - Card: View RHODS details":
       selectors:
         - '{} [data-ouia-component-id="card-addon-managed-data-service"]'
-    "Clusters -  Add-ons - Button: Install RHOAM":
+    "Clusters - Add-ons - Button: Install RHOAM":
       selectors:
         - '{} [data-ouia-component-id="install-addon-managed-api-service"]'
-    "Clusters -  Add-ons - Button: Install RHODS":
+    "Clusters - Add-ons - Button: Install RHODS":
       selectors:
         - '{} [data-ouia-component-id="install-addon-managed-data-service"]'
-    "Clusters -  Add-ons - Button: Open in Console":
+    "Clusters - Add-ons - Button: Open in Console":
       selectors:
         - '{} .pf-c-button:contains("Open in Console")'
-    "Clusters -  Add-ons - Link: View documentation":
+    "Clusters - Add-ons - Link: View documentation":
       selectors:
         - '{} a:contains("View Documentation")'
 
