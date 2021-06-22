@@ -1611,13 +1611,13 @@ cluster manager:
         - '{} a:contains("Open Subscription Watch")'
     "Nav: Support Cases":
       selectors:
-        - '[data-ouia-component-id="extra-openshift-support"]'
+        - '{} [data-ouia-component-id="extra-openshift-support"]'
     "Nav: Cluster Manager Feedback":
       selectors:
-        - '[data-ouia-component-id="extra-openshift-cm"]'
+        - '{} [data-ouia-component-id="extra-openshift-cm"]'
     "Nav: Red Hat Marketplace":
       selectors:
-        - '[data-ouia-component-id="extra-openshift-marketplace"]'
+        - '{} [data-ouia-component-id="extra-openshift-marketplace"]'
     "Nav: Documentation":
       selectors:
         - '{} [data-ouia-component-id="extra-openshift-docs"]'
