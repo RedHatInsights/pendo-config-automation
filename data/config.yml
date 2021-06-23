@@ -8,10 +8,142 @@ crc:
     Landing page:
       url_rules:
         - /
+    All pages EXCEPT landing page:
+      url_rules:
+        - /**
   features:
     "Selector: Beta switcher":
       selectors:
         - 'button:contains("Use the beta release")'
+    "Red Hat logo":
+      selectors:
+        - 'img[src="/apps/chrome/js/fonts/logo.svg"]'
+    "Find an app or service":
+      selectors:
+        - 'button:contains("Find an app or service")'
+    "Apps & Services Dropdown - Application Services: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="application-services/overview"]'
+    "Apps & Services Dropdown - Application Services: Streams for Apache Kafka":
+      selectors:
+        - 'a:contains("Streams for Apache Kafka")[href="/beta/application-services/streams"]'
+    "Apps & Services Dropdown - Application Services: API Management":
+      selectors:
+        - 'a:contains("API Management")[href="application-services/api-management"]'
+    "Apps & Services Dropdown - Application Services: Data Science":
+      selectors:
+        - 'a:contains("Data Science")[href="application-services/data-science"]'
+    "Apps & Services Dropdown - OpenShift: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="openshift/overview"]'
+    "Apps & Services Dropdown - OpenShift: Clusters":
+      selectors:
+        - 'a:contains("Clusters")[href="openshift/"]'
+    "Apps & Services Dropdown - OpenShift: Releases":
+      selectors:
+        - 'a:contains("Releases")[href="openshift/releases"]'
+    "Apps & Services Dropdown - OpenShift: Subscriptions":
+      selectors:
+        - 'a:contains("Subscriptions")[href="openshift/subscriptions/openshift-container"]'
+    "Apps & Services Dropdown - OpenShift: Cost Management":
+      selectors:
+        - 'a:contains("Cost Management")[href="openshift/cost-management"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Dashboard":
+      selectors:
+        - 'a:contains("Dashboard")[href="insights/dashboard"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Advisor":
+      selectors:
+        - 'a:contains("Advisor")[href="insights/advisor"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Drift":
+      selectors:
+        - 'a:contains("Drift")[href="insights/drift"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Inventory":
+      selectors:
+        - 'a:contains("Inventory")[href="insights/inventory"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Compliance":
+      selectors:
+        - 'a:contains("Compliance")[href="insights/compliance"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Policies":
+      selectors:
+        - 'a:contains("Policies")[href="insights/policies"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Patch":
+      selectors:
+        - 'a:contains("Patch")[href="insights/patch"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Subscriptions":
+      selectors:
+        - 'a:contains("Subscriptions")[href="insights/subscriptions/rhel"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Register Systems":
+      selectors:
+        - 'a:contains("Register Systems")[href="insights/registration"]'
+    "Apps & Services Dropdown - Ansible Automation Platform: Automation Hub":
+      selectors:
+        - 'a:contains("Automation Hub")[href="ansible/automation-hub"]'
+    "Apps & Services Dropdown - Ansible Automation Platform: Automation Services Catalogue":
+      selectors:
+        - 'a:contains("Automation Services Catalog")[href="ansible/catalog"]'
+    "Apps & Services Dropdown - Ansible Automation Platform: Analytics":
+      selectors:
+        - 'a:contains("Analytics")[href="ansible/automation-analytics"]'
+    "Apps & Services Dropdown - Subscriptions: All RHEL":
+      selectors:
+        - 'a:contains("All RHEL")[href="openshift/subscriptions/rhel/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: ARM":
+      selectors:
+        - 'a:contains("ARM")[href="openshift/subscriptions/rhel-arm/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: IBM Power":
+      selectors:
+        - 'a:contains("IBM Power")[href="openshift/subscriptions/rhel-ibmpower/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: IBM Z Systems":
+      selectors:
+        - 'a:contains("IBM Z systems")[href="openshift/subscriptions/rhel-ibmz/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: x86":
+      selectors:
+        - 'a:contains("X86")[href="openshift/subscriptions/rhel-x86/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: OpenShift Subscriptions":
+      selectors:
+        - 'a:contains("OpenShift Subscriptions")[href="openshift/../openshift/subscriptions/openshift-container/openshift-container"]'
+    "Apps & Services Dropdown - Subscriptions: Documentation":
+      selectors:
+        - 'a:contains("Documentation")[href="openshift/subscriptions/subscriptions-documentation/openshift-container"]'
+    "Apps & Services Dropdown - Cost Management: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="openshift/cost-management/"]'
+    "Apps & Services Dropdown - Cost Management: OpenShift":
+      selectors:
+        - 'a:contains("OpenShift")[href="openshift/cost-management/ocp"]'
+    "Apps & Services Dropdown - Cost Management: Amazon Web Services":
+      selectors:
+        - 'a:contains("Amazon Web Services")[href="openshift/cost-management/aws"]'
+    "Apps & Services Dropdown - Cost Management: Microsoft Azure":
+      selectors:
+        - 'a:contains("Microsoft Azure")[href="openshift/cost-management/azure"]'
+    "Apps & Services Dropdown - Cost Management: Google Cloud Platform":
+      selectors:
+        - 'a:contains("Google Cloud Platform")[href="openshift/cost-management/gcp"]'
+    "Apps & Services Dropdown - Cost Management: Cost Models":
+      selectors:
+        - 'a:contains("Cost Models")[href="openshift/cost-management/cost-models"]'
+    "Apps & Services Dropdown - Cost Management: Cost Explorer":
+      selectors:
+        - 'a:contains("Cost Explorer")[href="openshift/cost-management/explorer"]'
+    "Apps & Services Dropdown - Settings: My User Access":
+      selectors:
+        - 'a:contains("My User Access")[href="settings/my-user-access"]'
+    "Apps & Services Dropdown - Settings: Sources":
+      selectors:
+        - 'a:contains("Sources")[href="settings/sources"]'
+    "Apps & Services Dropdown - Settings: Integrations":
+      selectors:
+        - 'a:contains("Integrations")[href="settings/integrations"]'
+    "Apps & Services Dropdown - Settings: Notifications":
+      selectors:
+        - 'a:contains("Notifications")[href="settings/notifications"]'
+    "Apps & Services Dropdown - Settings: Applications":
+      selectors:
+        - 'a:contains("Applications")[href="settings/applications"]'
+    "Apps & Services Dropdown - Settings: Documentation":
+      selectors:
+        - 'a:contains("Documentation")[href="settings/settings-documentation"]'
 
 user preferences:
   pages:
@@ -225,238 +357,238 @@ vulnerability:
     _scope: '[data-ouia-app-id="vulnerability"]'
     "CVEs - Select all":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("Select all")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Select all")'
     "CVEs - Select page":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("Select page")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Select page")'
     "CVEs - Filter: Security rules":
       selectors:
-        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Security rules")'
+        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Security rules")'
     "CVEs - Filter: Known exploit":
       selectors:
-        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Known exploit")'
+        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Known exploit")'
     "CVEs - Filter: Severity":
       selectors:
-        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Severity")'
+        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Severity")'
     "CVEs - Filter: CVSS base score":
       selectors:
-        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("CVSS base score")'
+        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("CVSS base score")'
     "CVEs - Filter: Business risk":
       selectors:
-        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Business risk")'
+        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Business risk")'
     "CVEs - Filter: Exposed systems ":
       selectors:
-        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Exposed systems")'
+        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Exposed systems")'
     "CVEs - Filter: Status":
       selectors:
-        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Status")'
+        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Status")'
     "CVEs - Filter: Publish date":
       selectors:
-        - '{} [data-ouia-subnav="cves"] [role="menuitem"] button:contains("Publish date")'
+        - '{}[data-ouia-subnav="cves"] [role="menuitem"] button:contains("Publish date")'
     "CVEs - Sort by: CVE ID":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("CVE ID")'
+        - '{}[data-ouia-subnav="cves"] button:contains("CVE ID")'
     "CVEs - Sort by: Publish date":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("Publish date")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Publish date")'
     "CVEs - Sort by: Severity":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("Severity")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Severity")'
     "CVEs - Sort by: CVSS base score":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("CVSS base score")'
+        - '{}[data-ouia-subnav="cves"] button:contains("CVSS base score")'
     "CVEs - Sort by: Systems exposed":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("Systems exposed")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Systems exposed")'
     "CVEs - Sort by: Business risk":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("Business risk")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Business risk")'
     "CVEs - Sort by: Status":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("Status")'
+        - '{}[data-ouia-subnav="cves"] button:contains("Status")'
     "CVEs - Per page: 10":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("10 per page")'
+        - '{}[data-ouia-subnav="cves"] button:contains("10 per page")'
     "CVEs - Per page: 20":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("20 per page")'
+        - '{}[data-ouia-subnav="cves"] button:contains("20 per page")'
     "CVEs - Per page: 50":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("50 per page")'
+        - '{}[data-ouia-subnav="cves"] button:contains("50 per page")'
     "CVEs - Per page: 100":
       selectors:
-        - '{} [data-ouia-subnav="cves"] button:contains("100 per page")'
+        - '{}[data-ouia-subnav="cves"] button:contains("100 per page")'
     "CVEs - Export: CSV":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "CVEs - Export: JSON":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "CVEs - Export: PDF":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export as PDF")'
+        - '{}[data-ouia-subnav="cves"] .pf-c-dropdown__menu-item:contains("Export as PDF")'
     "Reports - Link: Download PDF":
       selectors:
-        - '{} [data-ouia-subnav="reports"] a:contains("Download PDF")'
+        - '{}[data-ouia-subnav="reports"] a:contains("Download PDF")'
     "Reports - Link: Create report":
       selectors:
-        - '{} [data-ouia-subnav="reports"] a:contains("Create report")'
+        - '{}[data-ouia-subnav="reports"] a:contains("Create report")'
     "Reports - Button: Export report":
       selectors:
-        - '{} [data-ouia-subnav="reports"] button:contains("Export report")'
+        - '{}[data-ouia-subnav="reports"] button:contains("Export report")'
     "Systems list - Select all":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button:contains("Select all")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Select all")'
     "Systems list - Select page":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button:contains("Select page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Select page")'
     "Systems list - Filter: Name":
       selectors:
-        - '{} [data-ouia-subnav="systems"] [role="menuitem"] button:contains("Name")'
+        - '{}[data-ouia-subnav="systems"] [role="menuitem"] button:contains("Name")'
     "Systems list - Sort by: Name":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Name")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Name")'
     "Systems list - Sort by: Applicable CVEs":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Applicable CVEs")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Applicable CVEs")'
     "Systems list - Sort by: Last seen":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
     "Systems list - Per page: 10":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button:contains("10 per page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("10 per page")'
     "Systems list - Per page: 20":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button:contains("20 per page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("20 per page")'
     "Systems list - Per page: 50":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button:contains("50 per page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("50 per page")'
     "Systems list - Per page: 100":
       selectors:
-        - '{} [data-ouia-subnav="systems"] button:contains("100 per page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("100 per page")'
     "Systems list - Export: CSV":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "Systems list - Export: JSON":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "Systems list - Export: PDF":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export as PDF")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Export as PDF")'
     "Systems view - Select all":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Select all")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Select all")'
     "Systems view - Select page":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Select page")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Select page")'
     "Systems view - Filter: Security rules":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Security rules")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Security rules")'
     "Systems view - Filter: Known exploit":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Known exploit")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Known exploit")'
     "Systems view - Filter: Severity":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Severity")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Severity")'
     "Systems view - Filter: CVSS base score":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("CVSS base score")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("CVSS base score")'
     "Systems view - Filter: Business risk":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Business risk")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Business risk")'
     "Systems view - Filter: Advisory":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Advisory")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Advisory")'
     "Systems view - Filter: Status":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Status")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Status")'
     "Systems view - Filter: Publish date":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Publish date")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities [role="menuitem"] button:contains("Publish date")'
     "Systems view - Sort by: CVE ID":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("CVE ID")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("CVE ID")'
     "Systems view - Sort by: Publish date":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Publish date")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Publish date")'
     "Systems view - Sort by: Severity":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Severity")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Severity")'
     "Systems view - Sort by: CVSS base score":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("CVSS base score")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("CVSS base score")'
     "Systems view - Sort by: Systems exposed":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Systems exposed")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Systems exposed")'
     "Systems view - Sort by: Business risk":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Business risk")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Business risk")'
     "Systems view - Sort by: Status":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Status")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Status")'
     "Systems view - Per page: 10":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("10 per page")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("10 per page")'
     "Systems view - Per page: 20":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("20 per page")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("20 per page")'
     "Systems view - Per page: 50":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("50 per page")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("50 per page")'
     "Systems view - Per page: 100":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("100 per page")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("100 per page")'
     "Systems view - Export: CSV":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "Systems view - Export: JSON":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "Systems view - Remediate":
       selectors:
-        - '{} [data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Remediate")'
+        - '{}[data-ouia-subnav="systems"] .ins-active-app-vulnerabilities button:contains("Remediate")'
     "CVE view - Filter: Name":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Name")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Name")'
     "CVE view - Filter: Security rule":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Security rule")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Security rule")'
     "CVE view - Filter: Status":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Status")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Status")'
     "CVE view - Filter: Advisory":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Advisory")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar [role="menuitem"] button:contains("Advisory")'
     "CVE view - Sort by: Name":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Name")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Name")'
     "CVE view - Sort by: Status":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Status")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Status")'
     "CVE view - Sort by: Last seen":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Last seen")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-entity-table button:contains("Last seen")'
     "CVE view - Per page: 10":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("10 per page")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("10 per page")'
     "CVE view - Per page: 20":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("20 per page")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("20 per page")'
     "CVE view - Per page: 50":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("50 per page")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("50 per page")'
     "CVE view - Per page: 100":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("100 per page")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("100 per page")'
     "CVE view - Export: CSV":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "CVE view - Export: JSON":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "CVE view - Remediate":
       selectors:
-        - '{} [data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("Remediate")'
+        - '{}[data-ouia-subnav="cves"] .ins-c-inventory__table--toolbar-has-items button:contains("Remediate")'
 compliance:
   color: 4
   pages:
@@ -1016,21 +1148,91 @@ subscription watch:
 
 settings:
   features:
-    "Cloud sources - Button: AWS":
+    "Sources - Button: AWS":
       selectors:
         - 'div:contains("Amazon Web Services").disabled-tile-with-tooltip'
-    "Cloud sources - Button: Microsoft Azure":
+    "Sources - Button: Microsoft Azure":
       selectors:
         - 'div:contains("Microsoft Azure").disabled-tile-with-tooltip'
-    "Cloud sources - Link: Learn more about Red Hat Gold Images":
+    "Sources - Link: Learn more about Red Hat Gold Images":
       selectors:
         - 'a:contains("Learn more about Red Hat Gold Images")'
-    "Cloud sources - Link: Enable additional Insights services":
+    "Sources - Link: Enable additional Insights services":
       selectors:
         - 'a:contains("Enable additional Insights services")'
-    "Cloud sources - Link: Go to Subscription Watch":
+    "Sources - Link: Go to Subscription Watch":
       selectors:
         - 'a:contains("Go to Subscription Watch")'
+    "Sources - Button: Add source":
+      selectors:
+        - '.pf-m-primary:contains("Add source")[aria-disabled="false"]'
+    "Sources - Button: Remove source (menu button)":
+      selectors:
+        - '.pf-c-dropdown__menu-item:contains("Remove")'
+    "Sources - Button: Remove source and its data":
+      selectors:
+        - '.pf-m-danger:contains("Remove source and its data")'
+    "Sources - Button: Edit credentials (menu button)":
+      selectors:
+        - '.pf-c-dropdown__menu-item:contains("Edit")'
+    "Sources - Button: Add application (wizard confirmation)":
+      selectors:
+        - '.pf-m-primary:contains("Add")'
+    "Sources - Button: Remove application (modal confirmation)":
+      selectors:
+        - '.pf-m-danger:contains("Remove")'
+    "Sources - Button: Cloud Sources tab":
+      selectors:
+        - '.pf-c-tabs__link:contains("Cloud sources")'
+    "Sources - Button: Red Hat sources tab":
+      selectors:
+        - '.pf-c-tabs__link:contains("Red Hat sources")'
+    "Sources - Link: Use Red Hat gold images in AWS":
+      selectors:
+        - 'a.text:contains("Use Red Hat gold images in AWS")'
+    "Sources - Link: Use Red Hat gold images in Microsoft Azure":
+      selectors:
+        - 'a.text:contains("Use Red Hat gold images in Microsoft Azure")'
+    "Sources - Link: Learn more about Red Hat Insights":
+      selectors:
+        - 'a.text:contains("Learn more about Red Hat Insights")'
+    "Sources - Link: Learn more about Subscriptions":
+      selectors:
+        - 'a.text:contains("Learn more about Subscriptions")'
+    "Sources - Link: Go to Subscriptions":
+      selectors:
+        - 'a.text:contains("Go to Subscriptions")'
+    "Sources - Button: Cancel Add source":
+      selectors:
+        - '.pf-m-link:contains("Cancel")'
+    "Integrations - Button: Add integration":
+      selectors:
+        - 'div.pf-c-toolbar__item:contains("Add integration")'
+    "Red Hat Connector - Button: Connect systems":
+      selectors:
+        - 'button:contains("Connect systems")'
+    "Red Hat Connector - Link: Registration Assistant":
+      selectors:
+        - 'a:contains("Registration Assistant")[href="./insights/registration"]'
+        - 'button:contains("Connect systems")'
+    "Red Hat Connector - Link: View in Inventory":
+      selectors:
+        - 'a:contains("View in Inventory")[href="./insights/inventory"]'
+    "Red Hat Connector - Button: Save Changes":
+      selectors:
+        - 'div:contains("Save changesView log")'
+    "User Access - Button: MUA Application Services card":
+      selectors:
+        - '.pf-c-card:contains("Application Services")'
+    "User Access - Button: MUA OpenShift card":
+      selectors:
+        - '.pf-c-card:contains("OpenShift")'
+    "User Access - Button: MUA RHEL card":
+      selectors:
+        - '.pf-c-card:contains("Red Hat Enterprise Linux")'
+    "User Access - Button: MUA Ansible card":
+      selectors:
+        - '.pf-c-card:contains("Ansible Automation Platform")'
   pages:
     All pages:
       url_rules:
@@ -1064,6 +1266,29 @@ settings:
       url_rules:
         - /settings/notifications
         - /settings/notifications/*
+    Notifications - RHEL:
+      url_rules:
+        - /settings/notifications/rhel
+    Red Hat Connector:
+      url_rules:
+        - /settings/connector
+        - /settings/connector/*
+    Applications:
+      url_rules:
+        - /settings/applications
+        - /settings/applications/*
+    Applications - Advisor:
+      url_rules:
+        - /settings/applications/advisor
+    Sources - Add application wizard:
+      url_rules:
+        - /settings/sources/detail/*/add_app/**
+    Sources - Remove application modal:
+      url_rules:
+        - /settings/sources/detail/*/remove_app/**
+    Sources - Remove source modal:
+      url_rules:
+        - /settings/sources/remove/**
 
 rbac:
   features:
@@ -1074,6 +1299,13 @@ rbac:
     "Groups - Button: Create Group wizard submission":
       selectors:
         - '{}[data-ouia-bundle="settings"] a[href="/settings/rbac/groups/add-group"] button:contains("Create")'
+    "Default user access group - Button: Add role":
+      selectors:
+        - '.pf-m-primary:contains("Add role")'
+    "Default user access group - Button: Submit on Add role modal":
+      selectors:
+        - '.pf-m-primary:contains("Add to group")[aria-disabled="false"]'
+
   pages:
     All pages:
       url_rules:
@@ -1380,28 +1612,34 @@ cluster manager:
         - '{} a:contains("Open Subscription Watch")'
     "Nav: Support Cases":
       selectors:
-        - '[data-ouia-component-id="extra-openshift-support"]'
+        - '{} [data-ouia-component-id="extra-openshift-support"]'
     "Nav: Cluster Manager Feedback":
       selectors:
-        - '[data-ouia-component-id="extra-openshift-cm"]'
+        - '{} [data-ouia-component-id="extra-openshift-cm"]'
     "Nav: Red Hat Marketplace":
       selectors:
-        - '[data-ouia-component-id="extra-openshift-marketplace"]'
+        - '{} [data-ouia-component-id="extra-openshift-marketplace"]'
     "Nav: Documentation":
       selectors:
-        - '[data-ouia-component-id="extra-openshift-docs"]'
-    # "Button: Install Red Hat OpenShift API Management":
-    #   selectors:
-    #     - '[data-ouia-component-id=install-addon-managed-api-service]'
-    # "Link: View Documentation - Red Hat OpenShift API Management":
-    #   selectors:
-    #     - '[card-addon-managed-api-service > “View documentation”]'
-    # "Button: Install Red Hat OpenShift Data Science":
-    #   selectors:
-    #     - '[install-addon-managed-data-service]'
-    # "Link: View Documentation - Red Hat OpenShift Data Science":
-    #   selectors:
-    #     - '[card-addon-managed-data-service > “View documentation”]'
+        - '{} [data-ouia-component-id="extra-openshift-docs"]'
+    "Clusters - Add-ons - Card: View RHOAM details":
+      selectors:
+        - '{} [data-ouia-component-id="card-addon-managed-api-service"]'
+    "Clusters - Add-ons - Card: View RHODS details":
+      selectors:
+        - '{} [data-ouia-component-id="card-addon-managed-data-service"]'
+    "Clusters - Add-ons - Button: Install RHOAM":
+      selectors:
+        - '{} [data-ouia-component-id="install-addon-managed-api-service"]'
+    "Clusters - Add-ons - Button: Install RHODS":
+      selectors:
+        - '{} [data-ouia-component-id="install-addon-managed-data-service"]'
+    "Clusters - Add-ons - Button: Open in Console":
+      selectors:
+        - '{} .pf-c-button:contains("Open in Console")'
+    "Clusters - Add-ons - Link: View documentation":
+      selectors:
+        - '{} a:contains("View Documentation")'
 
 ansible:
   color: 3
@@ -1985,18 +2223,3 @@ insights for openshift:
         - /openshift/quota/**
         - /openshift/cost-management/**
         - /openshift/cost-management
-
-header:
-  color: 8
-  pages:
-    All pages:
-      url_rules:
-        - /
-        - /**
-  features:
-    "Red Hat logo":
-      selectors:
-        - 'img[src="/apps/chrome/js/fonts/logo.svg"]'
-    "Find an app or service":
-      selectors:
-        - 'button:contains("Find an app or service")'
