@@ -177,6 +177,7 @@ _beta cluster manager | Cluster view - Overview.pre01172021: zMBuyTOLrX8xk4IPKtc
 _beta cluster manager | Cluster view - Support: kOs9fD5zFThiJ3RrA_rGvFnZ4RY
 _beta cluster manager | Cluster view - node installer degraded: vFbqQGuzEpE0mioXltRdC4MjilY
 _beta cluster manager | Clusters - Create a cluster to get started: xhpCafT4uKEfBb35ppxENwjmi4c
+_beta cluster manager | Clusters - Create trial cluster - select AWS or GCP: QXfCjMkSyQ72jK5XQ66EHwx5YNY
 _beta cluster manager | Clusters list: PW-JEd5jiqCGB71Nu1-a27B9suI
 _beta cluster manager | Create cluster - AWS: f8ViVq6GrPYeHvlx7sF5lGlQtjM
 _beta cluster manager | Create cluster - AWS - Installer provisioned infrastructure: aUJhLyuLHf5cipGwPjPB1H2Kcps
@@ -199,6 +200,8 @@ _beta cluster manager | Create cluster - Run on bare metal: be_cwTxqMpv5eVyBnpfl
 _beta cluster manager | Create cluster - Run on bare metal - User provisioned infrastructure: o4g-nNgfkNtPViy9-GNO-gtWOZc
 _beta cluster manager | Create cluster - Run on your laptop with Code Ready Containers: pgg_-SQLyNsYoXmqleXGL3xcCws
 _beta cluster manager | Create cluster - VMware vSphere - User provisioned infrastructure: MfGfBzD8xGXP-MmvQ9r0pC-ALwI
+_beta cluster manager | Create clusters - AWS - Install OSD cluster: L7ef6LlkmDxOQDFq9wGvIajKssw
+_beta cluster manager | Create clusters - GCP - Install OSD cluster: fhdof53GnN6b0tnQ0q3de7RfCO8
 _beta cluster manager | OCP Trial page: 4Xtl70VO1wiP0qoLhj8VFal0hpI
 _beta cluster manager | OSD Trial page: awIwMmaU1zRiQuNxUFxHlqynPLE
 _beta cluster manager | Overview: h36q_dRKrZ9pkHi2kawWqLm2EcA
@@ -234,6 +237,7 @@ _beta cost management | Overview.post04262021: Nm99d-bJrXOD9ktGuHcnNCU0wng
 _beta cost management | Overview.pre04262021: 3HPjBHH1dws_s8ys9YKt-9DTphA
 _beta crc: IuR_80WdIJLVLlVUWg8FkLJPyf0
 _beta crc | All pages: 2qzu2dzbEGwSTqpptgYWYVqDlW0
+_beta crc | All pages EXCEPT landing page: KQB7-lfy_7qoUabRMhOMbx-_5Is
 _beta crc | Landing page: _VKU75Sm1mSNZqoa6XEeNvnqD1s
 _beta dashboard: 1iPWUunY564DdYU7TL48VThHhf4
 _beta dashboard | Host list: aGkcFEH5IJLc7Rgyj2aSslRzUFc
@@ -243,8 +247,6 @@ _beta drift | Baseline list: LCDWtFGXb3q1Uni_EpjNZG3ddsk
 _beta drift | Baseline view: eJOi4dsksNA6gQInA6qLYIaNVbI
 _beta drift | Comparison list: j82yceGXDQhcq8tSTnJBneGzMB8
 _beta drift | Comparison view: zfFKZF3bj6GsBjbiBjfc7ExTSkE
-_beta header: YWGQFEjhlTHEXGnCPzLNVcxga5M
-_beta header | All pages: Qb9RjikP11BtgQrBKOJq9pQB8x8
 _beta insights: Tv1UfmBHlD7gPgnbIul81o5CGn0
 _beta insights for ansible: gMjt9NnV2TY6IjO9hE_49qoFMGY
 _beta insights for ansible | All pages.post04262021: Xf6KSgOdm33wQBxDSLYH7l89aCE
@@ -306,13 +308,20 @@ _beta rhel | All pages: RxSDdX78wLU0uAOX3c_hEAn1rqw
 _beta rhel | Resource optimization: 8uWVZcnx93AkD6FCK0xUS1aaah0
 _beta settings: 6sy30GicxDb2gCjx3NaMQ3x9CjA
 _beta settings | All pages: iKEXlGlsUZntsEkTGBlBvyplpvI
+_beta settings | Applications: wedjCtmoOGbFwwt6ASmng4iOh4M
+_beta settings | Applications - Advisor: -sDuxcDj6m0qjuzPr3Xz3LntowI
 _beta settings | Integrations: 6o4wdgXx7QKHpjr9kVWv7UpeUo0
 _beta settings | My User Access: LuRWIq2vx1-0TxIT8zw97KrARlk
 _beta settings | Notifications: rPQL348RowUIzoEqdWpQt4XVjcE
+_beta settings | Notifications - RHEL: MQ8DaATciin8p6KxErNsFoHlf3s
+_beta settings | Red Hat Connector: ql0aVORf4p6Wp6RWZrtsyQz63xY
 _beta settings | Sources - Add Cloud Source wizard: ibvE3J6hJjEEWzXiWm6aPR4wXZs
 _beta settings | Sources - Add Red Hat Source wizard: Lx8CQeGYsXlbeXU1w4OuN485wMA
+_beta settings | Sources - Add application wizard: qFJcVMOhTjY2odqm4jvcnGFiW8c
 _beta settings | Sources - Cloud sources: u2kUBw-UGy3lbmgqUCfsMHrbeFY
 _beta settings | Sources - Red Hat sources: NkttmmG7HblYTdMvmTSBbi_qVbw
+_beta settings | Sources - Remove application modal: h9M4LSqWFASHZgWNkd4hIkmQSWs
+_beta settings | Sources - Remove source modal: riVSBIN262mHbZW0AVJCSv5WWZ0
 _beta settings | Sources - Specific source view: kcVmsAOcMZo1UrcZc8ghe8nVrfs
 _beta settings | Sources list: K6mL0c0tywR9T2lKpmZyYKWMtic
 _beta subscription watch: fiAjOJay4uKAdHQZmT8DX8pmLRw
@@ -355,9 +364,44 @@ _cluster manager | Cluster view - Overview.post01172021: Qjt1xF5WcTvyV5GhOLGcoyc
 _cluster manager | Cluster view - Overview.pre01172021: k9DTS_74bbvQar7brfZouheOQzE
 _cluster manager | Cluster view - Support: Lze0FclT85e0kRDgIMIA1QzEyeQ
 _cluster manager | Cluster view - node installer degraded: 0dxUQvQGnjXON2fNcB5PHyYemqw
+'_cluster manager | Clusters - Add-ons - Button: Install RHOAM': lB6VTsHduAmp1hZO2vE2aR7uwvQ
+'_cluster manager | Clusters - Add-ons - Button: Install RHODS': tdc5jFsLLMpaBoCkhS08x_2kINs
+'_cluster manager | Clusters - Add-ons - Button: Open in Console': jUb3-NcWeha5iYGgAylMgq2FKOo
+'_cluster manager | Clusters - Add-ons - Card: View RHOAM details': 0u6oN9YN0jbL8LVzPaDx3h7300Y
+'_cluster manager | Clusters - Add-ons - Card: View RHODS details': _t6soi9YvAGmX_5goshPWx7QZxY
+'_cluster manager | Clusters - Add-ons - Link: View documentation': smgytnmFDhUgzzoDxR6gUcqboX0
+'_cluster manager | Clusters - Button: Cancel': RgLcvNs1BQyONnhP3tw1vDFj5fg
+'_cluster manager | Clusters - Button: Copy pull secret': j7zV1bKzHv9ISB5oFMIgJY2LYtw
 '_cluster manager | Clusters - Button: Create cluster': wtPGWUgknQFr9kDcNcFlRIv2cu4
+'_cluster manager | Clusters - Button: Create trial cluster': 7l79yEpqgcennzwTNgAOtsAV4Ik
+'_cluster manager | Clusters - Button: Download CodeReady Containers': Nun49AewhqyDW3xQ0iSMlRB16MY
+'_cluster manager | Clusters - Button: Download RHCOS ISO': mAEvHYPOFrRL868S2BOnz7J4mlg
+'_cluster manager | Clusters - Button: Download RHCOS RAW': i6yKYj2S9sKGWC0RXr8gvDSIIh8
+'_cluster manager | Clusters - Button: Download command-line tools': XK-0Ztmbo1TA-rxqPUvSRulfh8A
+'_cluster manager | Clusters - Button: Download installer': bUtfD3wIr4LbolKRyM99ezSuYFY
+'_cluster manager | Clusters - Button: Download pull secret': IlIMqv7ZPKOEan0s4r84HZa0PjQ
+'_cluster manager | Clusters - Button: Get started': XF72h7E5GhsADMJ7NLIwAJ5sstg
+'_cluster manager | Clusters - Button: Installer provisioned infrastructure': NG_FoKuQIRWrNXKbNJeorqm8kMA
+'_cluster manager | Clusters - Button: Learn more OSD trial': C9nxqwgurRTaHV0Gc-gqkcp0Q-k
+'_cluster manager | Clusters - Button: Register cluster': 5_DbT-MMvZn20D52X3NvYS2LD4Q
+'_cluster manager | Clusters - Button: Run on Amazon Web Services': 6ajFmrDbKy0DHY_AGCTJvRl7iv0
+'_cluster manager | Clusters - Button: Run on Google Cloud Platform': 1kvSD6KSwh8JpTdesWr_J7QWuVU
+'_cluster manager | Clusters - Button: Try it on AWS': toscq1fPs2KcGeWhauo2ex1gVec
+'_cluster manager | Clusters - Button: Try it on Azure': b3Jbr7TxdSFLO_W-3tsQDF_pwv4
+'_cluster manager | Clusters - Button: Try it on IBM': fNhF6EFIgWzxx9tYxDPBpWGnsZY
+'_cluster manager | Clusters - Button: User provisioned infrastructure': LAf3YFy9peLeKHtMc6EJ4gd6v9o
 _cluster manager | Clusters - Create a cluster to get started: wp5tkPgv_AuRPWQhV6fRyNrHdmc
+_cluster manager | Clusters - Create trial cluster - select AWS or GCP: _YMgMAA4fl7fPxRr830M6goBVWs
 '_cluster manager | Clusters - Filter: Cluster type': urMuXmmxspSq6Clk0C6N4501bRE
+'_cluster manager | Clusters - Link: Bare metal': sZNtqTFXuizS295HlBidouSGvCo
+'_cluster manager | Clusters - Link: IBM Z': HoPz8MVwfAwxE2kbWQ5v-k4jcXs
+'_cluster manager | Clusters - Link: Install with customizations': z235eYEWekWlEv7Md4N7-8X6yXM
+'_cluster manager | Clusters - Link: Platform agnostic': S12Nw8X_ajeTmifkdp4-gDr1YF8
+'_cluster manager | Clusters - Link: Power': AyLHis5aeOFRFedk_zg_Trfm_nQ
+'_cluster manager | Clusters - Link: Red Hat OpenStack': LYlR5nyUCVaUjX41mj1ivRFrDo8
+'_cluster manager | Clusters - Link: Red Hat Virtualization': kVG1Au6NFijEN5kIEw075K4u0lk
+'_cluster manager | Clusters - Link: View the CodeReady Containers Getting started guide': fcbJrKK1UwW82kwrKisecyQ3k9Q
+'_cluster manager | Clusters - Link: vSphere': cqlcHHvg5m-Icg2KrjYDGpd_l6Q
 '_cluster manager | Clusters - Tab: Access control': C5Dlp0INH9sNyhLhC4tWAv7flYM
 '_cluster manager | Clusters - Tab: Add ons': m_FjXkMTaudCkAyMn8qvmE27KBM
 '_cluster manager | Clusters - Tab: Insights': HbSlRdVSwuSyiyCcl8tvH8Z_T1Q
@@ -388,6 +432,8 @@ _cluster manager | Create cluster - Run on bare metal: hL5PusSxBeCAJe4vB7n7vUkQC
 _cluster manager | Create cluster - Run on bare metal - User provisioned infrastructure: nhwlW7rlhUcuFRC0ZlMBTAv8VR4
 _cluster manager | Create cluster - Run on your laptop with Code Ready Containers: 7W25KQgplTL8aLkkaxchFkRD5hc
 _cluster manager | Create cluster - VMware vSphere - User provisioned infrastructure: DwhhtPNXslT4cSMuCoa8C5onnos
+_cluster manager | Create clusters - AWS - Install OSD cluster: hhoZa6PrtTbu46jBU0QXi58mY8o
+_cluster manager | Create clusters - GCP - Install OSD cluster: EA7ds0fhT4rRpLTsTqn028rkxt0
 '_cluster manager | Nav: Cluster Manager Feedback': zFXdUVnR3omUa-hii1aOu1MVvVI
 '_cluster manager | Nav: Documentation': SFupJbBmXnBRMDuk8HKd5EXYpe8
 '_cluster manager | Nav: Red Hat Marketplace': tzmRURYY0ezbXNs9JlfGXN5Ii8M
@@ -419,6 +465,21 @@ _compliance | SCAP Policies view: NOMp3jDCD1HxtmI3Rm1tAPIpOPE
 '_compliance | Systems - Link: Clear filters': eGk2HOEaeICfjvt5pMp41QWP_Sk
 _compliance | Systems list: nNKuovgrR_cGtad_qtwY9Zsh4EI
 _console landing page: PCOr0FpludBEWHUP48vylEJe8pg
+? '_console landing page | Console Landing Page - Button: Create - Create a remediation
+  playbook to fix issues identified by Insights on your systems'
+: uI_7VetApWeM5sz3JCVeJGv4C6M
+? '_console landing page | Console Landing Page - Button: Get started - Create an
+  Ansible Playbook to remediate or mitigate vulnerabilities or configuration issues'
+: PqVBK9uyerS9Ogi0Sv1yr_BTX84
+'_console landing page | Console Landing Page - Button: Learn more - Get started with Red Hat OpenShift API Management': L3HkCh40jlR5mqr1hf-HJCVqt8A
+'_console landing page | Console Landing Page - Button: Orders - Automation Services Catalog last orders (0)': TBpa4tPmhqMKEXnNMwtvy3iogO0
+'_console landing page | Console Landing Page - Button: View - Automation Services Catalog approvals': DNIYu5yHLevdu99BFyo556_yjhA
+'_console landing page | Console Landing Page - Button: View - Download and install the Application Services CLI': rLHKIERgUtlFG6MhqcexSoDssvc
+'_console landing page | Console Landing Page - Button: View - Insights has identified 4 incidents affecting your systems': 59p_dEXd5b7ZNdBx9pcd7jnUCBg
+? '_console landing page | Console Landing Page - Button: View - Learn how to connect
+  to your Kafka instance from a Quarkus application'
+: DyxtOTpFipUV7wdHy5O_OtDc57Q
+'_console landing page | Console Landing Page - Button: View - Learn how to create and use a Kafka instance': YBwyQEFIqdTbkBu7YFIykpDbJb8
 '_console landing page | Console Landing Page - Left Nav: Ansible Automation Platform': R2TRYqRC7cc5W_cS7g5jXSR7TOA
 '_console landing page | Console Landing Page - Left Nav: Application Services': GpYjuTVIenDWLiPRol_4rj3EVcY
 '_console landing page | Console Landing Page - Left Nav: OpenShift': TZPArgoCD9Yb4E9s7DW2pA2gfvU
@@ -433,18 +494,28 @@ _console landing page: PCOr0FpludBEWHUP48vylEJe8pg
 '_console landing page | Console Landing Page - Link: Get started - Configure Automation Services Catalog': PLHJzhK9kcVuQ66tAdLUTaIRzHM
 '_console landing page | Console Landing Page - Link: Get started - Connect to your infrastructure': 38J8W2vvWLFUo_lNH0Ykd_W99AQ
 '_console landing page | Console Landing Page - Link: Get started - Cost Management now has forecasting': 4nOb__6MeEc17NzqOzjGZyeurE8
+'_console landing page | Console Landing Page - Link: Get started - Cost Management now provides forecasting': 9NwgMU3_fbrMDIEhFfZTIWNAWbM
 '_console landing page | Console Landing Page - Link: Get started - Cost Management supports Google Cloud Platform': hm-ytmAWFSVDu8LfzOzCN28Ul2A
 '_console landing page | Console Landing Page - Link: Get started - Create a new portfolio': x_iCLtMP6UEQ2H5PSwEYK4rggms
+'_console landing page | Console Landing Page - Link: Get started - Get started with Automation Analytics': YZuauaHSTshdFNKf-4k6Td4nco0
 ? '_console landing page | Console Landing Page - Link: Get started - Install the
   OpenShift Application Services operator in your OpenShift cluster'
 : 4CVa2OoHhjkHCz63i-fivbhpsYE
+'_console landing page | Console Landing Page - Link: Get started - Manage user access permissions': 2_PizGXb2MelyiNs6Bkrm0W0V2s
 '_console landing page | Console Landing Page - Link: Learn More - Integrate Insights with Satellite 6.7+': UZ3ASa0K0W6KOyV2HpdLFolMoTY
 '_console landing page | Console Landing Page - Link: Learn More - Setup user access for your Private Automation Hub': _PXKMAwstQfdaflpRa9iSaDk5Mo
+'_console landing page | Console Landing Page - Link: Learn more - Explore Red Hat certified collections': YpKyUCj_sHgR2YTq5dsNa1F6OmM
 ? '_console landing page | Console Landing Page - Link: Learn more - How to connect
   Automation Hub to your automation infrastructure'
 : B6OLgWCDWKh9OcfarFsKu7e6W5w
 '_console landing page | Console Landing Page - Link: Learn more - Learn about namespaces': XGyMt4E7wOMVr9i4XTmHzblFvdc
+'_console landing page | Console Landing Page - Link: Learn more - Learn how to create and use a Kafka instance': YgsMdn18DZGOgzQ_SO-KN7xVys4
+'_console landing page | Console Landing Page - Link: Learn more - Red Hat Insights Data and Security Information': nIIxn0UVXOC_-q9ebx-53e10df4
 '_console landing page | Console Landing Page - Link: Learn more - Try Red Hat OpenShift API Management': 77DjFUp2Mue2LBnhmaY5dfFdUp0
+'_console landing page | Console Landing Page - Link: Read - How to use the Cost Management API': XSn-al8MGrJ_1WPE6blmG01Ypq4
+? '_console landing page | Console Landing Page - Link: Read - Learn about adding
+  a source to Cost Management when it is not connected to the Internet'
+: xqDs7iDX2X2-oeTz0RZ9w0Zcdt8
 '_console landing page | Console Landing Page - Link: Sign up - Try OpenShift Streams for Apache Kafka': OOPJ4GuMSH5yEBS2jG9c6xJJUC4
 '_console landing page | Console Landing Page - Link: View - Tour Job Explorer': _9p6wSnM8U68F0lTg4IfnGGTpwU
 _console landing page | Main page: 753RoICqdGcEKbeUqll2lgP2rZc
@@ -465,8 +536,57 @@ _cost management | Overview.post04262021: 3YyCv3SfU4vQ00CoNpT8jvcbdNw
 _cost management | Overview.pre04262021: KS3BVlkakcUw5CBKySF6VfV-1_c
 _crc: QkZnLa5f7FOp_YZfUnDcddXkHp0
 _crc | All pages: bHVOproIyOM2__OggX5ST9j6Fkk
+_crc | All pages EXCEPT landing page: R-waMxVLWmTB6NXMAzdp836E8NI
+'_crc | Apps & Services Dropdown - Ansible Automation Platform: Analytics': BSX9buZNxptoRS2T7eFozKNaycQ
+'_crc | Apps & Services Dropdown - Ansible Automation Platform: Automation Hub': rFxWrJ9fjCm4Mbu5aV-zrKWFYK8
+'_crc | Apps & Services Dropdown - Ansible Automation Platform: Automation Services Catalogue': U2RmJpcD-OGq6hBp3hrvc3XNQbk
+'_crc | Apps & Services Dropdown - Application Services: API Management': qk1rJGDpuEr3pIOUd2r69RiFbVI
+'_crc | Apps & Services Dropdown - Application Services: Data Science': rYiHqFXYDab1RITPinu4Vy9Cr5o
+'_crc | Apps & Services Dropdown - Application Services: Overview': IqIvGs9W7fx-dmvoXleRo4n2Lw4
+'_crc | Apps & Services Dropdown - Application Services: Streams for Apache Kafka': Vi314Dz47b-nkjfWBLKxoNZuaEA
+'_crc | Apps & Services Dropdown - Cost Management: Amazon Web Services': yNKaI07YDecGuyCxIWz4DvtdXMg
+'_crc | Apps & Services Dropdown - Cost Management: Cost Explorer': MaQH5myi4Zwodfds7W8Z2JH_DeA
+'_crc | Apps & Services Dropdown - Cost Management: Cost Models': y-PPJnIZSdGvePsfO9k4DeB0eJQ
+'_crc | Apps & Services Dropdown - Cost Management: Google Cloud Platform': XGcS5vUDdY3LKpm036c35ldAgRA
+'_crc | Apps & Services Dropdown - Cost Management: Microsoft Azure': -6Lfq1VbfAqjh-_JSYXxu8G-p5c
+'_crc | Apps & Services Dropdown - Cost Management: OpenShift': Cg6q7fab8c2CLXF1smTWfSIYtkU
+'_crc | Apps & Services Dropdown - Cost Management: Overview': BiGw0wl1ha8TOZXP2XoJFP1ZdM4
+'_crc | Apps & Services Dropdown - OpenShift: Clusters': m3IERFc8FbQPIUHGZjDAQhfk0CM
+'_crc | Apps & Services Dropdown - OpenShift: Cost Management': oqBbmKFzE3nuGOjFNHvxJzxmhJ0
+'_crc | Apps & Services Dropdown - OpenShift: Overview': 3DEkI0X8ZDtVrAMfOfOQ8PMiT0E
+'_crc | Apps & Services Dropdown - OpenShift: Releases': rQNDHNoWPqeXqYXj3kpldPqPQFA
+'_crc | Apps & Services Dropdown - OpenShift: Subscriptions': NWL1Luu2WNFQXvzonAr476mhj-Q
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Advisor': XFTpmCBYe8APixkPc8oa9-lBWoM
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Compliance': k_m7FQUqQGYwCW4nmUrEsV-FBVo
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Dashboard': Qn5tpuDM8EwS0wSPk1biqCyyT8A
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Drift': aOlynrBB936hKwgZ3SmbpngtkN4
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Inventory': UdA0Vfczi_yNQp3S_BKhqOZMhfQ
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Patch': BW5vHTMDfPOsG96hRRM6vMTIjWY
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Policies': S1r9PtAfJY5mO8GiPbgenP-BG6c
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Register Systems': d2mMJizdHKZ4gk23h1Aj3KAUZ4Q
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Subscriptions': RgEmhGACmEnp6-32mLWe_Ui0eOc
+'_crc | Apps & Services Dropdown - Settings: Applications': L-PFBwtcq3weo_6PqsqwZdY8JPo
+'_crc | Apps & Services Dropdown - Settings: Documentation': LvD2JrTRDtItQzcf5CLkRaadgRw
+'_crc | Apps & Services Dropdown - Settings: Integrations': 2386apt_Bpb70g_aedMkcG6l-IU
+'_crc | Apps & Services Dropdown - Settings: My User Access': fKInLDCfVLBTv1dLDLTnqapnCm0
+'_crc | Apps & Services Dropdown - Settings: Notifications': 9jFAsgRXGbVRRL4MAE_XOiETDqA
+'_crc | Apps & Services Dropdown - Settings: Sources': oJFztnxDv08NJUTgsXDNOdFoZ6g
+'_crc | Apps & Services Dropdown - Subscriptions: ARM': 6P6iMxKIRs3NKCJZeq85cf3_W7M
+'_crc | Apps & Services Dropdown - Subscriptions: All RHEL': CSWl67Qbf73_rKD_DsEMHkFdVs8
+'_crc | Apps & Services Dropdown - Subscriptions: Documentation': TcQ8-4ntd10XlFajKsdYXVtbe3I
+'_crc | Apps & Services Dropdown - Subscriptions: IBM Power': n2kRe0AwCdP05MC0_YuHtHDRy1Y
+'_crc | Apps & Services Dropdown - Subscriptions: IBM Z Systems': lKikfCOdASPscGtlIdEv2XMXNyU
+'_crc | Apps & Services Dropdown - Subscriptions: OpenShift Subscriptions': VdNvfYzh6BH9aBMHgYP8jgzEM0c
+'_crc | Apps & Services Dropdown - Subscriptions: x86': jAaJ7J1ryh2uPMFLn75m56h9bpw
+_crc | Find an app or service: 6ofYs2rj83WMjtUQZrvUEsTtOnc
 _crc | Landing page: uAs_P-t1oVHUKbh4ghjjH9fBxjg
+_crc | Red Hat logo: Rb3NaRgU3RkaN9C7GLGizFYQsc0
+'_crc | Selector: Beta switcher': 6s3D5XmHENriwnPdUiWrzIKQh5s
 _dashboard: HAohHTbgBjDDfObUcjfgPzY5Vr0
+'_dashboard | Dashboard - Link to Patch: View all systems affected': DZQqTqAOa2Pml1cIrIOPhUAFgb8
+'_dashboard | Dashboard - Link to Patch: View bug fix advisories': RCS2Wmwy3VXUx1qYsbK-6eenUfE
+'_dashboard | Dashboard - Link to Patch: View enhancement advisories': QGDIMhtyMLTDRATvCMAGA-3Si_I
+'_dashboard | Dashboard - Link to Patch: View security advisories': 31DNJbxDGvPmOck_3gj8GSgjIU8
 '_dashboard | Dashboard - Link to Vulnerability: CVEs by CVSS score filters': Jqotz8gJFvKHUnEdAvAQjE41qaY
 '_dashboard | Dashboard - Link to Vulnerability: Security rule details': lIRIlh7hkjH91Hf-IsDlcAm8lUc
 '_dashboard | Dashboard - Link to Vulnerability: View CVEs': tN0olONDeYfT6_772y4ybFCWN4s
@@ -494,10 +614,6 @@ _drift | Baseline view: aL6i9wGs0pYKNFSeOhJy_zldTik
 '_drift | Comparison - Button: Export to CSV': xq9enDk_qeMAo95K9M7FpJ9pawA
 _drift | Comparison list: sjQzYobh1-oVk5qkve0Y0WW1dSQ
 _drift | Comparison view: hE7HH2gRNo7De2CWD2GQj3aeUK0
-_header: 5yR-3y0l8FixMMUOVVviGXrKK_k
-_header | All pages: 8mwU7ofrujrPkZZNVEjI0XyWAg4
-_header | Find an app or service: 4qwaOutrrjfRXCjiMBBDwMc60vU
-_header | Red Hat logo: cP_oTKjd5W_R-hkI7W7X7Y2fP0I
 _insights: MCGTenK_AyH54qE2GlW5Kk91BII
 _insights for ansible: u-BFz351k2lwJa1LSq3fdyY9FdU
 _insights for ansible | All pages.post04262021: H3iXlXW-DnHFokGIxDW6dRxOQeI
@@ -541,16 +657,89 @@ _migration analytics | Report - list: wuGCIvJYtnFd5r___E_lA9SyzT8
 _migration analytics | Report - upload: oZvMGEX_Q01wAGK0iduqpqKdgp4
 _migration analytics | Unentitlement modal: Hyb09NIkAqPpqOl0Zg7tDEbP9-I
 _patch: 2KicdoRY3ylcII2Dqm543CZcR3A
-'_patch | Advisories - Button: Export': lehFRVFglwcMUjezweVA3bNYs2w
+'_patch | Advisories - Export: CSV': RGycIOvOcTUN2p0pO5nVur7bqhQ
+'_patch | Advisories - Export: JSON': 96JDm_2beCuDrvNA4c0gAeQgOzs
 '_patch | Advisories - Filter: Publish date': vTHYg2BDEjFFX38ango3HeU48Rs
 '_patch | Advisories - Filter: Type': UaGwqTM19U9bzbozsPVuO2_SSfs
+'_patch | Advisories - Per page: 10': JIXRfo1uhQ8ZeAm0IUNG1ozLY2I
+'_patch | Advisories - Per page: 100': uYQOQAW8zp7O09YOoIz1F8yVBLA
+'_patch | Advisories - Per page: 20': sWIGnqg1fVIFa8dCWEfcFs8o4YQ
+'_patch | Advisories - Per page: 50': 74n8neLUhR9bZRP_H3qUypdyG7o
+_patch | Advisories - Select all: Ab-W71cgwfspU-HjXEE_UtQBuDg
+_patch | Advisories - Select page: x7MFInbDJa5DxtOKWNKYlvI5KKQ
+'_patch | Advisories - Sort by: Applicable systems': cABxiHTLb8jIWLSSJzyK91-sdHI
+'_patch | Advisories - Sort by: Name': -x2w3up2AuTLcQRDe0dlcrSw0XA
+'_patch | Advisories - Sort by: Publish date': uF5kyk-61iIneGCj6DBe2aMjbzk
+'_patch | Advisories - Sort by: Synopsis': _8RHIpAAI6pPzvxCPwEZVZzfzW4
+'_patch | Advisories - Sort by: Type': f0sR02FdlHgyBG1SXHs8w2dESfE
 _patch | Advisories list: q_l5_zQrgg6E8gaGPpWF-Jr2JhU
+_patch | Advisories view - Apply all applicable advisories: HE74noHcifyvHZlBTgO4vpc8bdE
+'_patch | Advisories view - Link: View packages and errata at access.redhat.com': 572o33mq8Z2MmiJBSmj8YEd4ZDA
+_patch | Advisories view - Open Cves modal: 1lvn0qeAxy0wBFA72e5lWubWdp4
+'_patch | Advisories view - Per page: 10': s2VgPgNLR9aHD7y0DDuc2kNYE5I
+'_patch | Advisories view - Per page: 100': YexXzIS7ttM3qMSMH7RUVK-Ihx8
+'_patch | Advisories view - Per page: 20': U3Ne6OQ5JdcKEcE8mczOcjHunZ8
+'_patch | Advisories view - Per page: 50': D_wMtUDpOS8dFfAYc4erhUwmKY8
+_patch | Advisories view - Remediate: 320PpDNub5KSNGZ_Ykf5BUZPN5Q
+_patch | Advisories view - Select all: Uyd-04oGYc9W0vc1WVZtyA9sujM
+_patch | Advisories view - Select page: e_zHMHtmNY0ZBawT4bB8RgM7mD4
+'_patch | Advisories view - Sort by: Applicable advisories': rZxItJHw0-EHBqyl0fE-kJZcFTc
+'_patch | Advisories view - Sort by: Last seen': rtwHW5wlbXbEUwEFHA8u-MGaxRQ
+'_patch | Advisories view - Sort by: Name': ccvj3Cv_kbv6shldH1rFdFEi7Mg
+'_patch | Advisories view - Sort by: Packages': -jEapsewG7M0guiUudRVXf3h0UA
 _patch | Advisory view: KuIZqaSV5hmosD9I29AHVk_KQ60
 _patch | All pages: I12HHquOExmUFf0aCXjQcfwxDm8
 _patch | Packages list: _Bqt-_ZPs6_yfPB_v2Z9C2zNcWA
+'_patch | Packages list - Export: CSV': DSfrJNHXaDbUA-fgYijObgYROVE
+'_patch | Packages list - Export: JSON': YThE9OQr53NFIlfpDuAbjp2VmR0
+'_patch | Packages list - Filter: Status': 8HL2xkux-qnqc8soZqS53odUa4o
+'_patch | Packages list - Per page: 10': Yw1euGhe9GOFiX864Cx6Q2IBXX4
+'_patch | Packages list - Per page: 100': l4yMgTlWl4VNoERTY_PAMjAwR24
+'_patch | Packages list - Per page: 20': zrNagCahm-xXYpQ20550G6cj1o0
+'_patch | Packages list - Per page: 50': PfNrPlM4bZ8U1L5bJxPJ6xGS3j4
+'_patch | Packages list - Sort by: Applicable systems': vkhQ84Sj6RgTgqj_SlfPcJdltmI
+'_patch | Packages list - Sort by: Name': ke5RmK_1uOs-cNZZi6AqHbJlwek
+'_patch | Packages list - Sort by: Summary': HuhFczVYPOH22qbSgIF1n5vbMX4
+'_patch | Packages list - Sort by: Upgradable': RS6m3qS9YoUZF6ByKbKePNV_s4k
 _patch | Packages view: Jycv8Tn2zJvMrEfHogf9ZVKheOc
+'_patch | Packages view - Per page: 10': aHaE6YGl4FqqqYDjazBMYRXUmqs
+'_patch | Packages view - Per page: 100': s1JPrxj2L6ylHmOOp3k8mXlF7Hw
+'_patch | Packages view - Per page: 20': BTX1RsotZpqGq_AkSOoEgl8N1Go
+'_patch | Packages view - Per page: 50': 2IEabAZlAeaL8SQMJ2x0DYl1YFE
+'_patch | Packages view - Sort by: Installed version': ZJM6fJtsFQaHqzONSzz408HgFbE
+'_patch | Packages view - Sort by: Latest version': vUrhTty3ZnYjDoFXTi5h_bBA7W8
+'_patch | Packages view - Sort by: Name': Jwng2m7F02ri5Oa3XQdk009s03M
+'_patch | Packages view - Sort by: Status': DjMaIsN2bUZGZquyqV7l_NNpjnk
 _patch | Systems list: R68Ef393B-1VAbPug5ElVChGAWU
+_patch | Systems list - Apply all applicable advisories: b9jM5zRNr8vPdHzT3ACcBdcTPls
+'_patch | Systems list - Export: CSV': 6WGr7kCJC99lYFTY9_juQYEfwec
+'_patch | Systems list - Export: JSON': Ps7af4sNdIFFvdFLZcxzUTPZMsY
+'_patch | Systems list - Per page: 10': SQPeqjr0-uGvBase37rJ5gw42Sw
+'_patch | Systems list - Per page: 100': oValGyq2BEER6sqgMgzA8VUWNLc
+'_patch | Systems list - Per page: 20': fxAx4hgeCuNXHOaXYpsjG_W4zu0
+'_patch | Systems list - Per page: 50': Y1QUe8TR7QftK0J2SqTxP7Zad60
+_patch | Systems list - Select all: _HBdLBuz-BRbdzg6ZeAjcS4Fta4
+_patch | Systems list - Select page: lusSI10tWXg0zdGAtfR9JQParnI
+'_patch | Systems list - Sort by: Applicable advisories': LiF_nAyT67_VbLwaAkE1hVpDrpo
+'_patch | Systems list - Sort by: Last seen': iA-dy10zGYyArKoM0blyXbEVq1E
+'_patch | Systems list - Sort by: Name': IrPofbWuwjBYEgZSpTpVeOFE7Vk
+'_patch | Systems list - Sort by: Packages': Q-rhEiHWwxR-iLUIIvXeU3xD1Jw
 _patch | Systems view: GvbhsJsrCtbxd_W8h-FABLkpauI
+'_patch | Systems view - Filter: Publish date': deefPWBpaALgTEhj8CneSR6XcDg
+'_patch | Systems view - Filter: Type': 5utzj-sMm7mOcXcsMs7ZSmbHe0w
+'_patch | Systems view - Per page: 10': jLSyMLrxcAZg0Q7dhBJSe_EhkM4
+'_patch | Systems view - Per page: 100': jgUUso_fwuAr5Tqv9KfSjimBzuU
+'_patch | Systems view - Per page: 20': H54KcykwnYpSuH18DnBSbSymM84
+'_patch | Systems view - Per page: 50': GgWXnr6tMIzUiDWSsQz1FRMMyWU
+_patch | Systems view - Remediate: hqesOo3jrnVp8UX3g0Lg1lN5c2s
+_patch | Systems view - Select all: MGy4qgJoZDpw4COWtmZbRxP5loQ
+_patch | Systems view - Select page: v8S2hCJ1Y3uiBveMSLBA2fUiyKA
+'_patch | Systems view - Sort by: Name': JANrEqSK5oiMTeiL_xUx04GhQlY
+'_patch | Systems view - Sort by: Publish date': wUO4uK-E6PJv7f295PpYcCHUnaQ
+'_patch | Systems view - Sort by: Synopsis': SuwQZwOgmpUxsFXH0Q06qw5TQ54
+'_patch | Systems view - Sort by: Type': t8Vsny_4MBqbghkabN30PAFmNcI
+'_patch | Systems view - Tab: Advisories': iQlR0_ucs3YgazwCBqtSCeRDw1M
+'_patch | Systems view - Tab: Packages': e6fCselvBt29aXGH7_CnSuxUtz4
 _policies: yJw82qnUWGkYyBYJMJSyoY1HgCo
 _policies | All pages: CCPCIOyT5ahgbkthdIICAz5CjTA
 '_policies | Policies - Button: Create policy': WWnNGInmvd8iUeGcF6oO7HansPk
@@ -561,6 +750,8 @@ _rbac: C8QuKEdKenYaAAKmH_bMp_P_5gk
 _rbac | Add group: AFOk94ipD3Vh0uyPba3uNi-6kh4
 _rbac | All pages: r8ETUpTbC8SDjd8SiNZ6JtTST8w
 _rbac | Create role wizard: cR-7Q-bwqhtwUPEP9cixRd4XJYY
+'_rbac | Default user access group - Button: Add role': 7qR9kYmsc_xoYaeC3w3PPn6Gs6w
+'_rbac | Default user access group - Button: Submit on Add role modal': Jyd0gymiX8LGzv2cr8fGb9oroKU
 _rbac | Group view: oTm6kZAUIdeoqKtsgQoHHr_v0bE
 '_rbac | Groups - Button: Add group': P1H45KkCtnAAYFE4v8MzuMtVSEM
 '_rbac | Groups - Button: Create Group wizard submission': y6wLutQrk9pWSIglEVMQHJ95bJo
@@ -590,20 +781,50 @@ _rhel | All pages: qPUQphx78aSUe-dIKnWNEBiartk
 _rhel | Resource optimization: MHYZ-UAuy7rE8XAIQAJdLwuObW4
 _settings: HmOUa_nZJqRt3xnKVgL8gwQdR30
 _settings | All pages: CaicMeffnwmXnRsfD94CuYMp_Ow
-'_settings | Cloud sources - Button: AWS': YxbVewh6pOc5teyXfMRESZqs0vE
-'_settings | Cloud sources - Button: Microsoft Azure': 75_EJ9iuiXrDSNFPJe-6d_XZ89E
-'_settings | Cloud sources - Link: Enable additional Insights services': RgZKeXu8ICwQJSz9kNeCzZoO110
-'_settings | Cloud sources - Link: Go to Subscription Watch': 8xNUvUsLbmbhm_KaCfe6sLAl-xE
-'_settings | Cloud sources - Link: Learn more about Red Hat Gold Images': hpOtvb9slfRnYVjS0ZwChSRosfk
+_settings | Applications: WFfm9pvrJLXjF2LFN23Bbaar1mU
+_settings | Applications - Advisor: z7Xd66F5hFSfnMUzR3VAKqesFzc
 _settings | Integrations: rvp_MgRyvLDBs8dNzybAJlI2QOg
+'_settings | Integrations - Button: Add integration': M3VnAy2M7jacEZPcpefzB5myyz8
 _settings | My User Access: gO6N4aHJVlzI-yz6P7bQHmAjF3s
 _settings | Notifications: Snu3WfbhpWYyYS0Ad93ohg7UPKI
+_settings | Notifications - RHEL: 3MvbIjJlZP9DqVFpR03AkG6GEKY
+_settings | Red Hat Connector: _kzwq8Zr5SC0iEEwgiWFg_Sstp4
+'_settings | Red Hat Connector - Button: Connect systems': 6PhIDSN8R8-WH6_0FSDjUwgpDDc
+'_settings | Red Hat Connector - Button: Save Changes': pMlpu3udliEVd4Hv98CtOuBoU_o
+'_settings | Red Hat Connector - Link: Registration Assistant': GFSnzOuJP7Y6uUdoZMgyPm-AXCI
+'_settings | Red Hat Connector - Link: View in Inventory': VQjzbmAHdfebkND8UXl273LIZbY
 _settings | Sources - Add Cloud Source wizard: 3x49WzsN8ygwjvFAaZLA9kEY8K8
 _settings | Sources - Add Red Hat Source wizard: 7RT3wxZsXfVkfXSBFRbEBgaBFxM
+_settings | Sources - Add application wizard: Xswc05_ECon2pA3bHen2WXwdqSY
+'_settings | Sources - Button: AWS': ZCrgzvF4kg3cldjhQyezsQ9uRZQ
+'_settings | Sources - Button: Add application (wizard confirmation)': eAg0vyu_BOVC9lzGE_rp6Hax9Kk
+'_settings | Sources - Button: Add source': soBjN3RpGLLVB6u7iWrNWZNn0tY
+'_settings | Sources - Button: Cancel Add source': Dw9uhQpcA8nQTuW8ULD702MExNk
+'_settings | Sources - Button: Cloud Sources tab': pR2YU9BfcXP2jMWVvYvsBwxdCgw
+'_settings | Sources - Button: Edit credentials (menu button)': Y8_a-RAbesdTCiHzKbJwxi249cI
+'_settings | Sources - Button: Microsoft Azure': matoJSk-tuhgf_Pn5jWYKF_MgyA
+'_settings | Sources - Button: Red Hat sources tab': z80vjgU5QFxtp4wRsmmmunyyZrc
+'_settings | Sources - Button: Remove application (modal confirmation)': 5Tx8u2W1JOUnjth6OcJZVBuZLq0
+'_settings | Sources - Button: Remove source (menu button)': 8uJEpIzxN3NTsaC8GuUDTlACaYM
+'_settings | Sources - Button: Remove source and its data': MZHROqZ9fYcLkSDpv17gOn9MQYQ
 _settings | Sources - Cloud sources: i_U84s5MOde7ZcT5nIuvI7ZOO1Y
+'_settings | Sources - Link: Enable additional Insights services': O3yaQPRwNlZqzzOW2CqyrfP1uuo
+'_settings | Sources - Link: Go to Subscription Watch': pREVahm88UPIiim6vDbov6wx0TA
+'_settings | Sources - Link: Go to Subscriptions': fOGgIMPQg4e8V_hjbMrszfr6-9c
+'_settings | Sources - Link: Learn more about Red Hat Gold Images': KtirzBT8lBff1YF1lBhJsDjueuA
+'_settings | Sources - Link: Learn more about Red Hat Insights': Hq1vhkKIZeWfbDwfOL4O6WLcZEs
+'_settings | Sources - Link: Learn more about Subscriptions': 0QLZ9wuzJWCaY5EUq-3dSOufe28
+'_settings | Sources - Link: Use Red Hat gold images in AWS': K0bVdaQJC7Dy7xXAEs5UPONOs-0
+'_settings | Sources - Link: Use Red Hat gold images in Microsoft Azure': C3kvB9eB5tUN6LiQT--ei5Ualwk
 _settings | Sources - Red Hat sources: YpJOlhNvAGYR0xnMpcSq2_Ylmp0
+_settings | Sources - Remove application modal: GW0-ZNmxX-Wmw_WxnbYtcIvh3Io
+_settings | Sources - Remove source modal: 51j-r3RKfj8lw0V9Smlvj2E-GPw
 _settings | Sources - Specific source view: OMjgrqWlV0UEBs8GmnyXHZEqGb0
 _settings | Sources list: cMl2vsUERPkAAipWNL8Tyeri_qc
+'_settings | User Access - Button: MUA Ansible card': hbsAgy5GqxABXRyv3ImiFeOabjY
+'_settings | User Access - Button: MUA Application Services card': _iVI6vnkKxCPwjHHKyQQ6_z2GUs
+'_settings | User Access - Button: MUA OpenShift card': 8dP8zefeE8AZm0QbhehkTSMTNj8
+'_settings | User Access - Button: MUA RHEL card': 3wqan65XuOgqF6kLKKAJGM5Lrio
 _subscription watch: 3SnPawgtVguQ9gsG-1-7swcOmU4
 _subscription watch | All pages: hDj9Xzg2DBEdMOnTTIjxRRdLOQU
 _subscription watch | Red Hat Enterprise Linux - ARM.post04262021: 9R5hcsMuCWQ_fW1Gi6CA7Lkll7U
