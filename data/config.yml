@@ -263,6 +263,9 @@ advisor:
     "Recommendations - Filter: Total risk":
       selectors:
         - '{} button:contains("Total risk")'
+    "Recommendations - Filter: Name":
+      selectors:
+        - '{} button:contains("Name")'
     "Recommendations - Filter: Risk of change":
       selectors:
         - '{} button:contains("Risk of change")'
@@ -287,15 +290,75 @@ advisor:
     "Recommendations - Filter: Status":
       selectors:
         - '{} button:contains("Status")'
+    "Recommendations - Filter: Systems impacted":
+      selectors:
+        - '{} button:contains("Systems impacted")'
     "Recommendations - Link: Download executive report":
       selectors:
         - '{} a:contains("Download executive report")'
     "Recommendations - Button: Remediate":
       selectors:
         - '{} button:contains("Remediate")'
+    "Recommendations - Button: Export to CSV":
+      selectors:
+        - '{} button:contains("Export to CSV")'
+    "Recommendations - Button: Export to JSON":
+      selectors:
+        - '{} button:contains("Export to JSON")'
     "Systems - Filter: Total risk":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Total Risk")'
+    "Recommendations - Sort: Name":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Name")'
+    "Recommendations - Sort: Added":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Added")'
+    "Recommendations - Sort: Total risk":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Total risk")'
+    "Recommendations - Sort: Risk of change":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Risk of change")'
+    "Recommendations - Sort: Systems":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Systems")'
+    "Recommendations - Sort: Ansible":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Ansible")'
+    "Topics - Sort: Affected systems":
+      selectors:
+        - '{} .pf-c-table__button:contains("Affected systems")'
+    "Topics - Sort: Featured":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Featured")'
+    "Systems - Sort: Recommendations":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Recommendations")'
+    "Systems - Sort: Last seen":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Last seen")'
+    "Systems - Sort: Low":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Low")'
+    "Systems - Sort: Moderate":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Moderate")'
+    "Systems - Sort: Important":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Important")'
+    "Systems - Sort: Critical":
+      selectors:
+        - '{} button.pf-c-table__button:contains("Critical")'
+    "Recommendations - Link: Knowledgebase articles":
+      selectors:
+        - '{} a:contains("Knowledgebase article")'
+    "Recommendations - Button: Disable recommendation for selected systems":
+      selectors:
+        - '{} li:contains("Disable recommendation for selected systems")'
+    "Recommendations - Button: Disable recommendation":
+      selectors:
+        - '{} a.pf-c-dropdown__menu-item:contains("Disable recommendation")'
 
   pages:
     All pages:
