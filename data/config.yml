@@ -831,25 +831,25 @@ patch:
         - '{}[data-ouia-subnav="systems"] button:contains("100 per page")'
     "Systems list - Export: CSV":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-c-inventory__table--toolbar-has-items button:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Export to CSV")'
     "Systems list - Export: JSON":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-c-inventory__table--toolbar-has-items button:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Export to JSON")'
     "Systems list - Apply all applicable advisories":
       selectors:
         - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Apply all applicable advisories")'
     "Advisories view - Per page: 10":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("10 per page")'
+        - '{}[data-ouia-subnav="advisories"] button:contains("10 per page")'
     "Advisories view - Per page: 20":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("20 per page")'
+        - '{}[data-ouia-subnav="advisories"] button:contains("20 per page")'
     "Advisories view - Per page: 50":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("50 per page")'
+        - '{}[data-ouia-subnav="advisories"] button:contains("50 per page")'
     "Advisories view - Per page: 100":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("100 per page")'
+        - '{}[data-ouia-subnav="advisories"] button:contains("100 per page")'
     "Advisories view - Link: View packages and errata at access.redhat.com":
       selectors:
         - '{}[data-ouia-subnav="advisories"] a:contains("View packages and errata at access.redhat.com")'
@@ -858,13 +858,13 @@ patch:
         - '{}[data-ouia-subnav="advisories"] button:contains("associated with this patch")'
     "Advisories view - Select all":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("Select all")'
+        - '{}[data-ouia-subnav="advisories"] button:contains("Select all")'
     "Advisories view - Select page":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button:contains("Select page")'
+        - '{}[data-ouia-subnav="advisories"] button:contains("Select page")'
     "Advisories view - Remediate":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] .ins-c-inventory__table--toolbar-has-items button.remediationButtonPatch:contains("Remediate")'
+        - '{}[data-ouia-subnav="advisories"] button.remediationButtonPatch:contains("Remediate")'
     "Advisories view - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="advisories"] .patchCompactInventory button.pf-c-table__button:contains("Name")'
@@ -888,7 +888,7 @@ patch:
         - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Select page")'
     "Systems view - Filter: Type":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch [role="menuitem"] button:contains("Type")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Type")'
     "Systems view - Filter: Publish date":
       selectors:
         - '{}[data-ouia-subnav="systems"] .ins-active-app-patch [role="menuitem"] button:contains("Publish date")'
