@@ -170,7 +170,7 @@ user preferences:
       url_rules:
         - /user-preferences/email
   features:
-    _scope: '[data-ouia-bundle="user-preferences"]'
+    _scope: '[data-ouia-bundle="user-preferences"][data-ouia-app-id="email"]'
     "User Preferences - Check box: Unsubscribe from all":
       selectors:
         - '{} .pf-c-check:contains("Unsubscribe from all") label'
@@ -278,106 +278,106 @@ advisor:
     _scope: '[data-ouia-app-id="advisor"]'
     "Recommendations - Link: Clear filters":
       selectors:
-        - '{} button:contains("Clear filters")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Clear filters")'
     "Recommendations - Filter: Total risk":
       selectors:
-        - '{} button:contains("Total risk")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Total risk")'
     "Recommendations - Filter: Name":
       selectors:
-        - '{} button:contains("Name")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Name")'
     "Recommendations - Filter: Risk of change":
       selectors:
-        - '{} button:contains("Risk of change")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Risk of change")'
     "Recommendations - Filter: Impact":
       selectors:
-        - '{} button:contains("Impact")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Impact")'
     "Recommendations - Filter: Likelihood":
       selectors:
-        - '{} button:contains("Likelihood")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Likelihood")'
     "Recommendations - Filter: Category":
       selectors:
-        - '{} button:contains("Category")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Category")'
     "Recommendations - Filter: Incidents":
       selectors:
-        - '{} button:contains("Incidents")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Incidents")'
     "Recommendations - Filter: Ansible support":
       selectors:
-        - '{} button:contains("Ansible support")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Ansible support")'
     "Recommendations - Filter: Reboot required":
       selectors:
-        - '{} button:contains("Reboot required")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Reboot required")'
     "Recommendations - Filter: Status":
       selectors:
-        - '{} button:contains("Status")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Status")'
     "Recommendations - Filter: Systems impacted":
       selectors:
-        - '{} button:contains("Systems impacted")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Systems impacted")'
     "Recommendations - Link: Download executive report":
       selectors:
-        - '{} a:contains("Download executive report")'
+        - '{}[data-ouia-subnav="recommendations"] a:contains("Download executive report")'
     "Recommendations - Button: Remediate":
       selectors:
-        - '{} button:contains("Remediate")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Remediate")'
     "Recommendations - Button: Export to CSV":
       selectors:
-        - '{} button:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Export to CSV")'
     "Recommendations - Button: Export to JSON":
       selectors:
-        - '{} button:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Export to JSON")'
     "Systems - Filter: Total risk":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Total Risk")'
     "Recommendations - Sort: Name":
       selectors:
-        - '{} button.pf-c-table__button:contains("Name")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Name")'
     "Recommendations - Sort: Added":
       selectors:
-        - '{} button.pf-c-table__button:contains("Added")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Added")'
     "Recommendations - Sort: Total risk":
       selectors:
-        - '{} button.pf-c-table__button:contains("Total risk")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Total risk")'
     "Recommendations - Sort: Risk of change":
       selectors:
-        - '{} button.pf-c-table__button:contains("Risk of change")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Risk of change")'
     "Recommendations - Sort: Systems":
       selectors:
-        - '{} button.pf-c-table__button:contains("Systems")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Systems")'
     "Recommendations - Sort: Ansible":
       selectors:
-        - '{} button.pf-c-table__button:contains("Ansible")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Ansible")'
     "Topics - Sort: Affected systems":
       selectors:
-        - '{} .pf-c-table__button:contains("Affected systems")'
+        - '{}[data-ouia-subnav="topics"] .pf-c-table__button:contains("Affected systems")'
     "Topics - Sort: Featured":
       selectors:
-        - '{} button.pf-c-table__button:contains("Featured")'
+        - '{}[data-ouia-subnav="topics"] button.pf-c-table__button:contains("Featured")'
     "Systems - Sort: Recommendations":
       selectors:
-        - '{} button.pf-c-table__button:contains("Recommendations")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Recommendations")'
     "Systems - Sort: Last seen":
       selectors:
-        - '{} button.pf-c-table__button:contains("Last seen")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
     "Systems - Sort: Low":
       selectors:
-        - '{} button.pf-c-table__button:contains("Low")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Low")'
     "Systems - Sort: Moderate":
       selectors:
-        - '{} button.pf-c-table__button:contains("Moderate")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Moderate")'
     "Systems - Sort: Important":
       selectors:
-        - '{} button.pf-c-table__button:contains("Important")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Important")'
     "Systems - Sort: Critical":
       selectors:
-        - '{} button.pf-c-table__button:contains("Critical")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Critical")'
     "Recommendations - Link: Knowledgebase articles":
       selectors:
-        - '{} a:contains("Knowledgebase article")'
+        - '{}[data-ouia-subnav="recommendations"] a:contains("Knowledgebase article")'
     "Recommendations - Button: Disable recommendation for selected systems":
       selectors:
-        - '{} li:contains("Disable recommendation for selected systems")'
+        - '{}[data-ouia-subnav="recommendations"] li:contains("Disable recommendation for selected systems")'
     "Recommendations - Button: Disable recommendation":
       selectors:
-        - '{} a.pf-c-dropdown__menu-item:contains("Disable recommendation")'
+        - '{}[data-ouia-subnav="recommendations"] a.pf-c-dropdown__menu-item:contains("Disable recommendation")'
 
   pages:
     All pages:
