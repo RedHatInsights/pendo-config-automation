@@ -20,130 +20,148 @@ crc:
         - 'img[src="/apps/chrome/js/fonts/logo.svg"]'
     "Find an app or service":
       selectors:
-        - 'button:contains("Find an app or service")'
+        - '[data-ouia-app-id="landing"]button:contains("Find an app or service")'
     "Apps & Services Dropdown - Application Services: Overview":
       selectors:
-        - 'a:contains("Overview")[href="application-services/overview"]'
+        - '[data-ouia-app-id="landing"]a:contains("Overview")[href="application-services/overview"]'
     "Apps & Services Dropdown - Application Services: Streams for Apache Kafka":
       selectors:
-        - 'a:contains("Streams for Apache Kafka")[href="/beta/application-services/streams"]'
+        - '[data-ouia-app-id="landing"]a:contains("Streams for Apache Kafka")[href="/beta/application-services/streams"]'
     "Apps & Services Dropdown - Application Services: API Management":
       selectors:
-        - 'a:contains("API Management")[href="application-services/api-management"]'
+        - '[data-ouia-app-id="landing"]a:contains("API Management")[href="application-services/api-management"]'
     "Apps & Services Dropdown - Application Services: Data Science":
       selectors:
-        - 'a:contains("Data Science")[href="application-services/data-science"]'
+        - '[data-ouia-app-id="landing"]a:contains("Data Science")[href="application-services/data-science"]'
     "Apps & Services Dropdown - OpenShift: Overview":
       selectors:
-        - 'a:contains("Overview")[href="openshift/overview"]'
+        - '[data-ouia-app-id="landing"]a:contains("Overview")[href="openshift/overview"]'
     "Apps & Services Dropdown - OpenShift: Clusters":
       selectors:
-        - 'a:contains("Clusters")[href="openshift/"]'
+        - '[data-ouia-app-id="landing"]a:contains("Clusters")[href="openshift/"]'
     "Apps & Services Dropdown - OpenShift: Releases":
       selectors:
-        - 'a:contains("Releases")[href="openshift/releases"]'
+        - '[data-ouia-app-id="landing"]a:contains("Releases")[href="openshift/releases"]'
     "Apps & Services Dropdown - OpenShift: Subscriptions":
       selectors:
-        - 'a:contains("Subscriptions")[href="openshift/subscriptions/openshift-container"]'
+        - '[data-ouia-app-id="landing"]a:contains("Subscriptions")[href="openshift/subscriptions/openshift-container"]'
     "Apps & Services Dropdown - OpenShift: Cost Management":
       selectors:
-        - 'a:contains("Cost Management")[href="openshift/cost-management"]'
+        - '[data-ouia-app-id="landing"]a:contains("Cost Management")[href="openshift/cost-management"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Dashboard":
       selectors:
-        - 'a:contains("Dashboard")[href="insights/dashboard"]'
+        - '[data-ouia-app-id="landing"]a:contains("Dashboard")[href="insights/dashboard"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Advisor":
       selectors:
-        - 'a:contains("Advisor")[href="insights/advisor"]'
+        - '[data-ouia-app-id="landing"]a:contains("Advisor")[href="insights/advisor"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Drift":
       selectors:
-        - 'a:contains("Drift")[href="insights/drift"]'
+        - '[data-ouia-app-id="landing"]a:contains("Drift")[href="insights/drift"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Inventory":
       selectors:
-        - 'a:contains("Inventory")[href="insights/inventory"]'
+        - '[data-ouia-app-id="landing"]a:contains("Inventory")[href="insights/inventory"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Compliance":
       selectors:
-        - 'a:contains("Compliance")[href="insights/compliance"]'
+        - '[data-ouia-app-id="landing"]a:contains("Compliance")[href="insights/compliance"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Policies":
       selectors:
-        - 'a:contains("Policies")[href="insights/policies"]'
+        - '[data-ouia-app-id="landing"]a:contains("Policies")[href="insights/policies"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Patch":
       selectors:
-        - 'a:contains("Patch")[href="insights/patch"]'
+        - '[data-ouia-app-id="landing"]a:contains("Patch")[href="insights/patch"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Subscriptions":
       selectors:
-        - 'a:contains("Subscriptions")[href="insights/subscriptions/rhel"]'
+        - '[data-ouia-app-id="landing"]a:contains("Subscriptions")[href="insights/subscriptions/rhel"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Register Systems":
       selectors:
-        - 'a:contains("Register Systems")[href="insights/registration"]'
+        - '[data-ouia-app-id="landing"]a:contains("Register Systems")[href="insights/registration"]'
     "Apps & Services Dropdown - Ansible Automation Platform: Automation Hub":
       selectors:
-        - 'a:contains("Automation Hub")[href="ansible/automation-hub"]'
+        - '[data-ouia-app-id="landing"]a:contains("Automation Hub")[href="ansible/automation-hub"]'
     "Apps & Services Dropdown - Ansible Automation Platform: Automation Services Catalogue":
       selectors:
-        - 'a:contains("Automation Services Catalog")[href="ansible/catalog"]'
+        - '[data-ouia-app-id="landing"]a:contains("Automation Services Catalog")[href="ansible/catalog"]'
     "Apps & Services Dropdown - Ansible Automation Platform: Analytics":
       selectors:
-        - 'a:contains("Analytics")[href="ansible/automation-analytics"]'
+        - '[data-ouia-app-id="landing"]a:contains("Analytics")[href="ansible/automation-analytics"]'
     "Apps & Services Dropdown - Subscriptions: All RHEL":
       selectors:
-        - 'a:contains("All RHEL")[href="openshift/subscriptions/rhel/openshift-container"]'
+        - '[data-ouia-app-id="landing"]a:contains("All RHEL")[href="openshift/subscriptions/rhel/openshift-container"]'
     "Apps & Services Dropdown - Subscriptions: ARM":
       selectors:
-        - 'a:contains("ARM")[href="openshift/subscriptions/rhel-arm/openshift-container"]'
+        - '[data-ouia-app-id="landing"]a:contains("ARM")[href="openshift/subscriptions/rhel-arm/openshift-container"]'
     "Apps & Services Dropdown - Subscriptions: IBM Power":
       selectors:
-        - 'a:contains("IBM Power")[href="openshift/subscriptions/rhel-ibmpower/openshift-container"]'
+        - '[data-ouia-app-id="landing"]a:contains("IBM Power")[href="openshift/subscriptions/rhel-ibmpower/openshift-container"]'
     "Apps & Services Dropdown - Subscriptions: IBM Z Systems":
       selectors:
-        - 'a:contains("IBM Z systems")[href="openshift/subscriptions/rhel-ibmz/openshift-container"]'
+        - '[data-ouia-app-id="landing"]a:contains("IBM Z systems")[href="openshift/subscriptions/rhel-ibmz/openshift-container"]'
     "Apps & Services Dropdown - Subscriptions: x86":
       selectors:
-        - 'a:contains("X86")[href="openshift/subscriptions/rhel-x86/openshift-container"]'
+        - '[data-ouia-app-id="landing"]a:contains("X86")[href="openshift/subscriptions/rhel-x86/openshift-container"]'
     "Apps & Services Dropdown - Subscriptions: OpenShift Subscriptions":
       selectors:
-        - 'a:contains("OpenShift Subscriptions")[href="openshift/../openshift/subscriptions/openshift-container/openshift-container"]'
+        - '[data-ouia-app-id="landing"]a:contains("OpenShift Subscriptions")[href="openshift/../openshift/subscriptions/openshift-container/openshift-container"]'
     "Apps & Services Dropdown - Subscriptions: Documentation":
       selectors:
-        - 'a:contains("Documentation")[href="openshift/subscriptions/subscriptions-documentation/openshift-container"]'
+        - '[data-ouia-app-id="landing"]a:contains("Documentation")[href="openshift/subscriptions/subscriptions-documentation/openshift-container"]'
     "Apps & Services Dropdown - Cost Management: Overview":
       selectors:
-        - 'a:contains("Overview")[href="openshift/cost-management/"]'
+        - '[data-ouia-app-id="landing"]a:contains("Overview")[href="openshift/cost-management/"]'
     "Apps & Services Dropdown - Cost Management: OpenShift":
       selectors:
-        - 'a:contains("OpenShift")[href="openshift/cost-management/ocp"]'
+        - '[data-ouia-app-id="landing"]a:contains("OpenShift")[href="openshift/cost-management/ocp"]'
     "Apps & Services Dropdown - Cost Management: Amazon Web Services":
       selectors:
-        - 'a:contains("Amazon Web Services")[href="openshift/cost-management/aws"]'
+        - '[data-ouia-app-id="landing"]a:contains("Amazon Web Services")[href="openshift/cost-management/aws"]'
     "Apps & Services Dropdown - Cost Management: Microsoft Azure":
       selectors:
-        - 'a:contains("Microsoft Azure")[href="openshift/cost-management/azure"]'
+        - '[data-ouia-app-id="landing"]a:contains("Microsoft Azure")[href="openshift/cost-management/azure"]'
     "Apps & Services Dropdown - Cost Management: Google Cloud Platform":
       selectors:
-        - 'a:contains("Google Cloud Platform")[href="openshift/cost-management/gcp"]'
+        - '[data-ouia-app-id="landing"]a:contains("Google Cloud Platform")[href="openshift/cost-management/gcp"]'
     "Apps & Services Dropdown - Cost Management: Cost Models":
       selectors:
-        - 'a:contains("Cost Models")[href="openshift/cost-management/cost-models"]'
+        - '[data-ouia-app-id="landing"]a:contains("Cost Models")[href="openshift/cost-management/cost-models"]'
     "Apps & Services Dropdown - Cost Management: Cost Explorer":
       selectors:
-        - 'a:contains("Cost Explorer")[href="openshift/cost-management/explorer"]'
+        - '[data-ouia-app-id="landing"]a:contains("Cost Explorer")[href="openshift/cost-management/explorer"]'
     "Apps & Services Dropdown - Settings: My User Access":
       selectors:
-        - 'a:contains("My User Access")[href="settings/my-user-access"]'
+        - '[data-ouia-app-id="landing"]a:contains("My User Access")[href="settings/my-user-access"]'
     "Apps & Services Dropdown - Settings: Sources":
       selectors:
-        - 'a:contains("Sources")[href="settings/sources"]'
+        - '[data-ouia-app-id="landing"]a:contains("Sources")[href="settings/sources"]'
     "Apps & Services Dropdown - Settings: Integrations":
       selectors:
-        - 'a:contains("Integrations")[href="settings/integrations"]'
+        - '[data-ouia-app-id="landing"]a:contains("Integrations")[href="settings/integrations"]'
     "Apps & Services Dropdown - Settings: Notifications":
       selectors:
-        - 'a:contains("Notifications")[href="settings/notifications"]'
+        - '[data-ouia-app-id="landing"]a:contains("Notifications")[href="settings/notifications"]'
     "Apps & Services Dropdown - Settings: Applications":
       selectors:
-        - 'a:contains("Applications")[href="settings/applications"]'
+        - '[data-ouia-app-id="landing"]a:contains("Applications")[href="settings/applications"]'
     "Apps & Services Dropdown - Settings: Documentation":
       selectors:
-        - 'a:contains("Documentation")[href="settings/settings-documentation"]'
+        - '[data-ouia-app-id="landing"]a:contains("Documentation")[href="settings/settings-documentation"]'
+    "Apps & Services Dropdown - OpenShift: Downloads":
+      selectors:
+        - '[data-ouia-app-id="landing"]a:contains("Downloads")[href="openshift/downloads"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Remediations":
+      selectors:
+        - '[data-ouia-app-id="landing"]a:contains("Remediations")[href="insights/remediations"]'
+    "Apps & Services Dropdown - Settings: Red Hat Connector":
+      selectors:
+        - '[data-ouia-app-id="landing"]a:contains("Red Hat Connector")[href="settings/connector"]'
+    "Apps & Services Dropdown - Red Hat Enterprise Linux: Vulnerability":
+      selectors:
+        - '[data-ouia-app-id="landing"]a:contains("Vulnerability")[href="insights/vulnerability"]'
+    "Apps & Services Dropdown - Settings: User Access":
+      selectors:
+        - '[data-ouia-app-id="landing"]a:contains("User Access")[href="settings/rbac"]'
+    "Apps & Services Dropdown - Ansible Automation Platform: Overview":
+      selectors:
+        - '[data-ouia-app-id="landing"]a:contains("Overview")[href="ansible/ansible-dashboard"]'
 
 user preferences:
   pages:
@@ -1211,91 +1229,92 @@ subscription watch:
 
 settings:
   features:
+    _scope: '[data-ouia-bundle="settings"]'
     "Sources - Button: AWS":
       selectors:
-        - 'div:contains("Amazon Web Services").disabled-tile-with-tooltip'
+        - '[data-ouia-app-id="sources"]div:contains("Amazon Web Services").disabled-tile-with-tooltip'
     "Sources - Button: Microsoft Azure":
       selectors:
-        - 'div:contains("Microsoft Azure").disabled-tile-with-tooltip'
+        - '[data-ouia-app-id="sources"]div:contains("Microsoft Azure").disabled-tile-with-tooltip'
     "Sources - Link: Learn more about Red Hat Gold Images":
       selectors:
-        - 'a:contains("Learn more about Red Hat Gold Images")'
+        - '[data-ouia-app-id="sources"]a:contains("Learn more about Red Hat gold images")'
     "Sources - Link: Enable additional Insights services":
       selectors:
-        - 'a:contains("Enable additional Insights services")'
+        - '[data-ouia-app-id="sources"]a:contains("Enable additional Insights services")'
     "Sources - Link: Go to Subscription Watch":
       selectors:
-        - 'a:contains("Go to Subscription Watch")'
+        - '[data-ouia-app-id="sources"]a:contains("Go to Subscription Watch")'
     "Sources - Button: Add source":
       selectors:
-        - '.pf-m-primary:contains("Add source")[aria-disabled="false"]'
+        - '[data-ouia-app-id="sources"].pf-m-primary:contains("Add source")[aria-disabled="false"]'
     "Sources - Button: Remove source (menu button)":
       selectors:
-        - '.pf-c-dropdown__menu-item:contains("Remove")'
+        - '[data-ouia-app-id="sources"].pf-c-dropdown__menu-item:contains("Remove")'
     "Sources - Button: Remove source and its data":
       selectors:
-        - '.pf-m-danger:contains("Remove source and its data")'
+        - '[data-ouia-app-id="sources"].pf-m-danger:contains("Remove source and its data")'
     "Sources - Button: Edit credentials (menu button)":
       selectors:
-        - '.pf-c-dropdown__menu-item:contains("Edit")'
+        - '[data-ouia-app-id="sources"].pf-c-dropdown__menu-item:contains("Edit")'
     "Sources - Button: Add application (wizard confirmation)":
       selectors:
-        - '.pf-m-primary:contains("Add")'
+        - '[data-ouia-app-id="sources"].pf-m-primary:contains("Add")'
     "Sources - Button: Remove application (modal confirmation)":
       selectors:
-        - '.pf-m-danger:contains("Remove")'
+        - '[data-ouia-app-id="sources"].pf-m-danger:contains("Remove")'
     "Sources - Button: Cloud Sources tab":
       selectors:
-        - '.pf-c-tabs__link:contains("Cloud sources")'
+        - '[data-ouia-app-id="sources"].pf-c-tabs__link:contains("Cloud sources")'
     "Sources - Button: Red Hat sources tab":
       selectors:
-        - '.pf-c-tabs__link:contains("Red Hat sources")'
+        - '[data-ouia-app-id="sources"].pf-c-tabs__link:contains("Red Hat sources")'
     "Sources - Link: Use Red Hat gold images in AWS":
       selectors:
-        - 'a.text:contains("Use Red Hat gold images in AWS")'
+        - '[data-ouia-app-id="sources"]a.text:contains("Use Red Hat gold images in AWS")'
     "Sources - Link: Use Red Hat gold images in Microsoft Azure":
       selectors:
-        - 'a.text:contains("Use Red Hat gold images in Microsoft Azure")'
+        - '[data-ouia-app-id="sources"]a.text:contains("Use Red Hat gold images in Microsoft Azure")'
     "Sources - Link: Learn more about Red Hat Insights":
       selectors:
-        - 'a.text:contains("Learn more about Red Hat Insights")'
+        - '[data-ouia-app-id="sources"]a.text:contains("Learn more about Red Hat Insights")'
     "Sources - Link: Learn more about Subscriptions":
       selectors:
-        - 'a.text:contains("Learn more about Subscriptions")'
+        - '[data-ouia-app-id="sources"]a.text:contains("Learn more about Subscriptions")'
     "Sources - Link: Go to Subscriptions":
       selectors:
-        - 'a.text:contains("Go to Subscriptions")'
+        - '[data-ouia-app-id="sources"]a.text:contains("Go to Subscriptions")'
     "Sources - Button: Cancel Add source":
       selectors:
-        - '.pf-m-link:contains("Cancel")'
+        - '[data-ouia-app-id="sources"].pf-m-link:contains("Cancel")'
     "Integrations - Button: Add integration":
       selectors:
-        - 'div.pf-c-toolbar__item:contains("Add integration")'
+        - '[data-ouia-app-id="integrations"]div.pf-c-toolbar__item:contains("Add integration")'
     "Red Hat Connector - Button: Connect systems":
       selectors:
-        - 'button:contains("Connect systems")'
+        - '[data-ouia-app-id="connector"]button:contains("Connect systems")'
     "Red Hat Connector - Link: Registration Assistant":
       selectors:
-        - 'a:contains("Registration Assistant")[href="./insights/registration"]'
-        - 'button:contains("Connect systems")'
+        - '[data-ouia-app-id="connector"]a:contains("Registration Assistant")[href="./insights/registration"]'
+        - '[data-ouia-app-id="connector"]button:contains("Connect systems")'
     "Red Hat Connector - Link: View in Inventory":
       selectors:
-        - 'a:contains("View in Inventory")[href="./insights/inventory"]'
+        - '[data-ouia-app-id="connector"]a:contains("View in Inventory")[href="./insights/inventory"]'
     "Red Hat Connector - Button: Save Changes":
       selectors:
-        - 'div:contains("Save changesView log")'
+        - '[data-ouia-app-id="connector"]div:contains("Save changesView log")'
     "User Access - Button: MUA Application Services card":
       selectors:
-        - '.pf-c-card:contains("Application Services")'
+        - '[data-ouia-app-id="my-user-access"].pf-c-card:contains("Application Services")'
     "User Access - Button: MUA OpenShift card":
       selectors:
-        - '.pf-c-card:contains("OpenShift")'
+        - '[data-ouia-app-id="my-user-access"].pf-c-card:contains("OpenShift")'
     "User Access - Button: MUA RHEL card":
       selectors:
-        - '.pf-c-card:contains("Red Hat Enterprise Linux")'
+        - '[data-ouia-app-id="my-user-access"].pf-c-card:contains("Red Hat Enterprise Linux")'
     "User Access - Button: MUA Ansible card":
       selectors:
-        - '.pf-c-card:contains("Ansible Automation Platform")'
+        - '[data-ouia-app-id="my-user-access"].pf-c-card:contains("Ansible Automation Platform")'
   pages:
     All pages:
       url_rules:
@@ -1303,7 +1322,7 @@ settings:
         - /settings/**
     My User Access:
       url_rules:
-        - /settings/my-user-access/**
+        - /settings/my-user-access
     Sources list:
       url_rules:
         - /settings/sources
@@ -1710,6 +1729,9 @@ ansible:
     All pages:
       url_rules:
         - /ansible/**
+    Dashboard:
+      url_rules:
+        - /ansible/ansible-dashboard
 
 automation analytics:
   color: 3
