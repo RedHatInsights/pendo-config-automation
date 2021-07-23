@@ -1247,7 +1247,7 @@ settings:
         - '[data-ouia-app-id="sources"]a:contains("Go to Subscription Watch")'
     "Sources - Button: Add source":
       selectors:
-        - '[data-ouia-app-id="sources"].pf-m-primary:contains("Add source")[aria-disabled="false"]'
+        - '[data-ouia-app-id="sources"].pf-m-primary:contains("Add source")'
     "Sources - Button: Remove source (menu button)":
       selectors:
         - '[data-ouia-app-id="sources"].pf-c-dropdown__menu-item:contains("Remove")'
@@ -1386,7 +1386,7 @@ rbac:
         - '.pf-m-primary:contains("Add role")'
     "Default user access group - Button: Submit on Add role modal":
       selectors:
-        - '.pf-m-primary:contains("Add to group")[aria-disabled="false"]'
+        - '.pf-m-primary:contains("Add to group")'
 
   pages:
     All pages:
