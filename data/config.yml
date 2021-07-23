@@ -1009,28 +1009,28 @@ drift:
     _scope: '[data-ouia-app-id="drift"]'
     "Comparison - Button: Add to comparison":
       selectors:
-        - '{} button:contains("Add to comparison")'
+        - '{}[data-ouia-page-type="comparison-list"] button:contains("Add to comparison")'
     "Comparison - Button: Export to CSV":
       selectors:
-        - '{}[data-ouia-component-id="export-to-csv-dropdown-item-comparison"] button:contains("Export to CSV")'
+        - '{}[data-ouia-page-type="comparison-list"][data-ouia-component-id="export-to-csv-dropdown-item-comparison"] button:contains("Export to CSV")'
     "Baselines - Button: Create baseline":
       selectors:
-        - '{} button#create-baseline-button:contains("Create baseline")'
+        - '{}[data-ouia-subnav="baselines"] button#create-baseline-button:contains("Create baseline")'
     "Baselines - Button: Create baseline from scratch":
       selectors:
-        - '{}[data-ouia-component-id="create-baseline-button-fromscratch"] button:contains("Create baseline")'
+        - '{}[data-ouia-subnav="baselines"][data-ouia-component-id="create-baseline-button-fromscratch"] button:contains("Create baseline")'
     "Baselines - Button: Copy an existing baseline":
       selectors:
-        - '{}[data-ouia-component-id="create-baseline-button-copybaseline"] button:contains("Create baseline")'
+        - '{}[data-ouia-subnav="baselines"][data-ouia-component-id="create-baseline-button-copybaseline"] button:contains("Create baseline")'
     "Baselines - Button: Copy an existing system":
       selectors:
-        - '{}[data-ouia-component-id="create-baseline-button-copysystem"] button:contains("Create baseline")'
+        - '{}[data-ouia-subnav="baselines"][data-ouia-component-id="create-baseline-button-copysystem"] button:contains("Create baseline")'
     "Baselines - Button: Export baseline":
       selectors:
-        - '{}[data-ouia-component-id="edit-baseline-export-to-csv"] button.pf-c-dropdown__menu-item'
+        - '{}[data-ouia-subnav="baselines"][data-ouia-component-id="edit-baseline-export-to-csv"] button.pf-c-dropdown__menu-item'
     "Baselines - Button: Export baselines list":
       selectors:
-        - '{}[data-ouia-component-id="export-to-csv-dropdown-item-baselines"] button.pf-c-dropdown__menu-item'
+        - '{}[data-ouia-subnav="baselines"][data-ouia-component-id="export-to-csv-dropdown-item-baselines"] button.pf-c-dropdown__menu-item'
 policies:
   color: 7
   pages:
