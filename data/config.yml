@@ -1379,9 +1379,6 @@ rbac:
     "Groups - Button: Add group":
       selectors:
         - '{}[data-ouia-subnav="groups"][data-ouia-bundle="settings"] button:contains("Create group")'
-    "Groups - Button: Create Group wizard submission":
-      selectors:
-        - '{}[data-ouia-subnav="groups"][data-ouia-bundle="settings"] a[href="/settings/rbac/groups/add-group"] button:contains("Create")'
     "Default user access group - Button: Add role":
       selectors:
         - '{}[data-ouia-subnav="roles"].pf-m-primary:contains("Add role")'
