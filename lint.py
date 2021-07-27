@@ -52,11 +52,11 @@ with open(CONFIG, 'r') as config_yml:
                 add_error('Error: found a page name of "All" the standard is "All pages" ({} -> {})'.format(group_name, page_name))
 
             for url in page['url_rules']:
-                if url.startswith('//cloud.redhat.com'):
+                if url.startswith('//console.redhat.com'):
                     add_error("""Error: invalid page URL prefix in the group "{}" on the page "{}"
   Found:    {}
   Expected: /*'
-  We automatically add the //cloud.redhat.com""".format(group_name, page_name, url))
+  We automatically add the //console.redhat.com""".format(group_name, page_name, url))
 
 if len(errors):
     print('Custom linter found {} error(s)\n'.format(len(errors)))
