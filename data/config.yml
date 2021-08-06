@@ -223,10 +223,10 @@ crc:
     "Apps & Services Dropdown Sitewide - Ansible Automation Platform: Automation Services Catalogue":
       selectors:
         - 'a:contains("Automation Services Catalog")[href="ansible/catalog"]'
-    "Apps & Services Dropdown - Ansible Automation Platform: Analytics":
+    "Apps & Services Dropdown Sitewide - Ansible Automation Platform: Analytics":
       selectors:
         - 'a:contains("Analytics")[href="ansible/automation-analytics"]'
-    "Apps & Services Dropdown - Subscriptions: All RHEL":
+    "Apps & Services Dropdown Sitewide - Subscriptions: All RHEL":
       selectors:
         - 'a:contains("All RHEL")[href="openshift/subscriptions/rhel/openshift-container"]'
     "Apps & Services Dropdown Sitewide - Subscriptions: ARM":
