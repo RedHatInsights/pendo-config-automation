@@ -1378,6 +1378,9 @@ settings:
     "Sources - Button: Microsoft Azure":
       selectors:
         - '[data-ouia-app-id="sources"] div:contains("Microsoft Azure").disabled-tile-with-tooltip'
+    "Sources - Button: Save changes":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Save changes")'
     "Sources - Link: Learn more about Red Hat Gold Images":
       selectors:
         - '[data-ouia-app-id="sources"] a:contains("Learn more about Red Hat gold images")'
@@ -1390,6 +1393,12 @@ settings:
     "Sources - Button: Add source":
       selectors:
         - '[data-ouia-app-id="sources"] .pf-m-primary:contains("Add source")[aria-disabled="false"]'
+    "Sources - Button: Add source at end of Sources wizard":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Add")'
+    "Sources - Button: Exit button in cancel sources modal":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Exit")'
     "Sources - Button: Remove source (menu button)":
       selectors:
         - '[data-ouia-app-id="sources"] .pf-c-dropdown__menu-item:contains("Remove")'
