@@ -1996,37 +1996,39 @@ ansible:
         - /ansible/ansible-dashboard
   features:
     _scope: '[data-ouia-bundle="ansible"]'
-      "Left Nav: Overview":
-        selectors:
-          - '{} .pf-c-nav__link[href="/ansible/ansible-dashboard"]:contains("Overview")'
-      "Left Nav: Automation Hub":
-        selectors:
-          - '{} .pf-c-nav__link:contains("Automation Hub")'
-      "Left Nav: Automation Services Catalog":
-        selectors:
-          - '{} .pf-c-nav__link:contains("Automation Services Catalog")'
-      "Left Nav: Insights - Savings Planner":
-        selectors:
-          - '{} .pf-c-nav__link[href="/ansible/insights/savings-planner"]:contains("Savings Planner")'
-      "Left Nav: Insights - Automation Calculator":
-        selectors:
-          - '{} .pf-c-nav__link[href="/ansible/insights/automation-calculator"]:contains("Automation Calculator")'
-      "Left Nav: Insights - Organization Statistics":
-        selectors:
-          - '{} .pf-c-nav__link[href="/ansible/insights/organization-statistics"]:contains("Organization Statistics")'
-      "Left Nav: Insights - Job Explorer":
-        selectors:
-          - '{} .pf-c-nav__link[href="/ansible/insights/job-explorer"]:contains("Job Explorer")'
-      "Left Nav: Insights - Clusters":
-        selectors:
-          - '{} .pf-c-nav__link[href="/ansible/insights/clusters"]:contains("Clusters")'
-      "Left Nav: Insights - Notifications":
-        selectors:
-          - '{} .pf-c-nav__link[href="/ansible/insights/notifications"]:contains("Notifications
-      "Left Nav: Insights - Documentation":
-        selectors:
-          - '{} .pf-c-nav__link[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform"]:contains("Documentation")'
-
+    "Left Nav: Overview":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/ansible-dashboard"]:contains("Overview")'
+    "Left Nav: Overview":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/ansible-dashboard"]:contains("Overview")'
+    "Left Nav: Automation Hub":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Automation Hub")'
+    "Left Nav: Automation Services Catalog":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Automation Services Catalog")'
+    "Left Nav: Insights - Savings Planner":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/savings-planner"]:contains("Savings Planner")'
+    "Left Nav: Insights - Automation Calculator":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/automation-calculator"]:contains("Automation Calculator")'
+    "Left Nav: Insights - Organization Statistics":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/organization-statistics"]:contains("Organization Statistics")'
+    "Left Nav: Insights - Job Explorer":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/job-explorer"]:contains("Job Explorer")'
+    "Left Nav: Insights - Clusters":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/clusters"]:contains("Clusters")'
+    "Left Nav: Insights - Notifications":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/notifications"]:contains("Notifications
+    "Left Nav: Insights - Documentation":
+      selectors:
+        - '{} .pf-c-nav__link[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform"]:contains("Documentation")'
 
 automation analytics:
   color: 3
