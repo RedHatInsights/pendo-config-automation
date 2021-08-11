@@ -1873,48 +1873,96 @@ cluster manager:
     "Clusters - Add-ons - Link: View documentation":
       selectors:
         - '{} a:contains("View Documentation")'
-    "Clusters - Left Nav: Overview":
+    "Left Nav: Overview":
       selectors:
         - '{} .pf-c-nav__link[href="/openshift/overview"]:contains("Overview")'
-    "Clusters - Left Nav: Releases":
+    "Left Nav: Releases":
       selectors:
         - '{} .pf-c-nav__link[href="/openshift/releases"]:contains("Releases")'
-    "Clusters - Left Nav: Downloads":
+    "Left Nav: Downloads":
       selectors:
         - '{} .pf-c-nav__link[href="/openshift/downloads"]:contains("Downloads")'
-    "Clusters - Left Nav: Subscriptions":
+    "Left Nav: Subscriptions":
       selectors:
         - '{} .pf-c-nav__link:contains("Subscriptions")'
-    "Clusters - Left Nav: Container Platform":
+    "Left Nav: Container Platform":
       selectors:
         - '{} .pf-c-nav__link:contains("Container Platform")'
-    "Clusters - Left Nav: Dedicated Annual":
+    "Left Nav: Dedicated Annual":
       selectors:
         - '{} .pf-c-nav__link:contains("Dedicated (Annual)")'
-    "Clusters - Left Nav: Dedicated On Demand":
+    "Left Nav: Dedicated On Demand":
       selectors:
         - '{} .pf-c-nav__link:contains("Dedicated (On-Demand)")'
-    "Clusters - Left Nav: Dedicated On Demand Limits":
+    "Left Nav: Dedicated On Demand Limits":
       selectors:
         - '{} .pf-c-nav__link:contains("Dedicated (On-Demand Limits)")'
-    "Clusters - Left Nav: RHEL Subscriptions":
+    "Left Nav: RHEL Subscriptions":
       selectors:
         - '{} .pf-c-nav__link:contains("RHEL Subscriptions")'
-    "Clusters - Left Nav: Cost Management":
+    "Left Nav: Cost Management":
       selectors:
         - '{} .pf-c-nav__link:contains("Cost Management")'
-    "Clusters - Left Nav: Suport Cases":
+    "Left Nav: Suport Cases":
       selectors:
         - '{} .pf-c-nav__link:contains("Support Cases")'
-    "Clusters - Left Nav: Cluster Manager Feedback":
+    "Left Nav: Cluster Manager Feedback":
       selectors:
         - '{} .pf-c-nav__link:contains("Cluster Manager Feedback")'
-    "Clusters - Left Nav: Red Hat Marketplace":
+    "Left Nav: Red Hat Marketplace":
       selectors:
         - '{} .pf-c-nav__link:contains("Red Hat Marketplace")'
-    "Clusters - Left Nav: Documentation":
+    "Left Nav: Documentation":
       selectors:
         - '{} .pf-c-nav__link:contains("Documentation")'
+    "Releases - Link: OpenShift 4.8":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.8/release_notes/ocp-4-8-release-notes.html"]:contains("OpenShift 4.8")'
+    "Releases - Link: OpenShift 4.7":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.7/release_notes/ocp-4-7-release-notes.html"]:contains("OpenShift 4.7")'
+    "Releases - Link: OpenShift 4.6":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.6/release_notes/ocp-4-6-release-notes.html"]:contains("OpenShift 4.6")'
+    "Releases - Link: OpenShift 4.5":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.5/release_notes/ocp-4-5-release-notes.html"]:contains("OpenShift 4.5")'
+    "Downloads - Button: Download - OpenShift command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/openshift-client-mac.tar.gz"]'
+    "Downloads - Button: Download - OCM API command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://github.com/openshift-online/ocm-cli/releases/download/v0.1.55/ocm-darwin-amd64"]'
+    "Downloads - Button: Download - Red Hat OpenShift services on AWS command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/rosa/latest/rosa-macosx.tar.gz"]'
+    "Downloads - Button: Download - Developer-focused CLI for OpenShift (odo)":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/odo/latest/odo-darwin-amd64"]'
+    "Downloads - Button: Download - Helm 3 CLI":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/helm/latest/helm-darwin-amd64"]'
+    "Downloads - Button: Operator Package Manager":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/opm-mac.tar.gz"]'
+    "Downloads - Button: Red Hat OpenShift Application Services CLI":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://github.com/redhat-developer/app-services-cli/releases/download/v0.26.0/rhoas_0.26.0_macOS_amd64.tar.gz"]'
+    "Downloads - Link: Expand all":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] :contains("Expand all")'
+    "Downloads - Link: Developer Tools Learn More":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] a[href="https://developers.redhat.com/topics/developer-tools"]:contains("Learn more")'
+    "Downloads - Button: Copy":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("Copy")'
+    "Downloads - Button: Download":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("Download")'
+    "Downloads - Button: View API token":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("View API token")'
 
 ansible:
   color: 3
