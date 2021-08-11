@@ -2005,7 +2005,7 @@ ansible:
     "Left Nav: Automation Services Catalog":
       selectors:
         - '{} .pf-c-nav__link:contains("Automation Services Catalog")'
-    "Left Nav: Insights - Savings Planner":
+    "Left Nav: Insights - Saving Planner":
       selectors:
         - '{} .pf-c-nav__link[href="/ansible/insights/savings-planner"]:contains("Savings Planner")'
     "Left Nav: Insights - Automation Calculator":
