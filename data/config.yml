@@ -412,6 +412,21 @@ dashboard:
     "Dashboard - Link to Patch: View enhancement advisories":
       selectors:
         - '{} .ins-c-dashboard__card--PatchManager a:contains("Enhancement")'
+    "Dashboard - Button: Register systems":
+      selectors:
+        - '{} .pf-c-button[href="./insights/registration"]:contains("Register systems")'
+    "Dashboard - Link: Systems registered with Insights":
+      selectors:
+        - '{} .pf-m-link[href="./insights/inventory/?status=fresh&status=stale&source=insights"]:contains("Systems registered with Insights")'
+    "Dashboard - Button: View CVEs":
+      selectors:
+        - '{} .pf-c-button:contains("View CVEs")'
+    "Dashboard - Button: View known exploits":
+      selectors:
+        - '{} .pf-c-button:contains("View known exploits")'
+    "Dashboard - Button: View incidents":
+      selectors:
+        - '{} .pf-c-button:contains("View incidents")'
 
 advisor:
   color: 2
@@ -455,7 +470,7 @@ advisor:
         - '{}[data-ouia-subnav="recommendations"] button:contains("Systems impacted")'
     "Recommendations - Link: Download executive report":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] a:contains("Download executive report")'
+        - '{}[data-ouia-subnav="recommendations"] [data-ouia-component-type="PF4/Button"]:contains("Download executive report")'
     "Recommendations - Button: Remediate":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button:contains("Remediate")'
@@ -1573,7 +1588,7 @@ rbac:
       url_rules:
         - /settings/rbac/groups/add-group
 
-cluster manager:
+openshift:
   color: 2
   pages:
     All pages:
@@ -1963,6 +1978,12 @@ cluster manager:
     "Downloads - Button: View API token":
       selectors:
         - '{}[data-ouia-app-id="downloads"] button:contains("View API token")'
+    "Subscriptions - Link: Learn more about Subscriptions reporting":
+      selectors:
+        - '{}[data-ouia-app-id="subscriptions"] .pf-m-link[href="https://access.redhat.com/documentation/en-us/subscription_central/2021/html/getting_started_with_the_subscriptions_service/con-how-does-subscriptionwatch-show-data_assembly-viewing-understanding-subscriptionwatch-data-ctxt/"]:contains("Learn more about Subscriptions reporting")'
+    "Subscriptions - Button: Take a tour":
+      selectors:
+        - '{}[data-ouia-app-id="subscriptions"] .pf-c-label__content:contains("Take a tour")'
 
 ansible:
   color: 3
@@ -1973,6 +1994,39 @@ ansible:
     Dashboard:
       url_rules:
         - /ansible/ansible-dashboard
+  features:
+      _scope: '[data-ouia-bundle="ansible"]
+      "Left Nav: Overview":
+        selectors:
+          - '{} .pf-c-nav__link[href="/ansible/ansible-dashboard"]:contains("Overview")'
+      "Left Nav: Automation Hub":
+        selectors:
+          - '{} .pf-c-nav__link:contains("Automation Hub")'
+      "Left Nav: Automation Services Catalog":
+        selectors:
+          - '{} .pf-c-nav__link:contains("Automation Services Catalog")'
+      "Left Nav: Insights - Savings Planner":
+        selectors:
+          - '{} .pf-c-nav__link[href="/ansible/insights/savings-planner"]:contains("Savings Planner")'
+      "Left Nav: Insights - Automation Calculator":
+        selectors:
+          - '{} .pf-c-nav__link[href="/ansible/insights/automation-calculator"]:contains("Automation Calculator")'
+      "Left Nav: Insights - Organization Statistics":
+        selectors:
+          - '{} .pf-c-nav__link[href="/ansible/insights/organization-statistics"]:contains("Organization Statistics")'
+      "Left Nav: Insights - Job Explorer":
+        selectors:
+          - '{} .pf-c-nav__link[href="/ansible/insights/job-explorer"]:contains("Job Explorer")'
+      "Left Nav: Insights - Clusters":
+        selectors:
+          - '{} .pf-c-nav__link[href="/ansible/insights/clusters"]:contains("Clusters")'
+      "Left Nav: Insights - Notifications":
+        selectors:
+          - '{} .pf-c-nav__link[href="/ansible/insights/notifications"]:contains("Notifications
+      "Left Nav: Insights - Documentation":
+        selectors:
+          - '{} .pf-c-nav__link[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform"]:contains("Documentation")'
+
 
 automation analytics:
   color: 3
