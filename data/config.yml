@@ -1995,7 +1995,7 @@ ansible:
       url_rules:
         - /ansible/ansible-dashboard
   features:
-      _scope: '[data-ouia-bundle="ansible"]
+    _scope: '[data-ouia-bundle="ansible"]'
       "Left Nav: Overview":
         selectors:
           - '{} .pf-c-nav__link[href="/ansible/ansible-dashboard"]:contains("Overview")'
