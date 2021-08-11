@@ -2022,7 +2022,7 @@ ansible:
         - '{} .pf-c-nav__link[href="/ansible/insights/clusters"]:contains("Clusters")'
     "Left Nav: Insights - Notifications":
       selectors:
-        - '{} .pf-c-nav__link[href="/ansible/insights/notifications"]:contains("Notifications
+        - '{} .pf-c-nav__link[href="/ansible/insights/notifications"]:contains("Notifications)'
     "Left Nav: Insights - Documentation":
       selectors:
         - '{} .pf-c-nav__link[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform"]:contains("Documentation")'
