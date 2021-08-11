@@ -1873,6 +1873,48 @@ cluster manager:
     "Clusters - Add-ons - Link: View documentation":
       selectors:
         - '{} a:contains("View Documentation")'
+    "Clusters - Left Nav: Overview":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/overview"]:contains("Overview")'
+    "Clusters - Left Nav: Releases":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/releases"]:contains("Releases")'
+    "Clusters - Left Nav: Downloads":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/downloads"]:contains("Downloads")'
+    "Clusters - Left Nav: Subscriptions":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Subscriptions")'
+    "Clusters - Left Nav: Container Platform":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Container Platform")'
+    "Clusters - Left Nav: Dedicated Annual":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (Annual)")'
+    "Clusters - Left Nav: Dedicated On Demand":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (On-Demand)")'
+    "Clusters - Left Nav: Dedicated On Demand Limits":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (On-Demand Limits)")'
+    "Clusters - Left Nav: RHEL Subscriptions":
+      selectors:
+        - '{} .pf-c-nav__link:contains("RHEL Subscriptions")'
+    "Clusters - Left Nav: Cost Management":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Cost Management")'
+    "Clusters - Left Nav: Suport Cases":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Support Cases")'
+    "Clusters - Left Nav: Cluster Manager Feedback":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Cluster Manager Feedback")'
+    "Clusters - Left Nav: Red Hat Marketplace":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Red Hat Marketplace")'
+    "Clusters - Left Nav: Documentation":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Documentation")'
 
 ansible:
   color: 3
