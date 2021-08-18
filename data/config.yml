@@ -163,6 +163,147 @@ crc:
     "Apps & Services Dropdown - Ansible Automation Platform: Overview":
       selectors:
         - '{} a:contains("Overview")[href="ansible/ansible-dashboard"]'
+    "Apps & Services Dropdown Sitewide - Application Services: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="application-services/overview"]'
+    "Apps & Services Dropdown Sitewide - Application Services: Streams for Apache Kafka":
+      selectors:
+        - 'a:contains("Streams for Apache Kafka")[href="/beta/application-services/streams"]'
+    "Apps & Services Dropdown Sitewide - Application Services : API Management":
+      selectors:
+        - 'a:contains("API Management")[href="application-services/api-management"]'
+    "Apps & Services Dropdown Sitewide - Application Services: Data Science":
+      selectors:
+        - 'a:contains("Data Science")[href="application-services/data-science"]'
+    "Apps & Services Dropdown Sitewide - OpenShift: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="openshift/overview"]'
+    "Apps & Services Dropdown Sitewide - OpenShift: Clusters":
+      selectors:
+        - 'a:contains("Clusters")[href="openshift/"]'
+    "Apps & Services Dropdown Sitewide - OpenShift: Releases":
+      selectors:
+        - 'a:contains("Releases")[href="openshift/releases"]'
+    "Apps & Services Dropdown Sitewide - OpenShift: Subscriptions":
+      selectors:
+        - 'a:contains("Subscriptions")[href="openshift/subscriptions/openshift-container"]'
+    "Apps & Services Dropdown Sitewide - OpenShift: Cost Management":
+      selectors:
+        - 'a:contains("Cost Management")[href="openshift/cost-management"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Dashboard":
+      selectors:
+        - 'a:contains("Dashboard")[href="insights/dashboard"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Advisor":
+      selectors:
+        - 'a:contains("Advisor")[href="insights/advisor"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Drift":
+      selectors:
+        - 'a:contains("Drift")[href="insights/drift"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Inventory":
+      selectors:
+        - 'a:contains("Inventory")[href="insights/inventory"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Compliance":
+      selectors:
+        - 'a:contains("Compliance")[href="insights/compliance"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Policies":
+      selectors:
+        - 'a:contains("Policies")[href="insights/policies"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Patch":
+      selectors:
+        - 'a:contains("Patch")[href="insights/patch"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Subscriptions":
+      selectors:
+        - 'a:contains("Subscriptions")[href="insights/subscriptions/rhel"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Register Systems":
+      selectors:
+        - 'a:contains("Register Systems")[href="insights/registration"]'
+    "Apps & Services Dropdown Sitewide - Ansible Automation Platform: Automation Hub":
+      selectors:
+        - 'a:contains("Automation Hub")[href="ansible/automation-hub"]'
+    "Apps & Services Dropdown Sitewide - Ansible Automation Platform: Automation Services Catalogue":
+      selectors:
+        - 'a:contains("Automation Services Catalog")[href="ansible/catalog"]'
+    "Apps & Services Dropdown Sitewide - Ansible Automation Platform: Analytics":
+      selectors:
+        - 'a:contains("Analytics")[href="ansible/automation-analytics"]'
+    "Apps & Services Dropdown Sitewide - Subscriptions: All RHEL":
+      selectors:
+        - 'a:contains("All RHEL")[href="openshift/subscriptions/rhel/openshift-container"]'
+    "Apps & Services Dropdown Sitewide - Subscriptions: ARM":
+      selectors:
+        - 'a:contains("ARM")[href="openshift/subscriptions/rhel-arm/openshift-container"]'
+    "Apps & Services Dropdown Sitewide - Subscriptions: IBM Power":
+      selectors:
+        - 'a:contains("IBM Power")[href="openshift/subscriptions/rhel-ibmpower/openshift-container"]'
+    "Apps & Services Dropdown Sitewide - Subscriptions: IBM Z Systems":
+      selectors:
+        - 'a:contains("IBM Z systems")[href="openshift/subscriptions/rhel-ibmz/openshift-container"]'
+    "Apps & Services Dropdown Sitewide - Subscriptions: x86":
+      selectors:
+        - 'a:contains("X86")[href="openshift/subscriptions/rhel-x86/openshift-container"]'
+    "Apps & Services Dropdown Sitewide - Subscriptions: OpenShift Subscriptions":
+      selectors:
+        - 'a:contains("OpenShift Subscriptions")[href="openshift/../openshift/subscriptions/openshift-container/openshift-container"]'
+    "Apps & Services Dropdown Sitewide - Subscriptions: Documentation":
+      selectors:
+        - 'a:contains("Documentation")[href="openshift/subscriptions/subscriptions-documentation/openshift-container"]'
+    "Apps & Services Dropdown Sitewide - Cost Management: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="openshift/cost-management/"]'
+    "Apps & Services Dropdown Sitewide - Cost Management: OpenShift":
+      selectors:
+        - 'a:contains("OpenShift")[href="openshift/cost-management/ocp"]'
+    "Apps & Services Dropdown Sitewide - Cost Management: Amazon Web Services":
+      selectors:
+        - 'a:contains("Amazon Web Services")[href="openshift/cost-management/aws"]'
+    "Apps & Services Dropdown Sitewide - Cost Management: Microsoft Azure":
+      selectors:
+        - 'a:contains("Microsoft Azure")[href="openshift/cost-management/azure"]'
+    "Apps & Services Dropdown Sitewide - Cost Management: Google Cloud Platform":
+      selectors:
+        - 'a:contains("Google Cloud Platform")[href="openshift/cost-management/gcp"]'
+    "Apps & Services Dropdown Sitewide - Cost Management: Cost Models":
+      selectors:
+        - 'a:contains("Cost Models")[href="openshift/cost-management/cost-models"]'
+    "Apps & Services Dropdown Sitewide - Cost Management: Cost Explorer":
+      selectors:
+        - 'a:contains("Cost Explorer")[href="openshift/cost-management/explorer"]'
+    "Apps & Services Dropdown Sitewide - Settings: My User Access":
+      selectors:
+        - 'a:contains("My User Access")[href="settings/my-user-access"]'
+    "Apps & Services Dropdown Sitewide - Settings: Sources":
+      selectors:
+        - 'a:contains("Sources")[href="settings/sources"]'
+    "Apps & Services Dropdown Sitewide - Settings: Integrations":
+      selectors:
+        - 'a:contains("Integrations")[href="settings/integrations"]'
+    "Apps & Services Dropdown Sitewide - Settings: Notifications":
+      selectors:
+        - 'a:contains("Notifications")[href="settings/notifications"]'
+    "Apps & Services Dropdown Sitewide - Settings: Applications":
+      selectors:
+        - 'a:contains("Applications")[href="settings/applications"]'
+    "Apps & Services Dropdown Sitewide - Settings: Documentation":
+      selectors:
+        - 'a:contains("Documentation")[href="settings/settings-documentation"]'
+    "Apps & Services Dropdown Sitewide - OpenShift: Downloads":
+      selectors:
+        - 'a:contains("Downloads")[href="openshift/downloads"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Remediations":
+      selectors:
+        - 'a:contains("Remediations")[href="insights/remediations"]'
+    "Apps & Services Dropdown Sitewide - Settings: Red Hat Connector":
+      selectors:
+        - 'a:contains("Red Hat Connector")[href="settings/connector"]'
+    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Vulnerability":
+      selectors:
+        - 'a:contains("Vulnerability")[href="insights/vulnerability"]'
+    "Apps & Services Dropdown Sitewide - Settings: User Access":
+      selectors:
+        - 'a:contains("User Access")[href="settings/rbac"]'
+    "Apps & Services Dropdown Sitewide - Ansible Automation Platform: Overview":
+      selectors:
+        - 'a:contains("Overview")[href="ansible/ansible-dashboard"]'
 
 user preferences:
   pages:
@@ -271,6 +412,21 @@ dashboard:
     "Dashboard - Link to Patch: View enhancement advisories":
       selectors:
         - '{} .ins-c-dashboard__card--PatchManager a:contains("Enhancement")'
+    "Dashboard - Button: Register systems":
+      selectors:
+        - '{} .pf-c-button[href="./insights/registration"]:contains("Register systems")'
+    "Dashboard - Link: Systems registered with Insights":
+      selectors:
+        - '{} .pf-m-link[href="./insights/inventory/?status=fresh&status=stale&source=insights"]:contains("Systems registered with Insights")'
+    "Dashboard - Button: View CVEs":
+      selectors:
+        - '{} .pf-c-button:contains("View CVEs")'
+    "Dashboard - Button: View known exploits":
+      selectors:
+        - '{} .pf-c-button:contains("View known exploits")'
+    "Dashboard - Button: View incidents":
+      selectors:
+        - '{} .pf-c-button:contains("View incidents")'
 
 advisor:
   color: 2
@@ -314,7 +470,7 @@ advisor:
         - '{}[data-ouia-subnav="recommendations"] button:contains("Systems impacted")'
     "Recommendations - Link: Download executive report":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] a:contains("Download executive report")'
+        - '{}[data-ouia-subnav="recommendations"] [data-ouia-component-type="PF4/Button"]:contains("Download executive report")'
     "Recommendations - Button: Remediate":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button:contains("Remediate")'
@@ -1237,6 +1393,9 @@ settings:
     "Sources - Button: Microsoft Azure":
       selectors:
         - '[data-ouia-app-id="sources"] div:contains("Microsoft Azure").disabled-tile-with-tooltip'
+    "Sources - Button: Save changes":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Save changes")'
     "Sources - Link: Learn more about Red Hat Gold Images":
       selectors:
         - '[data-ouia-app-id="sources"] a:contains("Learn more about Red Hat gold images")'
@@ -1249,6 +1408,12 @@ settings:
     "Sources - Button: Add source":
       selectors:
         - '[data-ouia-app-id="sources"] .pf-m-primary:contains("Add source")[aria-disabled="false"]'
+    "Sources - Button: Add source at end of Sources wizard":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Add")'
+    "Sources - Button: Exit button in cancel sources modal":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Exit")'
     "Sources - Button: Remove source (menu button)":
       selectors:
         - '[data-ouia-app-id="sources"] .pf-c-dropdown__menu-item:contains("Remove")'
@@ -1423,7 +1588,7 @@ rbac:
       url_rules:
         - /settings/rbac/groups/add-group
 
-cluster manager:
+openshift:
   color: 2
   pages:
     All pages:
@@ -1723,6 +1888,102 @@ cluster manager:
     "Clusters - Add-ons - Link: View documentation":
       selectors:
         - '{} a:contains("View Documentation")'
+    "Left Nav: Overview":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/overview"]:contains("Overview")'
+    "Left Nav: Releases":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/releases"]:contains("Releases")'
+    "Left Nav: Downloads":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/downloads"]:contains("Downloads")'
+    "Left Nav: Subscriptions":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Subscriptions")'
+    "Left Nav: Container Platform":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Container Platform")'
+    "Left Nav: Dedicated Annual":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (Annual)")'
+    "Left Nav: Dedicated On Demand":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (On-Demand)")'
+    "Left Nav: Dedicated On Demand Limits":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (On-Demand Limits)")'
+    "Left Nav: RHEL Subscriptions":
+      selectors:
+        - '{} .pf-c-nav__link:contains("RHEL Subscriptions")'
+    "Left Nav: Cost Management":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Cost Management")'
+    "Left Nav: Suport Cases":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Support Cases")'
+    "Left Nav: Cluster Manager Feedback":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Cluster Manager Feedback")'
+    "Left Nav: Red Hat Marketplace":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Red Hat Marketplace")'
+    "Left Nav: Documentation":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Documentation")'
+    "Releases - Link: OpenShift 4.8":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.8/release_notes/ocp-4-8-release-notes.html"]:contains("OpenShift 4.8")'
+    "Releases - Link: OpenShift 4.7":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.7/release_notes/ocp-4-7-release-notes.html"]:contains("OpenShift 4.7")'
+    "Releases - Link: OpenShift 4.6":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.6/release_notes/ocp-4-6-release-notes.html"]:contains("OpenShift 4.6")'
+    "Releases - Link: OpenShift 4.5":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.5/release_notes/ocp-4-5-release-notes.html"]:contains("OpenShift 4.5")'
+    "Downloads - Button: Download - OpenShift command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/openshift-client-mac.tar.gz"]'
+    "Downloads - Button: Download - OCM API command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://github.com/openshift-online/ocm-cli/releases/download/v0.1.55/ocm-darwin-amd64"]'
+    "Downloads - Button: Download - Red Hat OpenShift services on AWS command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/rosa/latest/rosa-macosx.tar.gz"]'
+    "Downloads - Button: Download - Developer-focused CLI for OpenShift (odo)":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/odo/latest/odo-darwin-amd64"]'
+    "Downloads - Button: Download - Helm 3 CLI":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/helm/latest/helm-darwin-amd64"]'
+    "Downloads - Button: Operator Package Manager":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/opm-mac.tar.gz"]'
+    "Downloads - Button: Red Hat OpenShift Application Services CLI":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://github.com/redhat-developer/app-services-cli/releases/download/v0.26.0/rhoas_0.26.0_macOS_amd64.tar.gz"]'
+    "Downloads - Link: Expand all":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] :contains("Expand all")'
+    "Downloads - Link: Developer Tools Learn More":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] a[href="https://developers.redhat.com/topics/developer-tools"]:contains("Learn more")'
+    "Downloads - Button: Copy":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("Copy")'
+    "Downloads - Button: Download":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("Download")'
+    "Downloads - Button: View API token":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("View API token")'
+    "Subscriptions - Link: Learn more about Subscriptions reporting":
+      selectors:
+        - '{}[data-ouia-app-id="subscriptions"] .pf-m-link[href="https://access.redhat.com/documentation/en-us/subscription_central/2021/html/getting_started_with_the_subscriptions_service/con-how-does-subscriptionwatch-show-data_assembly-viewing-understanding-subscriptionwatch-data-ctxt/"]:contains("Learn more about Subscriptions reporting")'
+    "Subscriptions - Button: Take a tour":
+      selectors:
+        - '{}[data-ouia-app-id="subscriptions"] .pf-c-label__content:contains("Take a tour")'
 
 ansible:
   color: 3
@@ -1733,6 +1994,38 @@ ansible:
     Dashboard:
       url_rules:
         - /ansible/ansible-dashboard
+  features:
+    _scope: '[data-ouia-bundle="ansible"]'
+    "Left Nav: Overview":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/ansible-dashboard"]:contains("Overview")'
+    "Left Nav: Automation Hub":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Automation Hub")'
+    "Left Nav: Automation Services Catalog":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Automation Services Catalog")'
+    "Left Nav: Insights - Saving Planner":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/savings-planner"]:contains("Savings Planner")'
+    "Left Nav: Insights - Automation Calculator":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/automation-calculator"]:contains("Automation Calculator")'
+    "Left Nav: Insights - Organization Statistics":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/organization-statistics"]:contains("Organization Statistics")'
+    "Left Nav: Insights - Job Explorer":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/job-explorer"]:contains("Job Explorer")'
+    "Left Nav: Insights - Clusters":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/clusters"]:contains("Clusters")'
+    "Left Nav: Insights - Notifications":
+      selectors:
+        - '{} .pf-c-nav__link[href="/ansible/insights/notifications"]:contains("Notifications)'
+    "Left Nav: Insights - Documentation":
+      selectors:
+        - '{} .pf-c-nav__link[href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform"]:contains("Documentation")'
 
 automation analytics:
   color: 3
