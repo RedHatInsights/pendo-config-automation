@@ -347,6 +347,10 @@ insights:
     Image builder - All pages:
       url_rules:
         - /insights/image-builder/*
+    Resource optimization - All pages:
+      url_rules:
+        - /insights/ros
+        - /insights/ros/**
   features:
     _scope: '[data-ouia-bundle="insights"]'
     "All Pages - Tab: host view tab click":
@@ -2458,9 +2462,6 @@ rhel:
       url_rules:
         - /rhel
         - /rhel/**
-    Resource optimization:
-      url_rules:
-        - /rhel/ros
 
 console landing page:
   color: 8
