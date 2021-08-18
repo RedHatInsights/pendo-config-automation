@@ -19,7 +19,7 @@ $ echo '- dummy' > ./secrets/skiplist.yml
 $ touch secrets/__init__.py
 ```
 
-Fill out the secrets. The pendo cookies are found on app.pendo.io, _not_ on cloud.redhat.com
+Fill out the secrets. The pendo cookies are found on app.pendo.io, _not_ on console.redhat.com
 
 ## Running
 

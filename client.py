@@ -89,7 +89,7 @@ def _create_feature(name, data):
 
 def _create_page(page_full_name, page_data):
     # POST https://app.pendo.io/api/s/5300167311360000/page?includeMobileRuleset=1
-    # {"name":"Test123","rules":[{"rule":"//*/insights","designerHint":"https://cloud.redhat.com/insights/"}],"appId":6245718179446784}
+    # {"name":"Test123","rules":[{"rule":"//*/insights","designerHint":"https://console.redhat.com/insights/"}],"appId":6245718179446784}
     r = s.post(url('/page?includeMobileRuleset=1'), json = {
         "appId": 6245718179446784,
         "name": page_full_name,
