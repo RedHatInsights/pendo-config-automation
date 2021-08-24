@@ -2188,15 +2188,23 @@ cost management:
       url_rules:
         - /openshift/cost-management/ocp
         - /openshift/cost-management/ocp/**
-    Infrastructure - Amazon Web Services.post04262021:
+    Amazon Web Services.post04262021:
       url_rules:
+        - /openshift/cost-management/aws
+        - /openshift/cost-management/aws/**
         - /openshift/cost-management/infrastructure/aws
         - /openshift/cost-management/infrastructure/aws/**
         - /openshift/cost-management/details/aws
-    Infrastructure - Microsoft Azure.post04262021:
+    Microsoft Azure.post04262021:
       url_rules:
+        - /openshift/cost-management/azure
+        - /openshift/cost-management/azure/**
         - /openshift/cost-management/infrastructure/azure
         - /openshift/cost-management/infrastructure/azure/**
+    Google Cloud Platform.post04262021:
+      url_rules:
+        - /openshift/cost-management/gcp
+        - /openshift/cost-management/gcp/**
     Cost Models.post04262021:
       url_rules:
         - /openshift/cost-management/cost-models
