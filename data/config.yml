@@ -864,6 +864,9 @@ compliance:
     "Reports - Button: Ansible Remediate":
       selectors:
         - '{}[data-ouia-subnav="reports"] div:contains("Remediate").pf-c-toolbar__item'
+    "Systems - Button: Ansible Remediate":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] div:contains("Remediate").pf-c-toolbar__item'
     "SCAP Policies - Button: Create new policy":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] button:contains("Create new policy")'
