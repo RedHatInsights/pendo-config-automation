@@ -1411,7 +1411,7 @@ settings:
         - '[data-ouia-app-id="sources"] .pf-m-primary:contains("Add source")'
     "Sources - Button: Add source at end of Sources wizard":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Add")'
+        - '[data-ouia-app-id="sources"] .pf-c-wizard.sources .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Add")'
     "Sources - Button: Exit button in cancel sources modal":
       selectors:
         - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Exit")'
@@ -1420,7 +1420,7 @@ settings:
         - '[data-ouia-app-id="sources"] .pf-c-dropdown__menu-item:contains("Remove")'
     "Sources - Button: Remove source and its data":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-m-danger:contains("Remove source and its data")'
+        - '[data-ouia-app-id="sources"] .pf-c-modal-box.sources .pf-m-danger:contains("Remove source and its data")'
     "Sources - Button: Edit credentials (menu button)":
       selectors:
         - '[data-ouia-app-id="sources"] .pf-c-dropdown__menu-item:contains("Edit")'
@@ -1436,12 +1436,12 @@ settings:
     "Sources - Button: Red Hat sources tab":
       selectors:
         - '[data-ouia-app-id="sources"] .pf-c-tabs__link:contains("Red Hat sources")'
-    "Sources - Link: Use Red Hat gold images in AWS":
+    "Sources - Link: Use Red Hat gold images on AWS":
       selectors:
-        - '[data-ouia-app-id="sources"] a.text:contains("Use Red Hat gold images in AWS")'
-    "Sources - Link: Use Red Hat gold images in Microsoft Azure":
+        - '[data-ouia-app-id="sources"] a.text:contains("Use Red Hat gold images on AWS")'
+    "Sources - Link: Use Red Hat gold images on Microsoft Azure":
       selectors:
-        - '[data-ouia-app-id="sources"] a.text:contains("Use Red Hat gold images in Microsoft Azure")'
+        - '[data-ouia-app-id="sources"] a.text:contains("Use Red Hat gold images on Microsoft Azure")'
     "Sources - Link: Learn more about Red Hat Insights":
       selectors:
         - '[data-ouia-app-id="sources"] a.text:contains("Learn more about Red Hat Insights")'
@@ -1453,7 +1453,7 @@ settings:
         - '[data-ouia-app-id="sources"] a.text:contains("Go to Subscriptions")'
     "Sources - Button: Cancel Add source":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-m-link:contains("Cancel")'
+        - '[data-ouia-app-id="sources"] pf-c-wizard.sources .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains(“Cancel”)'
     "Integrations - Button: Add integration":
       selectors:
         - '[data-ouia-app-id="integrations"] div.pf-c-toolbar__item:contains("Add integration")'
@@ -1472,16 +1472,16 @@ settings:
         - '[data-ouia-app-id="connector"] div:contains("Save changesView log")'
     "User Access - Button: MUA Application Services card":
       selectors:
-        - '[data-ouia-app-id="my-user-access"].pf-c-card:contains("Application Services")'
+        - '[data-ouia-app-id="my-user-access"] .pf-c-card:contains("Application Services")'
     "User Access - Button: MUA OpenShift card":
       selectors:
-        - '[data-ouia-app-id="my-user-access"].pf-c-card:contains("OpenShift")'
+        - '[data-ouia-app-id="my-user-access"] .pf-c-card:contains("OpenShift")'
     "User Access - Button: MUA RHEL card":
       selectors:
-        - '[data-ouia-app-id="my-user-access"].pf-c-card:contains("Red Hat Enterprise Linux")'
+        - '[data-ouia-app-id="my-user-access"] .pf-c-card:contains("Red Hat Enterprise Linux")'
     "User Access - Button: MUA Ansible card":
       selectors:
-        - '[data-ouia-app-id="my-user-access"].pf-c-card:contains("Ansible Automation Platform")'
+        - '[data-ouia-app-id="my-user-access"] .pf-c-card:contains("Ansible Automation Platform")'
   pages:
     All pages:
       url_rules:
