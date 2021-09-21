@@ -1453,7 +1453,7 @@ settings:
         - '[data-ouia-app-id="sources"] a.text:contains("Go to Subscriptions")'
     "Sources - Button: Cancel Add source":
       selectors:
-        - '[data-ouia-app-id="sources"] pf-c-wizard.sources .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains(“Cancel”)'
+        - '[data-ouia-app-id="sources"] pf-c-wizard.sources .pf-m-primary:contains("Cancel")'
     "Integrations - Button: Add integration":
       selectors:
         - '[data-ouia-app-id="integrations"] div.pf-c-toolbar__item:contains("Add integration")'

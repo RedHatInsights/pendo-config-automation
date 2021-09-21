@@ -89,7 +89,7 @@ _application services | All pages: K9K-Ao9Fut4f-5dvoLZNXL6mjCI
 '_application services | Application Services - Left Hand Nav: Data Science': 879n7bsktp49NLk6MKSfmZWIh6A
 '_application services | Application Services - Left Hand Nav: Documentation': q9CEY5GI-oIOuH5WNz2pwe-kBxA
 '_application services | Application Services - Left Hand Nav: Kafka Instances': jNrB04yHthRL1X1to8R88yzmWA8
-'_application services | Application Services - Left Hand Nav: Overview': USMV8GvexKS0gKRMAjHQ8YJqIRo
+'_application services | Application Services - Left Hand Nav: Overview': z8UPefWP5HkZVHMCO0dn7zPRmOU
 '_application services | Application Services - Left Hand Nav: Resources': unmG2Wm2TFjLiT87kGDvXtz5ETA
 '_application services | Application Services - Left Hand Nav: Service Accounts': iYpRGccuFszyswLyLwOkUC-GFbo
 '_application services | Application Services - Left Hand Nav: Stream for Apache Kafka': sTBAhTjRbL0ZgLCSL3bTnUcKhIY
@@ -205,14 +205,15 @@ _beta console landing page | Main page: Asiq8muj1gApWIZGwsFr-Z50nBU
 _beta cost management: Gfq3_H10_w4ZrpD-vD9lS7BpNcs
 _beta cost management | All pages.post04262021: latPtb_k3iq8fIW40Wu-bcfS-4Q
 _beta cost management | All pages.pre04262021: 3MmWwXRoNpn5J6Z-3PBwBHKLZYw
+_beta cost management | Amazon Web Services.post04262021: Sx3bQ5BoRYKOpYNlHGbnGKwx4vc
 _beta cost management | Cost Models.post04262021: e8w1yxPn1BgVAiwUs4BRcYK81oA
 _beta cost management | Cost Models.pre04262021: ZkYHNXKSUFf7hyUOrPRGPVQYGBg
 _beta cost management | Explorer.post04262021: MAyI2z01hHNWel3nm9JibUFfTnA
 _beta cost management | Explorer.pre04262021: qNP0a4pS4woI-EOWXCQuVwP5P5Q
-_beta cost management | Infrastructure - Amazon Web Services.post04262021: ASMX-aOHcY-tX7ptEijb4s1t1OM
+_beta cost management | Google Cloud Platform.post04262021: 0JhvTRoD5UwAbY1NEjBzCTtMHeE
 _beta cost management | Infrastructure - Amazon Web Services.pre04262021: 5tqfqVRY2ijoFNEVRtCO20uozhc
-_beta cost management | Infrastructure - Microsoft Azure.post04262021: uF5XDKhkd14yhOogrkXTwsoyywI
 _beta cost management | Infrastructure - Microsoft Azure.pre04262021: 2YiijzdmcmMvT2Kic2JpoZ3Wf38
+_beta cost management | Microsoft Azure.post04262021: HDDkmqRjNH8F4Gl-sBzN-Nwx0xo
 _beta cost management | OpenShift.post04262021: 9hI-FESOk6No8DBYsAouYBN8nJ0
 _beta cost management | OpenShift.pre04262021: Wh54yRtPjcjQTZfLWAu1J_mwxoA
 _beta cost management | Overview.post04262021: Nm99d-bJrXOD9ktGuHcnNCU0wng
@@ -345,7 +346,7 @@ _beta settings | Applications: wedjCtmoOGbFwwt6ASmng4iOh4M
 _beta settings | Applications - Advisor: -sDuxcDj6m0qjuzPr3Xz3LntowI
 _beta settings | Integrations: 6o4wdgXx7QKHpjr9kVWv7UpeUo0
 _beta settings | My User Access: LuRWIq2vx1-0TxIT8zw97KrARlk
-_beta settings | Notifications: rPQL348RowUIzoEqdWpQt4XVjcE
+_beta settings | Notifications: VNd3-8MgLPJpz7PvjbJN5wSmeAU
 _beta settings | Notifications - RHEL: MQ8DaATciin8p6KxErNsFoHlf3s
 _beta settings | Red Hat Connector: ql0aVORf4p6Wp6RWZrtsyQz63xY
 _beta settings | Sources - Add Cloud Source wizard: ibvE3J6hJjEEWzXiWm6aPR4wXZs
@@ -393,6 +394,7 @@ _compliance | Reports view: bnzu1AVyrunUPrcLnXj8ZxfVaL8
 '_compliance | SCAP Policies - Button: Create new policy': ZKFhtR4TKAljBlqXDKZhq0GwWo4
 _compliance | SCAP Policies list: 1KQmCj_ivdOdtDUnWjDDc_N-2Do
 _compliance | SCAP Policies view: NOMp3jDCD1HxtmI3Rm1tAPIpOPE
+'_compliance | Systems - Button: Ansible Remediate': sbOEGLj7o979JqJyXbtqZ0KiOfo
 '_compliance | Systems - Filter: Name': VLEfPQlo1HdehwmoJpmEs4heNe8
 '_compliance | Systems - Filter: Operating system': UHYQ7A39tCDuJCeKkL7Vpois85U
 '_compliance | Systems - Filter: Policy': MMPiWAFbmdvO02H0qN5r7JuSWNY
@@ -456,14 +458,15 @@ _console landing page | Main page: 753RoICqdGcEKbeUqll2lgP2rZc
 _cost management: LKxxbb1dWzIX8gRJmEFERcpU570
 _cost management | All pages.post04262021: CG2XGpnhChcpg9KN4vzLWqs0vho
 _cost management | All pages.pre04262021: ZTZndPuQOHb6wIJ1srMBHrq7m00
+_cost management | Amazon Web Services.post04262021: 96MTWty4nuFfhObQMqZTsshEry0
 _cost management | Cost Models.post04262021: lNtwhjpk2kbsxhvU1jV3Ja1mBpM
 _cost management | Cost Models.pre04262021: -9x4tccRg9-206S0Dq6QPwyjvTc
 _cost management | Explorer.post04262021: oIEFHjMp5EOyxjDZTrGu81cl6Y8
 _cost management | Explorer.pre04262021: yzoaRsU5nkR62Aq-tfWINHpvtHo
-_cost management | Infrastructure - Amazon Web Services.post04262021: t4XPptg52ol-2rIRfRwhzZqTDoI
+_cost management | Google Cloud Platform.post04262021: 52pfQEYyN1ZFRDcdIN8kQ2q9u0Y
 _cost management | Infrastructure - Amazon Web Services.pre04262021: Ppt96wzsh1AEWbQhmlnWsGg2x-U
-_cost management | Infrastructure - Microsoft Azure.post04262021: Et8qQUAW93Rewop0lLEFX0VAB-8
 _cost management | Infrastructure - Microsoft Azure.pre04262021: sqoWGS5VstLs8SULPOrJ1rltMeo
+_cost management | Microsoft Azure.post04262021: 4qCbsRpLfzJHG5vuXuCte7R-zo4
 _cost management | OpenShift.post04262021: 49aS0aQ-mZbpdB2TGM_3SacSOek
 _cost management | OpenShift.pre04262021: b16Lu6-qX-zUBJGDtcMCulY0fCo
 _cost management | Overview.post04262021: 3YyCv3SfU4vQ00CoNpT8jvcbdNw
@@ -474,7 +477,7 @@ _crc | All pages EXCEPT landing page: R-waMxVLWmTB6NXMAzdp836E8NI
 '_crc | Apps & Services Dropdown - Ansible Automation Platform: Analytics': BSX9buZNxptoRS2T7eFozKNaycQ
 '_crc | Apps & Services Dropdown - Ansible Automation Platform: Automation Hub': rFxWrJ9fjCm4Mbu5aV-zrKWFYK8
 '_crc | Apps & Services Dropdown - Ansible Automation Platform: Automation Services Catalogue': U2RmJpcD-OGq6hBp3hrvc3XNQbk
-'_crc | Apps & Services Dropdown - Ansible Automation Platform: Overview': 3zBXV8TvIhRqDkBP75N8YUf2dlo
+'_crc | Apps & Services Dropdown - Ansible Automation Platform: Overview': heWkYsEZO7hp8I_PAMOmZbOFBz0
 '_crc | Apps & Services Dropdown - Application Services: API Management': qk1rJGDpuEr3pIOUd2r69RiFbVI
 '_crc | Apps & Services Dropdown - Application Services: Data Science': rYiHqFXYDab1RITPinu4Vy9Cr5o
 '_crc | Apps & Services Dropdown - Application Services: Overview': IqIvGs9W7fx-dmvoXleRo4n2Lw4
@@ -500,17 +503,17 @@ _crc | All pages EXCEPT landing page: R-waMxVLWmTB6NXMAzdp836E8NI
 '_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Patch': BW5vHTMDfPOsG96hRRM6vMTIjWY
 '_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Policies': S1r9PtAfJY5mO8GiPbgenP-BG6c
 '_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Register Systems': d2mMJizdHKZ4gk23h1Aj3KAUZ4Q
-'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Remediations': ROQhFDGECBDyXd6lxKN3Fh8LvJU
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Remediations': J5ZA7JwLouIFlv3D_OMKFCnsPFM
 '_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Subscriptions': RgEmhGACmEnp6-32mLWe_Ui0eOc
-'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Vulnerability': ijNYsUd3zqt64PFFKyL07C6BboA
+'_crc | Apps & Services Dropdown - Red Hat Enterprise Linux: Vulnerability': VYmavzgGOkNe5SJ-tgcdaXk8_Zk
 '_crc | Apps & Services Dropdown - Settings: Applications': L-PFBwtcq3weo_6PqsqwZdY8JPo
 '_crc | Apps & Services Dropdown - Settings: Documentation': LvD2JrTRDtItQzcf5CLkRaadgRw
 '_crc | Apps & Services Dropdown - Settings: Integrations': 2386apt_Bpb70g_aedMkcG6l-IU
 '_crc | Apps & Services Dropdown - Settings: My User Access': fKInLDCfVLBTv1dLDLTnqapnCm0
 '_crc | Apps & Services Dropdown - Settings: Notifications': 9jFAsgRXGbVRRL4MAE_XOiETDqA
-'_crc | Apps & Services Dropdown - Settings: Red Hat Connector': ATMd4eNpcgfBILWhDYzronMjWcQ
+'_crc | Apps & Services Dropdown - Settings: Red Hat Connector': 6F-b_-3dVK-vq5apvMBB-6vG5HY
 '_crc | Apps & Services Dropdown - Settings: Sources': oJFztnxDv08NJUTgsXDNOdFoZ6g
-'_crc | Apps & Services Dropdown - Settings: User Access': oRYSJbAriUQnCR9TT8DCGylumq4
+'_crc | Apps & Services Dropdown - Settings: User Access': MWLJwo3HcT50oPe_GCoBKm4627s
 '_crc | Apps & Services Dropdown - Subscriptions: ARM': 6P6iMxKIRs3NKCJZeq85cf3_W7M
 '_crc | Apps & Services Dropdown - Subscriptions: All RHEL': CSWl67Qbf73_rKD_DsEMHkFdVs8
 '_crc | Apps & Services Dropdown - Subscriptions: Documentation': TcQ8-4ntd10XlFajKsdYXVtbe3I
@@ -616,7 +619,7 @@ _insights for ansible | Job Explorer - Filter by: G-c0ZKKG_m40VXyXauq80s21sbM
 '_insights for ansible | Job Explorer - List: Job templates (compact)': NOX5zvIJsB7YkccIFPrcBG0vrZ0
 _insights for ansible | Job Explorer - Pagination: mlvfm-lEYGaw7sXU_XrGTsT7lIM
 _insights for ansible | Job Explorer.post04262021: _mC60pf0UGRrS8KMqxB067opkVU
-_insights for ansible | Notifications.post04262021: 5zLb_cVcP4VTZX5XGSf5l-lUeGM
+_insights for ansible | Notifications.post04262021: tUdME6VUBV4LtMmConX47xkA1NA
 _insights for ansible | Organization Statistics.post04262021: 6ZSjW3CrR9bjNUQTwKCAYskiXMM
 _insights for ansible | Savings planner.post04262021: _0_9pW7IwOM7yzfEAV4_-blXF3M
 _insights for openshift: JCLlw7_YxkjSaDR6-Eioc50R8ik
@@ -874,7 +877,7 @@ _policies | Policies view: fQWXZLH4wFd1lG-trttCqF62boE
 _rbac: C8QuKEdKenYaAAKmH_bMp_P_5gk
 '_rbac | Add role modal - Button: Add role to group': BUshUkbHgQUaeFKpX3Ekjlh1q2M
 _rbac | All pages: r8ETUpTbC8SDjd8SiNZ6JtTST8w
-_rbac | Create group wizard: H5nSrhjfKlMutkOrpF7FRVzoDsA
+_rbac | Create group wizard: M8kMGg1U2FyZwxTjSiS4icufpVw
 _rbac | Create role wizard: cR-7Q-bwqhtwUPEP9cixRd4XJYY
 _rbac | Group view: oTm6kZAUIdeoqKtsgQoHHr_v0bE
 '_rbac | Groups - Button: Add group': P1H45KkCtnAAYFE4v8MzuMtVSEM
@@ -909,8 +912,8 @@ _settings | Applications: WFfm9pvrJLXjF2LFN23Bbaar1mU
 _settings | Applications - Advisor: z7Xd66F5hFSfnMUzR3VAKqesFzc
 _settings | Integrations: rvp_MgRyvLDBs8dNzybAJlI2QOg
 '_settings | Integrations - Button: Add integration': M3VnAy2M7jacEZPcpefzB5myyz8
-_settings | My User Access: gO6N4aHJVlzI-yz6P7bQHmAjF3s
-_settings | Notifications: Snu3WfbhpWYyYS0Ad93ohg7UPKI
+_settings | My User Access: q9rkUWvVwBtueP7pt69mv6G4Vcw
+_settings | Notifications: gb-o0ALIwXK2kQGqDNlSykIQtns
 _settings | Notifications - RHEL: 3MvbIjJlZP9DqVFpR03AkG6GEKY
 _settings | Red Hat Connector: _kzwq8Zr5SC0iEEwgiWFg_Sstp4
 '_settings | Red Hat Connector - Button: Connect systems': 6PhIDSN8R8-WH6_0FSDjUwgpDDc
@@ -941,8 +944,8 @@ _settings | Sources - Cloud sources: i_U84s5MOde7ZcT5nIuvI7ZOO1Y
 '_settings | Sources - Link: Learn more about Red Hat Gold Images': vjIGdKaEfYVo_uuiyt26TiWVlVg
 '_settings | Sources - Link: Learn more about Red Hat Insights': Hq1vhkKIZeWfbDwfOL4O6WLcZEs
 '_settings | Sources - Link: Learn more about Subscriptions': 0QLZ9wuzJWCaY5EUq-3dSOufe28
-'_settings | Sources - Link: Use Red Hat gold images in AWS': K0bVdaQJC7Dy7xXAEs5UPONOs-0
-'_settings | Sources - Link: Use Red Hat gold images in Microsoft Azure': Kywee4_GMyMRdESu5nUacF7LEsc
+'_settings | Sources - Link: Use Red Hat gold images on AWS': kd7JCLmv6uU4Gs-LjjxECPXGvyI
+'_settings | Sources - Link: Use Red Hat gold images on Microsoft Azure': pFZV7Iog4_XT4DiPl7LOet3ppSc
 _settings | Sources - Red Hat sources: YpJOlhNvAGYR0xnMpcSq2_Ylmp0
 _settings | Sources - Remove application modal: GW0-ZNmxX-Wmw_WxnbYtcIvh3Io
 _settings | Sources - Remove source modal: 51j-r3RKfj8lw0V9Smlvj2E-GPw
