@@ -69,7 +69,9 @@ Spacing of the `{}` is important, because without the trailing space, like in th
 
 If you are testing out selectors and want to double check your work before contributing, you can do
 
-`pendo.Sizzle({selector})` in the web console and you will get an output if your selector is correct.
+`pendo.Sizzle('selector')` in the web console and you will get an output if your selector is correct.
+
+Ex: `pendo.Sizzle('[data-ouia-bundle="foo"][data-ouia-app-id="bar"] .pf-c-button:contains("Wow!")')`
 
 ## Install
 
