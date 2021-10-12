@@ -2250,24 +2250,33 @@ application services:
     All pages:
       url_rules:
         - /application-services/**
-    Streams for Apache Kafka - Kafka instances:
-      url_rules:
-        - /application-services/streams/kafkas
-    Streams for Apache Kafka -  Service Accounts:
-      url_rules:
-        - /application-services/streams/service-accounts
-    Streams for Apache Kafka - Resources:
-      url_rules:
-        - /application-services/streams/resources
     API Management:
       url_rules:
         - /application-services/api-management
+    Database Access:
+      url_rules:
+        - /application-services/databases
     Data Science:
       url_rules:
         - /application-services/data-science
-    Demo experience:
+    Service Accounts:
       url_rules:
-        - /application-services/streams/kafkas/?*parameter*
+        - /application-services/service-accounts
+    Service Registry Data Plane:
+      url_rules:
+        - /application-services/service-registry/**
+    Service Registry Instances page:
+      url_rules:
+        - /application-services/service-registry
+    Streams for Apache Kafka Data Plane:
+      url_rules:
+        - /application-services/streams/kafkas/**
+    Streams for Apache Kafka Instances page:
+      url_rules:
+        - /application-services/streams/kafkas
+    Learning Resources:
+      url_rules:
+        - /application-services/learning-resources
   features:
     _scope: '[data-ouia-bundle="application-services"]'
     "Application Services - Button: Create instance (in modal)":
