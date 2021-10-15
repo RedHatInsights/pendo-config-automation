@@ -1490,6 +1490,10 @@ settings:
     My User Access:
       url_rules:
         - /settings/my-user-access
+    Sources - All pages:
+      url_rules:
+        - /settings/sources/*
+        - /settings/sources
     Sources list:
       url_rules:
         - /settings/sources
