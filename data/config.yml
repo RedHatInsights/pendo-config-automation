@@ -555,7 +555,7 @@ advisor:
         - /insights/advisor/recommendations/pathways
     Recommendations pathway details:
       url_rules:
-        - /insights/advisor/recommendations/pathways/*parameter*  
+        - /insights/advisor/recommendations/pathways/*parameter*
     Systems view:
       url_rules:
         - /insights/advisor/systems/*
