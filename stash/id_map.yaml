@@ -27,6 +27,8 @@ _advisor | All pages: lFRJIoZn3u_vZ33IdAThcrcqGgk
 '_advisor | Recommendations - Sort: Total risk': Uh-q7zaHHy5hLEqBPthCgFYXiUQ
 _advisor | Recommendations - remediation steps: lpvzdmWHmaft0qst_xva4V9fl34
 _advisor | Recommendations list: xF91sR35uXpuoGRFQv4yl0inXkU
+_advisor | Recommendations pathway details: NahNDbrxuq9h-UxT2jWy0hJO0_w
+_advisor | Recommendations pathways list: 8SXcoaLsqFUtNAoWz9-cM0SdDUY
 _advisor | Recommendations system: vMgBpyCWCq-kym4aLl1UUQipwkY
 _advisor | Recommendations view: U4qc1BPi1CNZvSZrsLyEpfDzOzk
 '_advisor | Systems - Filter: Total risk': S9C-hbaQx5YzucrGFfmivL1zLrc
@@ -121,11 +123,14 @@ _application services | Application Services - Table row: Rcu3iEAd7wDFRU31CGu5JN
 '_application services | Application Services - Video: Build an app demo': H7noQFkR8ItC3Pbn_s-3s2LQD0s
 '_application services | Application Services - Video: Data science demo': SyuRMNMzZpy-PkQ1KulFMK_n-y8
 _application services | Data Science: ncc_5mKcN_RUjQfdWuMxGcwE62o
-_application services | Demo experience: 32Oy05zF1o1n9lgmjrmHp1UEd2k
+_application services | Database Access: d-XguXPYyOWDAYp6L4PFDgHxu9U
+_application services | Learning Resources: DhZLMJr4fEQRmu6ni6tY-aX3YNA
 _application services | Overview: Jh3XAFgQ9aNvKR79V455EipJmAM
-_application services | Streams for Apache Kafka -  Service Accounts: ESNQfB46mbKISK8TmLamFI8nJ2c
-_application services | Streams for Apache Kafka - Kafka instances: CG4dlngtL05T2qe8VTNoeh8BbEE
-_application services | Streams for Apache Kafka - Resources: ToRYkFPenYXIQqTTUp-HGEkqJ-I
+_application services | Service Accounts: vhXuHcq4ITajnUud5bBzu-DUPe8
+_application services | Service Registry Data Plane: W9KguSKopaFFLWblFh74v33R734
+_application services | Service Registry Instances page: kt5OBPvHsFo_jAoHH4k6xcI2c2w
+_application services | Streams for Apache Kafka Data Plane: hLRt420Uesih6vRKQ0NszqMn6Mw
+_application services | Streams for Apache Kafka Instances page: r-W5VCp-2kXtOp2zj97JTTCarxA
 _automation analytics: fb31oR0a7-3c8wIZLcqiI4NlAEs
 _automation analytics | All pages.pre04262021: j11ADZ41MDNAp2sCITXj6lBcpgU
 _automation analytics | Automation Calculator.pre04262021: 7Wkop-XFtdeAMLFpygZKHYadsw8
@@ -154,6 +159,8 @@ _beta advisor: 6_a9tLxmXd6YOxvHMCtHoCSzaJY
 _beta advisor | All pages: LndZLiqin-VMsBHD_c5Wbg2XsiY
 _beta advisor | Recommendations - remediation steps: 0cENxQZLmsO474etaKiTLFR61t0
 _beta advisor | Recommendations list: 8Nh_KmfrCZFvh09VYI69_BZMNv4
+_beta advisor | Recommendations pathway details: Tl_wKAo0rMTN0CE9_Iwnq0rFtXo
+_beta advisor | Recommendations pathways list: 69wGnVrsPmmEnySeV117eDEklfQ
 _beta advisor | Recommendations system: 4md2BNSSdysSgTHzKFKuP6_rXKk
 _beta advisor | Recommendations view: _O6dO_WfBH44sgn9qYVuaQ9nGTM
 _beta advisor | Systems list: Sx13bastiam2tS0xso1LnZMHF0Q
@@ -167,11 +174,14 @@ _beta application services: a3kDHUKD45vDSocVdIzviMXKRBA
 _beta application services | API Management: 21rVSwWRBrxQNQ8DoDlPKhnq27M
 _beta application services | All pages: ldMnh1RP0WSJ4TK01Y4BEELGnqA
 _beta application services | Data Science: ZdI0JTNC_qrOk-1jwejtFm2J_lY
-_beta application services | Demo experience: jt8R0YG2PG6hdOpeXt-cMFoRSnw
+_beta application services | Database Access: cHrPR-lVfuPmClre5Xw4EGmjm1Y
+_beta application services | Learning Resources: uO4xjtleIR23QEpeVJfHSIYlJ9E
 _beta application services | Overview: MGJlxSUXx_tKkdS4sKqCrmnoPGc
-_beta application services | Streams for Apache Kafka -  Service Accounts: 6n3tOstJgDYeuDI0KuP5-7UBmIk
-_beta application services | Streams for Apache Kafka - Kafka instances: BC1e7v-x5e1cb7S87hSX2PkF4zI
-_beta application services | Streams for Apache Kafka - Resources: toEg05lWZQtsbBQz6v3eHIxTbeo
+_beta application services | Service Accounts: -yFGI3pzv8PeSidRRKbFB6UiY3s
+_beta application services | Service Registry Data Plane: pt3l4jdNks88s2ePxDELQq2nR5g
+_beta application services | Service Registry Instances page: L1VG5W3WQawdLI_skMh6kTTNhdY
+_beta application services | Streams for Apache Kafka Data Plane: 3ITxzdEObzW4E_P4OuKYqTf2C4Y
+_beta application services | Streams for Apache Kafka Instances page: v28ruZtXq8PE79OL29VpGaGad3A
 _beta automation analytics: 82f_g2Gesnul5GMJzmHKeaZxaK0
 _beta automation analytics | All pages.pre04262021: CFGm0xfi92kNuIAC1cgC02u1fcw
 _beta automation analytics | Automation Calculator.pre04262021: NmJy1nMBCLVy3fOYr9CVm1dknvQ
@@ -352,6 +362,7 @@ _beta settings | Red Hat Connector: ql0aVORf4p6Wp6RWZrtsyQz63xY
 _beta settings | Sources - Add Cloud Source wizard: ibvE3J6hJjEEWzXiWm6aPR4wXZs
 _beta settings | Sources - Add Red Hat Source wizard: Lx8CQeGYsXlbeXU1w4OuN485wMA
 _beta settings | Sources - Add application wizard: qFJcVMOhTjY2odqm4jvcnGFiW8c
+_beta settings | Sources - All pages: vYMLU6q6Sny99UzE27oqFjxXGAA
 _beta settings | Sources - Cloud sources: u2kUBw-UGy3lbmgqUCfsMHrbeFY
 _beta settings | Sources - Red Hat sources: NkttmmG7HblYTdMvmTSBbi_qVbw
 _beta settings | Sources - Remove application modal: h9M4LSqWFASHZgWNkd4hIkmQSWs
@@ -923,6 +934,7 @@ _settings | Red Hat Connector: _kzwq8Zr5SC0iEEwgiWFg_Sstp4
 _settings | Sources - Add Cloud Source wizard: 3x49WzsN8ygwjvFAaZLA9kEY8K8
 _settings | Sources - Add Red Hat Source wizard: 7RT3wxZsXfVkfXSBFRbEBgaBFxM
 _settings | Sources - Add application wizard: Xswc05_ECon2pA3bHen2WXwdqSY
+_settings | Sources - All pages: s9KmkIUVmY7l5qcZHxgSPOMvGHQ
 '_settings | Sources - Button: AWS': ZCrgzvF4kg3cldjhQyezsQ9uRZQ
 '_settings | Sources - Button: Add application (wizard confirmation)': eAg0vyu_BOVC9lzGE_rp6Hax9Kk
 '_settings | Sources - Button: Add source': soBjN3RpGLLVB6u7iWrNWZNn0tY
