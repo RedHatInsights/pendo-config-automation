@@ -1702,6 +1702,12 @@ openshift:
     Assisted Bare Metal Installer - Cluster conifiguration:
       url_rules:
         - /openshift/assisted-installer/clusters/*
+    Assisted Installer purple feedback form:
+      url_rules:
+        - /openshift/details/s/{subscription_id}#addAssistedHosts
+        - /openshift/assisted-installer/clusters/
+        - /openshift/assisted-installer/clusters/~new
+        - /openshift/assisted-installer/clusters/*
     Create cluster - Openstack:
       url_rules:
         - /openshift/install/openstack
@@ -2630,3 +2636,61 @@ insights for openshift:
         - /openshift/quota/**
         - /openshift/cost-management/**
         - /openshift/cost-management
+        
+fleet management:
+  color: 9
+  pages:
+    Manage device page:
+      url_rules:
+        - /edge/fleet-management
+    Device details page:
+      url_rules:
+        - /edge/fleet-management/*
+  features:
+    _scope: '[data-ouia-app-id="fleet-management"]'
+    "Manage device - Filter: Attribute Dropdown":
+      selectors:
+        - '.pf-c-dropdown__toggle:contains("Name")'
+    "Manage device - Filter: Search input name":
+      selectors:
+        - '.pf-c-form-control[placeholder="Filter by name"]'
+    "Manage device - Button: View in Inventory":
+      selectors:
+        - '.pf-c-dropdown__menu-item:contains("View system in Inventory")'
+    "Manage device - Button: Update":
+      selectors:
+        - '.pf-c-dropdown__menu-item:contains("Update")'      
+        
+manage images:
+  color: 9
+  pages:
+    Manage images page:
+      url_rules:
+        - /edge/manage-images
+    Image details page:
+      url_rules:
+        - /edge/manage-images/*
+    Create image modal:
+      url_rules:
+        - /edge/manage-images?create_image=true
+    Update image modal:
+      url_rules:
+        - /edge/manage-images/*?update_image=true
+  features:
+    _scope: '[data-ouia-app-id="manage-images"]'
+      "Manage images - Button: Create new image":
+      selectors:
+        - '.pf-c-button.pf-m-primary:contains("Create new image")'
+      "Manage images - Filter: Attribute dropdown":
+      selectors:
+        - '.pf-c-dropdown__toggle:contains("Name")'
+      "Manage images - Filter: Search input name":
+      selectors:
+        - '.pf-c-form-control[placeholder="Filter by name"]'
+      "Manage images - Button: Update":
+      selectors:
+        - '.pf-c-button.pf-m-secondary:contains("Update")'
+      "Manage images - Button: Download":
+      selectors:
+        - '.pf-c-dropdown__menu-item:contains("Download")'
+
