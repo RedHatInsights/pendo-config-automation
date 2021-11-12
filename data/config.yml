@@ -2636,7 +2636,7 @@ insights for openshift:
         - /openshift/quota/**
         - /openshift/cost-management/**
         - /openshift/cost-management
-        
+
 fleet management:
   color: 9
   pages:
@@ -2660,7 +2660,7 @@ fleet management:
     "Manage device - Button: Update":
       selectors:
         - '{} .pf-c-dropdown__menu-item:contains("Update")'
-        
+
 manage images:
   color: 9
   pages:
@@ -2678,18 +2678,18 @@ manage images:
         - /edge/manage-images/*?update_image=true
   features:
     _scope: '[data-ouia-app-id="manage-images"]'
-      "Manage images - Button: Create new image":
-        selectors:
-          - '{} .pf-c-button.pf-m-primary:contains("Create new image")'
-      "Manage images - Filter: Attribute dropdown":
-        selectors:
-          - '{} .pf-c-dropdown__toggle:contains("Name")'
-      "Manage images - Filter: Search input name":
-        selectors:
-          - '{} .pf-c-form-control[placeholder="Filter by name"]'
-      "Manage images - Button: Update":
-        selectors:
-          - '{} .pf-c-button.pf-m-secondary:contains("Update")'
-      "Manage images - Button: Download":
-        selectors:
-          - '{} .pf-c-dropdown__menu-item:contains("Download")'
+    "Manage images - Button: Create new image":
+      selectors:
+        - '{} .pf-c-button.pf-m-primary:contains("Create new image")'
+    "Manage images - Filter: Attribute dropdown":
+      selectors:
+        - '{} .pf-c-dropdown__toggle:contains("Name")'
+    "Manage images - Filter: Search input name":
+      selectors:
+        - '{} .pf-c-form-control[placeholder="Filter by name"]'
+    "Manage images - Button: Update":
+      selectors:
+        - '{} .pf-c-button.pf-m-secondary:contains("Update")'
+    "Manage images - Button: Download":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("Download")'
