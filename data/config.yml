@@ -2659,7 +2659,7 @@ fleet management:
         - '{} .pf-c-dropdown__menu-item:contains("View system in Inventory")'
     "Manage device - Button: Update":
       selectors:
-        - '{} .pf-c-dropdown__menu-item:contains("Update")'      
+        - '{} .pf-c-dropdown__menu-item:contains("Update")'
         
 manage images:
   color: 9
@@ -2679,18 +2679,17 @@ manage images:
   features:
     _scope: '[data-ouia-app-id="manage-images"]'
       "Manage images - Button: Create new image":
-      selectors:
-        - '{} .pf-c-button.pf-m-primary:contains("Create new image")'
+        selectors:
+          - '{} .pf-c-button.pf-m-primary:contains("Create new image")'
       "Manage images - Filter: Attribute dropdown":
-      selectors:
-        - '{} .pf-c-dropdown__toggle:contains("Name")'
+        selectors:
+          - '{} .pf-c-dropdown__toggle:contains("Name")'
       "Manage images - Filter: Search input name":
-      selectors:
-        - '{} .pf-c-form-control[placeholder="Filter by name"]'
+        selectors:
+          - '{} .pf-c-form-control[placeholder="Filter by name"]'
       "Manage images - Button: Update":
-      selectors:
-        - '{} .pf-c-button.pf-m-secondary:contains("Update")'
+        selectors:
+          - '{} .pf-c-button.pf-m-secondary:contains("Update")'
       "Manage images - Button: Download":
-      selectors:
-        - '{} .pf-c-dropdown__menu-item:contains("Download")'
-
+        selectors:
+          - '{} .pf-c-dropdown__menu-item:contains("Download")'
