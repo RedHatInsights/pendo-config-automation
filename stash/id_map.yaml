@@ -132,15 +132,17 @@ _application services | Service Registry Instances page: kt5OBPvHsFo_jAoHH4k6xcI
 _application services | Streams for Apache Kafka Data Plane: hLRt420Uesih6vRKQ0NszqMn6Mw
 _application services | Streams for Apache Kafka Instances page: r-W5VCp-2kXtOp2zj97JTTCarxA
 _automation analytics: fb31oR0a7-3c8wIZLcqiI4NlAEs
-_automation analytics | All pages.pre04262021: j11ADZ41MDNAp2sCITXj6lBcpgU
-_automation analytics | Automation Calculator.pre04262021: 7Wkop-XFtdeAMLFpygZKHYadsw8
-'_automation analytics | Clusters - Filter: Past 2 weeks': GtIZs470W7g_5QWNzGLwqVamLAI
-'_automation analytics | Clusters - Filter: Past month': Y-W1akrKJYHJQOyXhUePvNJwBzc
-'_automation analytics | Clusters - Filter: Past week': VlwYdqjybCzVhoVgR2KXbi6tEgM
-_automation analytics | Clusters.pre04262021: txb0QNgNaKbuWs3JW_UHXtox9lI
-_automation analytics | Job Explorer.pre04262021: PyswfE4wd1Cfkwez4_j5hY-nwSo
-_automation analytics | Notifications.pre04262021: V26Ja2SkFhVZwlr0z1jBcyLAUdA
-_automation analytics | Organization Statistics.pre04262021: am3cCg495KXsB-r2y9qgMKRzBi8
+_automation analytics | All pages: aLd2Dz99iELWW54WL6BFwfr6Lto
+_automation analytics | Automation Calculator: D7qUdC1M2wD17R_Jb_KQAAdqO1o
+_automation analytics | Clusters: x3eLhknOOrYA4RnHxkGcT08F1Ck
+'_automation analytics | Clusters - Graph: Job status': 224grMtfdIJ6eIt_yNK3_vWigHs
+_automation analytics | Job Explorer: MTNcswnP34BkholXSBBGVMiCGis
+_automation analytics | Job Explorer - Filter by: AnC3rFi1pUBJigd3i70B6ry9VgM
+'_automation analytics | Job Explorer - List: Job templates (compact)': LP9KAqMIA-W_WrNJZMG4Fru-Obk
+_automation analytics | Job Explorer - Pagination: hyLcM_bS_QWKWz_60LPZ6g4xz2U
+_automation analytics | Notifications: mWeD72nbp4HbUfZXA__zFGz-uHI
+_automation analytics | Organization Statistics: UMlGwA9BhkCs67pHpcPa42ghu4Q
+_automation analytics | Savings planner: hL_G-lr9atuDIRtCcvA1Bi70bsY
 _automation hub: QUXyIwIOeYXRh2YMYnzFgZVE0JU
 _automation hub | All pages: tqQPZZIBpjNAZBPvLrYuaBUxXXU
 _automation hub | Collections list: nexSevuY6MJyQpXZ7Y9NMTdzyzs
@@ -183,12 +185,13 @@ _beta application services | Service Registry Instances page: L1VG5W3WQawdLI_skM
 _beta application services | Streams for Apache Kafka Data Plane: 3ITxzdEObzW4E_P4OuKYqTf2C4Y
 _beta application services | Streams for Apache Kafka Instances page: v28ruZtXq8PE79OL29VpGaGad3A
 _beta automation analytics: 82f_g2Gesnul5GMJzmHKeaZxaK0
-_beta automation analytics | All pages.pre04262021: CFGm0xfi92kNuIAC1cgC02u1fcw
-_beta automation analytics | Automation Calculator.pre04262021: NmJy1nMBCLVy3fOYr9CVm1dknvQ
-_beta automation analytics | Clusters.pre04262021: 2ouCCJuwgIiejKHWYuK2KZEVodA
-_beta automation analytics | Job Explorer.pre04262021: ib-Y-mdGMjnS9stCjETRTTNhfZs
-_beta automation analytics | Notifications.pre04262021: biLjzSplxJ41G9hEKOSnSw9czdA
-_beta automation analytics | Organization Statistics.pre04262021: USFeIWhx0M9uf_jYFCexI3Dhs6U
+_beta automation analytics | All pages: DEvElS7pwIRLbGdFIDHMWQuL8Rk
+_beta automation analytics | Automation Calculator: OlPA2KnfcNyEtofPsyvqSOKuNGQ
+_beta automation analytics | Clusters: 8Y2zrRyNA7C7hZI7PPMKaH0VGGA
+_beta automation analytics | Job Explorer: uQjmk0MTtXizsFLQYvTjWq3yWro
+_beta automation analytics | Notifications: DmcR0QhR5h7TzR0V0E4CczCqfxs
+_beta automation analytics | Organization Statistics: dOlyufsrWhZD4PqsOvlMjXYxO8M
+_beta automation analytics | Savings planner: BP5fS7JyKl3RKnIr9dBPWNmY3Q0
 _beta automation hub: rLh0QwTT_QUutIe-do-PEL8ndEU
 _beta automation hub | All pages: OPJt2sKJLQpiEpDK45TOAlKjSyk
 _beta automation hub | Collections list: XvEe4y7N86Q2ooAAK7_WIYeaBrM
@@ -240,15 +243,10 @@ _beta drift | Baseline list: LCDWtFGXb3q1Uni_EpjNZG3ddsk
 _beta drift | Baseline view: eJOi4dsksNA6gQInA6qLYIaNVbI
 _beta drift | Comparison list: j82yceGXDQhcq8tSTnJBneGzMB8
 _beta drift | Comparison view: zfFKZF3bj6GsBjbiBjfc7ExTSkE
+_beta fleet management: 81QIqwxlJoLgP-6wcdJGFZG1VUo
+_beta fleet management | Device details page: fsmHIZApcf9C4Fx_cqoLXZJ1fVI
+_beta fleet management | Manage device page: vIOO-aeMjiPJLUtcTCMzVROjvHs
 _beta insights: Tv1UfmBHlD7gPgnbIul81o5CGn0
-_beta insights for ansible: gMjt9NnV2TY6IjO9hE_49qoFMGY
-_beta insights for ansible | All pages.post04262021: Xf6KSgOdm33wQBxDSLYH7l89aCE
-_beta insights for ansible | Automation Calculator.post04262021: k8U9Ai8mGQySI3g-KHsFb-LGpdg
-_beta insights for ansible | Clusters.post04262021: 6J81UcEh_skECG9zqCcmPPM87pI
-_beta insights for ansible | Job Explorer.post04262021: x47l9zzTGeA3QwwKDbM2fi22eLE
-_beta insights for ansible | Notifications.post04262021: kpSl3nxdo4ev7VhdXRG4AaC3xec
-_beta insights for ansible | Organization Statistics.post04262021: JbmD2D4B6C1MBiupulqAZySQwRA
-_beta insights for ansible | Savings planner.post04262021: GqeBvdoW1t_kTbjJzvUW8Cx7sg8
 _beta insights for openshift: VDLrdUBTugDd-f7LHq94DOK14R0
 _beta insights for openshift | All pages.post04262021: WAxjbIUTe50mQLZMk4SvcYQVjh4
 _beta insights | All pages: oLiHOHL7AC4-XOBCtodWMm74R0I
@@ -265,16 +263,16 @@ _beta inventory | Inventory view - Compliance tab: RoI1ZhpvDPWYLubZ4nvZ82nPn2k
 _beta inventory | Inventory view - General info tab: ROOPxghH_VppQgrJo_LfX87PtIg
 _beta inventory | Inventory view - Patch tab: iEHSwUUOA29xKeUZT3Xim6cZ1NM
 _beta inventory | Inventory view - Vulnerability tab: tLY93CNlQnZ_1QPTSUF4NpSeE2k
-_beta migration analytics: YPZ1c-clRBaf6Bx42TQ-_HGDzPM
-_beta migration analytics | All pages: YkvpHN6Fe0HuCt1VUZ-1yE0BxY8
-_beta migration analytics | Getting Started: MAgcA-ejS5U1YTOVNGg4K_Ep7AI
-_beta migration analytics | Report - list: dLt22OQe5tN-0oa-ZIfMmy_Vc7Y
-_beta migration analytics | Report - upload: x9in03x92PMg7JWaE_iact3MFDg
-_beta migration analytics | Unentitlement modal: oTj8k-T8echnDYvHPI7c9fVz3dI
+_beta manage images: 3wId4aBuSckK8sBMRUjuWGKP0iU
+_beta manage images | Create image modal: 96k1Cj-fLyay6w_oefnYcNX-ukE
+_beta manage images | Image details page: o6vhSc6KNSPybOTL940jxCe1ZGk
+_beta manage images | Manage images page: JaqzgJIRVzNYCHvv0gd9_Y-Bi3o
+_beta manage images | Update image modal: m-ivnKneahbGd5WFGUZPt6StR5c
 _beta openshift: j-08UXCgafp_OOlJ71WFPECoL9A
 _beta openshift | All pages: ABlAH9AJ4L87dcjDozvLxDn4zjc
-_beta openshift | Assisted Bare Metal Installer - Cluster conifiguration: Thn-Apq3-ZJY1qFhO3kY_VyIBGk
+_beta openshift | Assisted Bare Metal Installer - Cluster configuration: TLaNkIF_jQo3vYrbE43UiWbsAHM
 _beta openshift | Assisted Bare Metal Installer - Cluster list: -jmy3hAEeldJf7VoPA5Uv36Zg-k
+_beta openshift | Assisted Installer purple feedback form: o7mOA9JlEiWuztcXD44okHmSOko
 _beta openshift | Cluster view - Add ons: Sf6HHlUM3meHqcpQA12xICBWwE0
 _beta openshift | Cluster view - All: jaLN58bh3f1hKYzN1Pd7TFk0qxI
 _beta openshift | Cluster view - Insights recommendation view.post01172021: k0iW0pGhjUdZCVsWaQANlzdjxa8
@@ -620,19 +618,14 @@ _drift | Baseline view: aL6i9wGs0pYKNFSeOhJy_zldTik
 '_drift | Comparison - Button: Export to CSV': xq9enDk_qeMAo95K9M7FpJ9pawA
 _drift | Comparison list: sjQzYobh1-oVk5qkve0Y0WW1dSQ
 _drift | Comparison view: hE7HH2gRNo7De2CWD2GQj3aeUK0
+_fleet management: LpzL4QWu0TVeMoOxv6soo7P2sZg
+_fleet management | Device details page: swMXunftz8uzUjctoMN09ZlWSso
+'_fleet management | Manage device - Button: Update': U3Kc9hRBTWLwcKsif95wCPE-vW8
+'_fleet management | Manage device - Button: View in Inventory': e2X5LUIicm0YJSxSar6ATghWSmQ
+'_fleet management | Manage device - Filter: Attribute Dropdown': 9TJmkqNFaYcSHgjwhFPU0GIdJc0
+'_fleet management | Manage device - Filter: Search input name': qyWYu91z5fONSRZvVNp44rHy7wM
+_fleet management | Manage device page: YeifVct48RBtZ3fS9E32dttX9YY
 _insights: MCGTenK_AyH54qE2GlW5Kk91BII
-_insights for ansible: u-BFz351k2lwJa1LSq3fdyY9FdU
-_insights for ansible | All pages.post04262021: H3iXlXW-DnHFokGIxDW6dRxOQeI
-_insights for ansible | Automation Calculator.post04262021: oUamFpPuS7ULonQP2TmXNHi510Q
-'_insights for ansible | Clusters - Graph: Job status': LmqCb9z4QBT-7MH4xV7JC9BlWyc
-_insights for ansible | Clusters.post04262021: nbHA56iSyv0i76IqXnSzNfUeBvA
-_insights for ansible | Job Explorer - Filter by: G-c0ZKKG_m40VXyXauq80s21sbM
-'_insights for ansible | Job Explorer - List: Job templates (compact)': NOX5zvIJsB7YkccIFPrcBG0vrZ0
-_insights for ansible | Job Explorer - Pagination: mlvfm-lEYGaw7sXU_XrGTsT7lIM
-_insights for ansible | Job Explorer.post04262021: _mC60pf0UGRrS8KMqxB067opkVU
-_insights for ansible | Notifications.post04262021: tUdME6VUBV4LtMmConX47xkA1NA
-_insights for ansible | Organization Statistics.post04262021: 6ZSjW3CrR9bjNUQTwKCAYskiXMM
-_insights for ansible | Savings planner.post04262021: _0_9pW7IwOM7yzfEAV4_-blXF3M
 _insights for openshift: JCLlw7_YxkjSaDR6-Eioc50R8ik
 _insights for openshift | All pages.post04262021: kCCG-O0hrtJJI-g7t8frA5UxG14
 '_insights | All Pages - Button: host view show drawer': bjOO4TGnctZVbf364swyaHNyRp4
@@ -657,17 +650,21 @@ _inventory | Inventory view - Compliance tab: o11hyg6H4hOwPUmsPdMh85-VaNc
 _inventory | Inventory view - General info tab: j_8HjTZThUCcIGqLPQl1UJscw_Q
 _inventory | Inventory view - Patch tab: Hi6z4nUfcITdSRuxnG5ypDvSeqw
 _inventory | Inventory view - Vulnerability tab: in94sjC_20ZQF_ykzz4K2hI-YLw
-_migration analytics: 4CKLaFABWIenaGJlIyXTicuCEm0
-_migration analytics | All pages: 1iTb1Qado6MyOa6u0GxTTPobdgc
-_migration analytics | Getting Started: ho6W5y75ePACpS5SHeEK3lfIyuM
-'_migration analytics | Migration Analytics - Button: Create': 9J4p2dzwSwdFsFOFJbx66iez9rM
-_migration analytics | Report - list: wuGCIvJYtnFd5r___E_lA9SyzT8
-_migration analytics | Report - upload: oZvMGEX_Q01wAGK0iduqpqKdgp4
-_migration analytics | Unentitlement modal: Hyb09NIkAqPpqOl0Zg7tDEbP9-I
+_manage images: rVSAFIiddtXLfwN8E8ThKxTtSdk
+_manage images | Create image modal: AScv8pULbktWM3IRczIqgbzAym0
+_manage images | Image details page: pTSECO4HUmJG-HGSRq9j8pYwYfE
+'_manage images | Manage images - Button: Create new image': RVD55fQXjgI90vHy0CDGpQUA2l8
+'_manage images | Manage images - Button: Download': ok8qioBFomMc4zv2CxHdNawmoYU
+'_manage images | Manage images - Button: Update': qRmVIUQOEj_vf2_q1Tab0KNtwsE
+'_manage images | Manage images - Filter: Attribute dropdown': p9BHCtTo7CZIuaCLFHSd_kSRsTo
+'_manage images | Manage images - Filter: Search input name': ye_rqGQG1O62q3ok4NnSF1jwldg
+_manage images | Manage images page: i_7evFsi6h2gNas0iDV7HMFLabM
+_manage images | Update image modal: QAZ-abFpkhxAfz06E-c0osqeW3o
 _openshift: y85raGBpoe7qZR9VdbkXmVv715s
 _openshift | All pages: sUKQ_JFFMAtJLRrm5vaE9rnWa_w
-_openshift | Assisted Bare Metal Installer - Cluster conifiguration: kh8ZlkVp4sYgXU1fPj5O1Gzp6g8
+_openshift | Assisted Bare Metal Installer - Cluster configuration: H_YPgy265UZMrYtawfXd2RRjyCs
 _openshift | Assisted Bare Metal Installer - Cluster list: dFcJZdggzOLAeiCM3VDtN-mSzDI
+_openshift | Assisted Installer purple feedback form: Pv_tZ_zdyYs_jg3XoiB1-vOJWyc
 _openshift | Cluster view - Add ons: skkGRiKU4I4IhV0XY-7HtSugVno
 _openshift | Cluster view - All: vwvHMORWxE4aqEjhxZhgEAoLdHk
 _openshift | Cluster view - Insights recommendation view.post01172021: C7dcisxucniLIklH-eUb-86WcQ0
