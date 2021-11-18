@@ -1699,8 +1699,14 @@ openshift:
     Assisted Bare Metal Installer - Cluster list:
       url_rules:
         - /openshift/assisted-installer/clusters
-    Assisted Bare Metal Installer - Cluster conifiguration:
+    Assisted Bare Metal Installer - Cluster configuration:
       url_rules:
+        - /openshift/assisted-installer/clusters/*
+    Assisted Installer purple feedback form:
+      url_rules:
+        - /openshift/details/s/{subscription_id}#addAssistedHosts
+        - /openshift/assisted-installer/clusters/
+        - /openshift/assisted-installer/clusters/~new
         - /openshift/assisted-installer/clusters/*
     Create cluster - Openstack:
       url_rules:
@@ -2039,62 +2045,28 @@ ansible:
         - '{} .pf-c-nav__link:contains("Documentation")'
 
 automation analytics:
-  color: 3
-  pages:
-    All pages.pre04262021:
-      url_rules:
-        - /ansible/automation-analytics
-        - /ansible/automation-analytics/**
-    Clusters.pre04262021:
-      url_rules:
-        - /ansible/automation-analytics/clusters
-    Organization Statistics.pre04262021:
-      url_rules:
-        - /ansible/automation-analytics/organization-statistics
-    Automation Calculator.pre04262021:
-      url_rules:
-        - /ansible/automation-analytics/automation-calculator
-    Job Explorer.pre04262021:
-      url_rules:
-        - /ansible/automation-analytics/job-explorer
-    Notifications.pre04262021:
-      url_rules:
-        - /ansible/automation-analytics/notifications
-  features:
-    _scope: '[data-ouia-app-id="automation-analytics"][data-ouia-subnav="clusters"]'
-    "Clusters - Filter: Past week":
-      selectors:
-        - '{} option:contains("Past week")'
-    "Clusters - Filter: Past 2 weeks":
-      selectors:
-        - '{} option:contains("Past 2 weeks")'
-    "Clusters - Filter: Past month":
-      selectors:
-        - '{} option:contains("Past month")'
-
-insights for ansible:
   color: 4
   pages:
-    All pages.post04262021:
+    All pages:
       url_rules:
         - /ansible/insights
         - /ansible/insights/**
-    Clusters.post04262021:
+    Clusters:
       url_rules:
         - /ansible/insights/clusters
-    Organization Statistics.post04262021:
+    Organization Statistics:
       url_rules:
         - /ansible/insights/organization-statistics
-    Automation Calculator.post04262021:
+    Automation Calculator:
       url_rules:
         - /ansible/insights/automation-calculator
-    Job Explorer.post04262021:
+    Job Explorer:
       url_rules:
         - /ansible/insights/job-explorer
-    Notifications.post04262021:
+    Notifications:
       url_rules:
         - /ansible/insights/notifications
-    Savings planner.post04262021:
+    Savings planner:
       url_rules:
         - /ansible/insights/savings-planner
   features:
@@ -2225,31 +2197,6 @@ cost management:
     Explorer.post04262021:
       url_rules:
         - /openshift/cost-management/explorer/*
-
-migration analytics:
-  color: 7
-  pages:
-    All pages:
-      url_rules:
-        - /migrations
-        - /migrations/**
-    Getting Started:
-      url_rules:
-        - /migrations/migration-analytics/getting-started
-    Report - upload:
-      url_rules:
-        - /migrations/migration-analytics/reports/upload
-    Report - list:
-      url_rules:
-        - /migrations/migration-analytics/reports
-    Unentitlement modal:
-      url_rules:
-        - /?not_entitled=migrations
-  features:
-    _scope: '[data-ouia-subnav="migration-analytics"]'
-    "Migration Analytics - Button: Create":
-      selectors:
-        - '{} a:contains("Create report")'
 
 application services:
   color: 7
@@ -2439,3 +2386,60 @@ insights for openshift:
         - /openshift/quota/**
         - /openshift/cost-management/**
         - /openshift/cost-management
+
+fleet management:
+  color: 9
+  pages:
+    Manage device page:
+      url_rules:
+        - /edge/fleet-management
+    Device details page:
+      url_rules:
+        - /edge/fleet-management/*
+  features:
+    _scope: '[data-ouia-app-id="fleet-management"]'
+    "Manage device - Filter: Attribute Dropdown":
+      selectors:
+        - '{} .pf-c-dropdown__toggle:contains("Name")'
+    "Manage device - Filter: Search input name":
+      selectors:
+        - '{} .pf-c-form-control[placeholder="Filter by name"]'
+    "Manage device - Button: View in Inventory":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("View system in Inventory")'
+    "Manage device - Button: Update":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("Update")'
+
+manage images:
+  color: 9
+  pages:
+    Manage images page:
+      url_rules:
+        - /edge/manage-images
+    Image details page:
+      url_rules:
+        - /edge/manage-images/*
+    Create image modal:
+      url_rules:
+        - /edge/manage-images?create_image=true
+    Update image modal:
+      url_rules:
+        - /edge/manage-images/*?update_image=true
+  features:
+    _scope: '[data-ouia-app-id="manage-images"]'
+    "Manage images - Button: Create new image":
+      selectors:
+        - '{} .pf-c-button.pf-m-primary:contains("Create new image")'
+    "Manage images - Filter: Attribute dropdown":
+      selectors:
+        - '{} .pf-c-dropdown__toggle:contains("Name")'
+    "Manage images - Filter: Search input name":
+      selectors:
+        - '{} .pf-c-form-control[placeholder="Filter by name"]'
+    "Manage images - Button: Update":
+      selectors:
+        - '{} .pf-c-button.pf-m-secondary:contains("Update")'
+    "Manage images - Button: Download":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("Download")'
