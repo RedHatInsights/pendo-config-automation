@@ -1369,6 +1369,9 @@ subscription watch:
       url_rules:
         - /*/openshift/subscriptions/**
         - /*/openshift/quota/**
+    Red Hat Enterprise Linux - Manifests:
+      url_rules:
+        - /*/insights/subscriptions/manifests
 
   features:
     _scope: '[data-ouia-bundle="subscriptions"]'
