@@ -59,69 +59,6 @@ _ansible | Dashboard: tlSsAFu869jt_V5QPbocXBKWtvo
 _application services: Aw3dLrpVrMZMYix0kmHkRiONNAo
 _application services | API Management: ng1EuDAC4G10gM4kySNtybMgkOc
 _application services | All pages: K9K-Ao9Fut4f-5dvoLZNXL6mjCI
-'_application services | Application Services - Button: Cancel (in modal)': coR5o6esD5U-Tb09Ps9BY6NYLDQ
-'_application services | Application Services - Button: Cancel - Topic view - Properties tab (Edit Mode)': kdZYsJSfi4wXN6fzzkE4MLg7wEs
-'_application services | Application Services - Button: Close (in modal)': Hqgt9UYPTtiyGzeFiTL3rkJP-Ek
-'_application services | Application Services - Button: Copy access key (in modal)': 4VblpminOX1aoT229NymS7V8w4g
-'_application services | Application Services - Button: Copy external server (in drawer) control plane': w2LWqTTFKFLdu8BDK_U8qzJMHoE
-'_application services | Application Services - Button: Copy external server (in drawer) data plane': sZZ7MOcxYm3veW9q-whPWg1nlTY
-'_application services | Application Services - Button: Copy for secret (in modal)': JFFD1xlRm8b4g2F8maCGaDwrfCk
-'_application services | Application Services - Button: Create Kafka instance (empty state)': d0hEjrJ9nMsg7bSKUCcSMOLJkYw
-'_application services | Application Services - Button: Create Kafka instance (table view)': FViPoJdoQWEOctyPfgd393lS8As
-'_application services | Application Services - Button: Create a Kafka instance': uucam87WWa9imt18SUBZJSUSEiY
-'_application services | Application Services - Button: Create instance (in modal)': 9HtHfKgpRjvWdxfH9sK2eRxRBjA
-'_application services | Application Services - Button: Delete (in Delete Topic modal)': YmUWGogs8Mh8oDZwVOCI2c4CAM8
-'_application services | Application Services - Button: Delete (in modal)': 5zqk-u7HmzzCCNi0Frz1CpNzQas
-'_application services | Application Services - Button: Delete - Topic view - Properties tab': -Cmw3kBPeUIRmbYWV10pGKrmO-0
-'_application services | Application Services - Button: Edit - Topic view - Properties tab': NZ4Ysz8or3WziyoFGG__TS0bwa0
-'_application services | Application Services - Button: Generate credentials (in drawer) control plane': c_Vm58m4p73tfPAIXDkP85gRHFc
-'_application services | Application Services - Button: Generate credentials (in drawer) data plane': Z78Cp1yDOEiXTTdzKxKDwhER5fo
-'_application services | Application Services - Button: Get Started': Qap11z2rpIYY0UA6kYvawNblEBk
-'_application services | Application Services - Button: Get started with API Management': NBWt4Dnd1x05hOmg6GFFicDA-2I
-'_application services | Application Services - Button: Go to OpenShift Cluster Manager': rOS4pN6CURyFyBS9MVLdXQMLh0U
-'_application services | Application Services - Button: Learn more about OpenShift Data Science': xIEWBu7P9heYuDIXJbYpbBy4r2g
-'_application services | Application Services - Button: Submit - Topic view - Properties tab (Edit Mode)': ND_16xtmaEGGFL00puFJjUAQlGE
-'_application services | Application Services - Button: Try OpenShift Streams for Apache Kafka': rq3QWurOI5oYyTocxE6FHyCYbUA
-'_application services | Application Services - Button: X (in modal)': rM-VRyd8Fm7OdigWj96ujNGRlgU
-'_application services | Application Services - Drawer: Open Details - Topic view - Consumer groups tab - table': PLMPs4BAtJjLC6nGA1b_vwKQzDY
-'_application services | Application Services - Kebab: Delete intance': qCm5jil1QV_LxcqKLHs4dhidg0c
-'_application services | Application Services - Kebab: View connection details': 6KB13OmWLgHZamy7hWnKCX6d1cA
-'_application services | Application Services - Kebab: View instance details': m_BYLqhV6IpS-ly_wCZ2xE3lJRo
-'_application services | Application Services - Left Hand Nav: API Management': iLqH-9IfXZuxYttQPYwUG5_635Y
-'_application services | Application Services - Left Hand Nav: Data Science': 879n7bsktp49NLk6MKSfmZWIh6A
-'_application services | Application Services - Left Hand Nav: Documentation': q9CEY5GI-oIOuH5WNz2pwe-kBxA
-'_application services | Application Services - Left Hand Nav: Kafka Instances': jNrB04yHthRL1X1to8R88yzmWA8
-'_application services | Application Services - Left Hand Nav: Overview': z8UPefWP5HkZVHMCO0dn7zPRmOU
-'_application services | Application Services - Left Hand Nav: Resources': unmG2Wm2TFjLiT87kGDvXtz5ETA
-'_application services | Application Services - Left Hand Nav: Service Accounts': iYpRGccuFszyswLyLwOkUC-GFbo
-'_application services | Application Services - Left Hand Nav: Stream for Apache Kafka': sTBAhTjRbL0ZgLCSL3bTnUcKhIY
-'_application services | Application Services - Link: Kafka (table view)': vQO3FrhvXnVI677QQLALJb932NY
-'_application services | Application Services - Link: Kafka instance to open Data Plane UI': sZ_5jnIfDmJK2vlYSmdhe9BJvlg
-'_application services | Application Services - Link: Learn more': t79NfjqBfMX62GYQuSDhfOm7zl8
-'_application services | Application Services - Link: OpenShift link from OpenShift API Management card': LwhwvbdnDfQQT5lW5Nr1-rtYTik
-'_application services | Application Services - Link: OpenShift link from OpenShift Data Science card': psozgt8kRhtzyuUpbji3WvRM9dk
-'_application services | Application Services - Link: View documentation from Already have.. card': vXUS3SQL0XKa1ZnEg_IY2l0M0Ws
-'_application services | Application Services - Link: View documentation from try OpenShift API Management card': FDCdLNLlkr_0_AN0GdkZkopIwLI
-'_application services | Application Services - Row: Consumer groups tab - Table': nueXF5rZJNRP8cw2BMeS4OEYpjE
-'_application services | Application Services - Row: Topic view - Consumer groups tab - table': koTMW6e3WUaJNMA07KS0sdnV6XU
-'_application services | Application Services - Tab: Connect (in drawer) control plane': kZyT45rJbCWIkCViz4OSnGwTND4
-'_application services | Application Services - Tab: Connect (in drawer) data plane': 1R5OtBjpBuqv16Da6iEYW5KvSTk
-'_application services | Application Services - Tab: Consumer Groups': y7U2ngJxP0019gYvcAXliJsz3iU
-'_application services | Application Services - Tab: Consumer Groups - Topic view': bNrLZxSe1kxM0oITKLOWYMclRcQ
-'_application services | Application Services - Tab: Consumer Groups -Table - Open details drawer': FHuUi0GVMi05-8IETSH52D5Qskg
-'_application services | Application Services - Tab: Properties - Topic view': 61iaA9TLHVMgOh69XBFRLtJs5ws
-'_application services | Application Services - Tab: Topics': dRnGBzCte8OFWwC1H6aecq5bikA
-'_application services | Application Services - Tab: Topics - Create topic action': TcGglJduXMlt4mSF-Y6-iwn0F7A
-'_application services | Application Services - Tab: Topics - Table - Kebab Delete Action': TMpWcEmj8hgqtBrCsUmmBRAa2Vs
-'_application services | Application Services - Tab: Topics - Table - Kebab Edit Action': uzgnOINnt7_Laf4xC1mJy2Rv98M
-'_application services | Application Services - Tab: Topics - Table - Topic name': 4vnCeIyhKABS5uLmp-CthbQfd94
-_application services | Application Services - Table row: Rcu3iEAd7wDFRU31CGu5JNxJJUU
-'_application services | Application Services - Topic view: Create topic - Advance - Cancel': _Icpu64aMVM6dZHBsGzt-PFw7uI
-'_application services | Application Services - Topic view: Create topic - Advance - Create': N-FMZltJqFfxh4ukFPO6yASP-lE
-'_application services | Application Services - Topic view: Create topic - Basic - Cancel': 3rjp7GQWJqTEQcA2OMIBGAGU6ZI
-'_application services | Application Services - Topic view: Create topic - Basic - Finish': WKlt1xc9chZjVw0ymEoeen-Q2O8
-'_application services | Application Services - Video: Build an app demo': H7noQFkR8ItC3Pbn_s-3s2LQD0s
-'_application services | Application Services - Video: Data science demo': SyuRMNMzZpy-PkQ1KulFMK_n-y8
 _application services | Data Science: ncc_5mKcN_RUjQfdWuMxGcwE62o
 _application services | Database Access: d-XguXPYyOWDAYp6L4PFDgHxu9U
 _application services | Learning Resources: DhZLMJr4fEQRmu6ni6tY-aX3YNA
@@ -140,7 +77,7 @@ _automation analytics | Job Explorer: MTNcswnP34BkholXSBBGVMiCGis
 _automation analytics | Job Explorer - Filter by: AnC3rFi1pUBJigd3i70B6ry9VgM
 '_automation analytics | Job Explorer - List: Job templates (compact)': LP9KAqMIA-W_WrNJZMG4Fru-Obk
 _automation analytics | Job Explorer - Pagination: hyLcM_bS_QWKWz_60LPZ6g4xz2U
-_automation analytics | Notifications: mWeD72nbp4HbUfZXA__zFGz-uHI
+_automation analytics | Notifications: JTUDey39N23rDJw1XFmlppn0PVI
 _automation analytics | Organization Statistics: UMlGwA9BhkCs67pHpcPa42ghu4Q
 _automation analytics | Savings planner: hL_G-lr9atuDIRtCcvA1Bi70bsY
 _automation hub: QUXyIwIOeYXRh2YMYnzFgZVE0JU
@@ -187,10 +124,10 @@ _beta application services | Streams for Apache Kafka Instances page: v28ruZtXq8
 _beta automation analytics: 82f_g2Gesnul5GMJzmHKeaZxaK0
 _beta automation analytics | All pages: DEvElS7pwIRLbGdFIDHMWQuL8Rk
 _beta automation analytics | Automation Calculator: OlPA2KnfcNyEtofPsyvqSOKuNGQ
-_beta automation analytics | Clusters: 8Y2zrRyNA7C7hZI7PPMKaH0VGGA
+_beta automation analytics | Clusters: 8IhXSI_nrtgR6FF1uFTxgNVxy0M
 _beta automation analytics | Job Explorer: uQjmk0MTtXizsFLQYvTjWq3yWro
 _beta automation analytics | Notifications: DmcR0QhR5h7TzR0V0E4CczCqfxs
-_beta automation analytics | Organization Statistics: dOlyufsrWhZD4PqsOvlMjXYxO8M
+_beta automation analytics | Organization Statistics: qsKwCPIszTVmYRFcm8nU90QFEm8
 _beta automation analytics | Savings planner: BP5fS7JyKl3RKnIr9dBPWNmY3Q0
 _beta automation hub: rLh0QwTT_QUutIe-do-PEL8ndEU
 _beta automation hub | All pages: OPJt2sKJLQpiEpDK45TOAlKjSyk
