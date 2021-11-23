@@ -1390,6 +1390,17 @@ subscription watch:
     "Red Hat OpenShift - Link: Cores":
       selectors:
         - '{} a:contains("Cores")'
+        
+malware:
+  color: 1
+    pages:
+      Signatures page:
+        url_rules:
+          - /insights/malware/signatures
+      Systems page:
+        url_rules:
+          - /insights/malware/systems
+          
 
 settings:
   features:
