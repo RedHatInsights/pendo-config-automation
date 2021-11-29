@@ -1,0 +1,50 @@
+---
+inventory:
+  color: 8
+  pages:
+    All pages:
+      url_rules:
+        - /insights/inventory
+        - /insights/inventory/**
+    Inventory list:
+      url_rules:
+        - /insights/inventory/
+    Inventory view:
+      url_rules:
+        - /insights/inventory/*
+    Inventory view - General info tab:
+      url_rules:
+        - /insights/inventory/*
+        - /insights/inventory/*?appName=general_information
+    Inventory view - Advisor tab:
+      url_rules:
+        - /insights/inventory/*?appName=advisor
+    Inventory view - Vulnerability tab:
+      url_rules:
+        - /insights/inventory/*?appName=vulnerabilities
+    Inventory view - Compliance tab:
+      url_rules:
+        - /insights/inventory/*?appName=compliance
+    Inventory view - Patch tab:
+      url_rules:
+        - /insights/inventory/*?appName=patch
+  features:
+    _scope: '[data-ouia-app-id="inventory"]'
+    "Inventory - Button: Delete":
+      selectors:
+        - '{} button:contains("Delete")'
+    "Inventory - Tab: General information":
+      selectors:
+        - '{} .pf-c-tabs__list button:contains("General")'
+    "Inventory - Tab: Advisor":
+      selectors:
+        - '{} .pf-c-tabs__list button:contains("Advisor")'
+    "Inventory - Tab: Vulnerability":
+      selectors:
+        - '{} .pf-c-tabs__list button:contains("Vulnerability")'
+    "Inventory - Tab: Compliance":
+      selectors:
+        - '{} .pf-c-tabs__list button:contains("Compliance")'
+    "Inventory - Tab: Patch":
+      selectors:
+        - '{} .pf-c-tabs__list button:contains("Patch")'

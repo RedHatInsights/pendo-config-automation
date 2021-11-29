@@ -1,0 +1,28 @@
+---
+automation hub:
+  color: 4
+  pages:
+    All pages:
+      url_rules:
+        - /ansible/automation-hub
+        - /ansible/automation-hub/**
+    Collections list:
+      url_rules:
+        - /ansible/automation-hub/
+    Collections view:
+      url_rules:
+        - /ansible/automation-hub/*/*
+    Partners:
+      url_rules:
+        - /ansible/automation-hub/partners
+    My Namespaces list:
+      url_rules:
+        - /ansible/automation-hub/my-namespaces
+    My Namespaces view:
+      url_rules:
+        - /ansible/automation-hub/my-namespaces/*
+  features:
+    _scope: '[data-ouia-app-id="automation-hub"]'
+    "Partners - Link: View collections":
+      selectors:
+        - '{} a:contains("View collections")'

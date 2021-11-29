@@ -1,0 +1,147 @@
+---
+advisor:
+  color: 2
+  features:
+    _scope: '[data-ouia-app-id="advisor"]'
+    "Recommendations - Link: Clear filters":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Clear filters")'
+    "Recommendations - Filter: Total risk":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Total risk")'
+    "Recommendations - Filter: Name":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Name")'
+    "Recommendations - Filter: Risk of change":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Risk of change")'
+    "Recommendations - Filter: Impact":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Impact")'
+    "Recommendations - Filter: Likelihood":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Likelihood")'
+    "Recommendations - Filter: Category":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Category")'
+    "Recommendations - Filter: Incidents":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Incidents")'
+    "Recommendations - Filter: Ansible support":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Ansible support")'
+    "Recommendations - Filter: Reboot required":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Reboot required")'
+    "Recommendations - Filter: Status":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Status")'
+    "Recommendations - Filter: Systems impacted":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Systems impacted")'
+    "Recommendations - Link: Download executive report":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] [data-ouia-component-type="PF4/Button"]:contains("Download executive report")'
+    "Recommendations - Button: Remediate":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Remediate")'
+    "Recommendations - Button: Export to CSV":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Export to CSV")'
+    "Recommendations - Button: Export to JSON":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button:contains("Export to JSON")'
+    "Systems - Filter: Total risk":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Total Risk")'
+    "Recommendations - Sort: Name":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Name")'
+    "Recommendations - Sort: Added":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Added")'
+    "Recommendations - Sort: Total risk":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Total risk")'
+    "Recommendations - Sort: Risk of change":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Risk of change")'
+    "Recommendations - Sort: Systems":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Systems")'
+    "Recommendations - Sort: Ansible":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Ansible")'
+    "Topics - Sort: Affected systems":
+      selectors:
+        - '{}[data-ouia-subnav="topics"] .pf-c-table__button:contains("Affected systems")'
+    "Topics - Sort: Featured":
+      selectors:
+        - '{}[data-ouia-subnav="topics"] button.pf-c-table__button:contains("Featured")'
+    "Systems - Sort: Recommendations":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Recommendations")'
+    "Systems - Sort: Last seen":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
+    "Systems - Sort: Low":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Low")'
+    "Systems - Sort: Moderate":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Moderate")'
+    "Systems - Sort: Important":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Important")'
+    "Systems - Sort: Critical":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Critical")'
+    "Recommendations - Link: Knowledgebase articles":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] a:contains("Knowledgebase article")'
+    "Recommendations - Button: Disable recommendation for selected systems":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] li:contains("Disable recommendation for selected systems")'
+    "Recommendations - Button: Disable recommendation":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] a.pf-c-dropdown__menu-item:contains("Disable recommendation")'
+
+  pages:
+    All pages:
+      url_rules:
+        - /insights/advisor
+        - /insights/advisor/**
+    Recommendations system:
+      url_rules:
+        - /insights/advisor/recommendations/*parameter*/*
+        - /insights/recommendations/*parameter*/*
+    Recommendations view:
+      url_rules:
+        - /insights/advisor/recommendations/*parameter*
+        - /insights/recommendations/*parameter*
+    Recommendations list:
+      url_rules:
+        - /insights/advisor/recommendations
+        - /insights/recommendations
+    Recommendations pathways list:
+      url_rules:
+        - /insights/advisor/recommendations/pathways
+    Recommendations pathway details:
+      url_rules:
+        - /insights/advisor/recommendations/pathways/*parameter*
+    Systems view:
+      url_rules:
+        - /insights/advisor/systems/*
+    Systems list:
+      url_rules:
+        - /insights/advisor/systems
+    Topics view:
+      url_rules:
+        - /insights/advisor/topics/*parameter*
+    Topics list:
+      url_rules:
+        - /insights/advisor/topics
+    Recommendations - remediation steps:
+      url_rules:
+        - /insights/advisor/recommendations/*parameter*/*
+        - /insights/advisor/recommendations/*parameter*/**

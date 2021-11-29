@@ -1,0 +1,66 @@
+---
+cost management:
+  color: 6
+  pages:
+    All pages.pre04262021:
+      url_rules:
+        - /cost-management/**
+        - /cost-management/
+    Overview.pre04262021:
+      url_rules:
+        - /cost-management/
+    OpenShift.pre04262021:
+      url_rules:
+        - /cost-management/ocp
+        - /cost-management/ocp/**
+    Infrastructure - Amazon Web Services.pre04262021:
+      url_rules:
+        - /cost-management/infrastructure/aws
+        - /cost-management/infrastructure/aws/**
+        - /cost-management/details/aws
+    Infrastructure - Microsoft Azure.pre04262021:
+      url_rules:
+        - /cost-management/infrastructure/azure
+        - /cost-management/infrastructure/azure/**
+    Cost Models.pre04262021:
+      url_rules:
+        - /cost-management/cost-models
+        - /cost-management/cost-models/**
+    Explorer.pre04262021:
+      url_rules:
+        - /cost-management/explorer/*
+    All pages.post04262021:
+      url_rules:
+        - /openshift/cost-management/**
+        - /openshift/cost-management/
+    Overview.post04262021:
+      url_rules:
+        - /openshift/cost-management/
+    OpenShift.post04262021:
+      url_rules:
+        - /openshift/cost-management/ocp
+        - /openshift/cost-management/ocp/**
+    Amazon Web Services.post04262021:
+      url_rules:
+        - /openshift/cost-management/aws
+        - /openshift/cost-management/aws/**
+        - /openshift/cost-management/infrastructure/aws
+        - /openshift/cost-management/infrastructure/aws/**
+        - /openshift/cost-management/details/aws
+    Microsoft Azure.post04262021:
+      url_rules:
+        - /openshift/cost-management/azure
+        - /openshift/cost-management/azure/**
+        - /openshift/cost-management/infrastructure/azure
+        - /openshift/cost-management/infrastructure/azure/**
+    Google Cloud Platform.post04262021:
+      url_rules:
+        - /openshift/cost-management/gcp
+        - /openshift/cost-management/gcp/**
+    Cost Models.post04262021:
+      url_rules:
+        - /openshift/cost-management/cost-models
+        - /openshift/cost-management/cost-models/**
+    Explorer.post04262021:
+      url_rules:
+        - /openshift/cost-management/explorer/*

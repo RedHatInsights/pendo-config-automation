@@ -1,0 +1,58 @@
+---
+compliance:
+  color: 4
+  pages:
+    All pages:
+      url_rules:
+        - /insights/compliance
+        - /insights/compliance/**
+    Reports list - By policy:
+      url_rules:
+        - /insights/compliance/reports
+    Reports list - By system:
+      url_rules:
+        - /insights/compliance/reports/systems
+    Reports view:
+      url_rules:
+        - /insights/compliance/reports/*
+    SCAP Policies list:
+      url_rules:
+        - /insights/compliance/scappolicies
+    SCAP Policies view:
+      url_rules:
+        - /insights/compliance/scappolicies/*
+    Systems list:
+      url_rules:
+        - /insights/compliance/systems
+  features:
+    _scope: '[data-ouia-app-id="compliance"]'
+    "Any - Button: Remediate":
+      selectors:
+        - '{} button:contains("Remediate")'
+    "Reports - Link: View report":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] a:contains("View report")'
+    "Reports - Link: View policy":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] a:contains("View policy")'
+    "Reports - Button: Ansible Remediate":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] div:contains("Remediate").pf-c-toolbar__item'
+    "Systems - Button: Ansible Remediate":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] div:contains("Remediate").pf-c-toolbar__item'
+    "SCAP Policies - Button: Create new policy":
+      selectors:
+        - '{}[data-ouia-subnav="scappolicies"] button:contains("Create new policy")'
+    "Systems - Filter: Name":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Name")'
+    "Systems - Filter: Policy":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Policy")'
+    "Systems - Filter: Operating system":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Operating system")'
+    "Systems - Link: Clear filters":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Clear filters").pf-c-button'

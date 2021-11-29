@@ -1,0 +1,403 @@
+---
+openshift:
+  color: 2
+  pages:
+    All pages:
+      url_rules:
+        - /openshift
+        - /openshift/**
+    Clusters list:
+      url_rules:
+        - /openshift/
+    Cluster view - All:
+      url_rules:
+        - /openshift/details/*
+    Cluster view - Overview.pre01172021:
+      url_rules:
+        - /openshift/details/*#overview
+    Cluster view - Overview.post01172021:
+      url_rules:
+        - /openshift/details/s/*#overview
+    Cluster view - Monitoring.pre01172021:
+      url_rules:
+        - /openshift/details/*#monitoring
+    Cluster view - Monitoring.post01172021:
+      url_rules:
+        - /openshift/details/s/*#monitoring
+    Cluster view - Insights.pre01172021:
+      url_rules:
+        - /openshift/details/*#insights
+    Cluster view - Insights.post01172021:
+      url_rules:
+        - /openshift/details/s/*#insights
+    Cluster view - Insights recommendation view.pre01172021:
+      url_rules:
+        - /openshift/details/*/insights/*parameter*
+    Cluster view - Insights recommendation view.post01172021:
+      url_rules:
+        - /openshift/details/s/*/insights/*parameter*
+    Cluster view - node installer degraded:
+      url_rules:
+        - /openshift/details/s/*/insights/ccx_rules_ocp%7Cexternal%7Crules%7C/*parameter*/NODE_INSTALLER_DEGRADED
+    Cluster view - Support:
+      url_rules:
+        - /openshift/details/*#support
+    Cluster view - Add ons:
+      url_rules:
+        - /openshift/details/*#addOns
+    Clusters - Create trial cluster - select AWS or GCP:
+      url_rules:
+        - /openshift/create/osdtrial?trial=osd
+    Create clusters - AWS - Install OSD cluster:
+      url_rules:
+        - /openshift/create/osdtrial/aws
+    Create clusters - GCP - Install OSD cluster:
+      url_rules:
+        - /openshift/create/osdtrial/gcp
+    Clusters - Create a cluster to get started:
+      url_rules:
+        - /openshift/create
+    Create cluster - OpenShift Container Platform:
+      url_rules:
+        - /openshift/install
+    Create cluster - AWS:
+      url_rules:
+        - /openshift/install/aws
+    Create cluster - AWS - Installer provisioned infrastructure:
+      url_rules:
+        - /openshift/install/aws/installer-provisioned
+    Create cluster - AWS - User provisioned infrastructure:
+      url_rules:
+        - /openshift/install/aws/user-provisioned
+    Create cluster - Azure:
+      url_rules:
+        - /openshift/install/azure
+    Create cluster - Azure - Installer provisioned infrastructure:
+      url_rules:
+        - /openshift/install/azure/installer-provisioned
+    Create cluster - Azure - User provisioned infrastructure:
+      url_rules:
+        - /openshift/install/azure/user-provisioned
+    Create cluster - GCP:
+      url_rules:
+        - /openshift/install/gcp
+    Create cluster - GCP - Installer provisioned infrastructure:
+      url_rules:
+        - /openshift/install/gcp/installer-provisioned
+    Create cluster - GCP - User provisioned infrastructure:
+      url_rules:
+        - /openshift/install/gcp/user-provisioned
+    Create cluster - Run on bare metal:
+      url_rules:
+        - /openshift/install/metal
+    Create cluster - Run on bare metal - User provisioned infrastructure:
+      url_rules:
+        - /openshift/install/metal/installer-provisioned
+    Create cluster - Assisted Bare Metal Installer:
+      url_rules:
+        - /openshift/assisted-installer/clusters/~new
+    Assisted Bare Metal Installer - Cluster list:
+      url_rules:
+        - /openshift/assisted-installer/clusters
+    Assisted Bare Metal Installer - Cluster configuration:
+      url_rules:
+        - /openshift/assisted-installer/clusters/*
+    Assisted Installer purple feedback form:
+      url_rules:
+        - /openshift/details/s/{subscription_id}#addAssistedHosts
+        - /openshift/assisted-installer/clusters/
+        - /openshift/assisted-installer/clusters/~new
+        - /openshift/assisted-installer/clusters/*
+    Create cluster - Openstack:
+      url_rules:
+        - /openshift/install/openstack
+    Create cluster - Openstack - Installer provisioned infrastructure:
+      url_rules:
+        - /openshift/install/openstack/installer-provisioned
+    Create cluster - Openstack - User provisioned infrastructure:
+      url_rules:
+        - /openshift/install/openstack/user-provisioned
+    Create cluster - Red Hat Virtualization - Installer provisioned infrastructure:
+      url_rules:
+        - /openshift/install/rhv/installer-provisioned
+    Create cluster - VMware vSphere - User provisioned infrastructure:
+      url_rules:
+        - /openshift/install/vsphere/user-provisioned
+    Create cluster - Power Systems - User provisioned infrastructure:
+      url_rules:
+        - /openshift/install/power/user-provisioned
+    Create cluster - IBM Z - User provisioned infrastructure:
+      url_rules:
+        - /openshift/install/ibmz/user-provisioned
+    Create cluster - Run on your laptop with Code Ready Containers:
+      url_rules:
+        - /openshift/install/crc/installer-provisioned
+    Subscriptions:
+      url_rules:
+        - /openshift/subscriptions
+    Overview:
+      url_rules:
+        - /openshift/overview
+    OSD Trial page:
+      url_rules:
+        - /openshift/create/osdtrial?trial=osd
+    OCP Trial page:
+      url_rules:
+        - /openshift/create/datacenter?trial=ocp
+    Subscriptions - Container Platform:
+      url_rules:
+        - /openshift/quota
+    Subscriptions - Dedicated (On Demand):
+      url_rules:
+        - /openshift/subscriptions/openshift-dedicated*
+    Subscriptions - Dedicated On Demand Limits:
+      url_rules:
+        - /openshift/quota/resource-limits
+    Trial expiration page:
+      url_rules:
+        - /openshift/create?trial=expired
+  features:
+    _scope: '[data-ouia-bundle="openshift"]'
+    "Clusters - Button: Register cluster":
+      selectors:
+        - '{} button:contains("Register cluster")'
+    "Clusters - Button: Create cluster":
+      selectors:
+        - '{} button:contains("Create cluster")'
+    "Clusters - Button: Learn more OSD trial":
+      selectors:
+        - '{} a:contains("Learn more")'
+    "Clusters - Button: Try it on Azure":
+      selectors:
+        - '{} a:contains("Try it on Azure")'
+    "Clusters - Button: Try it on IBM":
+      selectors:
+        - '{} a:contains("Try it on IBM")'
+    "Clusters - Button: Try it on AWS":
+      selectors:
+        - '{} a:contains("Try it on AWS")'
+    "Clusters - Button: Cancel":
+      selectors:
+        - '{} button:contains("Cancel")'
+    "Clusters - Link: Bare metal":
+      selectors:
+        - '{} a:contains("Bare Metal")'
+    "Clusters - Link: IBM Z":
+      selectors:
+        - '{} a:contains("IBM Z")'
+    "Clusters - Link: Power":
+      selectors:
+        - '{} a:contains("Power")'
+    "Clusters - Link: Red Hat OpenStack":
+      selectors:
+        - '{} a:contains("Red Hat OpenStack")'
+    "Clusters - Link: Red Hat Virtualization":
+      selectors:
+        - '{} a:contains("Red Hat Virtualization")'
+    "Clusters - Link: vSphere":
+      selectors:
+        - '{} a:contains("vSphere")'
+    "Clusters - Link: Platform agnostic":
+      selectors:
+        - '{} a:contains("Platform agnostic")'
+    "Clusters - Button: Download CodeReady Containers":
+      selectors:
+        - '{} a:contains("Download CodeReady Containers")'
+    "Clusters - Button: Download pull secret":
+      selectors:
+        - '{} button:contains("Download pull secret")'
+    "Clusters - Button: Copy pull secret":
+      selectors:
+        - '{} button:contains("Copy pull secret")'
+    "Clusters - Link: View the CodeReady Containers Getting started guide":
+      selectors:
+        - '{} a:contains("View the CodeReady Containers Getting started guide")'
+    "Clusters - Button: Create trial cluster":
+      selectors:
+        - '{} button:contains("Create trial cluster")'
+    "Clusters - Button: Run on Google Cloud Platform":
+      selectors:
+        - '{} a:contains("Run on Google Cloud Platform")'
+    "Clusters - Button: Installer provisioned infrastructure":
+      selectors:
+        - '{} a:contains("Installer-provisioned infrastructure Deploy an OpenShift cluster on infrastructure that the installation program pro")'
+    "Clusters - Button: User provisioned infrastructure":
+      selectors:
+        - '{} a:contains("User-provisioned infrastructureDeploy an OpenShift cluster on infrastructure that you prepare and maintain.")'
+    "Clusters - Button: Run on Amazon Web Services":
+      selectors:
+        - '{} a:contains("Run on Amazon Web Services")'
+    "Clusters - Button: Download installer":
+      selectors:
+        - '{} a:contains("Download installer")'
+    "Clusters - Button: Download command-line tools":
+      selectors:
+        - '{} a:contains("Download command-line tools")'
+    "Clusters - Button: Get started":
+      selectors:
+        - '{} a:contains("Get started")'
+    "Clusters - Link: Install with customizations":
+      selectors:
+        - '{} a:contains("install with customizations")'
+    "Clusters - Button: Download RHCOS ISO":
+      selectors:
+        - '{} a:contains("Download RHCOS ISO")'
+    "Clusters - Button: Download RHCOS RAW":
+      selectors:
+        - '{} a:contains("Download RHCOS RAW")'
+    "Clusters - Filter: Cluster type":
+      selectors:
+        - '{} button:contains("Filter")'
+    "Clusters - Tab: Overview":
+      selectors:
+        - '{} button:contains("Overview")'
+    "Clusters - Tab: Monitoring":
+      selectors:
+        - '{} button:contains("Monitoring")'
+    "Clusters - Tab: Access control":
+      selectors:
+        - '{} button:contains("Access control")'
+    "Clusters - Tab: Add ons":
+      selectors:
+        - '{} button:contains("Add-ons")'
+    "Clusters - Tab: Networking":
+      selectors:
+        - '{} button:contains("Networking")'
+    "Clusters - Tab: Insights":
+      selectors:
+        - '{} button:contains("Insights")'
+    "Clusters - Tab: Machine pools":
+      selectors:
+        - '{} button:contains("Machine pools")'
+    "Clusters - Tab: Support":
+      selectors:
+        - '{} button:contains("Support")'
+    "Subscriptions - Button: Open Subscription Watch":
+      selectors:
+        - '{} a:contains("Open Subscription Watch")'
+    "Nav: Support Cases":
+      selectors:
+        - '{} [data-ouia-component-id="extra-openshift-support"]'
+    "Nav: Cluster Manager Feedback":
+      selectors:
+        - '{} [data-ouia-component-id="extra-openshift-cm"]'
+    "Nav: Red Hat Marketplace":
+      selectors:
+        - '{} [data-ouia-component-id="extra-openshift-marketplace"]'
+    "Nav: Documentation":
+      selectors:
+        - '{} [data-ouia-component-id="extra-openshift-docs"]'
+    "Clusters - Add-ons - Card: View RHOAM details":
+      selectors:
+        - '{} [data-ouia-component-id="card-addon-managed-api-service"]'
+    "Clusters - Add-ons - Card: View RHODS details":
+      selectors:
+        - '{} [data-ouia-component-id="card-addon-managed-data-service"]'
+    "Clusters - Add-ons - Button: Install RHOAM":
+      selectors:
+        - '{} [data-ouia-component-id="install-addon-managed-api-service"]'
+    "Clusters - Add-ons - Button: Install RHODS":
+      selectors:
+        - '{} [data-ouia-component-id="install-addon-managed-data-service"]'
+    "Clusters - Add-ons - Button: Open in Console":
+      selectors:
+        - '{} .pf-c-button:contains("Open in Console")'
+    "Clusters - Add-ons - Link: View documentation":
+      selectors:
+        - '{} a:contains("View Documentation")'
+    "Left Nav: Overview":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/overview"]:contains("Overview")'
+    "Left Nav: Releases":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/releases"]:contains("Releases")'
+    "Left Nav: Downloads":
+      selectors:
+        - '{} .pf-c-nav__link[href="/openshift/downloads"]:contains("Downloads")'
+    "Left Nav: Subscriptions":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Subscriptions")'
+    "Left Nav: Container Platform":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Container Platform")'
+    "Left Nav: Dedicated Annual":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (Annual)")'
+    "Left Nav: Dedicated On Demand":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (On-Demand)")'
+    "Left Nav: Dedicated On Demand Limits":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dedicated (On-Demand Limits)")'
+    "Left Nav: RHEL Subscriptions":
+      selectors:
+        - '{} .pf-c-nav__link:contains("RHEL Subscriptions")'
+    "Left Nav: Cost Management":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Cost Management")'
+    "Left Nav: Suport Cases":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Support Cases")'
+    "Left Nav: Cluster Manager Feedback":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Cluster Manager Feedback")'
+    "Left Nav: Red Hat Marketplace":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Red Hat Marketplace")'
+    "Left Nav: Documentation":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Documentation")'
+    "Releases - Link: OpenShift 4.8":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.8/release_notes/ocp-4-8-release-notes.html"]:contains("OpenShift 4.8")'
+    "Releases - Link: OpenShift 4.7":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.7/release_notes/ocp-4-7-release-notes.html"]:contains("OpenShift 4.7")'
+    "Releases - Link: OpenShift 4.6":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.6/release_notes/ocp-4-6-release-notes.html"]:contains("OpenShift 4.6")'
+    "Releases - Link: OpenShift 4.5":
+      selectors:
+        - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.5/release_notes/ocp-4-5-release-notes.html"]:contains("OpenShift 4.5")'
+    "Downloads - Button: Download - OpenShift command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/openshift-client-mac.tar.gz"]'
+    "Downloads - Button: Download - OCM API command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://github.com/openshift-online/ocm-cli/releases/download/v0.1.55/ocm-darwin-amd64"]'
+    "Downloads - Button: Download - Red Hat OpenShift services on AWS command-line interface":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/rosa/latest/rosa-macosx.tar.gz"]'
+    "Downloads - Button: Download - Developer-focused CLI for OpenShift (odo)":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/odo/latest/odo-darwin-amd64"]'
+    "Downloads - Button: Download - Helm 3 CLI":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/helm/latest/helm-darwin-amd64"]'
+    "Downloads - Button: Operator Package Manager":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/opm-mac.tar.gz"]'
+    "Downloads - Button: Red Hat OpenShift Application Services CLI":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] .download-button[href="https://github.com/redhat-developer/app-services-cli/releases/download/v0.26.0/rhoas_0.26.0_macOS_amd64.tar.gz"]'
+    "Downloads - Link: Expand all":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] :contains("Expand all")'
+    "Downloads - Link: Developer Tools Learn More":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] a[href="https://developers.redhat.com/topics/developer-tools"]:contains("Learn more")'
+    "Downloads - Button: Copy":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("Copy")'
+    "Downloads - Button: Download":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("Download")'
+    "Downloads - Button: View API token":
+      selectors:
+        - '{}[data-ouia-app-id="downloads"] button:contains("View API token")'
+    "Subscriptions - Link: Learn more about Subscriptions reporting":
+      selectors:
+        - '{}[data-ouia-app-id="subscriptions"] .pf-m-link[href="https://access.redhat.com/documentation/en-us/subscription_central/2021/html/getting_started_with_the_subscriptions_service/con-how-does-subscriptionwatch-show-data_assembly-viewing-understanding-subscriptionwatch-data-ctxt/"]:contains("Learn more about Subscriptions reporting")'
+    "Subscriptions - Button: Take a tour":
+      selectors:
+        - '{}[data-ouia-app-id="subscriptions"] .pf-c-label__content:contains("Take a tour")'
