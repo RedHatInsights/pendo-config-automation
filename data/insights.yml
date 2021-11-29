@@ -29,5 +29,4 @@ insights:
         - '{} button:contains("Show more information")'
     "All Pages - Filter: Global":
       selectors:
-        - '{} #pf-select-toggle-id-3'
         - '{} .pf-c-form-control[placeholder="Filter by status"][data-ouia-component-id="global-filter-by-status"]'
