@@ -19,6 +19,7 @@ coloredlogs.install(
     fmt='%(name)s %(levelname)s %(message)s',
     level_styles={
         'info': {'color': 'green'},
+        'warning': {'color': 'yellow'},
         'critical': {'color': 'red'},
     },
     logger=log,
@@ -91,7 +92,7 @@ def check_app(appName):
 
 # Build the app using main_loop
 def build_app(appName, dry_run):
-  log.info(f'Building: {appName}')
+  log.warning(f'Building: {appName}')
   location = './data/'
   appFile = appName + '.yml'
   fullPathname = location + appFile
