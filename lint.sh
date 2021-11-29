@@ -6,4 +6,5 @@ then
     source venv/bin/activate
 fi
 
+yamllint data/
 python lint.py
