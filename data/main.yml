@@ -16,6 +16,7 @@ applications:
   - "insights-for-openshift"
   - "insights"
   - "inventory"
+  - "malware"
   - "manage-images"
   - "openshift"
   - "patch"
