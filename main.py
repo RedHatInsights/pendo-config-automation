@@ -7,7 +7,7 @@ import sys
 import getopt
 
 DELAY=1
-DRY_RUN=True
+DRY_RUN=False
 
 def get_skip_list():
     with open('./secrets/skiplist.yml') as data:
@@ -88,10 +88,10 @@ def build_app(appName):
   print ('Creating beta pages and features')
   main_loop(fullPathname, True)
 
-  # if not DRY_RUN: generate_stash(appName)
+  if not DRY_RUN: generate_stash(appName)
 
 def generate_stash(appName):
-  location = './test/'
+  location = './stash/'
   pathname = appName + '_stash.yml'
   fullPathname = location + pathname
   with open(fullPathname, 'w') as outfile:
@@ -124,10 +124,6 @@ def main(argv):
       for app in ymlArray:
         print ('Building:', app)
         build_app(app)
-
-# if not DRY_RUN:
-#     with open('./stash/id_map.yaml', 'w') as outfile:
-#         yaml.dump(client.get_ids_map(), outfile)
 
 if __name__ == "__main__":
    main(sys.argv[1:])
