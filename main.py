@@ -7,11 +7,22 @@ import sys
 import click
 import logging
 import os
+import coloredlogs
+
+from time import perf_counter
 
 DELAY=1
 
 log = logging.getLogger("pendo-config")
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
+coloredlogs.install(
+    fmt='%(name)s %(levelname)s %(message)s',
+    level_styles={
+        'info': {'color': 'green'},
+        'critical': {'color': 'red'},
+    },
+    logger=log,
+)
 
 def get_skip_list():
     with open('./secrets/skiplist.yml') as data:
@@ -117,6 +128,8 @@ def generate_stash(appName):
     help='Used to determine if data should actually be added or removed from Pendo',
 )
 def main(app, dry_run):
+  start = perf_counter()
+  
   if app:
     log.info(f'App is: {app}')
     if check_app(app):
@@ -128,6 +141,10 @@ def main(app, dry_run):
       ymlArray = yml["applications"]
       for app in ymlArray:
         build_app(app, dry_run)
+  
+  end = perf_counter()
+
+  log.critical(f'Elapsed time: {round(end - start, 3)}s')
 
 if __name__ == "__main__":
    main()
