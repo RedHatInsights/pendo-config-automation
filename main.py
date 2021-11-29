@@ -14,6 +14,7 @@ def get_skip_list():
         yml = yaml.safe_load(data)
         return yml
 
+# Send the data to the pendo
 def main_loop(path, is_beta):
   with open(path, 'r') as data:
     yml = yaml.safe_load(data)
@@ -60,6 +61,7 @@ def main_loop(path, is_beta):
                     client.create_feature_in_group(pendo_group, feature_name, feature)
                     time.sleep(DELAY)
 
+# Check if app exists in main.yml
 def check_app(appName):
   print ('Checking if app exists in main.yml')
   with open('./data/main.yml', 'r') as data:
@@ -72,6 +74,7 @@ def check_app(appName):
       print ('App does not exist')
       return False
 
+# Build the app using main_loop
 def build_app(appName):
   print ('Building:', appName)
   location = './data/'
@@ -85,6 +88,16 @@ def build_app(appName):
   print ('Creating beta pages and features')
   main_loop(fullPathname, True)
 
+  # if not DRY_RUN: generate_stash(appName)
+
+def generate_stash(appName):
+  location = './test/'
+  pathname = appName + '_stash.yml'
+  fullPathname = location + pathname
+  with open(fullPathname, 'w') as outfile:
+      yaml.dump(client.get_ids_map(), outfile)
+
+# main
 def main(argv):
   appName = ''
   try:
@@ -112,16 +125,9 @@ def main(argv):
         print ('Building:', app)
         build_app(app)
 
-# # Stable pages and features
-# with open('./data/config.yml', 'r') as data:
-#     main_loop(False)
-# # Beta pages and features
-# with open('./data/config.yml', 'r') as data:
-#     main_loop(True)
-
-if not DRY_RUN:
-    with open('./stash/id_map.yaml', 'w') as outfile:
-        yaml.dump(client.get_ids_map(), outfile)
+# if not DRY_RUN:
+#     with open('./stash/id_map.yaml', 'w') as outfile:
+#         yaml.dump(client.get_ids_map(), outfile)
 
 if __name__ == "__main__":
    main(sys.argv[1:])
