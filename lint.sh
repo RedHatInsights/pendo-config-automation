@@ -6,5 +6,4 @@ then
     source venv/bin/activate
 fi
 
-yamllint ./data/config.yml
 python lint.py
