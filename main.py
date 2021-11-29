@@ -103,7 +103,9 @@ def build_app(appName, dry_run):
   log.info('Creating beta pages and features')
   main_loop(fullPathname, True, dry_run)
 
-  if not dry_run: generate_stash(appName)
+  if not dry_run:
+    generate_stash(appName)
+    client.clear_ids_map()
 
 def generate_stash(appName):
   location = './stash/'

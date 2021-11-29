@@ -44,6 +44,9 @@ def stash_ids(pendo_id, config_id):
 def get_ids_map():
     return ids_map
 
+def clear_ids_map():
+    ids_map.clear()
+
 def get_name(name):
     if name.startswith(PREFIX):
         return name
