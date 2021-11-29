@@ -25,6 +25,6 @@ applications:
   - "remediations"
   - "rhel"
   - "settings"
-  - "subscriptions"
+  - "subscription-watch"
   - "user-preferences"
   - "vulnerability"

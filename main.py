@@ -3,16 +3,19 @@ import json
 import yaml
 import client as client
 import time
+import sys
+import getopt
 
 DELAY=1
-DRY_RUN=False
+DRY_RUN=True
 
 def get_skip_list():
     with open('./secrets/skiplist.yml') as data:
         yml = yaml.safe_load(data)
         return yml
 
-def main_loop(is_beta):
+def main_loop(path, is_beta):
+  with open(path, 'r') as data:
     yml = yaml.safe_load(data)
     skip_list = get_skip_list()
     for name, group in yml.items():
@@ -57,11 +60,68 @@ def main_loop(is_beta):
                     client.create_feature_in_group(pendo_group, feature_name, feature)
                     time.sleep(DELAY)
 
-with open('./data/config.yml', 'r') as data:
-    main_loop(False)
-with open('./data/config.yml', 'r') as data:
-    main_loop(True)
+def check_app(appName):
+  print ('Checking if app exists in main.yml')
+  with open('./data/main.yml', 'r') as data:
+    yml = yaml.safe_load(data)
+    ymlArray = yml["applications"]
+    if appName in ymlArray:
+      print ('App exists')
+      return True
+    else:
+      print ('App does not exist')
+      return False
+
+def build_app(appName):
+  print ('Building:', appName)
+  location = './data/'
+  appFile = appName + '.yml'
+  fullPathname = location + appFile
+  print ('Using file:', appFile)
+  # Stable pages and features
+  print ('Creating stable pages and features')
+  main_loop(fullPathname, False)
+  # Beta pages and features
+  print ('Creating beta pages and features')
+  main_loop(fullPathname, True)
+
+def main(argv):
+  appName = ''
+  try:
+    opts, args = getopt.getopt(argv,"ha:",["app="])
+  except getopt.GetoptError:
+    print ('test.py -a <app>')
+    sys.exit(2)
+  for opt, arg in opts:
+    if opt == '-h':
+        print ('test.py -a <app>')
+        sys.exit()
+    elif opt in ("-a", "--app"):
+        appName = arg
+  
+  if appName:
+    print ('App is:', appName)
+    if check_app(appName):
+      build_app(appName)
+  else:
+    print ('No app specified, building all apps')
+    with open('./data/main.yml', 'r') as data:
+      yml = yaml.safe_load(data)
+      ymlArray = yml["applications"]
+      for app in ymlArray:
+        print ('Building:', app)
+        build_app(app)
+
+# # Stable pages and features
+# with open('./data/config.yml', 'r') as data:
+#     main_loop(False)
+# # Beta pages and features
+# with open('./data/config.yml', 'r') as data:
+#     main_loop(True)
 
 if not DRY_RUN:
     with open('./stash/id_map.yaml', 'w') as outfile:
         yaml.dump(client.get_ids_map(), outfile)
+
+if __name__ == "__main__":
+   main(sys.argv[1:])
