@@ -1,0 +1,29 @@
+---
+insights:
+  color: 9
+  pages:
+    All pages:
+      url_rules:
+        - /insights
+        - /insights/**
+    Security:
+      url_rules:
+        - /security/insights
+    Image builder:
+      url_rules:
+        - /insights/image-builder/landing
+    Image builder - All pages:
+      url_rules:
+        - /insights/image-builder/*
+    Resource optimization - All pages:
+      url_rules:
+        - /insights/ros
+        - /insights/ros/**
+  features:
+    _scope: '[data-ouia-bundle="insights"]'
+    "All Pages - Tab: host view tab click":
+      selectors:
+        - '{} .ins-c-inventory-detail__app-tabs li'
+    "All Pages - Button: host view show drawer":
+      selectors:
+        - '{} button:contains("Show more information")'

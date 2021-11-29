@@ -1,0 +1,20 @@
+---
+automation services catalog:
+  color: 5
+  pages:
+    All pages:
+      url_rules:
+        - /ansible/catalog
+        - /ansible/catalog/**
+    Products:
+      url_rules:
+        - /ansible/catalog/products/**
+    Portfolio:
+      url_rules:
+        - /ansible/catalog/portfolios/*
+    Orders:
+      url_rules:
+        - /ansible/catalog/orders/**
+    Approval:
+      url_rules:
+        - /ansible/catalog/approval/*

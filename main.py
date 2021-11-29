@@ -3,28 +3,63 @@ import json
 import yaml
 import client as client
 import time
+import sys
+import click
+import logging
+import os
+import coloredlogs
+
+from time import perf_counter
 
 DELAY=1
-DRY_RUN=False
+
+log = logging.getLogger("pendo-config")
+logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
+coloredlogs.install(
+    fmt='%(name)s %(levelname)s %(message)s',
+    level_styles={
+        'info': {'color': 'green'},
+        'warning': {'color': 'yellow'},
+        'critical': {'color': 'red'},
+    },
+    logger=log,
+)
+
+def _pretty_time_delta(seconds):
+    # https://gist.github.com/thatalextaylor/7408395
+    seconds = int(seconds)
+    days, seconds = divmod(seconds, 86400)
+    hours, seconds = divmod(seconds, 3600)
+    minutes, seconds = divmod(seconds, 60)
+    if days > 0:
+        return "%dd%dh%dm%ds" % (days, hours, minutes, seconds)
+    elif hours > 0:
+        return "%dh%dm%ds" % (hours, minutes, seconds)
+    elif minutes > 0:
+        return "%dm%ds" % (minutes, seconds)
+    else:
+        return "%ds" % (seconds,)
 
 def get_skip_list():
     with open('./secrets/skiplist.yml') as data:
         yml = yaml.safe_load(data)
         return yml
 
-def main_loop(is_beta):
+# Send the data to the pendo
+def main_loop(path, is_beta, dry_run):
+  with open(path, 'r') as data:
     yml = yaml.safe_load(data)
     skip_list = get_skip_list()
     for name, group in yml.items():
         if name in skip_list:
-            print ('Skipping group: [{}]'.format(name))
+            log.info(f'Skipping group: [{name}]')
             continue
 
         if is_beta:
-            name = '_beta {}'.format(name)
+            name = f'_beta {name}'
 
-        print('Creating group: [{}]'.format(name))
-        if not DRY_RUN:
+        log.info(f'Creating group: [{name}]')
+        if not dry_run:
             pendo_group = client.create_group_idempotent(name, client.get_color(name, group))
 
         if 'pages' in group:
@@ -34,8 +69,8 @@ def main_loop(is_beta):
                     if is_beta:
                         page['url_rules'][i] = page['url_rules'][i].replace('//*/', '//*/beta/')
 
-                print('- Creating page: [{}] {}'.format(page_name, page))
-                if not DRY_RUN:
+                log.info(f'Creating page: [{page_name}] {page}')
+                if not dry_run:
                     client.create_page_in_group(pendo_group, page_name, page)
                     time.sleep(DELAY)
 
@@ -52,16 +87,82 @@ def main_loop(is_beta):
                         txt = txt.replace('{}', scope, 1)
                         feature['selectors'][i] = txt
 
-                print('- Creating feature: [{}] {}'.format(feature_name, feature))
-                if not DRY_RUN:
+                log.info(f'Creating feature: [{feature_name}] {feature}')
+                if not dry_run:
                     client.create_feature_in_group(pendo_group, feature_name, feature)
                     time.sleep(DELAY)
 
-with open('./data/config.yml', 'r') as data:
-    main_loop(False)
-with open('./data/config.yml', 'r') as data:
-    main_loop(True)
+# Check if app exists in main.yml
+def check_app(appName):
+  log.info('Checking if app exists in main.yml')
+  with open('./data/main.yml', 'r') as data:
+    yml = yaml.safe_load(data)
+    ymlArray = yml["applications"]
+    if appName in ymlArray:
+      log.info('App exists')
+      return True
+    else:
+      log.info('App does not exist')
+      return False
 
-if not DRY_RUN:
-    with open('./stash/id_map.yaml', 'w') as outfile:
-        yaml.dump(client.get_ids_map(), outfile)
+# Build the app using main_loop
+def build_app(appName, dry_run):
+  log.warning(f'Building: {appName}')
+  location = './data/'
+  appFile = appName + '.yml'
+  fullPathname = location + appFile
+  log.info(f'Using file: {appFile}')
+  # Stable pages and features
+  log.info('Creating stable pages and features')
+  main_loop(fullPathname, False, dry_run)
+  # Beta pages and features
+  log.info('Creating beta pages and features')
+  main_loop(fullPathname, True, dry_run)
+
+  if not dry_run:
+    generate_stash(appName)
+    client.clear_ids_map()
+
+def generate_stash(appName):
+  location = './stash/'
+  pathname = appName + '_stash.yml'
+  fullPathname = location + pathname
+  with open(fullPathname, 'w') as outfile:
+      yaml.dump(client.get_ids_map(), outfile)
+
+# main
+@click.command()
+@click.option(
+    '--app',
+    '-a',
+    type=str,
+    default=None,
+    help='Name of the app you wish to build',
+)
+@click.option(
+    '--dry-run',
+    '-d',
+    is_flag=True,
+    help='Used to determine if data should actually be added or removed from Pendo',
+)
+def main(app, dry_run):
+  start = perf_counter()
+  
+  if app:
+    log.info(f'App is: {app}')
+    if check_app(app):
+      build_app(app, dry_run)
+  else:
+    log.info('No app specified, building all apps')
+    with open('./data/main.yml', 'r') as data:
+      yml = yaml.safe_load(data)
+      ymlArray = yml["applications"]
+      for app in ymlArray:
+        build_app(app, dry_run)
+  
+  end = perf_counter()
+
+  log.critical(f'Elapsed time: {_pretty_time_delta(end - start)}')
+
+if __name__ == "__main__":
+   main()

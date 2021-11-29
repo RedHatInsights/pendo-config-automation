@@ -1,0 +1,37 @@
+---
+application services:
+  color: 7
+  pages:
+    Overview:
+      url_rules:
+        - /application-services/overview
+    All pages:
+      url_rules:
+        - /application-services/**
+    API Management:
+      url_rules:
+        - /application-services/api-management
+    Database Access:
+      url_rules:
+        - /application-services/databases
+    Data Science:
+      url_rules:
+        - /application-services/data-science
+    Service Accounts:
+      url_rules:
+        - /application-services/service-accounts
+    Service Registry Data Plane:
+      url_rules:
+        - /application-services/service-registry/**
+    Service Registry Instances page:
+      url_rules:
+        - /application-services/service-registry
+    Streams for Apache Kafka Data Plane:
+      url_rules:
+        - /application-services/streams/kafkas/**
+    Streams for Apache Kafka Instances page:
+      url_rules:
+        - /application-services/streams/kafkas
+    Learning Resources:
+      url_rules:
+        - /application-services/learning-resources

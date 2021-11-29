@@ -1,0 +1,20 @@
+---
+user preferences:
+  pages:
+    Email Preferences:
+      url_rules:
+        - /user-preferences/email
+  features:
+    _scope: '[data-ouia-bundle="user-preferences"][data-ouia-app-id="email"]'
+    "User Preferences - Check box: Unsubscribe from all":
+      selectors:
+        - '{} .pf-c-check:contains("Unsubscribe from all")'
+    "User Preferences - Check box: Daily digest":
+      selectors:
+        - '{} .pf-c-check:contains("Daily digest")'
+    "User Preferences - Check box: Instant notification":
+      selectors:
+        - '{} .pf-c-check:contains("Instant notification")'
+    "User Preferences - Check box: Weekly Report":
+      selectors:
+        - '{} .pf-c-check:contains("Weekly Report")'

@@ -1,0 +1,158 @@
+---
+settings:
+  features:
+    _scope: '[data-ouia-bundle="settings"]'
+    "Sources - Button: AWS":
+      selectors:
+        - '[data-ouia-app-id="sources"] div:contains("Amazon Web Services").disabled-tile-with-tooltip'
+    "Sources - Button: Microsoft Azure":
+      selectors:
+        - '[data-ouia-app-id="sources"] div:contains("Microsoft Azure").disabled-tile-with-tooltip'
+    "Sources - Button: Save changes":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Save changes")'
+    "Sources - Link: Learn more about Red Hat Gold Images":
+      selectors:
+        - '[data-ouia-app-id="sources"] a:contains("Learn more about Red Hat gold images")'
+    "Sources - Link: Enable additional Insights services":
+      selectors:
+        - '[data-ouia-app-id="sources"] a:contains("Enable additional Insights services")'
+    "Sources - Link: Go to Subscription Watch":
+      selectors:
+        - '[data-ouia-app-id="sources"] a:contains("Go to Subscription Watch")'
+    "Sources - Button: Add source":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary:contains("Add source")'
+    "Sources - Button: Add source at end of Sources wizard":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-c-wizard.sources .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Add")'
+    "Sources - Button: Exit button in cancel sources modal":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Exit")'
+    "Sources - Button: Remove source (menu button)":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-c-dropdown__menu-item:contains("Remove")'
+    "Sources - Button: Remove source and its data":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-c-modal-box.sources .pf-m-danger:contains("Remove source and its data")'
+    "Sources - Button: Edit credentials (menu button)":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-c-dropdown__menu-item:contains("Edit")'
+    "Sources - Button: Add application (wizard confirmation)":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-primary:contains("Add")'
+    "Sources - Button: Remove application (modal confirmation)":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-m-danger:contains("Remove")'
+    "Sources - Button: Cloud Sources tab":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-c-tabs__link:contains("Cloud sources")'
+    "Sources - Button: Red Hat sources tab":
+      selectors:
+        - '[data-ouia-app-id="sources"] .pf-c-tabs__link:contains("Red Hat sources")'
+    "Sources - Link: Use Red Hat gold images on AWS":
+      selectors:
+        - '[data-ouia-app-id="sources"] a.text:contains("Use Red Hat gold images on AWS")'
+    "Sources - Link: Use Red Hat gold images on Microsoft Azure":
+      selectors:
+        - '[data-ouia-app-id="sources"] a.text:contains("Use Red Hat gold images on Microsoft Azure")'
+    "Sources - Link: Learn more about Red Hat Insights":
+      selectors:
+        - '[data-ouia-app-id="sources"] a.text:contains("Learn more about Red Hat Insights")'
+    "Sources - Link: Learn more about Subscriptions":
+      selectors:
+        - '[data-ouia-app-id="sources"] a.text:contains("Learn more about Subscriptions")'
+    "Sources - Link: Go to Subscriptions":
+      selectors:
+        - '[data-ouia-app-id="sources"] a.text:contains("Go to Subscriptions")'
+    "Sources - Button: Cancel Add source":
+      selectors:
+        - '[data-ouia-app-id="sources"] pf-c-wizard.sources .pf-m-primary:contains("Cancel")'
+    "Integrations - Button: Add integration":
+      selectors:
+        - '[data-ouia-app-id="integrations"] div.pf-c-toolbar__item:contains("Add integration")'
+    "Red Hat Connector - Button: Connect systems":
+      selectors:
+        - '[data-ouia-app-id="connector"] button:contains("Connect systems")'
+    "Red Hat Connector - Link: Registration Assistant":
+      selectors:
+        - '[data-ouia-app-id="connector"] a:contains("Registration Assistant")'
+        - '[data-ouia-app-id="connector"] button:contains("Connect systems")'
+    "Red Hat Connector - Link: View in Inventory":
+      selectors:
+        - '[data-ouia-app-id="connector"] a:contains("View in Inventory")'
+    "Red Hat Connector - Button: Save Changes":
+      selectors:
+        - '[data-ouia-app-id="connector"] div:contains("Save changesView log")'
+    "User Access - Button: MUA Application Services card":
+      selectors:
+        - '[data-ouia-app-id="my-user-access"] .pf-c-card:contains("Application Services")'
+    "User Access - Button: MUA OpenShift card":
+      selectors:
+        - '[data-ouia-app-id="my-user-access"] .pf-c-card:contains("OpenShift")'
+    "User Access - Button: MUA RHEL card":
+      selectors:
+        - '[data-ouia-app-id="my-user-access"] .pf-c-card:contains("Red Hat Enterprise Linux")'
+    "User Access - Button: MUA Ansible card":
+      selectors:
+        - '[data-ouia-app-id="my-user-access"] .pf-c-card:contains("Ansible Automation Platform")'
+  pages:
+    All pages:
+      url_rules:
+        - /settings
+        - /settings/**
+    My User Access:
+      url_rules:
+        - /settings/my-user-access
+    Sources - All pages:
+      url_rules:
+        - /settings/sources/*
+        - /settings/sources
+    Sources list:
+      url_rules:
+        - /settings/sources
+    Sources - Cloud sources:
+      url_rules:
+        - /settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud
+    Sources - Red Hat sources:
+      url_rules:
+        - /settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
+    Sources - Specific source view:
+      url_rules:
+        - /settings/sources/detail/**
+    Sources - Add Cloud Source wizard:
+      url_rules:
+        - /settings/sources/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud
+    Sources - Add Red Hat Source wizard:
+      url_rules:
+        - /settings/sources/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
+    Integrations:
+      url_rules:
+        - /settings/integrations
+    Notifications:
+      url_rules:
+        - /settings/notifications
+        - /settings/notifications/*
+    Notifications - RHEL:
+      url_rules:
+        - /settings/notifications/rhel
+    Red Hat Connector:
+      url_rules:
+        - /settings/connector
+        - /settings/connector/*
+    Applications:
+      url_rules:
+        - /settings/applications
+        - /settings/applications/*
+    Applications - Advisor:
+      url_rules:
+        - /settings/applications/advisor
+    Sources - Add application wizard:
+      url_rules:
+        - /settings/sources/detail/*/add_app/**
+    Sources - Remove application modal:
+      url_rules:
+        - /settings/sources/detail/*/remove_app/**
+    Sources - Remove source modal:
+      url_rules:
+        - /settings/sources/remove/**

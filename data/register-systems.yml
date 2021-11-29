@@ -1,0 +1,24 @@
+---
+register systems:
+  color: 10
+  pages:
+    Host list:
+      url_rules:
+        - /insights/registration
+  features:
+    _scope: '[data-ouia-app-id="registration"]'
+    "Register Systems - Select: Red Hat Subscription Manager":
+      selectors:
+        - '{} div:contains("Red Hat Subscription Manager").pf-c-radio'
+    "Register Systems - Select: Red Hat Satellite":
+      selectors:
+        - '{} div:contains("Red Hat Satellite").pf-c-radio'
+    "Register Systems - Select: Public cloud/RHUI":
+      selectors:
+        - '{} div:contains("Public cloud/RHUI").pf-c-radio'
+    "Operating System - Select: RHEL 8":
+      selectors:
+        - '{} .pf-c-radio:contains("RHEL 8")'
+    "Operating System - Select: RHEL 7 and 6":
+      selectors:
+        - '{} .pf-c-radio:contains("RHEL 7 & 6")'

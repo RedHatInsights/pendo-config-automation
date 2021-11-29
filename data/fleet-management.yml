@@ -1,0 +1,24 @@
+---
+fleet management:
+  color: 9
+  pages:
+    Manage device page:
+      url_rules:
+        - /edge/fleet-management
+    Device details page:
+      url_rules:
+        - /edge/fleet-management/*
+  features:
+    _scope: '[data-ouia-app-id="fleet-management"]'
+    "Manage device - Filter: Attribute Dropdown":
+      selectors:
+        - '{} .pf-c-dropdown__toggle:contains("Name")'
+    "Manage device - Filter: Search input name":
+      selectors:
+        - '{} .pf-c-form-control[placeholder="Filter by name"]'
+    "Manage device - Button: View in Inventory":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("View system in Inventory")'
+    "Manage device - Button: Update":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("Update")'
