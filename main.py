@@ -9,7 +9,6 @@ import logging
 import os
 
 DELAY=1
-DRY_RUN=True
 
 log = logging.getLogger("pendo-config")
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
