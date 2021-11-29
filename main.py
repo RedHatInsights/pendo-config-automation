@@ -127,7 +127,6 @@ def main(app, dry_run):
       yml = yaml.safe_load(data)
       ymlArray = yml["applications"]
       for app in ymlArray:
-        log.info(f'Building: {app}')
         build_app(app, dry_run)
 
 if __name__ == "__main__":
