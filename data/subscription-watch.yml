@@ -6,24 +6,6 @@ subscription watch:
       url_rules:
         - /subscriptions
         - /subscriptions/**
-    Red Hat Enterprise Linux - All.pre04262021:
-      url_rules:
-        - /subscriptions/rhel-sw/all
-    Red Hat Enterprise Linux - ARM.pre04262021:
-      url_rules:
-        - /subscriptions/rhel-sw/arm
-    Red Hat Enterprise Linux - IBM Power.pre04262021:
-      url_rules:
-        - /subscriptions/rhel-sw/ibmpower
-    Red Hat Enterprise Linux - IBM Z Systems.pre04262021:
-      url_rules:
-        - /subscriptions/rhel-sw/ibmz
-    Red Hat Enterprise Linux - x86.pre04262021:
-      url_rules:
-        - /subscriptions/rhel-sw/x86
-    Red Hat OpenShift.pre04262021:
-      url_rules:
-        - /subscriptions/openshift-sw
     Unentitled modal:
       url_rules:
         - /?not_entitled=subscriptions

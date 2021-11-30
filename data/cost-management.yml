@@ -2,33 +2,6 @@
 cost management:
   color: 6
   pages:
-    All pages.pre04262021:
-      url_rules:
-        - /cost-management/**
-        - /cost-management/
-    Overview.pre04262021:
-      url_rules:
-        - /cost-management/
-    OpenShift.pre04262021:
-      url_rules:
-        - /cost-management/ocp
-        - /cost-management/ocp/**
-    Infrastructure - Amazon Web Services.pre04262021:
-      url_rules:
-        - /cost-management/infrastructure/aws
-        - /cost-management/infrastructure/aws/**
-        - /cost-management/details/aws
-    Infrastructure - Microsoft Azure.pre04262021:
-      url_rules:
-        - /cost-management/infrastructure/azure
-        - /cost-management/infrastructure/azure/**
-    Cost Models.pre04262021:
-      url_rules:
-        - /cost-management/cost-models
-        - /cost-management/cost-models/**
-    Explorer.pre04262021:
-      url_rules:
-        - /cost-management/explorer/*
     All pages.post04262021:
       url_rules:
         - /openshift/cost-management/**
