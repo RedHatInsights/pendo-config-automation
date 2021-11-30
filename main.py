@@ -40,21 +40,11 @@ def _pretty_time_delta(seconds):
     else:
         return "%ds" % (seconds,)
 
-def get_skip_list():
-    with open('./secrets/skiplist.yml') as data:
-        yml = yaml.safe_load(data)
-        return yml
-
 # Send the data to the pendo
 def main_loop(path, is_beta, dry_run):
   with open(path, 'r') as data:
     yml = yaml.safe_load(data)
-    skip_list = get_skip_list()
     for name, group in yml.items():
-        if name in skip_list:
-            log.info(f'Skipping group: [{name}]')
-            continue
-
         if is_beta:
             name = f'_beta {name}'
 
