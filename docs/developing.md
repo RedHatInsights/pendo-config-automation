@@ -17,7 +17,6 @@ pip install -r requirements.txt
 ```shell
 mkdir ./secrets
 cp auth.py.example ./secrets/auth.py
-echo '- dummy' > ./secrets/skiplist.yml
 touch secrets/__init__.py
 ```
 
