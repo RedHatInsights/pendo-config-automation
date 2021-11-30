@@ -123,11 +123,12 @@ def generate_stash(appName):
 # main
 @click.command()
 @click.option(
-    '--app',
+    '--apps',
     '-a',
     type=str,
-    default=None,
-    help='Name of the app you wish to build',
+    multiple=True,
+    default=[],
+    help='Name of the app(s) you wish to build',
 )
 @click.option(
     '--dry-run',
@@ -135,13 +136,14 @@ def generate_stash(appName):
     is_flag=True,
     help='Used to determine if data should actually be added or removed from Pendo',
 )
-def main(app, dry_run):
+def main(apps, dry_run):
   start = perf_counter()
   
-  if app:
-    log.info(f'App is: {app}')
-    if check_app(app):
-      build_app(app, dry_run)
+  if apps:
+    for app in apps:
+      log.info(f'App is: {app}')
+      if check_app(app):
+        build_app(app, dry_run)
   else:
     log.info('No app specified, building all apps')
     with open('./data/main.yml', 'r') as data:
