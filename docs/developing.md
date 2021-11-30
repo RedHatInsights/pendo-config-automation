@@ -59,7 +59,7 @@ python main.py -a {APP}
 
 ### Scrubbing existing data
 
-**This should be done after the upload is done**
+Note: **This should be done after the upload is done**
 
 In order to maintain a fresh list used in this config, there is a scrubber that will remove files that looks like it was added by this automation, but was not. We want to scrub that in order to keep our stash list fresh.
 
@@ -76,4 +76,3 @@ python scrub.py --dry-run
 source venv/bin/activate
 python scrub.py
 ```
-

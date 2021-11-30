@@ -10,7 +10,6 @@ There is deeper documentation for adding data in [data.md](/docs/data.md)
 
 There is deeper documentation for developers in [developing.md](/docs/developing.md)
 
-
 ## Notes
 
 ### Stash list
