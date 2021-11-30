@@ -56,6 +56,14 @@ bash lint.sh
 python main.py -a {APP}
 ```
 
+#### Running a select group of applications
+
+```shell
+source venv/bin/activate
+bash lint.sh
+python main.py -a {APP1} -a {APP2} ... 
+```
+
 ### Scrubbing existing data
 
 Note: **This should be done after the upload is done**
