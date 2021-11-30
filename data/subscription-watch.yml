@@ -50,7 +50,6 @@ subscription watch:
     Red Hat Enterprise Linux - Manifests:
       url_rules:
         - /*/insights/subscriptions/manifests
-
   features:
     _scope: '[data-ouia-bundle="subscriptions"]'
     "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
