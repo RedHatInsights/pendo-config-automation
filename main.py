@@ -12,7 +12,6 @@ import coloredlogs
 from time import perf_counter
 
 DELAY=1
-UNMERGED_FILE='unmerged.yml'
 
 log = logging.getLogger("pendo-config")
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
@@ -137,19 +136,9 @@ def generate_stash(appName):
     is_flag=True,
     help='Used to determine if data should actually be added or removed from Pendo',
 )
-@click.option(
-    '--unmerged',
-    '-u',
-    is_flag=True,
-    help='Push all recently merged apps to Pendo (unmerged.yml)'
-)
-def main(apps, dry_run, unmerged):
+def main(apps, dry_run):
   start = perf_counter()
-
-  if unmerged:
-    with open(UNMERGED_FILE, 'r') as data:
-      yml = yaml.safe_load(data)
-      apps = yml
+  
   if apps:
     for app in apps:
       log.info(f'App is: {app}')
@@ -164,11 +153,6 @@ def main(apps, dry_run, unmerged):
         build_app(app, dry_run)
   
   end = perf_counter()
-
-  if unmerged:
-    file = open(UNMERGED_FILE, 'w')
-    file.truncate()
-    file.close()
 
   log.critical(f'Elapsed time: {_pretty_time_delta(end - start)}')
 
