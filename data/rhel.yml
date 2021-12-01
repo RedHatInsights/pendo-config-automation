@@ -6,3 +6,4 @@ rhel:
       url_rules:
         - /rhel
         - /rhel/**
+        - /test
