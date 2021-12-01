@@ -1,4 +1,4 @@
-name: "Add unmerged files to yml file"
+name: "Add unmerged files to holder file"
 on:
   pull_request:
     types: [closed]
@@ -14,8 +14,8 @@ jobs:
       with:
         fetch-depth: 3
         token: ${{ secrets.RYAN_LONG_GH_TOKEN }}
-    - name: Update unmerged file
-      run: bash addUnmerged.sh
+    - name: Update holder file
+      run: bash holder.sh
     - name: Commit files
       run: |
         git config --local user.email "rlong@redhat.com"

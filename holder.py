@@ -6,7 +6,7 @@ import yaml
 FILES_CHANGED = sys.argv[1:]
 DATA_DIR = 'data/'
 EXTENSION = '.yml'
-UNMERGED_FILE = './unmerged.yml'
+UNMERGED_FILE = './holder.yml'
 
 UPDATED_APPS = []
 PREVIOUS_APPS = []

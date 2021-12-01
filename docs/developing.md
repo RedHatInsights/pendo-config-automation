@@ -64,6 +64,22 @@ bash lint.sh
 python main.py -a {APP1} -a {APP2} ... 
 ```
 
+#### Running all undeployed files from holder.yml
+
+```shell
+source venv/bin/activate
+bash lint.sh
+python main.py -u 
+```
+
+#### Clear holder.yml
+
+```shell
+source venv/bin/activate
+bash lint.sh
+python main.py -c
+```
+
 ### Scrubbing existing data
 
 Note: **This should be done after the upload is done**
