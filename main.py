@@ -121,6 +121,11 @@ def generate_stash(appName):
   with open(fullPathname, 'w') as outfile:
       yaml.dump(client.get_ids_map(), outfile)
 
+def clearUnmergedFile():
+  file = open(UNMERGED_FILE, 'w')
+  file.truncate()
+  file.close()
+
 # main
 @click.command()
 @click.option(
@@ -143,13 +148,24 @@ def generate_stash(appName):
     is_flag=True,
     help='Push all recently merged apps to Pendo (unmerged.yml)'
 )
-def main(apps, dry_run, unmerged):
+@click.option(
+    '--clear',
+    '-c',
+    is_flag=True,
+    help='Clear unmerged app list'
+)
+def main(apps, dry_run, unmerged, clear):
   start = perf_counter()
+
+  if clear:
+    clearUnmergedFile()
+    return
 
   if unmerged:
     with open(UNMERGED_FILE, 'r') as data:
       yml = yaml.safe_load(data)
       apps = yml
+      clearUnmergedFile()
   if apps:
     for app in apps:
       log.info(f'App is: {app}')
@@ -164,11 +180,6 @@ def main(apps, dry_run, unmerged):
         build_app(app, dry_run)
   
   end = perf_counter()
-
-  if unmerged:
-    file = open(UNMERGED_FILE, 'w')
-    file.truncate()
-    file.close()
 
   log.critical(f'Elapsed time: {_pretty_time_delta(end - start)}')
 
