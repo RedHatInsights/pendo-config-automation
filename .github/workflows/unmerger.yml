@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+    - name: Update unmerged file
       run: bash addUnmerged.sh
     - name: Commit files
       run: |
