@@ -12,7 +12,7 @@ import coloredlogs
 from time import perf_counter
 
 DELAY=1
-UNMERGED_FILE='unmerged.yml'
+UNMERGED_FILE='holder.yml'
 
 log = logging.getLogger("pendo-config")
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
@@ -146,7 +146,7 @@ def clearUnmergedFile():
     '--unmerged',
     '-u',
     is_flag=True,
-    help='Push all recently merged apps to Pendo (unmerged.yml)'
+    help='Push all recently merged apps to Pendo (holder.yml)'
 )
 @click.option(
     '--clear',
