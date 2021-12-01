@@ -4,6 +4,8 @@ import sys
 import json
 import client as client
 
+DRY_RUN = False
+
 def _del(t, eid):
     if not DRY_RUN:
         client.delete_entity(t, eid)
