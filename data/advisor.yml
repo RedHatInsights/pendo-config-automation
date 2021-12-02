@@ -104,7 +104,7 @@ advisor:
         - '{}[data-ouia-subnav="recommendations"] li:contains("Disable recommendation for selected systems")'
     "Recommendations - Button: Disable recommendation":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] a.pf-c-dropdown__menu-item:contains("Disable recommendation")'
+        - '{}[data-ouia-subnav="recommendations"] [data-ouia-component-id="disable"]'
 
   pages:
     All pages:

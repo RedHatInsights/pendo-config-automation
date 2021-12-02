@@ -29,10 +29,10 @@ patch:
     _scope: '[data-ouia-app-id="patch"]'
     "Advisories - Filter: Type":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("Type")'
+        - '{}[data-ouia-subnav="advisories"] [data-ouia-component-id="Type"]'
     "Advisories - Filter: Publish date":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("Publish date")'
+        - '{}[data-ouia-subnav="advisories"] [data-ouia-component-id="Publish date"]'
     "Advisories - Select all":
       selectors:
         - '{}[data-ouia-subnav="advisories"] button:contains("Select all")'
@@ -53,10 +53,10 @@ patch:
         - '{}[data-ouia-subnav="advisories"] button:contains("100 per page")'
     "Advisories - Export: CSV":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="advisories"] [data-ouia-component-id="DownloadCSV"]'
     "Advisories - Export: JSON":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="advisories"] [data-ouia-component-id="DownloadJSON"]'
     "Advisories - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="advisories"] button:contains("Name")'
@@ -104,10 +104,10 @@ patch:
         - '{}[data-ouia-subnav="systems"] button:contains("100 per page")'
     "Systems list - Export: CSV":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="DownloadCSV"]'
     "Systems list - Export: JSON":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="DownloadJSON"]'
     "Systems list - Apply all applicable advisories":
       selectors:
         - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Apply all applicable advisories")'
@@ -137,7 +137,7 @@ patch:
         - '{}[data-ouia-subnav="advisories"] button:contains("Select page")'
     "Advisories view - Remediate":
       selectors:
-        - '{}[data-ouia-subnav="advisories"] button.remediationButtonPatch:contains("Remediate")'
+        - '{}[data-ouia-subnav="advisories"] [data-ouia-component-id="toolbar-remediation-button"]'
     "Advisories view - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="advisories"] .patchCompactInventory button.pf-c-table__button:contains("Name")'
@@ -161,10 +161,10 @@ patch:
         - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Select page")'
     "Systems view - Filter: Type":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Type")'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="Type"]'
     "Systems view - Filter: Publish date":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch [role="menuitem"] button:contains("Publish date")'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="Publish date"]'
     "Systems view - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Name")'
@@ -191,13 +191,13 @@ patch:
         - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("100 per page")'
     "Systems view - Remediate":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button.remediationButtonPatch:contains("Remediate")'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="toolbar-remediation-button"]'
     "Systems view - Tab: Advisories":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .pf-c-tabs__item button:contains("Advisories")'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id-"system-advisories-tab"]'
     "Systems view - Tab: Packages":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .pf-c-tabs__item button:contains("Packages")'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id-"system-packages-tab"]'
     "Packages list - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="packages"] button.pf-c-table__button:contains("Name")'
@@ -224,13 +224,13 @@ patch:
         - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("100 per page")'
     "Packages list - Export: CSV":
       selectors:
-        - '{}[data-ouia-subnav="packages"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{}[data-ouia-subnav="packages"] [data-ouia-component-id="DownloadCSV"]'
     "Packages list - Export: JSON":
       selectors:
-        - '{}[data-ouia-subnav="packages"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{}[data-ouia-subnav="packages"] [data-ouia-component-id="DownloadJSON"]'
     "Packages list - Filter: Status":
       selectors:
-        - '{}[data-ouia-subnav="packages"] .ins-c-conditional-filter__group button:contains("Status")'
+        - '{}[data-ouia-subnav="packages"] [data-ouia-component-id="Status"]'
     "Packages view - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Name")'

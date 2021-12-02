@@ -4,16 +4,16 @@ rbac:
     _scope: '[data-ouia-app-id="rbac"]'
     "Groups - Button: Add group":
       selectors:
-        - '{} [data-ouia-subnav="groups"] button:contains("Create group")'
+        - '{}[data-ouia-subnav="groups"] [data-ouia-component-id="create-group-button"]'
     "Groups - Button: Add role":
       selectors:
-        - '{} [data-ouia-subnav="groups"] .pf-m-primary:contains("Add role")'
+        - '{}[data-ouia-subnav="groups"] [data-ouia-component-id="add-role-button"]'
     "Add role modal - Button: Add role to group":
       selectors:
-        - '{} [data-ouia-subnav="groups"] .pf-m-primary:contains("Add to group")'
+        - '{}[data-ouia-subnav="groups"] .pf-m-primary:contains("Add to group")'
     "Groups - Button: Create Group wizard submission":
       selectors:
-        - '{} [data-ouia-subnav="groups"] button:contains("Submit")'
+        - '{}[data-ouia-subnav="groups"] button:contains("Submit")'
 
   pages:
     All pages:

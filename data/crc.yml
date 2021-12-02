@@ -15,7 +15,7 @@ crc:
     _scope: '[data-ouia-app-id="landing"]'
     "Selector: Beta switcher":
       selectors:
-        - '{} button:contains("Use the beta release")'
+        - '{} [data-ouia-component-id="Use the beta release"]'
     "Red Hat logo":
       selectors:
         - '{} img[src="/apps/chrome/js/fonts/logo.svg"]'

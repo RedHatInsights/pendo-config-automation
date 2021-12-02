@@ -43,7 +43,7 @@ compliance:
         - '{}[data-ouia-subnav="systems"] div:contains("Remediate").pf-c-toolbar__item'
     "SCAP Policies - Button: Create new policy":
       selectors:
-        - '{}[data-ouia-subnav="scappolicies"] button:contains("Create new policy")'
+        - '{}[data-ouia-subnav="scappolicies"] [data-ouia-component-id="CreateNewPolicyButton"]'
     "Systems - Filter: Name":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Name")'

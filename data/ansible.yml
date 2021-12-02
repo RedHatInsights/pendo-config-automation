@@ -12,7 +12,7 @@ ansible:
     _scope: '[data-ouia-bundle="ansible"]'
     "Left Nav: Overview":
       selectors:
-        - '{} .pf-c-nav__link:contains("Overview")'
+        - '{} [data-ouia-component-id="Overview"]'
     "Left Nav: Automation Hub":
       selectors:
         - '{} .pf-c-nav__link:contains("Automation Hub")'
@@ -21,22 +21,22 @@ ansible:
         - '{} .pf-c-nav__link:contains("Automation Services Catalog")'
     "Left Nav: Insights - Saving Planner":
       selectors:
-        - '{} .pf-c-nav__link:contains("Savings Planner")'
+        - '{} data-ouia-component-id="Savings Planner"]'
     "Left Nav: Insights - Automation Calculator":
       selectors:
-        - '{} .pf-c-nav__link:contains("Automation Calculator")'
+        - '{} [data-ouia-component-id="Automation Calculator"]'
     "Left Nav: Insights - Organization Statistics":
       selectors:
-        - '{} .pf-c-nav__link:contains("Organization Statistics")'
+        - '{} [data-ouia-component-id="Organization Statistics"]'
     "Left Nav: Insights - Job Explorer":
       selectors:
-        - '{} .pf-c-nav__link:contains("Job Explorer")'
+        - '{} [data-ouia-component-id="Job Explorer"]'
     "Left Nav: Insights - Clusters":
       selectors:
-        - '{} .pf-c-nav__link:contains("Clusters")'
+        - '{} [data-ouia-component-id="Clusters"]'
     # "Left Nav: Insights - Notifications":
     #   selectors:
     #     - '{} .pf-c-nav__link:contains("Notifications")'
     "Left Nav: Insights - Documentation":
       selectors:
-        - '{} .pf-c-nav__link:contains("Documentation")'
+        - '{} [data-ouia-component-id="Documentation"]'
