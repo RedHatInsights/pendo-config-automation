@@ -1,0 +1,22 @@
+---
+policies:
+  color: 7
+  pages:
+    All pages:
+      url_rules:
+        - /insights/policies
+        - /insights/policies/**
+    Policies list:
+      url_rules:
+        - /insights/policies/list
+    Policies view:
+      url_rules:
+        - /insights/policies/policy/*
+  features:
+    _scope: '[data-ouia-app-id="policies"]'
+    "Policies - Link: Open email preferences":
+      selectors:
+        - '{} a:contains("Open email preferences")'
+    "Policies - Button: Create policy":
+      selectors:
+        - '{} button:contains("Create policy").pf-c-button'

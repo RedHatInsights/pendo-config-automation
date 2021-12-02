@@ -1,0 +1,9 @@
+---
+rhel:
+  color: 8
+  pages:
+    All pages:
+      url_rules:
+        - /rhel
+        - /rhel/**
+        - /test

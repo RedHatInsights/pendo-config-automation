@@ -1,0 +1,12 @@
+---
+insights for openshift:
+  color: 5
+  pages:
+    All pages.post04262021:
+      url_rules:
+        - /openshift/subscriptions/**
+        - /openshift/subscriptions
+        - /openshift/quota
+        - /openshift/quota/**
+        - /openshift/cost-management/**
+        - /openshift/cost-management

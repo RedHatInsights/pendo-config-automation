@@ -1,0 +1,40 @@
+---
+automation analytics:
+  color: 4
+  pages:
+    All pages:
+      url_rules:
+        - /ansible/insights
+        - /ansible/insights/**
+    Clusters:
+      url_rules:
+        - /ansible/insights/clusters
+    Organization Statistics:
+      url_rules:
+        - /ansible/insights/organization-statistics
+    Automation Calculator:
+      url_rules:
+        - /ansible/insights/automation-calculator
+    Job Explorer:
+      url_rules:
+        - /ansible/insights/job-explorer
+    Notifications:
+      url_rules:
+        - /ansible/insights/notifications
+    Savings planner:
+      url_rules:
+        - /ansible/insights/savings-planner
+  features:
+    _scope: '[data-ouia-app-id="automation-analytics"]'
+    "Clusters - Graph: Job status":
+      selectors:
+        - '{} #d3-bar-chart-root'
+    "Job Explorer - List: Job templates (compact)":
+      selectors:
+        - '{} [data-ouia-subnav="job-explorer"] .pf-c-data-list__cell a'
+    "Job Explorer - Filter by":
+      selectors:
+        - '{} [data-ouia-subnav="job-explorer"] #filterable-toolbar-with-chip-groups'
+    "Job Explorer - Pagination":
+      selectors:
+        - '{} [data-ouia-subnav="job-explorer"] .pf-c-pagination'

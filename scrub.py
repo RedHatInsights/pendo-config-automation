@@ -4,7 +4,7 @@ import sys
 import json
 import client as client
 
-DRY_RUN=True
+DRY_RUN = False
 
 def _del(t, eid):
     if not DRY_RUN:
@@ -26,11 +26,11 @@ def delete_entities(t):
                     _del(t, eid)
 
 if len(sys.argv) > 1:
-    if sys.argv[1] == '--dry=false':
-        DRY_RUN=False
+    if sys.argv[1] == '--dry-run':
+        DRY_RUN=True
 
-if DRY_RUN:
-    print('Doing a dry run. To do a for real run add --dry=false')
+if not DRY_RUN:
+    print('Scrubbing live data, if you want to debug, add --dry-run')
 
 delete_entities('feature')
 delete_entities('page')

@@ -1,0 +1,54 @@
+---
+subscription watch:
+  color: 1
+  pages:
+    All pages:
+      url_rules:
+        - /subscriptions
+        - /subscriptions/**
+    Unentitled modal:
+      url_rules:
+        - /?not_entitled=subscriptions
+        - /subscriptions/soon
+    Red Hat Enterprise Linux - All.post04262021:
+      url_rules:
+        - /insights/subscriptions/*
+    Red Hat Enterprise Linux - ARM.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel-sw/arm
+    Red Hat Enterprise Linux - IBM Power.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel-sw/ibmpower
+    Red Hat Enterprise Linux - IBM Z Systems.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel-sw/ibmz
+    Red Hat Enterprise Linux - x86.post04262021:
+      url_rules:
+        - /insights/subscriptions/rhel-sw/x86
+    Red Hat OpenShift.post04262021:
+      url_rules:
+        - /*/openshift/subscriptions/**
+        - /*/openshift/quota/**
+    Red Hat Enterprise Linux - Manifests:
+      url_rules:
+        - /*/insights/subscriptions/manifests
+  features:
+    _scope: '[data-ouia-bundle="subscriptions"]'
+    "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
+      selectors:
+        - '{} a:contains("Learn more about Subscription Watch reporting")'
+    "Red Hat Enterprise Linux - Link: Physical RHEL":
+      selectors:
+        - '{} a:contains("Physical RHEL")'
+    "Red Hat Enterprise Linux - Link: Virtualized RHEL":
+      selectors:
+        - '{} a:contains("Virtualized RHEL")'
+    "Red Hat Enterprise Linux - Link: Public cloud":
+      selectors:
+        - '{} a:contains("Public cloud")'
+    "Red Hat Enterprise Linux - Link: Subscription threshold":
+      selectors:
+        - '{} a:contains("Subscription threshold")'
+    "Red Hat OpenShift - Link: Cores":
+      selectors:
+        - '{} a:contains("Cores")'

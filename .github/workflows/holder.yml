@@ -1,0 +1,24 @@
+name: "Add unmerged files to holder file"
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  triage:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    env:
+      NACHOBOT_TOKEN: ${{ secrets.NACHOBOT_TOKEN }}
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 3
+        token: ${{ secrets.NACHOBOT_TOKEN }}
+    - name: Update holder file
+      run: bash holder.sh
+    - name: Commit files
+      run: |
+        git config --local user.email "sadams@redhat.com"
+        git config --local user.name "NachoBot"
+        git commit -m "Update holder file" -a
+        git push

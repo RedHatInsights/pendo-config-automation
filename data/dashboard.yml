@@ -1,0 +1,72 @@
+---
+dashboard:
+  color: 1
+  pages:
+    Host list:
+      url_rules:
+        - /insights/dashboard
+  features:
+    _scope: '[data-ouia-app-id="dashboard"]'
+    "Dashboard - Link: Systems running insights-client":
+      selectors:
+        - '{} a:contains("Systems running insights-client")'
+    "Dashboard - Link: X stale systems":
+      selectors:
+        - '{} a:contains("stale systems")'
+    "Dashboard - Link: X systems to be removed":
+      selectors:
+        - '{} a:contains("systems to be removed")'
+    "Dashboard - Link: Recommendations":
+      selectors:
+        - '{} a:contains("recommendations")'
+    "Dashboard - Link: X CVEs impacting your systems":
+      selectors:
+        - '{} a:contains("CVEs impacting your systems")'
+    "Dashboard - Link: X systems affected":
+      selectors:
+        - '{} a:contains("systems affected")'
+    "Dashboard - Link: Subscription Watch utilization - Red Hat Enterprise Linux":
+      selectors:
+        - '{} a:contains("Red Hat Enterprise Linux")'
+    "Dashboard - Link: Subscription Watch utilization - Red Hat OpenShift":
+      selectors:
+        - '{} a:contains("Red Hat OpenShift")'
+    "Dashboard - Link to Vulnerability: View CVEs":
+      selectors:
+        - '{} .ins-c-dashboard__card--compound--Vulnerabilities a:contains("View CVEs")'
+    "Dashboard - Link to Vulnerability: View known exploits":
+      selectors:
+        - '{} .ins-c-dashboard__card--compound--Vulnerabilities a:contains("View known exploits")'
+    "Dashboard - Link to Vulnerability: CVEs by CVSS score filters":
+      selectors:
+        - '{} .ins-c-dashboard__card--compound--Vulnerabilities .ins-c-dashboard__card-chart-container a'
+    "Dashboard - Link to Vulnerability: Security rule details":
+      selectors:
+        - '{} .ins-c-dashboard-data-list a'
+    "Dashboard - Link to Patch: View all systems affected":
+      selectors:
+        - '{} .ins-c-dashboard__card--PatchManager a:contains("systems affected")'
+    "Dashboard - Link to Patch: View security advisories":
+      selectors:
+        - '{} .ins-c-dashboard__card--PatchManager a:contains("Security advisories")'
+    "Dashboard - Link to Patch: View bug fix advisories":
+      selectors:
+        - '{} .ins-c-dashboard__card--PatchManager a:contains("Bug fixes")'
+    "Dashboard - Link to Patch: View enhancement advisories":
+      selectors:
+        - '{} .ins-c-dashboard__card--PatchManager a:contains("Enhancement")'
+    "Dashboard - Button: Register systems":
+      selectors:
+        - '{} .pf-c-button[href="./insights/registration"]:contains("Register systems")'
+    "Dashboard - Link: Systems registered with Insights":
+      selectors:
+        - '{} .pf-m-link[href="./insights/inventory/?status=fresh&status=stale&source=insights"]:contains("Systems registered with Insights")'
+    "Dashboard - Button: View CVEs":
+      selectors:
+        - '{} .pf-c-button:contains("View CVEs")'
+    "Dashboard - Button: View known exploits":
+      selectors:
+        - '{} .pf-c-button:contains("View known exploits")'
+    "Dashboard - Button: View incidents":
+      selectors:
+        - '{} .pf-c-button:contains("View incidents")'

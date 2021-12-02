@@ -1,0 +1,75 @@
+# Add 'logic' label to any change to python files
+logic:
+- '*.py'
+
+# Add stash bump label to any stashfile changes
+stash:
+- 'stash/*'
+
+# Add config update to any file changes in /data
+data:
+- 'data/*'
+
+# Docs
+documentation:
+- 'README.md'
+- 'docs/*'
+
+# Application updates
+ansible:
+- 'data/ansible.yml'
+advisor:
+- 'data/advisor.yml'
+application-services:
+- 'data/application-services.yml'
+automation-analytics:
+- 'data/automation-analytics.yml'
+automation-hub:
+- 'data/automation-hub.yml'
+automation-services-catalog:
+- 'data/automation-services-catalog.yml'
+compliance:
+- 'data/compliance.yml'
+console-landing-page:
+- 'data/console-landing-page.yml'
+cost-management:
+- 'data/cost-management.yml'
+crc:
+- 'data/crc.yml'
+dashboard:
+- 'data/dashboard.yml'
+drift:
+- 'data/drift.yml'
+fleet-management:
+- 'data/fleet-management.yml'
+insights-for-openshift:
+- 'data/insights-for-openshift.yml'
+insights:
+- 'data/insights.yml'
+inventory:
+- 'data/inventory.yml'
+manage-images:
+- 'data/manage-images.yml'
+openshift:
+- 'data/openshift.yml'
+patch:
+- 'data/patch.yml'
+policies:
+- 'data/policies.yml'
+rbac:
+- 'data/rbac.yml'
+register-systems:
+- 'data/register-systems.yml'
+remediations:
+- 'data/remediations.yml'
+rhel:
+- 'data/rhel.yml'
+settings:
+- 'data/settings.yml'
+subscription-watch:
+- 'data/subscription-watch.yml'
+user-preferences:
+- 'data/user-preferences.yml'
+vulnerability:
+- 'data/vulnerability.yml'
+

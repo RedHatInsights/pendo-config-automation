@@ -1,0 +1,30 @@
+---
+remediations:
+  color: 9
+  pages:
+    All pages:
+      url_rules:
+        - /rhel/remediations
+        - /rhel/remediations/**
+        - /insights/remediations
+        - /insights/remediations/**
+  features:
+    _scope: '[data-ouia-app-id="remediations"]'
+    "Remediations - All apps - Button: Remediate":
+      selectors:
+        - 'button:contains("Remediate")'
+    "Remediations - Button: Download playbook":
+      selectors:
+        - '{} button:contains("Download playbook")'
+    "Remediations - Button: Execute playbook":
+      selectors:
+        - '{} button:contains("Execute playbook")'
+    "Remediations - Button: Remove actions":
+      selectors:
+        - '{} button:contains("Remove actions")'
+    "Remediations - Button: Auto reboot":
+      selectors:
+        - '{} button:contains("Auto Reboot")'
+    "Remediations - Button: Activity":
+      selectors:
+        - '{} button:contains("Activity")'

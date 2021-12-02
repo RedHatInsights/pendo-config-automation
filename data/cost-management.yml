@@ -1,0 +1,39 @@
+---
+cost management:
+  color: 6
+  pages:
+    All pages.post04262021:
+      url_rules:
+        - /openshift/cost-management/**
+        - /openshift/cost-management/
+    Overview.post04262021:
+      url_rules:
+        - /openshift/cost-management/
+    OpenShift.post04262021:
+      url_rules:
+        - /openshift/cost-management/ocp
+        - /openshift/cost-management/ocp/**
+    Amazon Web Services.post04262021:
+      url_rules:
+        - /openshift/cost-management/aws
+        - /openshift/cost-management/aws/**
+        - /openshift/cost-management/infrastructure/aws
+        - /openshift/cost-management/infrastructure/aws/**
+        - /openshift/cost-management/details/aws
+    Microsoft Azure.post04262021:
+      url_rules:
+        - /openshift/cost-management/azure
+        - /openshift/cost-management/azure/**
+        - /openshift/cost-management/infrastructure/azure
+        - /openshift/cost-management/infrastructure/azure/**
+    Google Cloud Platform.post04262021:
+      url_rules:
+        - /openshift/cost-management/gcp
+        - /openshift/cost-management/gcp/**
+    Cost Models.post04262021:
+      url_rules:
+        - /openshift/cost-management/cost-models
+        - /openshift/cost-management/cost-models/**
+    Explorer.post04262021:
+      url_rules:
+        - /openshift/cost-management/explorer/*
