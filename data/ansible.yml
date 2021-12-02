@@ -21,7 +21,7 @@ ansible:
         - '{} .pf-c-nav__link:contains("Automation Services Catalog")'
     "Left Nav: Insights - Saving Planner":
       selectors:
-        - '{} data-ouia-component-id="Savings Planner"]'
+        - '{} [data-ouia-component-id="Savings Planner"]'
     "Left Nav: Insights - Automation Calculator":
       selectors:
         - '{} [data-ouia-component-id="Automation Calculator"]'
