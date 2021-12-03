@@ -33,10 +33,10 @@ subscription watch:
       url_rules:
         - /*/insights/subscriptions/manifests
   features:
-    _scope: '[data-ouia-bundle="subscriptions"]'
+    _scope: '[data-ouia-app-id="subscriptions"]'
     "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
       selectors:
-        - '{} a:contains("Learn more about Subscription Watch reporting")'
+        - '{} a:contains("Learn more about Subscriptions reporting")'
     "Red Hat Enterprise Linux - Link: Physical RHEL":
       selectors:
         - '{} a:contains("Physical RHEL")'

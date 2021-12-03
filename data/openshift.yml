@@ -298,43 +298,43 @@ openshift:
         - '{} .pf-c-nav__link[href="/openshift/overview"]:contains("Overview")'
     "Left Nav: Releases":
       selectors:
-        - '{} .pf-c-nav__link[href="/openshift/releases"]:contains("Releases")'
+        - '{} [data-ouia-component-id="Releases"]'
     "Left Nav: Downloads":
       selectors:
-        - '{} .pf-c-nav__link[href="/openshift/downloads"]:contains("Downloads")'
+        - '{} [data-ouia-component-id="Downloads"]'
     "Left Nav: Subscriptions":
       selectors:
         - '{} .pf-c-nav__link:contains("Subscriptions")'
     "Left Nav: Container Platform":
       selectors:
-        - '{} .pf-c-nav__link:contains("Container Platform")'
+        - '{} [data-ouia-component-id="Container Platform"]'
     "Left Nav: Dedicated Annual":
       selectors:
-        - '{} .pf-c-nav__link:contains("Dedicated (Annual)")'
+        - '{} [data-ouia-component-id="Dedicated (Annual)"]'
     "Left Nav: Dedicated On Demand":
       selectors:
-        - '{} .pf-c-nav__link:contains("Dedicated (On-Demand)")'
+        - '{} [data-ouia-component-id="Dedicated (On-Demand)"]'
     "Left Nav: Dedicated On Demand Limits":
       selectors:
-        - '{} .pf-c-nav__link:contains("Dedicated (On-Demand Limits)")'
+        - '{} [data-ouia-component-id="Dedicated (On-Demand limits)"]'
     "Left Nav: RHEL Subscriptions":
       selectors:
-        - '{} .pf-c-nav__link:contains("RHEL Subscriptions")'
+        - '{} [data-ouia-component-id="RHEL Subscriptions"]'
     "Left Nav: Cost Management":
       selectors:
         - '{} .pf-c-nav__link:contains("Cost Management")'
     "Left Nav: Suport Cases":
       selectors:
-        - '{} .pf-c-nav__link:contains("Support Cases")'
+        - '{} [data-ouia-component-id="Support Cases"]'
     "Left Nav: Cluster Manager Feedback":
       selectors:
-        - '{} .pf-c-nav__link:contains("Cluster Manager Feedback")'
+        - '{} [data-ouia-component-id="Cluster Manager Feedback"]'
     "Left Nav: Red Hat Marketplace":
       selectors:
-        - '{} .pf-c-nav__link:contains("Red Hat Marketplace")'
+        - '{} [data-ouia-component-id="Red Hat Marketplace"]'
     "Left Nav: Documentation":
       selectors:
-        - '{} .pf-c-nav__link:contains("Documentation")'
+        - '{} [data-ouia-component-id="Documentation"]'
     "Releases - Link: OpenShift 4.8":
       selectors:
         - '{}[data-ouia-app-id="releases"] a[href="https://docs.openshift.com/container-platform/4.8/release_notes/ocp-4-8-release-notes.html"]:contains("OpenShift 4.8")'
