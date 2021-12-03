@@ -194,10 +194,10 @@ patch:
         - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="toolbar-remediation-button"]'
     "Systems view - Tab: Advisories":
       selectors:
-        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id-"system-advisories-tab"]'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="system-advisories-tab"]'
     "Systems view - Tab: Packages":
       selectors:
-        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id-"system-packages-tab"]'
+        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="system-packages-tab"]'
     "Packages list - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="packages"] button.pf-c-table__button:contains("Name")'
