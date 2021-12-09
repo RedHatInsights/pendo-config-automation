@@ -42,6 +42,15 @@ openshift:
     Create clusters - GCP - Install OSD cluster:
       url_rules:
         - /openshift/create/osdtrial/gcp
+    Create cluster - ROSA - Welcome:
+      url_rules:
+        - /openshift/create/rosa/welcome
+    ROSA - API Token:
+      url_rules:
+        - /openshift/token/rosa
+    ROSA - API Token (Loaded):
+      url_rules:
+        - /openshift/token/rosa/show
     Clusters - Create a cluster to get started:
       url_rules:
         - /openshift/create
