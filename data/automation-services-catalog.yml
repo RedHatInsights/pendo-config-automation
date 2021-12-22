@@ -18,3 +18,10 @@ automation services catalog:
     Approval:
       url_rules:
         - /ansible/catalog/approval/*
+    Platforms:
+      url_rules:
+        - /ansible/catalog/platforms/
+    Order-processes:
+      url_rules:
+        - /ansible/catalog/order-processes/
+ 
