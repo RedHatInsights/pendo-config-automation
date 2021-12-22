@@ -21,6 +21,12 @@ automation hub:
     My Namespaces view:
       url_rules:
         - /ansible/automation-hub/my-namespaces/*
+    Connect to hub:
+      url_rules:
+        - /ansible/automation-hub/token/
+    Repo Management:
+      url_rules:
+        - /ansible/automation-hub/repositories/
   features:
     _scope: '[data-ouia-app-id="automation-hub"]'
     "Partners - Link: View collections":
