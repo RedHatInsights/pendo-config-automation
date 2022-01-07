@@ -24,4 +24,3 @@ automation services catalog:
     Order-processes:
       url_rules:
         - /ansible/catalog/order-processes/
- 
