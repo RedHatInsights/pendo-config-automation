@@ -24,7 +24,7 @@ automation analytics:
     Savings planner:
       url_rules:
         - /ansible/insights/savings-planner
-    Reports list :
+    Reports list:
       url_rules:
         - /ansible/insights/reports/
     Reports view - hosts changed by job template:
@@ -57,7 +57,6 @@ automation analytics:
     Reports view - module usage by task:
       url_rules:
         - /ansible/insights/reports/module_usage_by_task
-    
   features:
     _scope: '[data-ouia-app-id="automation-analytics"]'
     "Clusters - Graph: Job status":
