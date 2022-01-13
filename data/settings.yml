@@ -136,6 +136,12 @@ settings:
     Notifications - RHEL:
       url_rules:
         - /settings/notifications/rhel
+    Notifications - Openshift:
+      url_rules:
+        - /settings/notifications/openshift
+    Notifications - Application Services:
+      url_rules:
+        - /settings/notifications/application-services      
     Red Hat Connector:
       url_rules:
         - /settings/connector
