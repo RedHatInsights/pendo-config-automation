@@ -10,6 +10,10 @@ insights for openshift:
         - /openshift/quota/**
         - /openshift/cost-management/**
         - /openshift/cost-management
+    OCP Advisor - All pages:
+      url_rules:
+        - /openshift/insights/advisor
+        - /openshift/insights/advisor/**
     OCP Advisor - Recommendations:
       url_rules:
         - /openshift/insights/advisor/recommendations
