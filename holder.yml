@@ -1,5 +1,6 @@
-- insights-for-openshift
-- automation-analytics
-- automation-hub
 - automation-services-catalog
+- settings
+- automation-hub
+- insights-for-openshift
 - vulnerability
+- automation-analytics
