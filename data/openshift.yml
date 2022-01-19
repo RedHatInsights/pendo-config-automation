@@ -21,6 +21,8 @@ openshift:
     Cluster view - Insights.post01172021:
       url_rules:
         - /openshift/details/s/*#insights
+        - /openshift/insights/advisor
+        - /openshift/insights/advisor/**
     Cluster view - Insights recommendation view.post01172021:
       url_rules:
         - /openshift/details/s/*/insights/*parameter*
