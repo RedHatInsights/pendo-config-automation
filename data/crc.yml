@@ -19,6 +19,9 @@ crc:
     "Red Hat logo":
       selectors:
         - '{} img[src="/apps/chrome/js/fonts/logo.svg"]'
+    "Purple feedback tab":
+      selectors:
+        - '.pf-c-button[data-ouia-component-id="feedback-button"]'
     "Find an app or service":
       selectors:
         - '{} button:contains("Find an app or service")'
