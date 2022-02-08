@@ -1,0 +1,8 @@
+---
+app srvs:
+  color: 1
+  pages:
+    API Management:
+      url_rules:
+        - /application-services/api-management
+        - /application-services/api-management/**

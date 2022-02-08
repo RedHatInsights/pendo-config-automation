@@ -1,0 +1,8 @@
+---
+app srvs:
+  color: 1
+  pages:
+    Connectors:
+      url_rules:
+        - /application-services/connectors
+        - /application-services/connectors/**
