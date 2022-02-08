@@ -1,5 +1,5 @@
 ---
-app srvs:
+data srvs:
   color: 2
   pages:
     Data Science:
