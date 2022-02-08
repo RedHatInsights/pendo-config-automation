@@ -1,3 +1,12 @@
+- app-srvs-api-management
+- main
+- data-srvs-data-science
+- app-srvs-streams
 - crc
-- subscription-watch
+- application-services
+- data-srvs-database-access
 - openshift
+- app-srvs-service-accounts
+- app-srvs-connectors
+- app-srvs-service-registry
+- subscription-watch
