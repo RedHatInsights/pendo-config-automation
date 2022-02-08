@@ -1,0 +1,8 @@
+---
+app srvs:
+  color: 1
+  pages:
+    Service Registry:
+      url_rules:
+        - /application-services/service-registry
+        - /application-services/service-registry/**

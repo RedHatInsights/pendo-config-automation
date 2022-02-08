@@ -1,0 +1,8 @@
+---
+data srvs:
+  color: 2
+  pages:
+    Database Access:
+      url_rules:
+        - /application-services/databases
+        - /application-services/databases/**

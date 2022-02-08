@@ -1,0 +1,8 @@
+---
+data srvs:
+  color: 2
+  pages:
+    Data Science:
+      url_rules:
+        - /application-services/data-science
+        - /application-services/data-science/**

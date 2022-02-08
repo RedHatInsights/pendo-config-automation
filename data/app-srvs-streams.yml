@@ -1,0 +1,10 @@
+---
+app srvs:
+  color: 1
+  pages:
+    Streams for Apache Kafka - Overview:
+      url_rules:
+        - /application-services/streams
+    Streams for Apache Kafka - Data Plane:
+      url_rules:
+        - /application-services/streams/**
