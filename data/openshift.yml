@@ -244,6 +244,9 @@ openshift:
     "Clusters - Button: Download RHCOS RAW":
       selectors:
         - '{} a:contains("Download RHCOS RAW")'
+    "Clusters - Card: vSphere Assisted Installer":
+      selector:
+        - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/assisted-installer/clusters/~new"]
     "Clusters - Filter: Cluster type":
       selectors:
         - '{} button:contains("Filter")'
