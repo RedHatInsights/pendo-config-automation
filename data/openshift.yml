@@ -247,6 +247,12 @@ openshift:
     "Clusters - Card: vSphere Assisted Installer":
       selectors:
         - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/assisted-installer/clusters/~new"]'
+    "Clusters - Card: vSphere Installer-provisioned infrastructure":
+      selectors:
+        - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/install/vsphere/installer-provisioned"]'
+    "Clusters - Card: vSphere User-provisioned infrastructure":
+      selectors:
+        - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/install/vsphere/user-provisioned"]'
     "Clusters - Link: KB Link":
       selectors:
         - '{} label[for="form-input-usePlatformIntegration-field"]'
