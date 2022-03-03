@@ -33,6 +33,6 @@ applications:
   - "remediations"
   - "rhel"
   - "settings"
-  - "subscription-watch"
+  - "subscriptions"
   - "user-preferences"
   - "vulnerability"
