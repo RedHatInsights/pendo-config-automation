@@ -1,5 +1,5 @@
 ---
-subscription watch:
+subscriptions:
   color: 1
   pages:
     All pages:
@@ -16,16 +16,16 @@ subscription watch:
         - /insights/subscriptions/*
     Red Hat Enterprise Linux - ARM:
       url_rules:
-        - /insights/subscriptions/rhel-sw/arm
+        - /insights/subscriptions/rhel-arm
     Red Hat Enterprise Linux - IBM Power:
       url_rules:
-        - /insights/subscriptions/rhel-sw/ibmpower
+        - /insights/subscriptions/rhel-ibmpower
     Red Hat Enterprise Linux - IBM Z Systems:
       url_rules:
-        - /insights/subscriptions/rhel-sw/ibmz
+        - /insights/subscriptions/rhel-ibmz
     Red Hat Enterprise Linux - x86:
       url_rules:
-        - /insights/subscriptions/rhel-sw/x86
+        - /insights/subscriptions/rhel-x86
     Red Hat OpenShift - All:
       url_rules:
         - /*/openshift/subscriptions/**
