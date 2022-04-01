@@ -10,6 +10,7 @@ insights:
   - inventory
   - remediations
   - register systems
+  - image builder
 
 subscription watch:
   - subscription watch
