@@ -96,6 +96,9 @@ advisor:
     "Systems - Sort: Critical":
       selectors:
         - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Critical")'
+    "Systems - Button: Export data":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .pf-m-plain.pf-c-dropdown__toggle[data-ouia-component-id="Export"]'
     "Recommendations - Link: Knowledgebase articles":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] a:contains("Knowledgebase article")'
