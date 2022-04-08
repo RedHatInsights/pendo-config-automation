@@ -25,6 +25,9 @@ dashboard:
     "Dashboard - Link: X systems affected":
       selectors:
         - '{} a:contains("systems affected")'
+    " Dashboard - Link: X incidents detected":
+      selectors:
+        - '{} .pf-m-secondary:contains("View incidents")'
     "Dashboard - Link: Subscription Watch utilization - Red Hat Enterprise Linux":
       selectors:
         - '{} a:contains("Red Hat Enterprise Linux")'
@@ -42,7 +45,7 @@ dashboard:
         - '{} .ins-c-dashboard__card--compound--Vulnerabilities .ins-c-dashboard__card-chart-container a'
     "Dashboard - Link to Vulnerability: Security rule details":
       selectors:
-        - '{} .ins-c-dashboard-data-list a'
+        - '{} .pf-m-secondary:contains("View CVEs")'
     "Dashboard - Link to Patch: View all systems affected":
       selectors:
         - '{} .ins-c-dashboard__card--PatchManager a:contains("systems affected")'
