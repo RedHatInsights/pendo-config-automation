@@ -1,0 +1,42 @@
+---
+image builder:
+  color: 11
+  pages:
+    Image creation wizard:
+      url_rules:
+        - /insights/image-builder/imagewizard/**
+  features:
+    _scope: '[data-ouia-bundle="insights"][data-ouia-app-id="image-builder"]'
+    "Step 1 - Details":
+      selectors:
+        - '{} [id=wizard-details]'
+    "Step 2 - Image Output":
+      selectors:
+        - '{} [id=wizard-imageoutput]'
+    "Step 3A - Target AWS":
+      selectors:
+        - '{} [id=wizard-target-aws]'
+    "Step 3B - Target GCP":
+      selectors:
+        - '{} [id=wizard-target-gcp]'
+    "Step 3C - Target Azure":
+      selectors:
+        - '{} [id=wizard-target-msazure]'
+    "Step 4 - Registration":
+      selectors:
+        - '{} [id=wizard-registration]'
+    "Step 5A - System configuration Filesystem":
+      selectors:
+        - '{} [id=wizard-systemconfiguration-filesystem]'
+    "Step 5B - System configuration Packages":
+      selectors:
+        - '{} [id=wizard-systemconfiguration-packages]'
+    "Step 6 - Review":
+      selectors:
+        - '{} [id=wizard-review]'
+    "Wizard Cancel button":
+      selectors:
+        - '{} .pf-c-button:contains("Cancel")'
+    "Wizard Create Image button":
+      selectors:
+        - '{} .pf-c-button:contains("Create Image")'
