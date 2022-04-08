@@ -1,5 +1,6 @@
-- subscription-watch
-- main
-- dashboard
+- image-builder
 - vulnerability
+- dashboard
+- main
+- subscription-watch
 - openshift
