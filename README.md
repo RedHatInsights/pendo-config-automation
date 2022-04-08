@@ -6,7 +6,7 @@ This is the *only* way to add things to Pendo. If you do this manually in the ap
 
 ## Documentation
 
-There is deeper documentation for adding data in [data.md](/docs/data.md)
+There is deeper documentation for adding data in [data.md](/docs/data.md) 
 
 There is deeper documentation for developers in [developing.md](/docs/developing.md)
 
