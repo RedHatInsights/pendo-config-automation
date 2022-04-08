@@ -246,7 +246,7 @@ openshift:
         - '{} a:contains("Download RHCOS RAW")'
     "Clusters - Card: vSphere Assisted Installer":
       selectors:
-        - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/assisted-installer/clusters/~new"]'
+        - '{} [data-testid="assisted-installer-vsphere-card"]'
     "Clusters - Card: vSphere Installer-provisioned infrastructure":
       selectors:
         - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/install/vsphere/installer-provisioned"]'
@@ -255,7 +255,7 @@ openshift:
         - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/install/vsphere/user-provisioned"]'
     "Clusters - Link: KB Link":
       selectors:
-        - '{} a[href="https://access.redhat.com/solutions/6677901"]'
+        - '{} [data-ouia-component-id="vm-integration-kb-page"]'
     "Clusters - Filter: Cluster type":
       selectors:
         - '{} button:contains("Filter")'
