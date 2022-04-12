@@ -23,6 +23,7 @@ applications:
   - "insights-for-openshift"
   - "insights"
   - "inventory"
+  - "image-builder"
   - "malware"
   - "manage-images"
   - "openshift"

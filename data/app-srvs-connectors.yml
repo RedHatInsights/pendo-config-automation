@@ -6,3 +6,6 @@ app srvs:
       url_rules:
         - /application-services/connectors
         - /application-services/connectors/**
+    Connectors - Create connector:
+      url_rules:
+        - /application-services/create-connector
