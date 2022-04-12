@@ -1,8 +1,9 @@
-- image-builder
-- dashboard
 - vulnerability
-- advisor
-- main
+- dashboard
+- image-builder
 - subscription-watch
-- openshift
 - app-srvs-connectors
+- openshift
+- main
+- advisor
+- api-docs
