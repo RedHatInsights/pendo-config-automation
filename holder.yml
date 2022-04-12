@@ -1,6 +1,7 @@
+- dashboard
+- subscription-watch
+- main
 - image-builder
 - vulnerability
-- dashboard
-- main
-- subscription-watch
+- app-srvs-connectors
 - openshift
