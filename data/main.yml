@@ -2,6 +2,7 @@
 applications:
   - "advisor"
   - "ansible"
+  - "api-docs"
   - "application-services"
   - "app-srvs-api-management"
   - "app-srvs-connectors"
