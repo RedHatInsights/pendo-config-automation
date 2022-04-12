@@ -1,0 +1,12 @@
+---
+api docs:
+  color: 1
+  pages:
+    All pages:
+      url_rules:
+        - /docs/api
+        - /docs/api/**
+    Advisor:
+      url_rules:
+        - /docs/api/insights
+        - /docs/api/insights/**
