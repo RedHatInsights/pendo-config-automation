@@ -96,6 +96,15 @@ advisor:
     "Systems - Sort: Critical":
       selectors:
         - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Critical")'
+    "Systems - Button: Export to CSV":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to CSV")'
+    "Systems - Button: Export to JSON":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to JSON")'
+    "Systems - Button: Export to PDF":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to PDF")'
     "Recommendations - Link: Knowledgebase articles":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] a:contains("Knowledgebase article")'
