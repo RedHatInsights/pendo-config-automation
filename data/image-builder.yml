@@ -1,6 +1,6 @@
 ---
 image builder:
-  color: 11
+  color: 10
   pages:
     Image creation wizard:
       url_rules:

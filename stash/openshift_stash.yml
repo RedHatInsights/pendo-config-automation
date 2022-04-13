@@ -137,12 +137,16 @@ _openshift | Cluster view - node installer degraded: xzRy8JHiHVEKhKAgfrtFVToAP5I
 '_openshift | Clusters - Button: Try it on Azure': f9y2k7GTHX1rSRehVnAP4ck8ap4
 '_openshift | Clusters - Button: Try it on IBM': ZJVyw9HBKvQU1coI4_U4OytdGcI
 '_openshift | Clusters - Button: User provisioned infrastructure': Ymyphu6pm2MB7jHInmvl8x421Cc
+'_openshift | Clusters - Card: vSphere Assisted Installer': -Mt-lm8mgzwyzLIlfou1pj-TsVo
+'_openshift | Clusters - Card: vSphere Installer-provisioned infrastructure': 8gLb1rXH37EznIg9vlnMOaaWcJw
+'_openshift | Clusters - Card: vSphere User-provisioned infrastructure': ZEe4l5IaC_9W_gccb4J-tay2p_E
 _openshift | Clusters - Create a cluster to get started: c__ls5yxZYOxIWVJBUFfboG_0Sc
 _openshift | Clusters - Create trial cluster - select AWS or GCP: kAf7nPPNXWwlDZ2RtR3kceJ5VVc
 '_openshift | Clusters - Filter: Cluster type': B8TFHV1-47MA73HckNFlFj36RaQ
 '_openshift | Clusters - Link: Bare metal': BktWOAccCUkp3ohA9q8rOXIOftE
 '_openshift | Clusters - Link: IBM Z': 0slUzr0T4JxgPjKXQ37a83lWCms
 '_openshift | Clusters - Link: Install with customizations': z_xFsHYLxjG82U-8-k6LLgpJ1Fk
+'_openshift | Clusters - Link: KB Link': OXLWAJfjj2RtwJs9FrfFyCpT_Hg
 '_openshift | Clusters - Link: Platform agnostic': kmKp_4isRAzdeMAS79V4__tuiF4
 '_openshift | Clusters - Link: Power': mYBmCGPZYmx7Wq8EghQqZ08K5vU
 '_openshift | Clusters - Link: Red Hat OpenStack': yIbK-xVxh8BOjtlQ3KdeMP9a1Sk
