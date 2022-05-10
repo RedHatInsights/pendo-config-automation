@@ -8,4 +8,4 @@ app srvs:
         - /application-services/connectors/**
     Connectors - Create connector:
       url_rules:
-        - /application-services/create-connector
+        - /application-services/connectors/create-connector
