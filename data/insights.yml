@@ -6,6 +6,9 @@ insights:
       url_rules:
         - /insights
         - /insights/**
+    Overview:
+      url_rules:
+        - /insights/dashboard
     Security:
       url_rules:
         - /security/insights

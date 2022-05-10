@@ -2,12 +2,24 @@
 fleet management:
   color: 9
   pages:
-    Manage device page:
+    Inventory:
+      url_rules:
+        - /edge/inventory
+    Inventory details page:
+      url_rules:
+        - /edge/inventory/details/*
+    Manage groups page:
       url_rules:
         - /edge/fleet-management
-    Device details page:
+    Manage groups details page:
       url_rules:
         - /edge/fleet-management/*
+    Manage Images pages:
+      url_rules:
+        - /edge/manage-images
+    Manage Images details page:
+      url_rules:
+        - /edge/manage-images/*
   features:
     _scope: '[data-ouia-app-id="fleet-management"]'
     "Manage device - Filter: Attribute Dropdown":
