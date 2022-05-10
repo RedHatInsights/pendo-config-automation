@@ -20,7 +20,7 @@ applications:
   - "data-srvs-data-science"
   - "data-srvs-database-access"
   - "drift"
-  - "fleet-management"
+  - "edge-management"
   - "insights-for-openshift"
   - "insights"
   - "inventory"
