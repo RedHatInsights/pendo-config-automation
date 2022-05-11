@@ -34,3 +34,12 @@ edge management:
     "Manage device - Button: Update":
       selectors:
         - '{} .pf-c-dropdown__menu-item:contains("Update")'
+    "Edge management entitlement modal - Button: Get Started":
+      selectors:
+        - '{} .pf-m-primary.pf-c-button:contains("Get started")'
+    "Edge management entitlement modal - Button: Try the interactive demo":
+      selectors:
+        - '{} .pf-c-button.pf-m-secondary:contains("Try the interactive demo")'
+    "Edge management entitlement modal - Button: Not now":
+      selectors:
+        - '{} .pf-m-link.pf-c-button:contains("Not now")'

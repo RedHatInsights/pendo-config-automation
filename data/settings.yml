@@ -129,6 +129,9 @@ settings:
     Integrations:
       url_rules:
         - /settings/integrations
+    Integrations - Splunk Setup:
+      url_rules:
+        - /settings/integrations/splunk-setup
     Notifications:
       url_rules:
         - /settings/notifications
