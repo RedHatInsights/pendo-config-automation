@@ -11,6 +11,9 @@ crc:
     All pages EXCEPT landing page:
       url_rules:
         - /**
+    Azure Activation Modal:
+      url_rules:
+        - /?azure-openshift-activation
   features:
     _scope: '[data-ouia-app-id="landing"]'
     "Selector: Beta switcher":
