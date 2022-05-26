@@ -25,6 +25,9 @@ patch:
     Packages view:
       url_rules:
         - /insights/patch/packages/*/
+    Patch set:
+      url_rules:
+        - /insights/patch/patch-set
   features:
     _scope: '[data-ouia-app-id="patch"]'
     "Advisories - Filter: Type":
