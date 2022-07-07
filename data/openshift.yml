@@ -47,6 +47,9 @@ openshift:
     Create cluster - ROSA - Welcome:
       url_rules:
         - /openshift/create/rosa/welcome
+    Create cluster - ROSA - Wizard:
+      url_rules:
+        - /openshift/create/rosa/wizard
     ROSA - API Token:
       url_rules:
         - /openshift/token/rosa
