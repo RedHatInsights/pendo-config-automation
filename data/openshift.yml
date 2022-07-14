@@ -415,3 +415,9 @@ openshift:
     "Subscriptions - Button: Take a tour":
       selectors:
         - '{}[data-ouia-app-id="subscriptions"] .pf-c-label__content:contains("Take a tour")'
+    "Assisted - Button: vSphere info":
+      selectors:
+        - '{}[data-ouia-app-id="assisted-installer"] [data-ouia-component-id="platform-integration-vSphere-popover"]'
+    "Assisted - Button: vSphere switch":
+      selectors:
+        - '{}[data-ouia-app-id="assisted-installer"] [data-ouia-component-id="platform-integration-vSphere-switch"]'
