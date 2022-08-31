@@ -1,0 +1,18 @@
+---
+acs:
+  color: 1
+  pages:
+    Instances page:
+      url_rules:
+        - /instances
+    Instance details page:
+      url_rules:
+        - /instances/instance/*
+  features:
+    _scope: '[data-ouia-bundle="application-services"][data-ouia-app-id="acs"]'
+    "Left Nav: Advanced Cluster Security - Documentation":
+      selectors:
+        - '{} [data-ouia-component-id="Documentation"]'
+    "Button: Create ACS instance":
+      selectors:
+        - '{} button:contains("Create ACS instance")'
