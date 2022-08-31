@@ -5,10 +5,10 @@ _aggregate openshift | Assisted Bare Metal Installer - Cluster list: Pvty0gQ3nud
 _aggregate openshift | Assisted Installer purple feedback form: BVmGy7up_YDaCgFxi1tLaMePaXc
 _aggregate openshift | Cluster view - Add ons: hBkc-OppH91P8QTI-UK3KJexTMQ
 _aggregate openshift | Cluster view - All: eebKMwu4EzyXfSCkYjs6LleDimI
-_aggregate openshift | Cluster view - Insights recommendation view.post01172021: 18vh_v5zKrdVDwrmOLUr4Asb15g
-_aggregate openshift | Cluster view - Insights.post01172021: Pa3MKZTYXYzyYe0IljkAkgvuK-8
-_aggregate openshift | Cluster view - Monitoring.post01172021: RFLacQsrl7LRKb00i9TeCqyEVus
-_aggregate openshift | Cluster view - Overview.post01172021: HlYBhSpWbmPIvvWhwctKTJO4I8M
+_aggregate openshift | Cluster view - Insights: GvuX0F7ZvTyG7rTf9m0U8VVgpww
+_aggregate openshift | Cluster view - Insights recommendation view: HFDuntKEYgOvtO4p8Y0qjI1Kk90
+_aggregate openshift | Cluster view - Monitoring: aaNchs34xdRKb44cWIPFLVNEb2E
+_aggregate openshift | Cluster view - Overview: 9yKG3w-lIvCni9VSD4ocVivbhh0
 _aggregate openshift | Cluster view - Support: wryi-7o1OA9CWCqbrLJ3HZ3V96E
 _aggregate openshift | Cluster view - node installer degraded: ZwsJV7n3QdU-JIg88R7KLSHQPK4
 _aggregate openshift | Clusters - Create a cluster to get started: aob9T6R0kygsAtKFwFqZkoADYT0
@@ -31,6 +31,7 @@ _aggregate openshift | Create cluster - Openstack - Installer provisioned infras
 _aggregate openshift | Create cluster - Openstack - User provisioned infrastructure: n_xa8WysSz14rCTwJugPMk6FOUE
 _aggregate openshift | Create cluster - Power Systems - User provisioned infrastructure: A0x08Wr8MyELdbLipcnCUWLDiRM
 _aggregate openshift | Create cluster - ROSA - Welcome: bwECKAsu_KCethfW9X7Z0NoplxM
+_aggregate openshift | Create cluster - ROSA - Wizard: RuiTxzTy6h4Je2bmtqfkYbBMr-4
 _aggregate openshift | Create cluster - Red Hat Virtualization - Installer provisioned infrastructure: 4tKF5bzpifTPUmKZnBt3q5lcIq8
 _aggregate openshift | Create cluster - Run on bare metal: OfaPDmnaH4Yt7BlaiUNRetEfgkY
 _aggregate openshift | Create cluster - Run on bare metal - User provisioned infrastructure: IsnOwDf7ybnkEvrNOeBxeiEHSWc
@@ -55,10 +56,10 @@ _beta openshift | Assisted Bare Metal Installer - Cluster list: -jmy3hAEeldJf7Vo
 _beta openshift | Assisted Installer purple feedback form: o7mOA9JlEiWuztcXD44okHmSOko
 _beta openshift | Cluster view - Add ons: Sf6HHlUM3meHqcpQA12xICBWwE0
 _beta openshift | Cluster view - All: jaLN58bh3f1hKYzN1Pd7TFk0qxI
-_beta openshift | Cluster view - Insights recommendation view.post01172021: k0iW0pGhjUdZCVsWaQANlzdjxa8
-_beta openshift | Cluster view - Insights.post01172021: 8DulXnsXI7oTNW4ScPoqJHWkcPA
-_beta openshift | Cluster view - Monitoring.post01172021: gxsLtQPtYPzOESyXbXfWdASYiBU
-_beta openshift | Cluster view - Overview.post01172021: Pymmzuev0cBulkwclh-3QG0vgIk
+_beta openshift | Cluster view - Insights: qKGmWUKr9UmXZ-YHecA9KM-DijU
+_beta openshift | Cluster view - Insights recommendation view: 3DnPTmaGPFjLcKF-N0rHE2E3o4U
+_beta openshift | Cluster view - Monitoring: thhvHD0xyqLIjCOjHEEDHSyxOkE
+_beta openshift | Cluster view - Overview: -PX9Etr0yKzl47YZkDrqJlgceYY
 _beta openshift | Cluster view - Support: H1QF_AvtebpzjKUyc0v1DyE-ToU
 _beta openshift | Cluster view - node installer degraded: Ut-tWygj-1NyzB9RlOTXO7lrWDo
 _beta openshift | Clusters - Create a cluster to get started: S0MDz6lQ0tuUPGXJPW8Sao1bcAw
@@ -81,6 +82,7 @@ _beta openshift | Create cluster - Openstack - Installer provisioned infrastruct
 _beta openshift | Create cluster - Openstack - User provisioned infrastructure: 43HvVNNCMxBzgl9mKkoPyFPB0tw
 _beta openshift | Create cluster - Power Systems - User provisioned infrastructure: xSlKQe1Anxx_MMg_SdDFiXKisPA
 _beta openshift | Create cluster - ROSA - Welcome: Epq1UFt_ECom8tFJLKRZqEh_hWY
+_beta openshift | Create cluster - ROSA - Wizard: dGqou2YaZZwvH6PhorBUGsDx4i0
 _beta openshift | Create cluster - Red Hat Virtualization - Installer provisioned infrastructure: qs6V1aLxPKv4nbp6qTYARTnXUwk
 _beta openshift | Create cluster - Run on bare metal: d7t0CEg-5sNDNHLbgbU_zZU_LWQ
 _beta openshift | Create cluster - Run on bare metal - User provisioned infrastructure: 8QM4FjItPds1DSpLQr2jvS-N0SM
@@ -100,15 +102,17 @@ _beta openshift | Subscriptions - Dedicated On Demand Limits: oNfpNE_50nTIT0NTvH
 _beta openshift | Trial expiration page: WDKrcGn3_EE1veQem7SfNkMoguI
 _openshift: y85raGBpoe7qZR9VdbkXmVv715s
 _openshift | All pages: sUKQ_JFFMAtJLRrm5vaE9rnWa_w
+'_openshift | Assisted - Button: vSphere info': FiODuYpYeVZ-YRRiOwOsEtmlIeU
+'_openshift | Assisted - Button: vSphere switch': xjvW2ApcIO7og7VwITDq7QjWQCQ
 _openshift | Assisted Bare Metal Installer - Cluster configuration: H_YPgy265UZMrYtawfXd2RRjyCs
 _openshift | Assisted Bare Metal Installer - Cluster list: dFcJZdggzOLAeiCM3VDtN-mSzDI
 _openshift | Assisted Installer purple feedback form: Pv_tZ_zdyYs_jg3XoiB1-vOJWyc
 _openshift | Cluster view - Add ons: skkGRiKU4I4IhV0XY-7HtSugVno
 _openshift | Cluster view - All: vwvHMORWxE4aqEjhxZhgEAoLdHk
-_openshift | Cluster view - Insights recommendation view.post01172021: C7dcisxucniLIklH-eUb-86WcQ0
-_openshift | Cluster view - Insights.post01172021: w6oeZ1zORJ1jG7eSwt_Gt1ME7S8
-_openshift | Cluster view - Monitoring.post01172021: FeHsNsuuB0IVezj5QUR_F4zmWTI
-_openshift | Cluster view - Overview.post01172021: iObYK0InDahaTd7uT1_OHiAfnzA
+_openshift | Cluster view - Insights: D--wsZ66n6-i_Ip3ia_9Y-2L2gs
+_openshift | Cluster view - Insights recommendation view: jGZuArVCsdNbSMuqbfcUiIBTW2g
+_openshift | Cluster view - Monitoring: EVnFiN8iTF5HlZ31EUTfOTQD7RU
+_openshift | Cluster view - Overview: XQJGNViiAaVOI1Y7YtEktH3-MoY
 _openshift | Cluster view - Support: oQZGDM_bFcLTTWxn8cy7l0PxQh0
 _openshift | Cluster view - node installer degraded: xzRy8JHiHVEKhKAgfrtFVToAP5I
 '_openshift | Clusters - Add-ons - Button: Install RHOAM': 5IWb3Qb9FrVrbrpPaKKPfIFpG08
@@ -179,6 +183,7 @@ _openshift | Create cluster - Openstack - Installer provisioned infrastructure: 
 _openshift | Create cluster - Openstack - User provisioned infrastructure: P_cj-6DSzak9my1m6j6e58w2DCg
 _openshift | Create cluster - Power Systems - User provisioned infrastructure: UDXDyxVZYZiA0hVCJjZEiGMXb3A
 _openshift | Create cluster - ROSA - Welcome: CgUfl2lVQlv7hdFVTp2JHnRdlP4
+_openshift | Create cluster - ROSA - Wizard: Ep41tymnTB-t3CGVLTCPryqnJyI
 _openshift | Create cluster - Red Hat Virtualization - Installer provisioned infrastructure: PLMPsNPIB36xBajDz5tvmqkT2b4
 _openshift | Create cluster - Run on bare metal: HcaaBO6x74qc_5Oma_zQ4bkCGsg
 _openshift | Create cluster - Run on bare metal - User provisioned infrastructure: G15R_pQjCdYEEs2B2tPd5fFuhtE
