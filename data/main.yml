@@ -1,5 +1,6 @@
 ---
 applications:
+  - "acs"
   - "advisor"
   - "ansible"
   - "api-docs"
