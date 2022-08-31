@@ -12,18 +12,18 @@ openshift:
     Cluster view - All:
       url_rules:
         - /openshift/details/*
-    Cluster view - Overview.post01172021:
+    Cluster view - Overview:
       url_rules:
         - /openshift/details/s/*#overview
-    Cluster view - Monitoring.post01172021:
+    Cluster view - Monitoring:
       url_rules:
         - /openshift/details/s/*#monitoring
-    Cluster view - Insights.post01172021:
+    Cluster view - Insights:
       url_rules:
         - /openshift/details/s/*#insights
         - /openshift/insights/advisor/recommendations/**
         - /openshift/insights/advisor/clusters/**
-    Cluster view - Insights recommendation view.post01172021:
+    Cluster view - Insights recommendation view:
       url_rules:
         - /openshift/details/s/*/insights/*parameter*
     Cluster view - node installer degraded:
@@ -303,13 +303,13 @@ openshift:
         - '{} [data-ouia-component-id="extra-openshift-docs"]'
     "Clusters - Add-ons - Card: View RHOAM details":
       selectors:
-        - '{} [data-ouia-component-id="card-addon-managed-api-service"]'
+        - '{} [data-ouia-component-id="card-addon-managed-odh"]'
     "Clusters - Add-ons - Card: View RHODS details":
       selectors:
         - '{} [data-ouia-component-id="card-addon-managed-data-service"]'
     "Clusters - Add-ons - Button: Install RHOAM":
       selectors:
-        - '{} [data-ouia-component-id="install-addon-managed-api-service"]'
+        - '{} [data-ouia-component-id="install-addon-managed-odh"]'
     "Clusters - Add-ons - Button: Install RHODS":
       selectors:
         - '{} [data-ouia-component-id="install-addon-managed-data-service"]'
