@@ -158,6 +158,9 @@ openshift:
     Trial expiration page:
       url_rules:
         - /openshift/create?trial=expired
+    Sandbox page:
+      url_rules:
+        - /openshift/sandbox
   features:
     _scope: '[data-ouia-bundle="openshift"]'
     "Clusters - Button: Register cluster":
