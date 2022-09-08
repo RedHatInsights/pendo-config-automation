@@ -6,57 +6,76 @@ automation analytics:
       url_rules:
         - /ansible/insights
         - /ansible/insights/**
+        - /ansible/automation-analytics
+        - /ansible/automation-analytics/**
     Clusters:
       url_rules:
         - /ansible/insights/clusters
+        - /ansible/automation-analytics/clusters
     Organization Statistics:
       url_rules:
         - /ansible/insights/organization-statistics
+        - /ansible/automation-analytics/organization-statistics
     Automation Calculator:
       url_rules:
         - /ansible/insights/automation-calculator
+        - /ansible/automation-analytics/automation-calculator
     Job Explorer:
       url_rules:
         - /ansible/insights/job-explorer
+        - /ansible/automation-analytics/job-explorer
     Notifications:
       url_rules:
         - /ansible/insights/notifications
+        - /ansible/automation-analytics/notifications
     Savings planner:
       url_rules:
         - /ansible/insights/savings-planner
+        - /ansible/automation-analytics/savings-planner
     Reports list:
       url_rules:
         - /ansible/insights/reports/
+        - /ansible/automation-analytics/reports/
     Reports view - hosts changed by job template:
       url_rules:
         - /ansible/insights/reports/hosts_changed_by_job_template
+        - /ansible/automation-analytics/reports/hosts_changed_by_job_template
     Reports view - changes made by job template:
       url_rules:
         - /ansible/insights/reports/changes_made_by_job_template
+        - /ansible/automation-analytics/reports/changes_made_by_job_template
     Reports view - job template run rate:
       url_rules:
         - /ansible/insights/reports/job_template_run_rate
+        - /ansible/automation-analytics/reports/job_template_run_rate
     Reports view - hosts by organization:
       url_rules:
         - /ansible/insights/reports/hosts_by_organization
+        - /ansible/automation-analytics/reports/hosts_by_organization
     Reports view - jobs and tasks by organization:
       url_rules:
         - /ansible/insights/reports/jobs_and_tasks_by_organization
+        - /ansible/automation-analytics/reports/jobs_and_tasks_by_organization
     Reports view - templates explorer:
       url_rules:
         - /ansible/insights/reports/templates_explorer
+        - /ansible/automation-analytics/reports/templates_explorer
     Reports view- most used modules:
       url_rules:
         - /ansible/insights/reports/most_used_modules
+        - /ansible/automation-analytics/reports/most_used_modules
     Reports view - module usage by organization:
       url_rules:
         - /ansible/insights/reports/module_usage_by_organization
+        - /ansible/automation-analytics/reports/module_usage_by_organization
     Reports view - module usage by job template:
       url_rules:
         - /ansible/insights/reports/module_usage_by_job_template
+        - /ansible/automation-analytics/reports/module_usage_by_job_template
     Reports view - module usage by task:
       url_rules:
         - /ansible/insights/reports/module_usage_by_task
+        - /ansible/automation-analytics/reports/module_usage_by_task
   features:
     _scope: '[data-ouia-app-id="automation-analytics"]'
     "Clusters - Graph: Job status":
