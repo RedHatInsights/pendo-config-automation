@@ -7,7 +7,7 @@ automation analytics:
         - /ansible/insights
         - /ansible/insights/**
         - /ansible/automation-analytics
-        - /ansible/automation-analytics**
+        - /ansible/automation-analytics/**
     Clusters:
       url_rules:
         - /ansible/insights/clusters
