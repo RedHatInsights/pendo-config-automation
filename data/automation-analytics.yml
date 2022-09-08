@@ -75,7 +75,7 @@ automation analytics:
     Reports view - module usage by task:
       url_rules:
         - /ansible/insights/reports/module_usage_by_task
-        - /ansible/automation-analytics
+        - /ansible/automation-analytics/reports/module_usage_by_task
   features:
     _scope: '[data-ouia-app-id="automation-analytics"]'
     "Clusters - Graph: Job status":
