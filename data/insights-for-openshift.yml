@@ -26,3 +26,6 @@ insights for openshift:
     OCP Advisor - Clusters - Details:
       url_rules:
         - /openshift/insights/advisor/clusters/**
+    OCP Vulnerability - All Pages:
+      url_rules:
+        - /openshift/insights/vulnerability/**
