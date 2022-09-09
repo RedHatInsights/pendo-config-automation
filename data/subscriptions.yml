@@ -28,11 +28,11 @@ subscriptions:
         - /insights/subscriptions/rhel-x86
     Red Hat OpenShift - All:
       url_rules:
-        - /*/openshift/subscriptions/**
-        - /*/openshift/quota/**
+        - /openshift/subscriptions/**
+        - /openshift/quota/**
     Red Hat Enterprise Linux - Manifests:
       url_rules:
-        - /*/insights/subscriptions/manifests
+        - /insights/subscriptions/manifests
   features:
     _scope: '[data-ouia-app-id="subscriptions"]'
     "Red Hat Enterprise Linux - Link: Learn more about Subscription Watch reporting":
