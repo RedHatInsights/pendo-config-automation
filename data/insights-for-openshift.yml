@@ -4,6 +4,9 @@ insights for openshift:
   pages:
     All pages.post04262021:
       url_rules:
+        - /openshift/insights/advisor
+        - /openshift/insights/advisor/**
+        - /openshift/insights/vulnerability/**
         - /openshift/subscriptions/**
         - /openshift/subscriptions
         - /openshift/quota
