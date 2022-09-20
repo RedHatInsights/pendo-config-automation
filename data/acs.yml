@@ -4,10 +4,10 @@ acs:
   pages:
     Instances page:
       url_rules:
-        - /application-services/instances
+        - /application-services/acs/instances
     Instance details page:
       url_rules:
-        - /application-services/instances/instance/*
+        - /application-services/acs/instances/instance/*
   features:
     _scope: '[data-ouia-bundle="application-services"][data-ouia-app-id="acs"]'
     "Left Nav: Advanced Cluster Security - Documentation":
