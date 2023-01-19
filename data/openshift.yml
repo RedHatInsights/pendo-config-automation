@@ -98,6 +98,9 @@ openshift:
     Create cluster - Create an OpenShift Cluster - Nutanix AOS:
       url_rules:
         - /openshift/install/nutanix
+    Create cluster - Create an OpenShift Cluster - Nutanix AOS - Installer provisioned infrastructure:
+      url_rules:
+        - /openshift/install/nutanix/installer-provisioned
     Create cluster - Assisted Bare Metal Installer:
       url_rules:
         - /openshift/assisted-installer/clusters/~new
