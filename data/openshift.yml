@@ -267,7 +267,7 @@ openshift:
         - '{} [data-ouia-app-id="install"] #select-interactive'
     "Clusters - Card: Nutanix automated":
       selectors:
-      - '{} [data-ouia-app-id="install"] #select-automated'
+        - '{} [data-ouia-app-id="install"] #select-automated'
     "Clusters - Link: KB Link":
       selectors:
         - '{} [data-ouia-component-id="vm-integration-kb-page"]'
