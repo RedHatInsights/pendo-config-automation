@@ -98,12 +98,27 @@ openshift:
     Create cluster - Run on bare metal - User provisioned infrastructure:
       url_rules:
         - /openshift/install/metal/installer-provisioned
-    Create cluster - Create an OpenShift Cluster - Nutanix AOS:
+    Create cluster - Run on bare metal - Agent Based:
       url_rules:
-        - /openshift/install/nutanix
-    Create cluster - Create an OpenShift Cluster - Nutanix AOS - Installer provisioned infrastructure:
+        - /openshift/install/metal/agent-based
+    Create cluster - OpenShift Cluster - ARM Bare Metal:
       url_rules:
-        - /openshift/install/nutanix/installer-provisioned
+        - /openshift/install/arm
+    Create cluster - Datacenter:
+      url_rules:
+        - /openshift/install/datacenter
+    Create cluster - vSphere:
+      url_rules:
+        - /openshift/install/vsphere
+    Create cluster - vSphere - Agent Based:
+      url_rules:
+        - /openshift/install/vsphere/agent-based
+    Create cluster - Platform Agnostic:
+      url_rules:
+        - /openshift/install/platform-agnostic
+    Create cluster - Platform Agnostic - Agent Based:
+      url_rules:
+        - /openshift/install/platform-agnostic/agent-based
     Create cluster - Assisted Bare Metal Installer:
       url_rules:
         - /openshift/assisted-installer/clusters/~new
@@ -270,10 +285,10 @@ openshift:
         - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/install/vsphere/user-provisioned"]'
     "Clusters - Card: Nutanix interactive":
       selectors:
-        - '{} [data-ouia-app-id="install"] #select-interactive'
+        - '{} [data-ouia-app-id="install"] [data-ouia-component-id="nutanix-instructions-chooser"] #select-interactive'
     "Clusters - Card: Nutanix automated":
       selectors:
-        - '{} [data-ouia-app-id="install"] #select-automated'
+        - '{} [data-ouia-app-id="install"] [data-ouia-component-id="nutanix-instructions-chooser"] #select-automated'
     "Clusters - Link: KB Link":
       selectors:
         - '{} [data-ouia-component-id="vm-integration-kb-page"]'
@@ -439,3 +454,60 @@ openshift:
     "Assisted - Button: vSphere switch":
       selectors:
         - '{}[data-ouia-app-id="assisted-installer"] [data-ouia-component-id="platform-integration-vSphere-switch"]'
+    "Cluster create - ARM Bare Metal - Assisted installer":
+      selectors:
+        - '{} [data-ouia-component-id="arm-instructions-chooser"] #select-interactive'
+    "Cluster create - ARM Bare Metal - Installer provisioned":
+      selectors:
+        - '{} [data-ouia-component-id="arm-instructions-chooser"] #select-automated'
+    "Cluster create - ARM Bare Metal - User provisioned":
+      selectors:
+        - '{} [data-ouia-component-id="arm-instructions-chooser"] #select-full-control'
+    "Clusters - Datacenter: Run Agent-based Installer locally":
+      selectors:
+        - '{} a:contains("Run Agent-based Installer locally")'
+    "Clusters - Bare Metal: Local Agent-based":
+      selectors:
+        - '{} [data-ouia-component-id="metal-instructions-chooser"] #select-agent-based'
+    "Clusters - vSphere: Local Agent-based"
+      selectors:
+        - '{} [data-ouia-component-id="vsphere-instructions-chooser"] #select-agent-based'
+    "Clusters - Platform Agnostic: Local Agent-based"
+      selectors:
+        - '{} [data-ouia-component-id="platform-agnostic-instructions-chooser"] #select-agent-based'
+    "Clusters - Bare Metal: Local Agent-based - Download installer":
+      selectors:
+        - '{} [data-ouia-component-id="baremetal-local-agent-based"] a:contains("Download installer")'
+    "Clusters - Bare Metal: Local Agent-based - Download pull secret":
+      selectors:
+        - '{} [data-ouia-component-id="baremetal-local-agent-based"] button:contains("Download pull secret")'
+    "Clusters - Bare Metal: Local Agent-based - Copy pull secret":
+      selectors:
+        - '{} [data-ouia-component-id="baremetal-local-agent-based"] button:contains("Copy pull secret")'
+    "Clusters - Bare Metal: Local Agent-based - Get started":
+      selectors:
+        - '{} [data-ouia-component-id="baremetal-local-agent-based"] a:contains("Get started")'
+    "Clusters - vSphere: Local Agent-based - Download installer":
+      selectors:
+        - '{} [data-ouia-component-id="vsphere-local-agent-based"] a:contains("Download installer")'
+    "Clusters - vSphere: Local Agent-based - Download pull secret":
+      selectors:
+        - '{} [data-ouia-component-id="vsphere-local-agent-based"] button:contains("Download pull secret")'
+    "Clusters - vSphere: Local Agent-based - Copy pull secret":
+      selectors:
+        - '{} [data-ouia-component-id="vsphere-local-agent-based"] button:contains("Copy pull secret")'
+    "Clusters - vSphere: Local Agent-based - Get started":
+      selectors:
+        - '{} [data-ouia-component-id="vsphere-local-agent-based"] a:contains("Get started")'
+    "Clusters - Platform Agnostic: Local Agent-based - Download installer":
+      selectors:
+        - '{} [data-ouia-component-id="generic-local-agent-based"] a:contains("Download installer")'
+    "Clusters - Platform Agnostic: Local Agent-based - Download pull secret":
+      selectors:
+        - '{} [data-ouia-component-id="generic-local-agent-based"] button:contains("Download pull secret")'
+    "Clusters - Platform Agnostic: Local Agent-based - Copy pull secret":
+      selectors:
+        - '{} [data-ouia-component-id="generic-local-agent-based"] button:contains("Copy pull secret")'
+    "Clusters - Platform Agnostic: Local Agent-based - Get started":
+      selectors:
+        - '{} [data-ouia-component-id="generic-local-agent-based"] a:contains("Get started")'
