@@ -1,0 +1,8 @@
+---
+connect:
+  color: 1
+  pages:
+    All pages:
+      url_rules:
+        - /connect
+        - /connect/**
