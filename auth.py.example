@@ -18,7 +18,7 @@ def get_xsrf():
 def get_cookies():
     return [
         'PendoXSRFToken='     + XSRF,
-        'pendo.sess.jwt='     + JWT,
-        'pendo.sess.jwt_C80=' + JWT,
+        'pendo.sess.jwt2='    + JWT,
+        'pendo.sess.jwt2_ns=' + JWT,
         'pendo_identity='     + IDENT,
     ]
