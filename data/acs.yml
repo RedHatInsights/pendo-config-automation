@@ -2,6 +2,10 @@
 acs:
   color: 1
   pages:
+    All pages:
+      url_rules:
+        - /application-services/acs
+        - /application-services/acs/**
     Overview page:
       url_rules:
         - /application-services/acs/overview

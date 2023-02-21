@@ -98,6 +98,12 @@ openshift:
     Create cluster - Run on bare metal - User provisioned infrastructure:
       url_rules:
         - /openshift/install/metal/installer-provisioned
+    Create cluster - Create an OpenShift Cluster - Nutanix AOS:
+      url_rules:
+        - /openshift/install/nutanix
+    Create cluster - Create an OpenShift Cluster - Nutanix AOS - Installer provisioned infrastructure:
+      url_rules:
+        - /openshift/install/nutanix/installer-provisioned
     Create cluster - Assisted Bare Metal Installer:
       url_rules:
         - /openshift/assisted-installer/clusters/~new
@@ -262,6 +268,12 @@ openshift:
     "Clusters - Card: vSphere User-provisioned infrastructure":
       selectors:
         - '{} .pf-c-card.ocm-c-ipi-upi-infra-card[href="/openshift/install/vsphere/user-provisioned"]'
+    "Clusters - Card: Nutanix interactive":
+      selectors:
+        - '{} [data-ouia-app-id="install"] #select-interactive'
+    "Clusters - Card: Nutanix automated":
+      selectors:
+        - '{} [data-ouia-app-id="install"] #select-automated'
     "Clusters - Link: KB Link":
       selectors:
         - '{} [data-ouia-component-id="vm-integration-kb-page"]'
