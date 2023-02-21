@@ -2,6 +2,13 @@
 acs:
   color: 1
   pages:
+    All pages:
+      url_rules:
+        - /application-services/acs
+        - /application-services/acs/**
+    Overview page:
+      url_rules:
+        - /application-services/acs/overview
     Instances page:
       url_rules:
         - /application-services/acs/instances
@@ -16,3 +23,12 @@ acs:
     "Button: Create ACS instance":
       selectors:
         - '{} button:contains("Create ACS instance")'
+    "Button: Open ACS Console":
+      selectors:
+        - '{} button:contains("Open ACS Console")'
+    "Link: Purchase ACS through AWS":
+      selectors:
+        - '{} a:contains("AWS Marketplace")'
+    "Link: View ACS Instance Page":
+      selectors:
+        - '{} td[data-label="Name"] a'
