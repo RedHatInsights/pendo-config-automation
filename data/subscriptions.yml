@@ -53,3 +53,6 @@ subscriptions:
     "Red Hat OpenShift - Link: Cores":
       selectors:
         - '{} a:contains("Cores")'
+    "Nav link: Subscriptions Streams for Apache Kafka":
+      selectors:
+        - '{} a.pf-c-nav__link[href="/application-services/subscriptions/streams"]:contains("Streams for Apache Kafka")'
