@@ -40,7 +40,7 @@ compliance:
         - '{}[data-ouia-subnav="reports"] div:contains("Remediate").pf-c-toolbar__item'
     "Reports - Button: Download PDF":
       selectors:
-        - '{}[data-ouia-subnav="reports"] a:contains("Download PDF")'
+        - '{}[data-ouia-subnav="reports"] button:contains("Download PDF")'
     "Systems - Button: Ansible Remediate":
       selectors:
         - '{}[data-ouia-subnav="systems"] div:contains("Remediate").pf-c-toolbar__item'
