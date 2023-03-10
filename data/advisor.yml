@@ -42,7 +42,7 @@ advisor:
     "Recommendations - Link: Download executive report":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] [data-ouia-component-type="PF4/Button"]:contains("Download executive report")'
-    "Recommendations - Button: Remediate":
+    "Recommendation view - Button: Remediate":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button:contains("Remediate")'
     "Recommendations - Button: Export to CSV":
@@ -114,6 +114,9 @@ advisor:
     "Recommendations - Button: Disable recommendation":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] [data-ouia-component-id="disable"]'
+    "System view - Button: Remediate":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] button:contains("Remediate")'
 
   pages:
     All pages:
