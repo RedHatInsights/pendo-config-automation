@@ -33,6 +33,6 @@ insights:
     "All pages - Filter: Global":
       selectors:
         - '{} [data-ouia-component-id="global-filter-select"]'
-    "Resource Optimization - Link: Download executivereport"
+    "Resource Optimization - Link: Download executivereport":
       selectros:
         - '{} [data-ouia-app-id="ros"] a:contains("Download executive report")
