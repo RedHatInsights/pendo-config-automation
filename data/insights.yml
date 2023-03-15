@@ -34,5 +34,5 @@ insights:
       selectors:
         - '{} [data-ouia-component-id="global-filter-select"]'
     "Resource Optimization - Link: Download executivereport":
-      selectros:
+      selectors:
         - '{} [data-ouia-app-id="ros"] a:contains("Download executive report")
