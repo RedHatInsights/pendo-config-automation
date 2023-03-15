@@ -469,10 +469,10 @@ openshift:
     "Clusters - Bare Metal: Local Agent-based":
       selectors:
         - '{} [data-ouia-component-id="metal-instructions-chooser"] #select-agent-based'
-    "Clusters - vSphere: Local Agent-based"
+    "Clusters - vSphere: Local Agent-based":
       selectors:
         - '{} [data-ouia-component-id="vsphere-instructions-chooser"] #select-agent-based'
-    "Clusters - Platform Agnostic: Local Agent-based"
+    "Clusters - Platform Agnostic: Local Agent-based":
       selectors:
         - '{} [data-ouia-component-id="platform-agnostic-instructions-chooser"] #select-agent-based'
     "Clusters - Bare Metal: Local Agent-based - Download installer":
