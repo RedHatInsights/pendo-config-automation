@@ -138,9 +138,6 @@ patch:
     "Advisories view - Select page":
       selectors:
         - '{}[data-ouia-subnav="advisories"] button:contains("Select page")'
-    "Advisories view - Remediate":
-      selectors:
-        - '{}[data-ouia-subnav="advisories"] [data-ouia-component-id="toolbar-remediation-button"]'
     "Advisories view - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="advisories"] .patchCompactInventory button.pf-c-table__button:contains("Name")'
@@ -192,9 +189,6 @@ patch:
     "Systems view - Per page: 100":
       selectors:
         - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("100 per page")'
-    "Systems view - Remediate":
-      selectors:
-        - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="toolbar-remediation-button"]'
     "Systems view - Tab: Advisories":
       selectors:
         - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="system-advisories-tab"]'
