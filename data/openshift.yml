@@ -454,6 +454,9 @@ openshift:
     "Assisted - Button: vSphere switch":
       selectors:
         - '{}[data-ouia-app-id="assisted-installer"] [data-ouia-component-id="platform-integration-vSphere-switch"]'
+    "Assisted - Button: Install cluster":
+      selectors:
+        - '{}[data-ouia-app-id="assisted-installer"] [data-ouia-component-id="button-install-cluster"]'
     "Cluster create - ARM Bare Metal - Assisted installer":
       selectors:
         - '{} [data-ouia-component-id="arm-instructions-chooser"] #select-interactive'
@@ -466,6 +469,9 @@ openshift:
     "Clusters - Datacenter: Run Agent-based Installer locally":
       selectors:
         - '{} a:contains("Run Agent-based Installer locally")'
+    "Clusters - Datacenter: Create cluster":
+      selectors:
+        - '{} a[href="/openshift/assisted-installer/clusters/~new"]:contains("Create cluster")'
     "Clusters - Bare Metal: Local Agent-based":
       selectors:
         - '{} [data-ouia-component-id="metal-instructions-chooser"] #select-agent-based'
