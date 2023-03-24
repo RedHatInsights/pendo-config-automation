@@ -24,9 +24,18 @@ compliance:
     Systems list:
       url_rules:
         - /insights/compliance/systems
+    System view:
+      url_rules:
+        - /insights/compliance/systems/**
+    Edit policy modal:
+      url_rules:
+        - /insights/compliance/scappolicies/*/edit
   features:
     _scope: '[data-ouia-app-id="compliance"]'
-    "Any - Button: Remediate":
+   "Any - Menu button: Delete policy":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("Delete policy")
+   "Any - Button: Remediate":
       selectors:
         - '{} button:contains("Remediate")'
     "Reports - Link: View report":
@@ -40,7 +49,16 @@ compliance:
         - '{}[data-ouia-subnav="reports"] div:contains("Remediate").pf-c-toolbar__item'
     "Reports - Button: Download PDF":
       selectors:
-        - '{}[data-ouia-subnav="reports"] button:contains("Download PDF")'
+        - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Download PDF")'
+    "Reports - Button: Export report":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Export report")'
+    Reports - Button: Delete report":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-m-link:contains("Delete report")
+    Reports - Delete report modal - Button: Delete report":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-m-danger:contains("Delete report")
     "Systems - Button: Ansible Remediate":
       selectors:
         - '{}[data-ouia-subnav="systems"] div:contains("Remediate").pf-c-toolbar__item'
@@ -59,3 +77,17 @@ compliance:
     "Systems - Link: Clear filters":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Clear filters").pf-c-button'
+    "SCAP policies - Menu button: Edit policies":
+      selectors:
+        - '{}[data-ouia-subnav="scappolicies"] .pf-c-dropdown__menu-item:contains("Edit policy")
+    "SCAP policies - Button: Edit rules":
+      selectors:
+        - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit policy")
+    "SCAP policies - Button: Edit systems":
+      selectors:
+        - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit systems")
+    "SCAP policies - Icon button: Edit details":
+      selectors:
+        - '{}[data-ouia-subnav="scappolicies"] i.fa-pencil-alt   
+
+   
