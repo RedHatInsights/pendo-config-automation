@@ -1,0 +1,22 @@
+---
+toolkit:
+  color: 4
+  pages:
+     All pages:
+      url_rules:
+        - /insights/remediations
+        - /insights/remediations/**
+        - /insights/tasks
+        - /insights/tasks/**
+     Remediations list:
+      url_rules:
+        - /insights/remediations
+     Remediation view:
+      url_rules:
+        - /insights/remediations/**
+     Tasks - Availabe:
+      url_rules:
+        - /insights/tasks/available
+     Tasks - Activity:
+      url_rules:
+        - /insights/tasks/executed
