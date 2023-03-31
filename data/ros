@@ -1,0 +1,13 @@
+---
+ros:
+  color: 8
+  pages:
+    All pages:
+      url_rules:
+        - /insights/ros
+        - /insights/ros/**
+  features:
+     _scope: '[data-ouia-bundle="insights"]'
+     "Resource Optimization - Link: Download executivereport":
+      selectors:
+        - '{} [data-ouia-app-id="ros"] a:contains("Download executive report")'
