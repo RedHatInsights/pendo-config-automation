@@ -34,7 +34,7 @@ compliance:
     _scope: '[data-ouia-app-id="compliance"]'
     "Any - Menu button: Delete policy":
       selectors:
-        - '{} .pf-c-dropdown__menu-item:contains("Delete policy")
+        - '{} .pf-c-dropdown__menu-item:contains("Delete policy")'
     "Any - Button: Remediate":
       selectors:
         - '{} button:contains("Remediate")'
@@ -88,6 +88,4 @@ compliance:
         - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit systems")'
     "SCAP policies - Icon button: Edit details":
       selectors:
-        - '{}[data-ouia-subnav="scappolicies"] i.fa-pencil-alt'   
-
-   
+        - '{}[data-ouia-subnav="scappolicies"] i.fa-pencil-alt'
