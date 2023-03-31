@@ -2,6 +2,13 @@
 image builder:
   color: 10
   pages:
+    All pages:
+      url_rules:
+        - /insights/image-builder
+        - /insights/image-builder/**
+    Images list:
+      url_rules:
+        - /insights/image-builder/landing
     Image creation wizard:
       url_rules:
         - /insights/image-builder/imagewizard/**
