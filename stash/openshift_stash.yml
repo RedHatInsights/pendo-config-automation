@@ -21,25 +21,30 @@ _aggregate openshift | Create cluster - Assisted Bare Metal Installer: ev5hPFu-H
 _aggregate openshift | Create cluster - Azure: 7GZaBLiU7cyNKrKMyFB6C8zWleE
 _aggregate openshift | Create cluster - Azure - Installer provisioned infrastructure: _-GXcmU5y4Sk14yNPtjJT7ibzk0
 _aggregate openshift | Create cluster - Azure - User provisioned infrastructure: yct_UE9PjuI62dnF8dk0HGam4Ic
-_aggregate openshift | Create cluster - Create an OpenShift Cluster - Nutanix AOS: iQZxMJZedWYXisD--MV7ocHBNSo
-_aggregate openshift | Create cluster - Create an OpenShift Cluster - Nutanix AOS - Installer provisioned infrastructure: ARHsjZW5OGGwpU0tvcImt3ThiZc
+_aggregate openshift | Create cluster - Datacenter: Q3xLiK9ERts5Qo91y21keGOXzAg
 _aggregate openshift | Create cluster - GCP: -0z2KTUSfUHWtez-aivbXNZiAnw
 _aggregate openshift | Create cluster - GCP - Installer provisioned infrastructure: L6M7klwsy-DI20kc11s8_Y46W2Q
 _aggregate openshift | Create cluster - GCP - User provisioned infrastructure: X5wFBiFc7BdYzY2kBY1P4wwbrFI
 _aggregate openshift | Create cluster - IBM Z - User provisioned infrastructure: JM5YCk-DrXbwktfvzrq0PQpm-T0
+_aggregate openshift | Create cluster - OpenShift Cluster - ARM Bare Metal: wZek704n9yfJB5-DNlNdUYIENtM
 _aggregate openshift | Create cluster - OpenShift Container Platform: e6-W5vewyZWzg6YTXtJF0ISSyPk
 _aggregate openshift | Create cluster - Openstack: ZCCdY4aCS7qe1q_lU5CKb9KvDVI
 _aggregate openshift | Create cluster - Openstack - Installer provisioned infrastructure: b7-lMRsio4c0pwW5NTmVYtsuHB8
 _aggregate openshift | Create cluster - Openstack - User provisioned infrastructure: n_xa8WysSz14rCTwJugPMk6FOUE
+_aggregate openshift | Create cluster - Platform Agnostic: etSGnIP7Zpp0WU7YNSUKXkKpoCY
+_aggregate openshift | Create cluster - Platform Agnostic - Agent Based: tRJlVMF8b9R0uhgD-SnrNSf091o
 _aggregate openshift | Create cluster - Power Systems - User provisioned infrastructure: A0x08Wr8MyELdbLipcnCUWLDiRM
 _aggregate openshift | Create cluster - ROSA - Get Started: slPMeypfkzTHcymJoChn0CGn0d4
 _aggregate openshift | Create cluster - ROSA - Welcome: bwECKAsu_KCethfW9X7Z0NoplxM
 _aggregate openshift | Create cluster - ROSA - Wizard: RuiTxzTy6h4Je2bmtqfkYbBMr-4
 _aggregate openshift | Create cluster - Red Hat Virtualization - Installer provisioned infrastructure: 4tKF5bzpifTPUmKZnBt3q5lcIq8
 _aggregate openshift | Create cluster - Run on bare metal: OfaPDmnaH4Yt7BlaiUNRetEfgkY
+_aggregate openshift | Create cluster - Run on bare metal - Agent Based: aAKtABkNtc_DG9HD6uGk7n5xoRs
 _aggregate openshift | Create cluster - Run on bare metal - User provisioned infrastructure: IsnOwDf7ybnkEvrNOeBxeiEHSWc
 _aggregate openshift | Create cluster - Run on your laptop with Code Ready Containers: G9An67prqiiAHasP2xONlwnGRY4
 _aggregate openshift | Create cluster - VMware vSphere - User provisioned infrastructure: K3esYZnHk9b_dT02eBjrB4oyxoA
+_aggregate openshift | Create cluster - vSphere: FWCyd5oY3J7NQjjKV0EMhU6HtzI
+_aggregate openshift | Create cluster - vSphere - Agent Based: cp5r3TR0-ZhrF4EPeVjI0uE4K3Y
 _aggregate openshift | Create clusters - AWS - Install OSD cluster: T5zmjNkhRn-0LbvEl8TJvL8SXwM
 _aggregate openshift | Create clusters - GCP - Install OSD cluster: hsaLDu96TWey20m-Gs1yGyEn-d8
 _aggregate openshift | OCP Trial page: tgeuxV5Wkf7S1NoybLNKjJIV30c
@@ -76,25 +81,30 @@ _beta openshift | Create cluster - Assisted Bare Metal Installer: H1rXisuXh0gFGD
 _beta openshift | Create cluster - Azure: q4RwA6bG8VI3yMSBHC4Oy_xtUo8
 _beta openshift | Create cluster - Azure - Installer provisioned infrastructure: 1xoTeR5p3SCs3iyGKmoWL4bqFqM
 _beta openshift | Create cluster - Azure - User provisioned infrastructure: 6c_Wp124m3R_20jLEKcNrYYCobk
-_beta openshift | Create cluster - Create an OpenShift Cluster - Nutanix AOS: 9h4DrvmHP3bLqI4i6efkpFFcgXo
-_beta openshift | Create cluster - Create an OpenShift Cluster - Nutanix AOS - Installer provisioned infrastructure: y1BbihwbX91_Ay1i6Zl2kP9cT6Q
+_beta openshift | Create cluster - Datacenter: pzcarbGVV4RK_p42o3GAgC7Lv9s
 _beta openshift | Create cluster - GCP: s2QByRQz0_l5Ew09VZpmsWm1YhA
 _beta openshift | Create cluster - GCP - Installer provisioned infrastructure: CMhTarEN6SDdHT_cx7rVgLwZYBU
 _beta openshift | Create cluster - GCP - User provisioned infrastructure: OkoGYRmgAAf3VE2mY9HvqMsiorM
 _beta openshift | Create cluster - IBM Z - User provisioned infrastructure: KAwoIfyAKB5moyrU6374Fam1OmY
+_beta openshift | Create cluster - OpenShift Cluster - ARM Bare Metal: XG45h1QoDlNT0J0WjPxNc4-MHyk
 _beta openshift | Create cluster - OpenShift Container Platform: 314GBbTopHHgmPaBlIBr3YSN6hc
 _beta openshift | Create cluster - Openstack: YKlUmt4ngAs0rzPjYtp3pCKEny0
 _beta openshift | Create cluster - Openstack - Installer provisioned infrastructure: DOkiZXU5-67I_-T4h1thNoC1tiw
 _beta openshift | Create cluster - Openstack - User provisioned infrastructure: 43HvVNNCMxBzgl9mKkoPyFPB0tw
+_beta openshift | Create cluster - Platform Agnostic: 64vLTC8b6_AfxJQFgnGE7KWzJY4
+_beta openshift | Create cluster - Platform Agnostic - Agent Based: 3X-CXaLW323I1HL1T2Hv5N5Olqg
 _beta openshift | Create cluster - Power Systems - User provisioned infrastructure: xSlKQe1Anxx_MMg_SdDFiXKisPA
 _beta openshift | Create cluster - ROSA - Get Started: 4J-RTeO8vpR7kO-WJJZHLXYVuk8
 _beta openshift | Create cluster - ROSA - Welcome: Epq1UFt_ECom8tFJLKRZqEh_hWY
 _beta openshift | Create cluster - ROSA - Wizard: dGqou2YaZZwvH6PhorBUGsDx4i0
 _beta openshift | Create cluster - Red Hat Virtualization - Installer provisioned infrastructure: qs6V1aLxPKv4nbp6qTYARTnXUwk
 _beta openshift | Create cluster - Run on bare metal: d7t0CEg-5sNDNHLbgbU_zZU_LWQ
+_beta openshift | Create cluster - Run on bare metal - Agent Based: FgdZKgibMC9h-uFHQD9WCDerEs8
 _beta openshift | Create cluster - Run on bare metal - User provisioned infrastructure: 8QM4FjItPds1DSpLQr2jvS-N0SM
 _beta openshift | Create cluster - Run on your laptop with Code Ready Containers: -iMHSp7jCWKoWy975e3deCLz4WM
 _beta openshift | Create cluster - VMware vSphere - User provisioned infrastructure: hkR_XCU2yZsP68XZiIy75ydfMxw
+_beta openshift | Create cluster - vSphere: -CykDJRVMjkAO2o7QbSPK0Gn6wY
+_beta openshift | Create cluster - vSphere - Agent Based: nGdpAqkZMbb-6PLFImtCFAINZ0g
 _beta openshift | Create clusters - AWS - Install OSD cluster: kTI6IMWudXoeR6u_i_pjh4nE0qg
 _beta openshift | Create clusters - GCP - Install OSD cluster: z-SlayEtVRRSiV_9boKi4jHTuC0
 _beta openshift | OCP Trial page: mbaeQcyofC5B1LSOc73OIPXyY4c
@@ -110,11 +120,15 @@ _beta openshift | Subscriptions - Dedicated On Demand Limits: oNfpNE_50nTIT0NTvH
 _beta openshift | Trial expiration page: WDKrcGn3_EE1veQem7SfNkMoguI
 _openshift: y85raGBpoe7qZR9VdbkXmVv715s
 _openshift | All pages: sUKQ_JFFMAtJLRrm5vaE9rnWa_w
+'_openshift | Assisted - Button: Install cluster': nKrGAKkHC5mgzG1KUuXdI5ezjuI
 '_openshift | Assisted - Button: vSphere info': FiODuYpYeVZ-YRRiOwOsEtmlIeU
 '_openshift | Assisted - Button: vSphere switch': xjvW2ApcIO7og7VwITDq7QjWQCQ
 _openshift | Assisted Bare Metal Installer - Cluster configuration: H_YPgy265UZMrYtawfXd2RRjyCs
 _openshift | Assisted Bare Metal Installer - Cluster list: dFcJZdggzOLAeiCM3VDtN-mSzDI
 _openshift | Assisted Installer purple feedback form: Pv_tZ_zdyYs_jg3XoiB1-vOJWyc
+_openshift | Cluster create - ARM Bare Metal - Assisted installer: zU-DBa-6y25CZSYYzkemnXWtXIE
+_openshift | Cluster create - ARM Bare Metal - Installer provisioned: ZFogcV4ykcbB1w7IBSuGKJO4Hds
+_openshift | Cluster create - ARM Bare Metal - User provisioned: MuZrKJ_oA-LgNjASLx1GGyOxMFU
 _openshift | Cluster view - Add ons: skkGRiKU4I4IhV0XY-7HtSugVno
 _openshift | Cluster view - All: vwvHMORWxE4aqEjhxZhgEAoLdHk
 _openshift | Cluster view - Insights: D--wsZ66n6-i_Ip3ia_9Y-2L2gs
@@ -129,6 +143,11 @@ _openshift | Cluster view - node installer degraded: xzRy8JHiHVEKhKAgfrtFVToAP5I
 '_openshift | Clusters - Add-ons - Card: View RHOAM details': PvEz-jsvMH7ixW1QT_ZOu4axS1k
 '_openshift | Clusters - Add-ons - Card: View RHODS details': XTTRM4o0sD2Bsbp72a-r8pOCNrQ
 '_openshift | Clusters - Add-ons - Link: View documentation': oE7go2uvv7xlSXnzg4ZIxaCekV8
+'_openshift | Clusters - Bare Metal: Local Agent-based': 5viDWN4yeKk92cxg3khSwtGlLvo
+'_openshift | Clusters - Bare Metal: Local Agent-based - Copy pull secret': R28L5Uv-vqTRHZ6xdWxNqiwhTHc
+'_openshift | Clusters - Bare Metal: Local Agent-based - Download installer': hWWM4-GBNV27vtNJuhbhObTycyU
+'_openshift | Clusters - Bare Metal: Local Agent-based - Download pull secret': B9xZpVmuXCKY8J-K38OY3GV9ZrY
+'_openshift | Clusters - Bare Metal: Local Agent-based - Get started': Jzgg5c0Gv8hgEsLl8S0jI5owZX0
 '_openshift | Clusters - Button: Cancel': breU3nykRFG3WiTHPTNbCrWJu_o
 '_openshift | Clusters - Button: Copy pull secret': Mf_xEi1r_YmCbxta07f1L9Ox054
 '_openshift | Clusters - Button: Create cluster': CGwpp8cKMAAKFWDldStbfyEsLm0
@@ -156,6 +175,8 @@ _openshift | Cluster view - node installer degraded: xzRy8JHiHVEKhKAgfrtFVToAP5I
 '_openshift | Clusters - Card: vSphere User-provisioned infrastructure': ZEe4l5IaC_9W_gccb4J-tay2p_E
 _openshift | Clusters - Create a cluster to get started: c__ls5yxZYOxIWVJBUFfboG_0Sc
 _openshift | Clusters - Create trial cluster - select AWS or GCP: kAf7nPPNXWwlDZ2RtR3kceJ5VVc
+'_openshift | Clusters - Datacenter: Create cluster': nPifHxLSi8szjXwyLwY2tNweHtA
+'_openshift | Clusters - Datacenter: Run Agent-based Installer locally': fwgskMPip-pj5xrBtKLgNkzh4uw
 '_openshift | Clusters - Filter: Cluster type': B8TFHV1-47MA73HckNFlFj36RaQ
 '_openshift | Clusters - Link: Bare metal': BktWOAccCUkp3ohA9q8rOXIOftE
 '_openshift | Clusters - Link: IBM Z': 0slUzr0T4JxgPjKXQ37a83lWCms
@@ -167,6 +188,11 @@ _openshift | Clusters - Create trial cluster - select AWS or GCP: kAf7nPPNXWwlDZ
 '_openshift | Clusters - Link: Red Hat Virtualization': aZ2TxEAKIJx6d58JGvIh5GFMuv8
 '_openshift | Clusters - Link: View the CodeReady Containers Getting started guide': Dr_MOMtZQmL0SFBYTWLJA51gRQs
 '_openshift | Clusters - Link: vSphere': 9VrUKxfrRrT7KHH9WKk9ud3oVrA
+'_openshift | Clusters - Platform Agnostic: Local Agent-based': CtLB-PnlpyR5W5Ov_XrfsLI471s
+'_openshift | Clusters - Platform Agnostic: Local Agent-based - Copy pull secret': 5g5mqHvyRrJApqLc5dyg3LNGzzk
+'_openshift | Clusters - Platform Agnostic: Local Agent-based - Download installer': 2IWVN_-MDtbZC2ltSwb1Jdb6aLM
+'_openshift | Clusters - Platform Agnostic: Local Agent-based - Download pull secret': aKxmoks2yUexdHXiFkmV-YWENnM
+'_openshift | Clusters - Platform Agnostic: Local Agent-based - Get started': fgHDSTPkJEpWBpnyW2ZsjbkwmTQ
 '_openshift | Clusters - Tab: Access control': u8fPDjpjPXvVwe7Ak5wMBQnEZ8w
 '_openshift | Clusters - Tab: Add ons': nmf8y8NhxFfjNIgNUrO0DPqbR-E
 '_openshift | Clusters - Tab: Insights': -Ole4aMIFzClUuvVul-tOimIJk0
@@ -175,6 +201,11 @@ _openshift | Clusters - Create trial cluster - select AWS or GCP: kAf7nPPNXWwlDZ
 '_openshift | Clusters - Tab: Networking': 1UesEM4WoUND9oieODx1AOXfJCE
 '_openshift | Clusters - Tab: Overview': xWvXbtMbzPNZINz0dVJvsmYXblQ
 '_openshift | Clusters - Tab: Support': kpGLQ1MMYFnR4qirtL3iDrxrvfQ
+'_openshift | Clusters - vSphere: Local Agent-based': exCkKaujKCAkqtAyt9vgP0gvvds
+'_openshift | Clusters - vSphere: Local Agent-based - Copy pull secret': cqt_2qBplooRERbVzHiAMfuta5Y
+'_openshift | Clusters - vSphere: Local Agent-based - Download installer': YSCD0dMOUn1BP1KFbOnXv8aRDPY
+'_openshift | Clusters - vSphere: Local Agent-based - Download pull secret': XqR8VxM7nw3YLMEpwyaIXHoOzl8
+'_openshift | Clusters - vSphere: Local Agent-based - Get started': kyIbwPT-2dnFuU-vfPGivNC-9f0
 _openshift | Clusters list: oX3qX7A4u4GGD-vio9DMQ5RTamo
 _openshift | Create cluster - AWS: pse8JlEd3Bbv3GXUl1aHVCeYbf4
 _openshift | Create cluster - AWS - Installer provisioned infrastructure: dhUOmjreDEi5IDVwq9Oa_Z9Ikxg
@@ -183,25 +214,30 @@ _openshift | Create cluster - Assisted Bare Metal Installer: dR0G37OkW1w0qTtmelg
 _openshift | Create cluster - Azure: Ej5f3GO-ie_EwXiUdfh5NgxzIbo
 _openshift | Create cluster - Azure - Installer provisioned infrastructure: qL0F460ThFiXB36pS3e3Um7ib4Y
 _openshift | Create cluster - Azure - User provisioned infrastructure: zx-tDoqA_rtuHE2fdoYmfOC_OQw
-_openshift | Create cluster - Create an OpenShift Cluster - Nutanix AOS: DvyjqtTJNu4HaxaZlg_Ye9OuQnI
-_openshift | Create cluster - Create an OpenShift Cluster - Nutanix AOS - Installer provisioned infrastructure: yw7Ex3wJIBovRi5lIkh32Thwalc
+_openshift | Create cluster - Datacenter: qDkoFfuK3bDD-wfoe7bC9K5L3v0
 _openshift | Create cluster - GCP: wjlDOpvMKBOtEbU7AeWYlom3Wuc
 _openshift | Create cluster - GCP - Installer provisioned infrastructure: ZGnXmsIwZlvjYmBDgUIa6CoxjXE
 _openshift | Create cluster - GCP - User provisioned infrastructure: AcxeaF1Gwb4BqT1N8tAgpw3GEfw
 _openshift | Create cluster - IBM Z - User provisioned infrastructure: QQhdRp2pHDC9TQ2jCT8SmnarEYo
+_openshift | Create cluster - OpenShift Cluster - ARM Bare Metal: GGgrvrU5KHjQNSGHrPZ0RY9NTjA
 _openshift | Create cluster - OpenShift Container Platform: RPz0fafxvVWtEfvcdcNeHIfuyWQ
 _openshift | Create cluster - Openstack: OYMVQ9fVoqMmnjUViyLm4RZSjz0
 _openshift | Create cluster - Openstack - Installer provisioned infrastructure: eNVKCg-w6C8QWsXOaKjDaGzsuOw
 _openshift | Create cluster - Openstack - User provisioned infrastructure: P_cj-6DSzak9my1m6j6e58w2DCg
+_openshift | Create cluster - Platform Agnostic: gc8TAIhfZsw3gGqswT15J-Rur-o
+_openshift | Create cluster - Platform Agnostic - Agent Based: 3QPmy_Zc8PYgxBbIen8hBGFRXZM
 _openshift | Create cluster - Power Systems - User provisioned infrastructure: UDXDyxVZYZiA0hVCJjZEiGMXb3A
 _openshift | Create cluster - ROSA - Get Started: I_h-IuZHomI6MGX_gKWxqQ5agys
 _openshift | Create cluster - ROSA - Welcome: CgUfl2lVQlv7hdFVTp2JHnRdlP4
 _openshift | Create cluster - ROSA - Wizard: Ep41tymnTB-t3CGVLTCPryqnJyI
 _openshift | Create cluster - Red Hat Virtualization - Installer provisioned infrastructure: PLMPsNPIB36xBajDz5tvmqkT2b4
 _openshift | Create cluster - Run on bare metal: HcaaBO6x74qc_5Oma_zQ4bkCGsg
+_openshift | Create cluster - Run on bare metal - Agent Based: lJF_mWRUAhlN8qp1hTVbgjB3IB0
 _openshift | Create cluster - Run on bare metal - User provisioned infrastructure: G15R_pQjCdYEEs2B2tPd5fFuhtE
 _openshift | Create cluster - Run on your laptop with Code Ready Containers: C8xxngymPso8S4-G_zt_U2xFXw0
 _openshift | Create cluster - VMware vSphere - User provisioned infrastructure: 1wwt8GUNnaUiCutPdr61XSCkzX0
+_openshift | Create cluster - vSphere: zh2cJ28TZVNrEmqj5jwbCtewF9g
+_openshift | Create cluster - vSphere - Agent Based: 2Ml6OK9oBPaRnOgXQ5gacqiOk3k
 _openshift | Create clusters - AWS - Install OSD cluster: zkUmsPMg0SkxByQVD3ZQisX0EZc
 _openshift | Create clusters - GCP - Install OSD cluster: b3RJDZgXihuZRUTLJZrRYXFBDA0
 '_openshift | Downloads - Button: Copy': YyRXywLpVuJQlrR7_Q0jJW856FM
@@ -275,25 +311,30 @@ _preview openshift | Create cluster - Assisted Bare Metal Installer: k6GpYPI3XT8
 _preview openshift | Create cluster - Azure: drVTz4n_9XfW5sNlFjPLGLy43us
 _preview openshift | Create cluster - Azure - Installer provisioned infrastructure: I3_EUerA2uczV1aIn9SCcEFYHHg
 _preview openshift | Create cluster - Azure - User provisioned infrastructure: aw2vdPdAZ2Hf4XFDh9Ql3BT1GIM
-_preview openshift | Create cluster - Create an OpenShift Cluster - Nutanix AOS: -X_067llNAJZ3pmyAv_MXJEk568
-_preview openshift | Create cluster - Create an OpenShift Cluster - Nutanix AOS - Installer provisioned infrastructure: craZd03ryL_bmEsKbodg55RPX6A
+_preview openshift | Create cluster - Datacenter: sGEh-iYN5U9h-cVGcC6S66K3ITE
 _preview openshift | Create cluster - GCP: fHgMqCnWPb_DNgoDD07ZY7GKCbI
 _preview openshift | Create cluster - GCP - Installer provisioned infrastructure: qchwSZ21xlUfykuNcBFGx5zYsms
 _preview openshift | Create cluster - GCP - User provisioned infrastructure: IQsh5MP80GMrOuc9E2a_ClWsv08
 _preview openshift | Create cluster - IBM Z - User provisioned infrastructure: DQ5ek_N0xDfAyvhaPdJlO455KrU
+_preview openshift | Create cluster - OpenShift Cluster - ARM Bare Metal: qm_qC6eaM4Ys4oeemC1WMSV56gc
 _preview openshift | Create cluster - OpenShift Container Platform: pUxPvq4ehxTdhbXZFvp2bOpXqW0
 _preview openshift | Create cluster - Openstack: 8enjQ2W3wiQd0WTuCteH8TWafX0
 _preview openshift | Create cluster - Openstack - Installer provisioned infrastructure: nfWPmBFoR-qVmRP2qkNx6NT32DY
 _preview openshift | Create cluster - Openstack - User provisioned infrastructure: G16XTowD8zCO8uY_HdXTAAe5CCA
+_preview openshift | Create cluster - Platform Agnostic: li0JzWQ70om3qFOoqfBaE_9zfSo
+_preview openshift | Create cluster - Platform Agnostic - Agent Based: 27qk4qv6x6lIKmA00E_Fo5LK4Ek
 _preview openshift | Create cluster - Power Systems - User provisioned infrastructure: NPLcc547uPX_rndp-36prSwzKFI
 _preview openshift | Create cluster - ROSA - Get Started: 29-JH7t9iuWA1VGqD_BUP_tuEyo
 _preview openshift | Create cluster - ROSA - Welcome: 8RgS_yhSrnHQcqSvoX3t-PWTpeI
 _preview openshift | Create cluster - ROSA - Wizard: Zrksb8nVUFvo67PEHEZChvKvvvc
 _preview openshift | Create cluster - Red Hat Virtualization - Installer provisioned infrastructure: GwUm0n9Yfc-ofqKdMxUyHR1NMXk
 _preview openshift | Create cluster - Run on bare metal: BFboXWbLNc0ns1AQisn29SpWInc
+_preview openshift | Create cluster - Run on bare metal - Agent Based: Hxy46o8Rle-AnFCZyeNNjJStCb0
 _preview openshift | Create cluster - Run on bare metal - User provisioned infrastructure: SCHTRqxnqHt0uPn0jBqeZvOrOWU
 _preview openshift | Create cluster - Run on your laptop with Code Ready Containers: AXYZTRvcgkXPk9710PykvVP0428
 _preview openshift | Create cluster - VMware vSphere - User provisioned infrastructure: vColt8XHk9AF6DwBZGRbNrDYrjQ
+_preview openshift | Create cluster - vSphere: orVED5cWZbnF3uBuZ3j-I00wwb4
+_preview openshift | Create cluster - vSphere - Agent Based: K6O48d_yBYazCoQYw5XNLvhICRQ
 _preview openshift | Create clusters - AWS - Install OSD cluster: M-mrZ37HIuG-9STKuAOQNrkKRAA
 _preview openshift | Create clusters - GCP - Install OSD cluster: Lx_-qVWAlsJjchcuSTmyRymaHlo
 _preview openshift | OCP Trial page: 3oR3ez_RRgz866oXw5CSRNqPzXM

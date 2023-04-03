@@ -1,23 +1,33 @@
 _aggregate compliance: BBWfxhd-04BWc9JXoyyVB5ALlw0
 _aggregate compliance | All pages: KsPnZe7YJGlA2EJavHKa5MK1bzM
+_aggregate compliance | Edit policy modal: lKjJZqgz_XzfRYtxwNYkdFQxw6E
 _aggregate compliance | Reports list - By policy: ezDqnfTdxyAuQM39wZpkAL5C0xw
 _aggregate compliance | Reports list - By system: zkCCvzwkuh5TvqG3z9T7oMwr44c
 _aggregate compliance | Reports view: metEN2rnDx1DTp8oToNXIIPooKI
 _aggregate compliance | SCAP Policies list: tgV86gtmG9ehunUdnJnIx0IPfzw
 _aggregate compliance | SCAP Policies view: 4d1dgBIwzouRhSdqR1ibLx9lmPs
+_aggregate compliance | System view: y7EQOk27N2GwnboZQZWstt9V5Ek
 _aggregate compliance | Systems list: VlADeIt7Cvmc9r8k8QDQmiWd2MA
 _beta compliance: 7MOBBV0w_u5zAYn7SRLyl7brGb8
 _beta compliance | All pages: KC-EkS6UGEIdO9WYA_yMiUoTfs8
+_beta compliance | Edit policy modal: 70vhgUMCEKKT2vNBHWBSidnqEYc
 _beta compliance | Reports list - By policy: T3fJvQxLB-bhCCMQbT0OGx7HsW0
 _beta compliance | Reports list - By system: qf2IV8M4pXRuzh-sUgNZ-7vDoIU
 _beta compliance | Reports view: UWt8hdgQrZVwSAUz2akiiU1wIUM
 _beta compliance | SCAP Policies list: jOk5Q8gzxiJVZnUAKVng1lpfazs
 _beta compliance | SCAP Policies view: mbXN9sCAKqoWU08XSGEsileogOU
+_beta compliance | System view: 99aWYGEhAVj6RrfXSuK1Z2hbYrQ
 _beta compliance | Systems list: -MwjdW4M-ciXRUas4gnzOLXKuQk
 _compliance: 7pRY1GFZ9IBL8bU1_SENPnaCMvo
 _compliance | All pages: 6dxvJr7iGYO3x7sKhVkp_WPAMB4
 '_compliance | Any - Button: Remediate': ANfsIFcyfEy8q-Z7h3wUTzujrQA
+'_compliance | Any - Menu button: Delete policy': RIu5JrHcNLwJc7KeebprBRa7dXk
+_compliance | Edit policy modal: r9GIH65M8XS60QgG4VGAno6JM4Q
 '_compliance | Reports - Button: Ansible Remediate': AM7ov2FPxjPTyHOkwhG3lx-EUEg
+'_compliance | Reports - Button: Delete report': HkOtiK5L-5yt2MVzBjAkyDz9cpc
+'_compliance | Reports - Button: Download PDF': nD0q2DYsreGextwN28a1NA4F490
+'_compliance | Reports - Button: Export report': JijmMsdfl7h1KOyD3suppxpsadI
+'_compliance | Reports - Delete report modal - Button: Delete report': jvw8LavFPk_upKEUb1FHcftLs1s
 '_compliance | Reports - Link: View policy': THIU2l0j3e47RR-tI23ChB0ChwA
 '_compliance | Reports - Link: View report': OqMOB-QKRU2MAUPbcTq9PRIvgNk
 _compliance | Reports list - By policy: 4z0ktJ90g3GXWMrYdGNR1J52Epw
@@ -26,6 +36,11 @@ _compliance | Reports view: bnzu1AVyrunUPrcLnXj8ZxfVaL8
 '_compliance | SCAP Policies - Button: Create new policy': ZKFhtR4TKAljBlqXDKZhq0GwWo4
 _compliance | SCAP Policies list: 1KQmCj_ivdOdtDUnWjDDc_N-2Do
 _compliance | SCAP Policies view: NOMp3jDCD1HxtmI3Rm1tAPIpOPE
+'_compliance | SCAP policies - Button: Edit rules': PDumgZ-ZBkTZxEdhc7GCeZhBERY
+'_compliance | SCAP policies - Button: Edit systems': RN8hW7h0zX9z04cvavm0qLGulLM
+'_compliance | SCAP policies - Icon button: Edit details': t77fSXm9qCZcPdOmbNsXvGcmKy4
+'_compliance | SCAP policies - Menu button: Edit policies': YhcsTUBcMRvuZsUiGwD2z6HR0pw
+_compliance | System view: UGDjUw3FbSf3n_bVKESdfZBYCpw
 '_compliance | Systems - Button: Ansible Remediate': sbOEGLj7o979JqJyXbtqZ0KiOfo
 '_compliance | Systems - Filter: Name': VLEfPQlo1HdehwmoJpmEs4heNe8
 '_compliance | Systems - Filter: Operating system': UHYQ7A39tCDuJCeKkL7Vpois85U
@@ -34,9 +49,11 @@ _compliance | SCAP Policies view: NOMp3jDCD1HxtmI3Rm1tAPIpOPE
 _compliance | Systems list: nNKuovgrR_cGtad_qtwY9Zsh4EI
 _preview compliance: OF3ekLugun3v7Un5CJv8fmNFgts
 _preview compliance | All pages: oO6MVqHoXtnHd7SxFOuUZd4s2mk
+_preview compliance | Edit policy modal: kc42ytieOMex74DTdF6PvwIFupI
 _preview compliance | Reports list - By policy: hWmUzs24LhmXq4g96feBAnmyy20
 _preview compliance | Reports list - By system: BIEeLtqIDrLAlYEngafnCp8vdRk
 _preview compliance | Reports view: 0ro8WidugCGyFXrw6R3CTpIRAAA
 _preview compliance | SCAP Policies list: W2TF0OxMP-8F1hrf1nVVFf7WvWs
 _preview compliance | SCAP Policies view: XrBQuB8HY84dKM1tGBiW3aPbIG8
+_preview compliance | System view: IcsFgk2uLsvEs__s7kxkQFCEfrE
 _preview compliance | Systems list: piq4Cohl2GydYK5vUGVAe2RG_hA
