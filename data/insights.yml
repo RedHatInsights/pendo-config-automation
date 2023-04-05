@@ -18,6 +18,9 @@ insights:
         - /insights/ros/**
   features:
     _scope: '[data-ouia-bundle="insights"]'
+    "Overview - Button: Configure intergrations"
+      selectors:
+        - '{} [data-ouia-app-id="overview"].pf-m-secondary:contains("Configure Integrations")'
     "All Pages - Tab: host view tab click":
       selectors:
         - '{} .ins-c-inventory-detail__app-tabs li'
