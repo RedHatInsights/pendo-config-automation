@@ -39,5 +39,6 @@ applications:
   - "ros"
   - "settings"
   - "subscriptions"
+  - "toolkit"
   - "user-preferences"
   - "vulnerability"
