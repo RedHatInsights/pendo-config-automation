@@ -36,6 +36,7 @@ applications:
   - "register-systems"
   - "remediations"
   - "rhel"
+  - "ros"
   - "settings"
   - "subscriptions"
   - "user-preferences"
