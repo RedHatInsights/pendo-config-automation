@@ -3,39 +3,36 @@ advisor:
   color: 2
   features:
     _scope: '[data-ouia-app-id="advisor"]'
-    "Recommendations - Link: Clear filters":
+    "Recommendations - Link: Reset filters":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Clear filters")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-m-link:contains("Reset filters")'
     "Recommendations - Filter: Total risk":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Total risk")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Total risk")'
     "Recommendations - Filter: Name":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Name")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Name")'
     "Recommendations - Filter: Risk of change":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Risk of change")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Risk of change")'
     "Recommendations - Filter: Impact":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Impact")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Impact")'
     "Recommendations - Filter: Likelihood":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Likelihood")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Likelihood")'
     "Recommendations - Filter: Category":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Category")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Category")'
     "Recommendations - Filter: Incidents":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Incidents")'
-    "Recommendations - Filter: Ansible support":
-      selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Ansible support")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Incidents")'
     "Recommendations - Filter: Reboot required":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Reboot required")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Reboot required")'
     "Recommendations - Filter: Status":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Status")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Status")'
     "Recommendations - Filter: Systems impacted":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button:contains("Systems impacted")'
