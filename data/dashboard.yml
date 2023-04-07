@@ -79,7 +79,6 @@ dashboard:
     "Insights - Link to ROS: Total systems":
       selectors:
         - '{} span:contains("Total systems")'
-    "Insights - Button: Configure intergrations"
+    "Insights - Button: Configure intergrations":
       selectors:
         - '{} [data-ouia-app-id="overview"].pf-m-secondary:contains("Configure Integrations")'
-        
