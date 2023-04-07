@@ -59,7 +59,7 @@ compliance:
     "Reports - Delete report modal - Button: Delete report":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-danger:contains("Delete report")'
-    "Systems - Button: Ansible Remediate":
+    "Systems - Button: Remediate":
       selectors:
         - '{}[data-ouia-subnav="systems"] div:contains("Remediate").pf-c-toolbar__item'
     "SCAP Policies - Button: Create new policy":
@@ -82,7 +82,7 @@ compliance:
         - '{}[data-ouia-subnav="scappolicies"] .pf-c-dropdown__menu-item:contains("Edit policy")'
     "SCAP policies - Button: Edit rules":
       selectors:
-        - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit policy")'
+        - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit rules")'
     "SCAP policies - Button: Edit systems":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit systems")'
