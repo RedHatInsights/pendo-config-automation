@@ -77,7 +77,7 @@ compliance:
     "Systems - Link: Clear filters":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Clear filters").pf-c-button'
-    "SCAP policies - Menu button: Edit policies":
+    "SCAP policies - Menu button: Edit policy":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] .pf-c-dropdown__menu-item:contains("Edit policy")'
     "SCAP policies - Button: Edit rules":
