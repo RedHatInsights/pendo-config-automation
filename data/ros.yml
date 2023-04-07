@@ -7,7 +7,7 @@ ros:
         - /insights/ros
         - /insights/ros/**
   features:
-     _scope: '[data-ouia-bundle="insights"]'
-     "Resource Optimization - Link: Download executivereport":
+    _scope: '[data-ouia-bundle="insights"]'
+    "Resource Optimization - Link: Download executive report":
       selectors:
         - '{} [data-ouia-app-id="ros"] a:contains("Download executive report")'
