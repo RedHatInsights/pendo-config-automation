@@ -11,6 +11,7 @@ image builder:
         - /insights/image-builder/landing
     Image creation wizard:
       url_rules:
+        - /insights/image-builder/imagewizard
         - /insights/image-builder/imagewizard/**
   features:
     _scope: '[data-ouia-bundle="insights"][data-ouia-app-id="image-builder"]'
@@ -46,4 +47,4 @@ image builder:
         - '{} .pf-c-button:contains("Cancel")'
     "Wizard Create Image button":
       selectors:
-        - '{} .pf-c-button:contains("Create Image")'
+        - '{} .pf-c-button:contains("Create image")'
