@@ -9,7 +9,7 @@ compliance:
     Reports list:
       url_rules:
         - /insights/compliance/reports
-    Reports view:
+    Reports by policy:
       url_rules:
         - /insights/compliance/reports/**
     SCAP Policies list:
@@ -21,7 +21,7 @@ compliance:
     Systems list:
       url_rules:
         - /insights/compliance/systems
-    System view:
+    System report view:
       url_rules:
         - /insights/compliance/systems/**
     Edit policy modal:
