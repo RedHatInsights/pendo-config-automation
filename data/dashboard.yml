@@ -36,7 +36,7 @@ dashboard:
         - '{} .pf-c-button.pf-m-secondary:contains("View CVEs")'
     "Insights - Link to Vulnerability: View known exploits":
       selectors:
-        - '{} .ins-c-dashboard__card--compound--Vulnerabilities a:contains("View known exploits")'
+        - '{} .pf-m-secondary:contains("View known exploits")'
     "Insights - Link to Vulnerability: CVEs by CVSS score filters":
       selectors:
         - '{} div.pf-c-card__body.ins-c-cves-by-cvss-card-body'
@@ -60,7 +60,7 @@ dashboard:
         - '{} .pf-c-button[href="./insights/registration"]:contains("Register systems")'
     "Insights - Link: Systems registered with Insights":
       selectors:
-        - '{} .pf-m-link[href="./insights/inventory/?status=fresh&status=stale&source=insights"]:contains("Systems registered with Insights")'
+        - '{} .pf-m-link:contains("Systems registered with Insights")'
     "Insights - Button: View CVEs":
       selectors:
         - '{} .pf-c-button:contains("View CVEs")'
@@ -81,4 +81,4 @@ dashboard:
         - '{} span:contains("Total systems")'
     "Insights - Button: Configure intergrations":
       selectors:
-        - '{} [data-ouia-app-id="overview"].pf-m-secondary:contains("Configure Integrations")'
+        - '{} .pf-m-secondary:contains("Configure Integrations")'
