@@ -20,3 +20,34 @@ toolkit:
     Tasks - Activity:
       url_rules:
         - /insights/tasks/executed
+
+  features:
+    _scope: '[data-ouia-bundle="toolkit"]'
+    "Remediations - Button: Download playbook":
+      selectors:
+        - '{} [data-ouia-app-id:"remediations"] .pf-m-secondary:contains("Download playbook")'
+        - '{} [data-ouia-app-id:"remediations"] a.pf-c-dropdown__menu-item:contains("Download playbook")'
+    "Remediations - Button: Execute playbook":
+      selectors:
+        - '{} [data-ouia-app-id:"remediations"] .pf-c-dropdown__menu-item:contains("Execute playbook")'
+    "Remediations - Button: Archive playbook":
+      selectors:
+        - '{} [data-ouia-app-id:"remediations"] .pf-c-dropdown__menu-item:contains("Archive playbook")'
+    "Remediations - Button: Delete playbooks":
+      selectors:
+        - '{} [data-ouia-app-id:"remediations"] .pf-c-dropdown__menu-item:contains("Delete playbooks")'
+    "Remediations - Button: Show archived playbooks":
+      selectors:
+        - '{} [data-ouia-app-id:"remediations"] .pf-c-dropdown__menu-item:contains("Show archived playbooks")'  
+    "Tasks - Button: Run task":
+      selectors:
+        - '{} [data-ouia-app-id:"tasks"] .pf-m-primary:contains("Run task")'
+    "Tasks - Button: Download preview of playbook"
+      selectors:
+        - '{} [data-ouia-app-id:"tasks"] a:contains("Download preview of playbook")'
+        
+        
+        
+        
+   
+        
