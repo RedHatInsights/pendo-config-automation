@@ -47,6 +47,12 @@ compliance:
     "Reports - Button: Export report":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Export report")'
+    "Reports - Button: Export to CSV":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
+    "Reports - Button: Export to JSON":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "Reports - Button: Delete report":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-link:contains("Delete report")'
