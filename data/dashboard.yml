@@ -19,12 +19,6 @@ dashboard:
     "Insights - Link: Recommendations":
       selectors:
         - '{} a:contains("recommendations")'
-    "Insights - Link: X systems affected":
-      selectors:
-        - '{} a:contains("systems affected")'
-    "Insights - Link: X incidents detected":
-      selectors:
-        - '{} .pf-m-secondary:contains("View incidents")'
     "Insights - Link: Subscription Watch utilization - Red Hat Enterprise Linux":
       selectors:
         - '{} a:contains("Red Hat Enterprise Linux")'
@@ -40,9 +34,6 @@ dashboard:
     "Insights - Link to Vulnerability: CVEs by CVSS score filters":
       selectors:
         - '{} div.pf-c-card__body.ins-c-cves-by-cvss-card-body'
-    "Insights - Link to Vulnerability: Security rule details":
-      selectors:
-        - '{} .pf-m-secondary:contains("View CVEs")'
     "Insights - Link to Patch: View all systems affected":
       selectors:
         - '{} span:contains("systems affected")'
@@ -61,12 +52,6 @@ dashboard:
     "Insights - Link: Systems registered with Insights":
       selectors:
         - '{} .pf-m-link:contains("Systems registered with Insights")'
-    "Insights - Button: View CVEs":
-      selectors:
-        - '{} .pf-c-button:contains("View CVEs")'
-    "Insights - Button: View known exploits":
-      selectors:
-        - '{} .pf-c-button:contains("View known exploits")'
     "Insights - Button: View incidents":
       selectors:
         - '{} .pf-c-button:contains("View incidents")'
