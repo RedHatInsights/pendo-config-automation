@@ -44,9 +44,6 @@ compliance:
     "Reports - Link: View policy":
       selectors:
         - '{}[data-ouia-subnav="reports"] a:contains("View policy")'
-    "Reports - Button: Ansible Remediate":
-      selectors:
-        - '{}[data-ouia-subnav="reports"] div:contains("Remediate").pf-c-toolbar__item'
     "Reports - Button: Download PDF":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Download PDF")'
@@ -59,9 +56,6 @@ compliance:
     "Reports - Delete report modal - Button: Delete report":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-danger:contains("Delete report")'
-    "Systems - Button: Remediate":
-      selectors:
-        - '{}[data-ouia-subnav="systems"] div:contains("Remediate").pf-c-toolbar__item'
     "SCAP Policies - Button: Create new policy":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] [data-ouia-component-id="CreateNewPolicyButton"]'
