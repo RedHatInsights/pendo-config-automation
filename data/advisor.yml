@@ -50,25 +50,34 @@ advisor:
         - '{}[data-ouia-subnav="recommendations"] button:contains("Export to JSON")'
     "Systems - Filter: Total risk":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Total Risk")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Total risk")'
     "Recommendations - Sort: Name":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Name")'
-    "Recommendations - Sort: Added":
+    "Recommendations - Sort: Modified":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Added")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Modified")'
+    "Recommendations - Sort: Category":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Category")'
     "Recommendations - Sort: Total risk":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Total risk")'
-    "Recommendations - Sort: Risk of change":
-      selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Risk of change")'
     "Recommendations - Sort: Systems":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Systems")'
-    "Recommendations - Sort: Ansible":
+    "Recommendations - Sort: Remediation":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Ansible")'
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Remediation")'
+    "Recommendations - Sort: Risk of change":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Risk of change")'
+    "Recommendations - Sort: Last seen":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Last seen")'
+    "Recommendations - Sort: First Impacted":
+      selectors:
+        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("First Impacted")'
     "Topics - Sort: Affected systems":
       selectors:
         - '{}[data-ouia-subnav="topics"] .pf-c-table__button:contains("Affected systems")'
