@@ -53,18 +53,39 @@ compliance:
     "Reports - Delete report modal - Button: Delete report":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-danger:contains("Delete report")'
+    "Reports - Filter: Tags":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Tags")'
+    "Reports - Filter: Name":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Name")'
+    "Reports - Filter: Compliance":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Compliance")'
+    "Reports - Filter: Compliance score":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Compliance score")'
+    "Reports - Filter: SSG Version":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("SSG Version")'
+    "Reports - Filter: Operating system":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Operating system")'
     "SCAP Policies - Button: Create new policy":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] [data-ouia-component-id="CreateNewPolicyButton"]'
     "Systems - Filter: Name":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Name")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Name")'
     "Systems - Filter: Policy":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Policy")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Policy")'
     "Systems - Filter: Operating system":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Operating system")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Operating system")'
+    "Systems - Filter: Tags":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Tags")'
     "Systems - Link: Clear filters":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Clear filters").pf-c-button'
