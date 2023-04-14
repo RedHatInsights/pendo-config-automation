@@ -14,13 +14,13 @@ compliance:
         - /insights/compliance/reports/systems
     Reports view:
       url_rules:
-        - /insights/compliance/reports/*
+        - /insights/compliance/reports/**
     SCAP Policies list:
       url_rules:
         - /insights/compliance/scappolicies
     SCAP Policies view:
       url_rules:
-        - /insights/compliance/scappolicies/*
+        - /insights/compliance/scappolicies/**
     Systems list:
       url_rules:
         - /insights/compliance/systems
