@@ -1,0 +1,19 @@
+--
+tasks:
+  pages:
+    All pages:
+      url_rules:
+        - //*/insights/tasks/**
+    Tasks list:
+      url_rules:
+        - /insights/tasks/
+        - /insights/tasks/available
+    Activity list:
+      url_rules:
+        - /insights/tasks/exectued
+        - /insights/tasks/exectued/*parameter*/
+  features:
+    _scope: '[data-ouia-app-id="tasks"]'
+    "Tasks - Run Task Button":
+      selectors:
+        - '{} button:contains("Run task")'
