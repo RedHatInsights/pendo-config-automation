@@ -91,9 +91,9 @@ patch:
     "Systems list - Sort by: Packages":
       selectors:
         - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Packages")'
-    "Systems list - Sort by: Applicable advisories":
+    "Systems list - Sort by: Installable advisories":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Applicable advisories")'
+        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Installable advisories")'
     "Systems list - Sort by: Last seen":
       selectors:
         - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
