@@ -19,4 +19,4 @@ insights:
         - '{} button:contains("Show more information")'
     "All pages - Filter: Global":
       selectors:
-        - '{} [data-ouia-component-id="global-filter-select"]'
+        - '{} .pf-c-menu-toggle.chr-c-menu-global-filter__select'
