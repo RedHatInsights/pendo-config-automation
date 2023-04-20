@@ -18,16 +18,20 @@ patch:
         - /insights/patch/systems/
     Systems view:
       url_rules:
-        - /insights/patch/systems/*/
+        - /insights/patch/systems/**
     Packages list:
       url_rules:
         - /insights/patch/packages/
     Packages view:
       url_rules:
-        - /insights/patch/packages/*/
-    Patch set:
+        - /insights/patch/packages/**
+    Templates list:
       url_rules:
-        - /insights/patch/patch-set
+        - /insights/patch/templates
+    Templates view:
+      url_rules:
+        - /insights/patch/templates/**
+ 
   features:
     _scope: '[data-ouia-app-id="patch"]'
     "Advisories - Filter: Type":
@@ -252,3 +256,6 @@ patch:
     "Packages view - Per page: 100":
       selectors:
         - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("100 per page")'
+    "Templates list - Button: Create a template":
+      selectors:
+        - '{}[data-ouia-subnav="templates"] .pf-m-primary:contains("Create a template")
