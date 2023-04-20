@@ -14,9 +14,6 @@ policies:
         - /insights/policies/policy/*
   features:
     _scope: '[data-ouia-app-id="policies"]'
-    "Policies - Link: Open email preferences":
-      selectors:
-        - '{} a:contains("Open email preferences")'
     "Policies - Button: Create policy":
       selectors:
         - '{} button:contains("Create policy").pf-c-button'
