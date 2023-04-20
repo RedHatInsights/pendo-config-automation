@@ -241,9 +241,6 @@ patch:
     "Packages view - Sort by: Latest version":
       selectors:
         - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Latest version")'
-    "Packages view - Sort by: Status":
-      selectors:
-        - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Status")'
     "Packages view - Per page: 10":
       selectors:
         - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("10 per page")'
