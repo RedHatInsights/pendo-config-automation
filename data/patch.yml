@@ -177,22 +177,22 @@ patch:
         - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Synopsis")'
     "Systems view - Sort by: Type":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Type")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Type")'
     "Systems view - Sort by: Publish date":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("Publish date")'
+        - '{}[data-ouia-subnav="systems"] button:contains("Publish date")'
     "Systems view - Per page: 10":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("10 per page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("10 per page")'
     "Systems view - Per page: 20":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("20 per page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("20 per page")'
     "Systems view - Per page: 50":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("50 per page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("50 per page")'
     "Systems view - Per page: 100":
       selectors:
-        - '{}[data-ouia-subnav="systems"] .ins-active-app-patch button:contains("100 per page")'
+        - '{}[data-ouia-subnav="systems"] button:contains("100 per page")'
     "Systems view - Tab: Advisories":
       selectors:
         - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="system-advisories-tab"]'
@@ -243,16 +243,16 @@ patch:
         - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Latest version")'
     "Packages view - Per page: 10":
       selectors:
-        - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("10 per page")'
+        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("10 per page")'
     "Packages view - Per page: 20":
       selectors:
-        - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("20 per page")'
+        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("20 per page")'
     "Packages view - Per page: 50":
       selectors:
-        - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("50 per page")'
+        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("50 per page")'
     "Packages view - Per page: 100":
       selectors:
-        - '{}[data-ouia-subnav="packages"] .ins-c-inventory__table--toolbar-has-items button.pf-c-options-menu__menu-item:contains("100 per page")'
+        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("100 per page")'
     "Templates list - Button: Create a template":
       selectors:
         - '{}[data-ouia-subnav="templates"] .pf-m-primary:contains("Create a template")
