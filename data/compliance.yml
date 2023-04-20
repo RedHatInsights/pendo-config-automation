@@ -12,6 +12,7 @@ compliance:
     Reports list - By system:
       url_rules:
         - /insights/compliance/reports/systems
+        - /insights/compliance/reports/systems/**
     Reports view:
       url_rules:
         - /insights/compliance/reports/**
