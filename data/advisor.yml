@@ -48,9 +48,6 @@ advisor:
     "Recommendations - Button: Export to JSON":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button:contains("Export to JSON")'
-    "Systems - Filter: Total risk":
-      selectors:
-        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Total risk")'
     "Recommendations - Sort: Name":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Name")'
@@ -69,9 +66,6 @@ advisor:
     "Recommendations - Sort: Remediation":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Remediation")'
-    "Recommendations - Sort: Risk of change":
-      selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Risk of change")'
     "Recommendations - Sort: Last seen":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Last seen")'
@@ -114,12 +108,9 @@ advisor:
     "Recommendations - Link: Knowledgebase articles":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] a:contains("Knowledgebase article")'
-    "Recommendations - Button: Disable recommendation for selected systems":
-      selectors:
-        - '{}[data-ouia-subnav="recommendations"] li:contains("Disable recommendation for selected systems")'
     "Recommendations - Button: Disable recommendation":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] [data-ouia-component-id="disable"]'
+        - '{}[data-ouia-subnav="recommendations"] .pf-c-dropdown__menu-item:contains("Disable recommendation")'
     "System view - Button: Remediate":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Remediate")'
@@ -129,18 +120,12 @@ advisor:
       url_rules:
         - /insights/advisor
         - /insights/advisor/**
-    Recommendations system:
-      url_rules:
-        - /insights/advisor/recommendations/*parameter*/*
-        - /insights/recommendations/*parameter*/*
     Recommendations view:
       url_rules:
         - /insights/advisor/recommendations/*parameter*
-        - /insights/recommendations/*parameter*
     Recommendations list:
       url_rules:
         - /insights/advisor/recommendations
-        - /insights/recommendations
     Recommendations pathways list:
       url_rules:
         - /insights/advisor/recommendations/pathways
@@ -149,7 +134,7 @@ advisor:
         - /insights/advisor/recommendations/pathways/*parameter*
     Systems view:
       url_rules:
-        - /insights/advisor/systems/*
+        - /insights/advisor/systems/**
     Systems list:
       url_rules:
         - /insights/advisor/systems
