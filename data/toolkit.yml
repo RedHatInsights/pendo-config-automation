@@ -37,7 +37,7 @@ toolkit:
         - '{} [data-ouia-app-id:"remediations"] .pf-c-dropdown__menu-item:contains("Delete playbooks")'
     "Remediations - Button: Show archived playbooks":
       selectors:
-        - '{} [data-ouia-app-id:"remediations"] .pf-c-dropdown__menu-item:contains("Show archived playbooks")'  
+        - '{} [data-ouia-app-id:"remediations"] .pf-c-dropdown__menu-item:contains("Show archived playbooks")'
     "Tasks - Button: Run task":
       selectors:
         - '{} [data-ouia-app-id:"tasks"] .pf-m-primary:contains("Run task")'
