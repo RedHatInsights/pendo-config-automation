@@ -254,4 +254,4 @@ patch:
         - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("100 per page")'
     "Templates list - Button: Create a template":
       selectors:
-        - '{}[data-ouia-subnav="templates"] .pf-m-primary:contains("Create a template")
+        - '{}[data-ouia-subnav="templates"] .pf-m-primary:contains("Create a template")'
