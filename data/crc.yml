@@ -14,6 +14,12 @@ crc:
     Azure Activation Modal:
       url_rules:
         - /?azure-openshift-activation
+    All services:
+      url_rules:
+        - /allservices
+    Favorited services:
+      url_rules:
+        - /favoritedservices
   features:
     _scope: '[data-ouia-app-id="landing"]'
     "Selector: Beta switcher":
