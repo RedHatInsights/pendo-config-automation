@@ -20,7 +20,6 @@ toolkit:
     Tasks - Activity:
       url_rules:
         - /insights/tasks/executed
-
   features:
     _scope: '[data-ouia-bundle="toolkit"]'
     "Remediations - Button: Download playbook":
@@ -42,12 +41,6 @@ toolkit:
     "Tasks - Button: Run task":
       selectors:
         - '{} [data-ouia-app-id:"tasks"] .pf-m-primary:contains("Run task")'
-    "Tasks - Button: Download preview of playbook"
+    "Tasks - Button: Download preview of playbook":
       selectors:
         - '{} [data-ouia-app-id:"tasks"] a:contains("Download preview of playbook")'
-        
-        
-        
-        
-   
-        
