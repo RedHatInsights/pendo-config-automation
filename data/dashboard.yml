@@ -67,3 +67,15 @@ dashboard:
     "Insights - Button: Configure intergrations":
       selectors:
         - '{} .pf-m-secondary:contains("Configure Integrations")'
+    "Insights - Recommendations by total risk - Link: Critical":
+      selectors:
+        - '{} div.pf-m-column.pf-m-space-items-none.pf-m-align-items-center:contains("Critical")'
+    "Insights - Recommendations by total risk - Link: Important":
+      selectors:
+        - '{} div.pf-m-column.pf-m-space-items-none.pf-m-align-items-center:contains("Important")'
+    "Insights - Recommendations by total risk - Link: Moderate":
+      selectors:
+        - '{} div.pf-m-column.pf-m-space-items-none.pf-m-align-items-center:contains("Moderate")'
+    "Insights - Recommendations by total risk - Link: Low":
+      selectors:
+        - '{} div.pf-m-column.pf-m-space-items-none.pf-m-align-items-center:contains("Low")'
