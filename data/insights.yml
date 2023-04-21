@@ -9,17 +9,8 @@ insights:
     Overview:
       url_rules:
         - /insights/dashboard
-    Security:
-      url_rules:
-        - /security/insights
   features:
     _scope: '[data-ouia-bundle="insights"]'
-    "All Pages - Tab: host view tab click":
-      selectors:
-        - '{} .ins-c-inventory-detail__app-tabs li'
-    "All Pages - Button: host view show drawer":
-      selectors:
-        - '{} button:contains("Show more information")'
     "All pages - Filter: Global":
       selectors:
-        - '{} [data-ouia-component-id="global-filter-select"]'
+        - '{} .pf-c-menu-toggle.chr-c-menu-global-filter__select'
