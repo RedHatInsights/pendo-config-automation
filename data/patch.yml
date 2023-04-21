@@ -31,7 +31,6 @@ patch:
     Templates view:
       url_rules:
         - /insights/patch/templates/**
- 
   features:
     _scope: '[data-ouia-app-id="patch"]'
     "Advisories - Filter: Type":
