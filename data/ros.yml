@@ -10,4 +10,52 @@ ros:
     _scope: '[data-ouia-bundle="insights"]'
     "Resource Optimization - Link: Download executive report":
       selectors:
-        - '{} [data-ouia-app-id="ros"] .pf-m-link:contains("Download executive report")'
+        - '{}[data-ouia-app-id="ros"] .pf-m-link:contains("Download executive report")'
+    "Resource Optimization list - Filter: Name":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Name")'
+    "Resource Optimization list - Filter: State":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("State")'
+     "Resource Optimization list - Filter: Operating system":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Operating system")'
+     "Resource Optimization list - Sort by: Name":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Name")'
+     "Resource Optimization list - Sort by: OS":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("OS")'
+     "Resource Optimization list - Sort by: CPU Utilization":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("CPU utilization")'
+     "Resource Optimization list - Sort by: Memory Utilization":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Memory utilization")'
+     "Resource Optimization list - Sort by: I/O Utilization":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("I/O utilization")'      
+     "Resource Optimization list - Sort by: Suggestions":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Suggestions")'     
+     "Resource Optimization list - Sort by: State":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("State")'     
+     "Resource Optimization list - Sort by: Last reported":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Last reported")'     
+     "Resource Optimization list - Export: General":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] #pf-dropdown-toggle-id-49'     
+     "Resource Optimization list - Export: CSV":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to CSV")'     
+     "Resource Optimization list - Export: JSON":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to JSON")'     
+     "Resource Optimization list - Export: PDF":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to PDF")'   
+     "Resource Optimization list - Manage columns":
+      selectors:
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Manage columns")'  
