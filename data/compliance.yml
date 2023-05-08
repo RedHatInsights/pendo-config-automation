@@ -6,25 +6,26 @@ compliance:
       url_rules:
         - /insights/compliance
         - /insights/compliance/**
-    Reports list - By policy:
+    Reports list:
       url_rules:
         - /insights/compliance/reports
-    Reports list - By system:
+    Reports by policy:
       url_rules:
         - /insights/compliance/reports/systems
+        - /insights/compliance/reports/systems/**
     Reports view:
       url_rules:
-        - /insights/compliance/reports/*
+        - /insights/compliance/reports/**
     SCAP Policies list:
       url_rules:
         - /insights/compliance/scappolicies
     SCAP Policies view:
       url_rules:
-        - /insights/compliance/scappolicies/*
+        - /insights/compliance/scappolicies/**
     Systems list:
       url_rules:
         - /insights/compliance/systems
-    System view:
+    System report view:
       url_rules:
         - /insights/compliance/systems/**
     Edit policy modal:
@@ -44,45 +45,67 @@ compliance:
     "Reports - Link: View policy":
       selectors:
         - '{}[data-ouia-subnav="reports"] a:contains("View policy")'
-    "Reports - Button: Ansible Remediate":
-      selectors:
-        - '{}[data-ouia-subnav="reports"] div:contains("Remediate").pf-c-toolbar__item'
     "Reports - Button: Download PDF":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Download PDF")'
     "Reports - Button: Export report":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Export report")'
+    "Reports - Button: Export to CSV":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
+    "Reports - Button: Export to JSON":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "Reports - Button: Delete report":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-link:contains("Delete report")'
     "Reports - Delete report modal - Button: Delete report":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-m-danger:contains("Delete report")'
-    "Systems - Button: Ansible Remediate":
+    "Reports - Filter: Tags":
       selectors:
-        - '{}[data-ouia-subnav="systems"] div:contains("Remediate").pf-c-toolbar__item'
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Tags")'
+    "Reports - Filter: Name":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Name")'
+    "Reports - Filter: Compliance":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Compliance")'
+    "Reports - Filter: Compliance score":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Compliance score")'
+    "Reports - Filter: SSG Version":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("SSG Version")'
+    "Reports - Filter: Operating system":
+      selectors:
+        - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Operating system")'
     "SCAP Policies - Button: Create new policy":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] [data-ouia-component-id="CreateNewPolicyButton"]'
     "Systems - Filter: Name":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Name")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Name")'
     "Systems - Filter: Policy":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Policy")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Policy")'
     "Systems - Filter: Operating system":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Operating system")'
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Operating system")'
+    "Systems - Filter: Tags":
+      selectors:
+        - '{}[data-ouia-subnav="systems"] .pf-c-dropdown__menu-item:contains("Tags")'
     "Systems - Link: Clear filters":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Clear filters").pf-c-button'
-    "SCAP policies - Menu button: Edit policies":
+        - '{}[data-ouia-subnav="systems"] .pf-m-link:contains("Reset filters")'
+    "SCAP policies - Menu button: Edit policy":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] .pf-c-dropdown__menu-item:contains("Edit policy")'
     "SCAP policies - Button: Edit rules":
       selectors:
-        - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit policy")'
+        - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit rules")'
     "SCAP policies - Button: Edit systems":
       selectors:
         - '{}[data-ouia-subnav="scappolicies"] .pf-m-primary:contains("Edit systems")'

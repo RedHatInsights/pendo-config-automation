@@ -42,3 +42,4 @@ applications:
   - "toolkit"
   - "user-preferences"
   - "vulnerability"
+  - "tasks"
