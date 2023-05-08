@@ -69,3 +69,27 @@ image builder:
     "Create image wizard - Step: Review - Button: Cancel":
       selectors:
         - '{} [id="wizard-review-cancel-button"]'
+    "Launch wizard - Button: Launch":
+      selectors:
+        - '{} #wizard-provisioning-review-next-button'
+    "Images list - Button: Launch":
+      selectors:
+        - '{} .pf-m-link:contains("Launch")'
+    "Images list - Button: Launch an AWS Image":
+      selectors:
+        - '{} .pf-m-link:contains("Launch an AWS Image")'
+    "Images list - Button: Launch an Azure image":
+      selectors:
+        - '{} .pf-m-link:contains("Launch an Azure Image")'
+    "Images list - Button: Build an Image with Custom Content":
+      selectors:
+        - '{} .pf-m-link:contains("Build an Image with Custom Content")'
+    "Quickstart: Launch an AWS Image - Button: Let Red Hat contact you":
+      selectors:
+        - '{} #qs-ib-aws-launch-contact'
+    "Quickstart - Launch an Azure Image - Button: Let Red Hat contact you":
+      selectors:
+        - '{} #qs-ib-azure-launch-contact'
+    "Quickstart - Button: Build an Image with Custom Content - Button: Let Red Hat contact you":
+      selectors:
+        - '{} #qs-ib-custom-content-contact'
