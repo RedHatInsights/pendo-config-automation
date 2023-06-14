@@ -9,10 +9,6 @@ compliance:
     Reports list:
       url_rules:
         - /insights/compliance/reports
-    Reports by policy:
-      url_rules:
-        - /insights/compliance/reports/systems
-        - /insights/compliance/reports/systems/**
     Reports view:
       url_rules:
         - /insights/compliance/reports/**
@@ -25,7 +21,7 @@ compliance:
     Systems list:
       url_rules:
         - /insights/compliance/systems
-    System report view:
+    System view:
       url_rules:
         - /insights/compliance/systems/**
     Edit policy modal:
