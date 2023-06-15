@@ -36,4 +36,9 @@ cost management:
         - /openshift/cost-management/cost-models/**
     Explorer.post04262021:
       url_rules:
+        - /openshift/cost-management/explorer/
         - /openshift/cost-management/explorer/*
+    Optimizations:
+      url_rules:
+        - /openshift/cost-management/optimizations
+        - /openshift/cost-management/otpimizations/**
