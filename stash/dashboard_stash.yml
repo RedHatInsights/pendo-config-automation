@@ -6,9 +6,7 @@ _dashboard: HAohHTbgBjDDfObUcjfgPzY5Vr0
 _dashboard | Insights: r74txjSUK2yfMKaw-ghVFgBQu_A
 '_dashboard | Insights - Button: Configure intergrations': jLgPegXppl1keAoYPTiDTjzl-O4
 '_dashboard | Insights - Button: Register systems': yQx7C68RELUutXne3aPmjMrzwKM
-'_dashboard | Insights - Button: View CVEs': HzmtHbXv2si-_OR-8JHYbmdul3k
 '_dashboard | Insights - Button: View incidents': DDnFBv816I3Qbk4EAZrOlPrPn34
-'_dashboard | Insights - Button: View known exploits': WGDqBxXmkP1qvoUbeb5-WqNZtC4
 '_dashboard | Insights - Link to Patch: View all systems affected': 1zBhAka_-T-S8YfsqALBCwdyQy0
 '_dashboard | Insights - Link to Patch: View bug fix advisories': QUmEKJfYihE5IT6LL6fvv6D_vX4
 '_dashboard | Insights - Link to Patch: View enhancement advisories': DZnsKXLl8chCUJdaJUwfxekRStI
@@ -17,17 +15,18 @@ _dashboard | Insights: r74txjSUK2yfMKaw-ghVFgBQu_A
 '_dashboard | Insights - Link to ROS: Systems with suggestions': UbqSh7kvBgDXyZePlWuI80i4URE
 '_dashboard | Insights - Link to ROS: Total systems': SQam42QWENOwpf46PFayupG2p7I
 '_dashboard | Insights - Link to Vulnerability: CVEs by CVSS score filters': UETlHVGswDflTiHlajmdkiYPezk
-'_dashboard | Insights - Link to Vulnerability: Security rule details': OKic9y6o4fahz2wsiHHprXcEkk0
 '_dashboard | Insights - Link to Vulnerability: View CVEs': i5n2JfimHWyoe0owN3lVeqLvpLU
-'_dashboard | Insights - Link to Vulnerability: View known exploits': BCgv-mmHIdrsv_TfhRgw4cJfNnI
-'_dashboard | Insights - Link: Recommendations': xcllRAZToE5Hk-rV51znvSCcw5A
+'_dashboard | Insights - Link to Vulnerability: View known exploits': i0I-F1aNNHYfzC2GRb5sW0Ypku0
+'_dashboard | Insights - Link: Recommendations': Ers4bZI4SixBWDu4qtvNb5Gdb2I
 '_dashboard | Insights - Link: Subscription Watch utilization - Red Hat Enterprise Linux': VBtkvSsYF4ps4vWJn_a2HJMxjvo
 '_dashboard | Insights - Link: Subscription Watch utilization - Red Hat OpenShift': ufy6Ek3ckhUwjdr4UNl0GeSv-x4
-'_dashboard | Insights - Link: Systems registered with Insights': AvrDfhhsMFzgGDR-APYYL7OFI20
+'_dashboard | Insights - Link: Systems registered with Insights': TKUbmDLDy1Pts_PseabtucqsksY
 '_dashboard | Insights - Link: Systems running insights-client': -NP2peyvycx30xiyGh4igvy8u_Q
-'_dashboard | Insights - Link: X incidents detected': 96MLJGFjih_GSnNAlHDiDU6qbzU
 '_dashboard | Insights - Link: X stale systems': 5wvjLAWrdAwhFW1ELzBDU_cI9cg
-'_dashboard | Insights - Link: X systems affected': w9ZMA6EhUwAa8LAHfklkPzhEKGA
 '_dashboard | Insights - Link: X systems to be removed': Ss8Q0NvVBsR5VG00_2xUh5EPFyY
+'_dashboard | Insights - Recommendations by total risk - Link: Critical': qjGKTZ9bqjc8JTYFpeA6WAInsNU
+'_dashboard | Insights - Recommendations by total risk - Link: Important': 3vdnm8BuK6MCBPGNIpaOtUNvRQ8
+'_dashboard | Insights - Recommendations by total risk - Link: Low': JzAsHmcAJlwxeQQFuYtY_M8lDzA
+'_dashboard | Insights - Recommendations by total risk - Link: Moderate': kbcDh9NrHJc86cRbdoDltCwfwG8
 _preview dashboard: rkRnyCP_u5mPV_WFnkBIUDr3F8M
 _preview dashboard | Insights: O3UVa_fhyDj2dknMeEtecxEAweA

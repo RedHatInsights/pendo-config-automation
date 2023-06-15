@@ -4,18 +4,20 @@ _aggregate patch | Advisory view: _-y-VUU90Mpw02R7caHWd-hZBX4
 _aggregate patch | All pages: BAUK9XKHX0imCRiyeaRRXCFQikM
 _aggregate patch | Packages list: V2WWvuPDISqoG_eA4VzLCfKBduw
 _aggregate patch | Packages view: _JGgtNBboYCTBlXUVcpRpuzGAM0
-_aggregate patch | Patch set: avAuU9gYbqStDJzKrIPQzxI7DhM
 _aggregate patch | Systems list: d1F-W5oVNQ7SHhsjGCyTmVrDofI
 _aggregate patch | Systems view: DLwJNoQ9twubMDgEiEShRsstk3w
+_aggregate patch | Templates list: -JkW6KfaY2dyHrYwXTMhVAXghJs
+_aggregate patch | Templates view: EygC-Mt6wfMEUdbkXvQzpc-8hHY
 _beta patch: MVRgKdyxCT3tPNQicsGWxWYtoFw
 _beta patch | Advisories list: T6kW-AKJFUSOSQ2fHj19LkbpkSg
 _beta patch | Advisory view: 9a5sl6YEPhYaAJHsKVIzJCMutPU
 _beta patch | All pages: ejXWTi5RfaAItBEcgQ3uJoh2vSM
 _beta patch | Packages list: AdmRSba1JxcpL7jTNMXC1ztPOlA
 _beta patch | Packages view: X0X94vdmhijRjQcU7yFDRZD5Dww
-_beta patch | Patch set: P3FOOCpqCtmNASWcQ-51s8WqyBY
 _beta patch | Systems list: -E36tmtZY9E9_HFmfsj6hdOnPlI
 _beta patch | Systems view: 2Iwe8S_qW1Clz8G97Y3P9M1pZPc
+_beta patch | Templates list: HsNqntXKBNJfPpnqLCfJ_0fYL9k
+_beta patch | Templates view: VcxTUrbb7ls53Ijf5UoBKoseT0A
 _patch: 2KicdoRY3ylcII2Dqm543CZcR3A
 '_patch | Advisories - Export: CSV': RGycIOvOcTUN2p0pO5nVur7bqhQ
 '_patch | Advisories - Export: JSON': 96JDm_2beCuDrvNA4c0gAeQgOzs
@@ -68,8 +70,6 @@ _patch | Packages view: Jycv8Tn2zJvMrEfHogf9ZVKheOc
 '_patch | Packages view - Sort by: Installed version': ZJM6fJtsFQaHqzONSzz408HgFbE
 '_patch | Packages view - Sort by: Latest version': vUrhTty3ZnYjDoFXTi5h_bBA7W8
 '_patch | Packages view - Sort by: Name': Jwng2m7F02ri5Oa3XQdk009s03M
-'_patch | Packages view - Sort by: Status': DjMaIsN2bUZGZquyqV7l_NNpjnk
-_patch | Patch set: GJHxUm7W04pq6oc2Op-DXANIa4w
 _patch | Systems list: R68Ef393B-1VAbPug5ElVChGAWU
 _patch | Systems list - Apply all applicable advisories: b9jM5zRNr8vPdHzT3ACcBdcTPls
 '_patch | Systems list - Export: CSV': 6WGr7kCJC99lYFTY9_juQYEfwec
@@ -80,7 +80,7 @@ _patch | Systems list - Apply all applicable advisories: b9jM5zRNr8vPdHzT3ACcBdc
 '_patch | Systems list - Per page: 50': Y1QUe8TR7QftK0J2SqTxP7Zad60
 _patch | Systems list - Select all: _HBdLBuz-BRbdzg6ZeAjcS4Fta4
 _patch | Systems list - Select page: lusSI10tWXg0zdGAtfR9JQParnI
-'_patch | Systems list - Sort by: Applicable advisories': LiF_nAyT67_VbLwaAkE1hVpDrpo
+'_patch | Systems list - Sort by: Installable advisories': 2-i1IopJ-rTTwl3qR51aGwpV_-U
 '_patch | Systems list - Sort by: Last seen': iA-dy10zGYyArKoM0blyXbEVq1E
 '_patch | Systems list - Sort by: Name': IrPofbWuwjBYEgZSpTpVeOFE7Vk
 '_patch | Systems list - Sort by: Packages': Q-rhEiHWwxR-iLUIIvXeU3xD1Jw
@@ -99,12 +99,16 @@ _patch | Systems view - Select page: v8S2hCJ1Y3uiBveMSLBA2fUiyKA
 '_patch | Systems view - Sort by: Type': t8Vsny_4MBqbghkabN30PAFmNcI
 '_patch | Systems view - Tab: Advisories': Ss2UJFxUW0xj1EN6e39qUVXHzK4
 '_patch | Systems view - Tab: Packages': e6fCselvBt29aXGH7_CnSuxUtz4
+_patch | Templates list: Tq3AOHvOUla2ZCGgtct8s1Vwvpg
+'_patch | Templates list - Button: Create a template': ZNCf6oZf6oV39b53uMWlUtkjwXQ
+_patch | Templates view: azrNI1pMgqbI3NQEjxTvEMnjQKs
 _preview patch: L-i0n93OYv3SBZDascyQeyzAUZs
 _preview patch | Advisories list: cJZLQpewJlzQDt0uWz_Vb1v4EFw
 _preview patch | Advisory view: Xp2Jhr0rQp6cAoyoNWgDeEHqWpY
 _preview patch | All pages: NYFC-y0Wses_6F3KmtxQEOBRpxo
 _preview patch | Packages list: dvDMHbEhzuZzbwfXaQ4fbF_sMVE
 _preview patch | Packages view: SNTqX_6BVCJreyEOHHdymQrJO5c
-_preview patch | Patch set: HxeRuQpZ-Div23C4ZOq54NxkcJI
 _preview patch | Systems list: sq8F0ne2BhtKVmpfPShmOQhVpqw
 _preview patch | Systems view: y1HhN4SujegvpA3pSw0rvFSZxzE
+_preview patch | Templates list: xqaxGViXulHtLi-AVYcBZz4MxKI
+_preview patch | Templates view: _Y8mqx5Ylibg3jnZJTphl0WodBM

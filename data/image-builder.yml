@@ -8,42 +8,89 @@ image builder:
         - /insights/image-builder/**
     Images list:
       url_rules:
+        - /insights/image-builder
         - /insights/image-builder/landing
     Image creation wizard:
       url_rules:
+        - /insights/image-builder/imagewizard
         - /insights/image-builder/imagewizard/**
   features:
     _scope: '[data-ouia-bundle="insights"][data-ouia-app-id="image-builder"]'
-    "Step 1 - Details":
+    "Create image wizard - Step: Output - Button: Next":
       selectors:
-        - '{} [id=wizard-details]'
-    "Step 2 - Image Output":
+        - '{} [id="wizard-imageoutput-next-button"]'
+    "Create image wizard - Step: Output - Button: Previous":
       selectors:
-        - '{} [id=wizard-imageoutput]'
-    "Step 3A - Target AWS":
+        - '{} [id="wizard-imageoutput-previous-button"]'
+    "Create image wizard - Step: Output - Button: Cancel":
       selectors:
-        - '{} [id=wizard-target-aws]'
-    "Step 3B - Target GCP":
+        - '{} [id="wizard-imageoutput-cancel-button"]'
+    "Create image wizard - Step: Registration - Button: Next":
       selectors:
-        - '{} [id=wizard-target-gcp]'
-    "Step 3C - Target Azure":
+        - '{} [id="wizard-registration-next-button"]'
+    "Create image wizard - Step: Registration - Button: Previous":
       selectors:
-        - '{} [id=wizard-target-msazure]'
-    "Step 4 - Registration":
+        - '{} [id="wizard-registration-previous-button"]'
+    "Create image wizard - Step: Registration - Button: Cancel":
       selectors:
-        - '{} [id=wizard-registration]'
-    "Step 5A - System configuration Filesystem":
+        - '{} [id="wizard-registration-cancel-button"]'
+    "Create image wizard - Step: Filesystem - Button: Next":
       selectors:
-        - '{} [id=wizard-systemconfiguration-filesystem]'
-    "Step 5B - System configuration Packages":
+        - '{} [id="wizard-systemconfiguration-filesystem-next-button"]'
+    "Create image wizard - Step: Filesystem - Button: Previous":
       selectors:
-        - '{} [id=wizard-systemconfiguration-packages]'
-    "Step 6 - Review":
+        - '{} [id="wizard-systemconfiguration-filesystem-previous-button"]'
+    "Create image wizard - Step: Filesystem - Button: Cancel":
       selectors:
-        - '{} [id=wizard-review]'
-    "Wizard Cancel button":
+        - '{} [id="wizard-systemconfiguration-filesystem-cancel-button"]'
+    "Create image wizard - Step: Content - Button: Next":
       selectors:
-        - '{} .pf-c-button:contains("Cancel")'
-    "Wizard Create Image button":
+        - '{} [id="wizard-systemconfiguration-packages-next-button"]'
+    "Create image wizard - Step: Content - Button: Previous":
       selectors:
-        - '{} .pf-c-button:contains("Create Image")'
+        - '{} [id="wizard-systemconfiguration-packages-previous-button"]'
+    "Create image wizard - Step: Content - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-systemconfiguration-packages-cancel-button"]'
+    "Create image wizard - Step: Details - Button: Next":
+      selectors:
+        - '{} [id="wizard-details-next-button"]'
+    "Create image wizard - Step: Details - Button: Previous":
+      selectors:
+        - '{} [id="wizard-details-previous-button"]'
+    "Create image wizard - Step: Details - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-details-cancel-button"]'
+    "Create image wizard - Step: Review - Button: Create image":
+      selectors:
+        - '{} [id="wizard-review-next-button"]'
+    "Create image wizard - Step: Review - Button: Previous":
+      selectors:
+        - '{} [id="wizard-review-previous-button"]'
+    "Create image wizard - Step: Review - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-review-cancel-button"]'
+    "Launch wizard - Button: Launch":
+      selectors:
+        - '{} #wizard-provisioning-review-next-button'
+    "Images list - Button: Launch":
+      selectors:
+        - '{} .pf-m-link:contains("Launch")'
+    "Images list - Button: Launch an AWS Image":
+      selectors:
+        - '{} .pf-m-link:contains("Launch an AWS Image")'
+    "Images list - Button: Launch an Azure image":
+      selectors:
+        - '{} .pf-m-link:contains("Launch an Azure Image")'
+    "Images list - Button: Build an Image with Custom Content":
+      selectors:
+        - '{} .pf-m-link:contains("Build an Image with Custom Content")'
+    "Quickstart: Launch an AWS Image - Button: Let Red Hat contact you":
+      selectors:
+        - '{} #qs-ib-aws-launch-contact'
+    "Quickstart - Launch an Azure Image - Button: Let Red Hat contact you":
+      selectors:
+        - '{} #qs-ib-azure-launch-contact'
+    "Quickstart - Button: Build an Image with Custom Content - Button: Let Red Hat contact you":
+      selectors:
+        - '{} #qs-ib-custom-content-contact'

@@ -3,15 +3,16 @@ tasks:
   pages:
     All pages:
       url_rules:
-        - //*/insights/tasks/**
+        - /insights/tasks/
+        - /insights/tasks/**
     Tasks list:
       url_rules:
         - /insights/tasks/
         - /insights/tasks/available
     Activity list:
       url_rules:
-        - /insights/tasks/exectued
-        - /insights/tasks/exectued/*parameter*/
+        - /insights/tasks/executed
+        - /insights/tasks/executed/*parameter*/
   features:
     _scope: '[data-ouia-app-id="tasks"]'
     "Tasks - Run Task Button":

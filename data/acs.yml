@@ -15,6 +15,9 @@ acs:
     Instance details page:
       url_rules:
         - /application-services/acs/instances/instance/*
+    Getting started page:
+      url_rules:
+        - /application-services/acs/getting-started
   features:
     _scope: '[data-ouia-bundle="application-services"][data-ouia-app-id="acs"]'
     "Left Nav: Advanced Cluster Security - Documentation":
@@ -32,3 +35,60 @@ acs:
     "Link: View ACS Instance Page":
       selectors:
         - '{} td[data-label="Name"] a'
+    "Getting Started - Link: Learn more about ACS":
+      selectors:
+        - '{} a:contains("Learn more about ACS")'
+    "Getting Started - Link: Email us":
+      selectors:
+        - '{} button:contains("Email us")'
+    "Getting Started - Button: Go to Step 2":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=wizard-step-1-next]'
+    "Getting Started - Button: Go to Step 3":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=wizard-step-2-next]'
+    "Getting Started - Button: Go to Step 4":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=wizard-step-3-next]'
+    "Getting Started - Button: Go back to Step 1":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=wizard-step-2-back]'
+    "Getting Started - Button: Go back to Step 2":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=wizard-step-3-back]'
+    "Getting Started - Button: Finish":
+      selectors:
+        - '{} [id=getting-started-wizard] button:contains("Finish")'
+    "Getting Started - Button: Install Another":
+      selectors:
+        - '{} [id=getting-started-wizard] button:contains("Install Another")'
+    "Getting Started - Environment: Openshift":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=radio-environment-openshift]'
+    "Getting Started - Environment: EKS":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=radio-environment-eks]'
+    "Getting Started - Environment: AKS":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=radio-environment-aks]'
+    "Getting Started - Environment: GKE":
+      selectors:
+        - '{} [id=getting-started-wizard] [id=radio-environment-gke]'
+    "Getting Started - Installation: Operator":
+      selectors:
+        - '{} [id=getting-started-wizard] button:contains("Operator")'
+    "Getting Started - Installation: Helm":
+      selectors:
+        - '{} [id=getting-started-wizard] button:contains("Helm")'
+    "Getting Started - Link: Help with ACS setup":
+      selectors:
+        - '{} [id=getting-started-wizard] a:contains("Help with ACS setup")'
+    "Getting Started - Link: Red Hat Container Registry Authentication":
+      selectors:
+        - '{} [id=getting-started-wizard] a:contains("Red Hat Container Registry Authentication")'
+    "Getting Started - Link: registry service account":
+      selectors:
+        - '{} [id=getting-started-wizard] a:contains("registry service account")'
+    "Getting Started - Link: ACS Operator from Operator Hub":
+      selectors:
+        - '{} [id=getting-started-wizard] a:contains("install the ACS Operator from Operator Hub")'

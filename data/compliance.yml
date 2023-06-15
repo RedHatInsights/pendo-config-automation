@@ -9,10 +9,6 @@ compliance:
     Reports list:
       url_rules:
         - /insights/compliance/reports
-    Reports by policy:
-      url_rules:
-        - /insights/compliance/reports/systems
-        - /insights/compliance/reports/systems/**
     Reports view:
       url_rules:
         - /insights/compliance/reports/**
@@ -25,7 +21,7 @@ compliance:
     Systems list:
       url_rules:
         - /insights/compliance/systems
-    System report view:
+    System view:
       url_rules:
         - /insights/compliance/systems/**
     Edit policy modal:
@@ -50,7 +46,7 @@ compliance:
         - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Download PDF")'
     "Reports - Button: Export report":
       selectors:
-        - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Export report")'
+        - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Download PDF")'
     "Reports - Button: Export to CSV":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Export to CSV")'

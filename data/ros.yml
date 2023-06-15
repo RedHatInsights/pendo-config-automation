@@ -58,4 +58,4 @@ ros:
         - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to PDF")'   
      "Resource Optimization list - Manage columns":
       selectors:
-        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Manage columns")'  
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Manage columns")'

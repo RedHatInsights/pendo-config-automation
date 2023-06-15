@@ -24,7 +24,7 @@ remediations:
         - '{} button:contains("Remove actions")'
     "Remediations - Button: Auto reboot":
       selectors:
-        - '{} button:contains("Auto Reboot")'
+        - '{} button:contains("Turn off")'
     "Remediations - Button: Activity":
       selectors:
         - '{} button:contains("Activity")'
