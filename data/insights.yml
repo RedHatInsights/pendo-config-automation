@@ -6,9 +6,6 @@ insights:
       url_rules:
         - /insights
         - /insights/**
-    Overview:
-      url_rules:
-        - /insights/dashboard
   features:
     _scope: '[data-ouia-bundle="insights"]'
     "All pages - Filter: Global":
