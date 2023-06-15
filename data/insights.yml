@@ -13,4 +13,25 @@ insights:
     _scope: '[data-ouia-bundle="insights"]'
     "All pages - Filter: Global":
       selectors:
-        - '{} .pf-c-menu-toggle.chr-c-menu-global-filter__select'
+        - '{} .pf-c-nav__link.chr-c-navigation__item:contains("Dashboard")'
+    "All pages - Dashboard nav item":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Dashboard")'
+    "All pages - Inventory nav expansion":
+      selectors:
+        - '{} #inventory.pf-c-nav__link'
+    "All pages - Content nav expansion":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Content")'
+    "All pages - Operations nav expansion":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Operations")'
+    "All pages - Security nav expansion":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Security")'
+    "All pages - Business nav expansion":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Business")'
+    "All pages - Automation Toolkit nav expansion":
+      selectors:
+        - '{} .pf-c-nav__link:contains("Automation Toolkit")'
