@@ -185,6 +185,12 @@ openshift:
     Sandbox page:
       url_rules:
         - /openshift/sandbox
+    Create cluster - Power Systems:
+      url_rules:
+        - /openshift/install/power
+    Create cluster - IBM Z:
+      url_rules:
+        - /openshift/install/ibmz
   features:
     _scope: '[data-ouia-bundle="openshift"]'
     "Clusters - Button: Register cluster":
@@ -211,12 +217,12 @@ openshift:
     "Clusters - Link: Bare metal":
       selectors:
         - '{} a:contains("Bare Metal")'
-    "Clusters - Link: IBM Z":
+    "Clusters - Link: IBM zSystems":
       selectors:
-        - '{} a:contains("IBM Z")'
-    "Clusters - Link: Power":
+        - '{} a:contains("IBM zSystems")'
+    "Clusters - Link: IBM Power":
       selectors:
-        - '{} a:contains("Power")'
+        - '{} a:contains("IBM Power")'
     "Clusters - Link: Red Hat OpenStack":
       selectors:
         - '{} a:contains("Red Hat OpenStack")'
