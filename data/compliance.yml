@@ -46,7 +46,7 @@ compliance:
         - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Download PDF")'
     "Reports - Button: Export report":
       selectors:
-        - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Export report")'
+        - '{}[data-ouia-subnav="reports"] .pf-m-primary:contains("Download PDF")'
     "Reports - Button: Export to CSV":
       selectors:
         - '{}[data-ouia-subnav="reports"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
