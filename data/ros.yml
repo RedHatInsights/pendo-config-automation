@@ -34,28 +34,28 @@ ros:
         - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Memory utilization")'
     "Resource Optimization list - Sort by: I/O Utilization":
       selectors:
-        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("I/O utilization")'      
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("I/O utilization")'
     "Resource Optimization list - Sort by: Suggestions":
       selectors:
-        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Suggestions")'     
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Suggestions")'
     "Resource Optimization list - Sort by: State":
       selectors:
-        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("State")'     
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("State")'
     "Resource Optimization list - Sort by: Last reported":
       selectors:
-        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Last reported")'     
+        - '{}[data-ouia-app-id="ros"] .pf-c-table__button:contains("Last reported")'
     "Resource Optimization list - Export: General":
       selectors:
-        - '{}[data-ouia-app-id="ros"] #pf-dropdown-toggle-id-49'     
+        - '{}[data-ouia-app-id="ros"] #pf-dropdown-toggle-id-49'
     "Resource Optimization list - Export: CSV":
       selectors:
-        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to CSV")'     
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to CSV")'
     "Resource Optimization list - Export: JSON":
       selectors:
-        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to JSON")'     
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to JSON")'
     "Resource Optimization list - Export: PDF":
       selectors:
-        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to PDF")'   
+        - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Export to PDF")'
     "Resource Optimization list - Manage columns":
       selectors:
         - '{}[data-ouia-app-id="ros"] .pf-c-dropdown__menu-item:contains("Manage columns")'
