@@ -96,16 +96,16 @@ patch:
     "Systems list - Sort by: Last seen":
       selectors:
         - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
-    "Systems list - Per page: 10":
+    "Systems - Per page: 10":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("10 per page")'
-    "Systems list - Per page: 20":
+    "Systems - Per page: 20":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("20 per page")'
-    "Systems list - Per page: 50":
+    "Systems - Per page: 50":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("50 per page")'
-    "Systems list - Per page: 100":
+    "Systems - Per page: 100":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("100 per page")'
     "Systems list - Export: CSV":
@@ -117,30 +117,12 @@ patch:
     "Systems list - Apply all applicable advisories":
       selectors:
         - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Apply all applicable advisories")'
-    "Advisories view - Per page: 10":
-      selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("10 per page")'
-    "Advisories view - Per page: 20":
-      selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("20 per page")'
-    "Advisories view - Per page: 50":
-      selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("50 per page")'
-    "Advisories view - Per page: 100":
-      selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("100 per page")'
     "Advisories view - Link: View packages and errata at access.redhat.com":
       selectors:
         - '{}[data-ouia-subnav="advisories"] a:contains("View packages and errata at access.redhat.com")'
     "Advisories view - Open Cves modal":
       selectors:
         - '{}[data-ouia-subnav="advisories"] button:contains("associated with this patch")'
-    "Advisories view - Select all":
-      selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("Select all")'
-    "Advisories view - Select page":
-      selectors:
-        - '{}[data-ouia-subnav="advisories"] button:contains("Select page")'
     "Advisories view - Sort by: Name":
       selectors:
         - '{}[data-ouia-subnav="advisories"] .patchCompactInventory button.pf-c-table__button:contains("Name")'
@@ -180,18 +162,6 @@ patch:
     "Systems view - Sort by: Publish date":
       selectors:
         - '{}[data-ouia-subnav="systems"] button:contains("Publish date")'
-    "Systems view - Per page: 10":
-      selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("10 per page")'
-    "Systems view - Per page: 20":
-      selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("20 per page")'
-    "Systems view - Per page: 50":
-      selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("50 per page")'
-    "Systems view - Per page: 100":
-      selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("100 per page")'
     "Systems view - Tab: Advisories":
       selectors:
         - '{}[data-ouia-subnav="systems"] [data-ouia-component-id="system-advisories-tab"]'
@@ -210,16 +180,16 @@ patch:
     "Packages list - Sort by: Summary":
       selectors:
         - '{}[data-ouia-subnav="packages"] button.pf-c-table__button:contains("Summary")'
-    "Packages list - Per page: 10":
+    "Packages - Per page: 10":
       selectors:
         - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("10 per page")'
-    "Packages list - Per page: 20":
+    "Packages - Per page: 20":
       selectors:
         - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("20 per page")'
-    "Packages list - Per page: 50":
+    "Packages - Per page: 50":
       selectors:
         - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("50 per page")'
-    "Packages list - Per page: 100":
+    "Packages - Per page: 100":
       selectors:
         - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("100 per page")'
     "Packages list - Export: CSV":
@@ -240,18 +210,6 @@ patch:
     "Packages view - Sort by: Latest version":
       selectors:
         - '{}[data-ouia-subnav="packages"] .patchCompactInventory button.pf-c-table__button:contains("Latest version")'
-    "Packages view - Per page: 10":
-      selectors:
-        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("10 per page")'
-    "Packages view - Per page: 20":
-      selectors:
-        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("20 per page")'
-    "Packages view - Per page: 50":
-      selectors:
-        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("50 per page")'
-    "Packages view - Per page: 100":
-      selectors:
-        - '{}[data-ouia-subnav="packages"] button.pf-c-options-menu__menu-item:contains("100 per page")'
     "Templates list - Button: Create a template":
       selectors:
         - '{}[data-ouia-subnav="templates"] .pf-m-primary:contains("Create a template")'
