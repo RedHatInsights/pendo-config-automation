@@ -33,6 +33,9 @@ subscriptions:
     Red Hat Enterprise Linux - Manifests:
       url_rules:
         - /insights/subscriptions/manifests
+    Inventory:
+      url_rules:
+        - /insights/subscriptions/inventory
   features:
     _scope: '[data-ouia-app-id="subscriptions"]'
     "Red Hat Enterprise Linux - Link: Learn more about Subscriptions reporting":
