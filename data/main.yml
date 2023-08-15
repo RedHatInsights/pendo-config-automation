@@ -43,3 +43,4 @@ applications:
   - "user-preferences"
   - "vulnerability"
   - "tasks"
+  - "quayio"

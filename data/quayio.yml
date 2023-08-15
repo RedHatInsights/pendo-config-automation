@@ -1,0 +1,15 @@
+---
+quayio:
+  pages:
+    All pages:
+      url_rules:
+        - /quay/**
+  features:
+    _scope: '[data-ouia-bundle="quay"]'
+    "Left Nav: Organizations":
+      selectors:
+        - '{} [data-ouia-component-id="Organizations"]'
+    "Left Nav: Repositories":
+      selectors:
+        - '{} [data-ouia-component-id="Repositories"]'
+
