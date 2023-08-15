@@ -12,4 +12,3 @@ quayio:
     "Left Nav: Repositories":
       selectors:
         - '{} [data-ouia-component-id="Repositories"]'
-
