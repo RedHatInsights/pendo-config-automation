@@ -8,19 +8,34 @@ _beta image builder | Image creation wizard: MGioDfSqg-WyJIgx3IYPkGEhoUo
 _beta image builder | Images list: 7HIQh5Ftpfh7OOpCMOqbWhbIFsk
 _image builder: rxcICL8xtb1ub-jUmIUWU2Cq17U
 _image builder | All pages: svvKhkCRM4RbG4YntrPYkwemUI8
+'_image builder | Create image wizard - Step: Content - Button: Cancel': Nf9vX6W8pfVopi4DQAjUZSEcwig
+'_image builder | Create image wizard - Step: Content - Button: Next': iAPBUQf6tYxa6hiK9nfwSf4Uvu8
+'_image builder | Create image wizard - Step: Content - Button: Previous': Rh-aGLOwTqGlahvxqGM6zVnmUMw
+'_image builder | Create image wizard - Step: Details - Button: Cancel': sIAeOySC_SZMb0XdJuardZOK-fk
+'_image builder | Create image wizard - Step: Details - Button: Next': pBKszb8iu5FR97FiAIxfqcddZnM
+'_image builder | Create image wizard - Step: Details - Button: Previous': 791GGwBcmdt2LPUzHXIwK3W79ms
+'_image builder | Create image wizard - Step: Filesystem - Button: Cancel': -0wzEYEsBILj1-LRrCZgZut7Y_M
+'_image builder | Create image wizard - Step: Filesystem - Button: Next': w9wHjLTiuRAKVarXL0PPnfhzH0U
+'_image builder | Create image wizard - Step: Filesystem - Button: Previous': fl_g1oocpKAgHOIStoA1ZD2QcBA
+'_image builder | Create image wizard - Step: Output - Button: Cancel': S-7zdkq9kNGUB3laqdy7rlkT0Jw
+'_image builder | Create image wizard - Step: Output - Button: Next': liSj-eVJ7-iGuOEBzHqe47s5V8Y
+'_image builder | Create image wizard - Step: Output - Button: Previous': DWFlvPMxytVKbSUuqrm_x6IOt4U
+'_image builder | Create image wizard - Step: Registration - Button: Cancel': meG40N44lTTJLjmvLohZBjtR0MM
+'_image builder | Create image wizard - Step: Registration - Button: Next': 4kqGXKOOKkMecitrmL_-ji5yilg
+'_image builder | Create image wizard - Step: Registration - Button: Previous': 5O64IIsVCnPwnvoCdzTxhIzmSc0
+'_image builder | Create image wizard - Step: Review - Button: Cancel': 7ohlRwINtyj8Rx1b3OKCkktMHOg
+'_image builder | Create image wizard - Step: Review - Button: Create image': hsqCz9FULiPuZ82tqct2GeaVs80
+'_image builder | Create image wizard - Step: Review - Button: Previous': TozbN9-8oyEN170PLPIeIgZnvk4
 _image builder | Image creation wizard: thK8-OW8QnLbYf2MCUnXsBHS6gU
 _image builder | Images list: QQorDbslz4SB6pHqNN2tW8ON66I
-_image builder | Step 1 - Details: UXr8cXNarz7YUn7kOCv2gDVPgJ8
-_image builder | Step 2 - Image Output: pRqQpi7Wri3Idly2iwIJZWG-fz0
-_image builder | Step 3A - Target AWS: qY2aPfvoxuKF82CItlDaLtOQI9g
-_image builder | Step 3B - Target GCP: h6jQCnWpgYkmCvmChvKNdKegJHo
-_image builder | Step 3C - Target Azure: CVQy3Rn4QJBP96sxsJ73-wshA2M
-_image builder | Step 4 - Registration: e4h_bXZwbEEQVtUHsVvZhx_NTvk
-_image builder | Step 5A - System configuration Filesystem: epHBpfnIzymPXua0aVV7ePzzMsI
-_image builder | Step 5B - System configuration Packages: COE1h_6wwwEvqn2KEjJnzEYio1g
-_image builder | Step 6 - Review: UKE-1uwuWyC-M4nPmrK1hN7_zoo
-_image builder | Wizard Cancel button: pzXO3Q64Z0jSw7JG2QYmRpGMorE
-_image builder | Wizard Create Image button: zZN722E06LYLB4knRBndqBN05j8
+'_image builder | Images list - Button: Build an Image with Custom Content': wDerQ1_E2dzdrgnPlnbsi7FtW68
+'_image builder | Images list - Button: Launch': FNN9x9Arq08VFq6H-7KAZeYqBQY
+'_image builder | Images list - Button: Launch an AWS Image': iBYSgZ12oJhFXdv5G9jUWTopco0
+'_image builder | Images list - Button: Launch an Azure image': vPLufngsLLu_CbuiCSvhh6WXjgY
+'_image builder | Launch wizard - Button: Launch': DokRBqjwJGv4-pZ7J1PpniWd7SY
+'_image builder | Quickstart - Button: Build an Image with Custom Content - Button: Let Red Hat contact you': qPnugSM6nO7PHkyi8KJkyOhrvTo
+'_image builder | Quickstart - Launch an Azure Image - Button: Let Red Hat contact you': Bu0mjFj0rko6CFLpi51plslaINA
+'_image builder | Quickstart: Launch an AWS Image - Button: Let Red Hat contact you': qwMsDNZqJ4GKFsD8uzPUUxME2vc
 _preview image builder: 33RV2drwnxkhWWSrK4ZyaCE65Wg
 _preview image builder | All pages: pnY9ifOvr50nX3bm-sgPJ_RJZRo
 _preview image builder | Image creation wizard: Uz0Ut76neOXnKh7I_r3AxetD5BU
