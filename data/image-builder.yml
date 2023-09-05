@@ -18,61 +18,61 @@ image builder:
     _scope: '[data-ouia-bundle="insights"][data-ouia-app-id="image-builder"]'
     "Create image wizard - Step: Output - Button: Next":
       selectors:
-        - '{} [id="wizard-imageoutput-next-button"]'
+        - '.imageBuilder #wizard-imageoutput-next-button'
     "Create image wizard - Step: Output - Button: Previous":
       selectors:
-        - '{} [id="wizard-imageoutput-previous-button"]'
+        - '.imageBuilder #wizard-imageoutput-previous-button'
     "Create image wizard - Step: Output - Button: Cancel":
       selectors:
-        - '{} [id="wizard-imageoutput-cancel-button"]'
+        - '.imageBuilder #wizard-imageoutput-cancel-button'
     "Create image wizard - Step: Registration - Button: Next":
       selectors:
-        - '{} [id="wizard-registration-next-button"]'
+        - '.imageBuilder #wizard-registration-next-button'
     "Create image wizard - Step: Registration - Button: Previous":
       selectors:
-        - '{} [id="wizard-registration-previous-button"]'
+        - '.imageBuilder #wizard-registration-previous-button'
     "Create image wizard - Step: Registration - Button: Cancel":
       selectors:
-        - '{} [id="wizard-registration-cancel-button"]'
+        - '.imageBuilder #wizard-registration-cancel-button'
     "Create image wizard - Step: Filesystem - Button: Next":
       selectors:
-        - '{} [id="wizard-systemconfiguration-filesystem-next-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-filesystem-next-button'
     "Create image wizard - Step: Filesystem - Button: Previous":
       selectors:
-        - '{} [id="wizard-systemconfiguration-filesystem-previous-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-filesystem-previous-button'
     "Create image wizard - Step: Filesystem - Button: Cancel":
       selectors:
-        - '{} [id="wizard-systemconfiguration-filesystem-cancel-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-filesystem-cancel-button'
     "Create image wizard - Step: Content - Button: Next":
       selectors:
-        - '{} [id="wizard-systemconfiguration-packages-next-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-packages-next-button'
     "Create image wizard - Step: Content - Button: Previous":
       selectors:
-        - '{} [id="wizard-systemconfiguration-packages-previous-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-packages-previous-button'
     "Create image wizard - Step: Content - Button: Cancel":
       selectors:
-        - '{} [id="wizard-systemconfiguration-packages-cancel-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-packages-cancel-button'
     "Create image wizard - Step: Details - Button: Next":
       selectors:
-        - '{} [id="wizard-details-next-button"]'
+        - '.imageBuilder #wizard-details-next-button'
     "Create image wizard - Step: Details - Button: Previous":
       selectors:
-        - '{} [id="wizard-details-previous-button"]'
+        - '.imageBuilder #wizard-details-previous-button'
     "Create image wizard - Step: Details - Button: Cancel":
       selectors:
-        - '{} [id="wizard-details-cancel-button"]'
+        - '.imageBuilder #wizard-details-cancel-button'
     "Create image wizard - Step: Review - Button: Create image":
       selectors:
-        - '{} [id="wizard-review-next-button"]'
+        - '.imageBuilder #wizard-review-next-button'
     "Create image wizard - Step: Review - Button: Previous":
       selectors:
-        - '{} [id="wizard-review-previous-button"]'
+        - '.imageBuilder #wizard-review-previous-button'
     "Create image wizard - Step: Review - Button: Cancel":
       selectors:
-        - '{} [id="wizard-review-cancel-button"]'
+        - '.imageBuilder #wizard-review-cancel-button'
     "Launch wizard - Button: Launch":
       selectors:
-        - '{} #wizard-provisioning-review-next-button'
+        - '.imageBuilder #wizard-provisioning-review-next-button'
     "Images list - Button: Launch":
       selectors:
         - '{} .pf-m-link:contains("Launch")'
