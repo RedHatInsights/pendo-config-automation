@@ -63,10 +63,10 @@ inventory:
     "Groups list - Button: Create group":
       selectors:
         - '{}[data-ouia-subnav="groups"] .pf-c-button.pf-m-primary:contains("Create group")'
-    "Groups list - Expandable card: Create an Inventory group quickstart link": 
+    "Groups list - Expandable card: Create an Inventory group quickstart link":
       selectors:
         - '{}[data-ouia-subnav="groups"] .pf-m-link.pf-c-button:contains("Create an Inventory group")'
-    "Groups list - Expandable card: Configure User Access for your Inventory groups link": 
+    "Groups list - Expandable card: Configure User Access for your Inventory groups link":
       selectors:
         - '{}[data-ouia-subnav="groups"] .pf-m-link.pf-c-button:contains("Create an Inventory group")'
     "Groups view - Button: Add systems":
