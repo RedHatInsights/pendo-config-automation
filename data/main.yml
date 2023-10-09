@@ -44,3 +44,4 @@ applications:
   - "vulnerability"
   - "tasks"
   - "quayio"
+  - "iam"
