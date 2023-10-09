@@ -31,6 +31,12 @@ inventory:
     System view - Resource Optimization tab:
       url_rules:
         - /insights/inventory/*?appName=ros
+    Groups list:
+      url_rules:
+        - /insights/inventory/groups
+    Groups view:
+      url_rules:
+        - /insights/inventory/groups/**
   features:
     _scope: '[data-ouia-app-id="inventory"]'
     "System row - Button: Delete":
@@ -54,3 +60,18 @@ inventory:
     "System view - Tab: Resource Optimization":
       selectors:
         - '{} .pf-c-tabs__list button:contains("Resource Optimization")'
+    "Groups list - Button: Create group":
+      selectors:
+        - '{}[data-ouia-subnav="groups"] .pf-c-button.pf-m-primary:contains("Create group")'
+    "Groups list - Expandable card: Create an Inventory group quickstart link": 
+      selectors:
+        - '{}[data-ouia-subnav="groups"] .pf-m-link.pf-c-button:contains("Create an Inventory group")'
+    "Groups list - Expandable card: Configure User Access for your Inventory groups link": 
+      selectors:
+        - '{}[data-ouia-subnav="groups"] .pf-m-link.pf-c-button:contains("Create an Inventory group")'
+    "Groups view - Button: Add systems":
+      selectors:
+        - '{}[data-ouia-subnav="groups"] .pf-c-button.pf-m-primary:contains("Add systems")'
+    "Groups view - Group info tab - Button: Manage access":
+      selectors:
+        - '{}[data-ouia-subnav="groups"] .pf-c-button.pf-m-secondary:contains("Manage access")'
