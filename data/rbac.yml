@@ -18,33 +18,33 @@ rbac:
   pages:
     All pages:
       url_rules:
-        - /settings/rbac
-        - /settings/rbac/**
+        - /iam/rbac
+        - /iam/rbac/**
     Groups list:
       url_rules:
-        - /settings/rbac/groups
+        - /iam/rbac/groups
     Group view:
       url_rules:
-        - /settings/rbac/groups/detail/*/roles
+        - /iam/rbac/groups/detail/*/roles
     Roles list:
       url_rules:
-        - /settings/rbac/roles
+        - /iam/rbac/roles
     Role view:
       url_rules:
-        - /settings/rbac/groups/detail/*/roles/detail/*
-        - /settings/rbac/roles/detail/*
+        - /iam/rbac/groups/detail/*/roles/detail/*
+        - /iam/rbac/roles/detail/*
     Roles - Add roles to group:
       url_rules:
-        - /settings/rbac/groups/detail/*/roles/add_roles
+        - /iam/rbac/groups/detail/*/roles/add_roles
     Create role wizard:
       url_rules:
-        - /settings/rbac/roles/add-role
+        - /iam/rbac/roles/add-role
     Users list:
       url_rules:
-        - /settings/rbac/users
+        - /iam/rbac/users
     Users view:
       url_rules:
-        - /settings/rbac/users/detail/*
+        - /iam/rbac/users/detail/*
     Create group wizard:
       url_rules:
-        - /settings/rbac/groups/add-group
+        - /iam/rbac/groups/add-group
