@@ -16,4 +16,4 @@ iam:
         - /iam/authentication-policy/authentication-factors**
     Learning resources:       
       url_rules:
-        - /iam/learning-resources/** 
+        - /iam/learning-resources/**
