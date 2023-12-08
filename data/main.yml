@@ -45,3 +45,4 @@ applications:
   - "tasks"
   - "quayio"
   - "iam"
+  - "rhtpa"

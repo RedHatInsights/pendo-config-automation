@@ -1,0 +1,24 @@
+---
+rhtpa:
+  color: 1
+  pages:
+    Home:
+      url_rules:
+        - /application-services/trusted-content/
+  features:
+    _scope: '[data-ouia-bundle="application-services"][data-ouia-app-id="trusted-content"]'
+    "Button: Subscribe and launch":
+      selectors:
+        - '{} button:contains("Subscribe and launch")'
+    "Link: VSCode plugin":
+      selectors:
+        - '{} a:contains("VSCode")'
+    "Link: IntelliJ plugin":
+      selectors:
+        - '{} a:contains("IntelliJ")'
+    "Link: Tekton":
+      selectors:
+        - '{} a:contains("Tekton")'
+    "Link: Jenkins":
+      selectors:
+        - '{} a:contains("Jenkins")'
