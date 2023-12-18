@@ -5,6 +5,9 @@ rhtpa:
     Home:
       url_rules:
         - /application-services/trusted-content/
+    Artifact Signer:
+      url_rules:
+        - /application-services/trusted-content/artifact-signer
   features:
     _scope: '[data-ouia-bundle="application-services"][data-ouia-app-id="trusted-content"]'
     "Button: Subscribe and launch":
