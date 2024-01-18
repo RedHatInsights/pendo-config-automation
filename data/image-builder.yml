@@ -25,6 +25,12 @@ image builder:
     "Create image wizard - Step: Output - Button: Cancel":
       selectors:
         - '.imageBuilder #wizard-imageoutput-cancel-button'
+    "Create image wizard - Step: Output - Button: Show information about release lifecycle":
+      selectors:
+        - '.imageBuilder #expandable-section-toggle-1705593973623ki9099aaanl:contains("Show information about release lifecycle")'
+    "Create image wizard - Step: Output - Link: View Red Hat Enterprise Linux Life Cycle dates":
+      selectors:
+        - '.imageBuilder .pf-m-link:contains("View Red Hat Enterprise Linux Life Cycle dates")'
     "Create image wizard - Step: Registration - Button: Next":
       selectors:
         - '.imageBuilder #wizard-registration-next-button'
