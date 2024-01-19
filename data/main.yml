@@ -46,3 +46,4 @@ applications:
   - "quayio"
   - "iam"
   - "rhtpa"
+  - "subscription-services"
