@@ -49,7 +49,7 @@ drift:
         - '{}[data-ouia-page-type="baseline-list"] [data-ouia-component-id="export-to-csv-dropdown-item-baselines"]'
     "Baselines - Button: Add systems or baselines":
       selectors:
-        - '{}.pf-c-button:contains("Add systems or baselines")'
+        - '{} .pf-c-button:contains("Add systems or baselines")'
     "Baselines - Button: Submit comparison":
       selectors:
-        - '{}.pf-c-button:contains("Submit")'
+        - '{} .pf-c-button:contains("Submit")'
