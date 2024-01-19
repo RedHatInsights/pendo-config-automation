@@ -40,6 +40,15 @@ image builder:
     "Create image wizard - Step: Registration - Button: Cancel":
       selectors:
         - '.imageBuilder #wizard-registration-cancel-button'
+    "Create image wizard - Step: Registration - Dropdown: Select activation key":
+      selectors:
+        - '.imageBuilder button:contains("Create activation key")'
+    "Create image wizard - Step: Registration - Registration: Register later":
+      selectors:
+        - '.imageBuilder #register-system-later'
+    "Create image wizard - Step: Registration - Registration: Register system now":
+      selectors:
+        - '.imageBuilder #register-system-now'
     "Create image wizard - Step: Filesystem - Button: Next":
       selectors:
         - '.imageBuilder #wizard-systemconfiguration-filesystem-next-button'
