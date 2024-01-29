@@ -15,7 +15,7 @@ rbac:
       selectors:
         - '{}[data-ouia-subnav="groups"] button:contains("Submit")'
 
-   pages:
+  pages:
     All pages:
       url_rules:
         - /iam/rbac
