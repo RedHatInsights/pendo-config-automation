@@ -20,31 +20,47 @@ rbac:
       url_rules:
         - /iam/rbac
         - /iam/rbac/**
+        - /iam/user-access
+        - /iam/user-access/**
     Groups list:
       url_rules:
         - /iam/rbac/groups
+        - /iam/user-access/groups
     Group view:
       url_rules:
         - /iam/rbac/groups/detail/*/roles
+        - /iam/user-access/groups/detail/*/roles
     Roles list:
       url_rules:
         - /iam/rbac/roles
+        - /iam/user-access/roles
     Role view:
       url_rules:
         - /iam/rbac/groups/detail/*/roles/detail/*
         - /iam/rbac/roles/detail/*
+        - /iam/user-access/groups/detail/*/roles/detail/*
+        - /iam/user-access/roles/detail/*
     Roles - Add roles to group:
       url_rules:
         - /iam/rbac/groups/detail/*/roles/add_roles
+        - /iam/user-access/groups/detail/*/roles/add_roles
     Create role wizard:
       url_rules:
         - /iam/rbac/roles/add-role
+        - /iam/user-access/roles/add-role
     Users list:
       url_rules:
         - /iam/rbac/users
+        - /iam/user-access/users
     Users view:
       url_rules:
         - /iam/rbac/users/detail/*
+        - /iam/user-access/users/detail/*
     Create group wizard:
       url_rules:
         - /iam/rbac/groups/add-group
+        - /iam/user-access/groups/add-group
+    Overview page:
+      url_rules:
+        - /iam/rbac/overview
+        - /iam/user-access/overview
