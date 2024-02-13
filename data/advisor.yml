@@ -3,6 +3,18 @@ advisor:
   color: 2
   features:
     _scope: '[data-ouia-app-id="advisor"]'
+    "Advisor - Card: Pathways": 
+      selectors:
+        - '{}[data-testid="Pathways"]'
+      "Advisor - Card: Incidents": 
+      selectors:
+        - '{}[data-testid="incidents"]'
+       "Advisor - Card: Critical recommendations": 
+      selectors:
+        - '{}[data-testid="Critical recommendations"]'
+      "Advisor - Card: Important recommendations": 
+      selectors:
+        - '{}[data-testid="Important recommendations"]'
     "Recommendations - Link: Reset filters":
       selectors:
         - '{}[data-ouia-subnav="recommendations"] button.pf-m-link:contains("Reset filters")'
