@@ -10,25 +10,26 @@ subscription services:
         - /subscriptions/overview
     Subscriptions Inventory:
       url_rules:
+        - /subscriptions/inventory
         - /subscriptions/inventory/*
     Subscriptions Usage - All:
       url_rules:
-        - /subscriptions/usage/rhel/*
-        - /subscriptions/usage/openshift/*
-        - /subscriptions/usage/rhods/*
-        - /subscriptions/usage/rhacs/*
+        - /subscriptions/usage/rhel
+        - /subscriptions/usage/openshift
+        - /subscriptions/usage/rhods
+        - /subscriptions/usage/rhacs
     Subscriptions Usage - RHEL:
       url_rules:
-        - /subscriptions/usage/rhel/*
+        - /subscriptions/usage/rhel
     Subscriptions Usage - Openshift:
       url_rules:
-        - /subscriptions/usage/openshift/*
+        - /subscriptions/usage/openshift
     Subscriptions Usage - Red Hat OpenShift AI:
       url_rules:
-        - /subscriptions/usage/rhods/*
+        - /subscriptions/usage/rhods
     Subscriptions Usage - Advanced Cluster Security:
       url_rules:
-        - /subscriptions/usage/rhacs/*
+        - /subscriptions/usage/rhacs
     Hybrid Committed Spend - Overview:
       url_rules:
         - /subscriptions/hybrid-committed-spend/
@@ -40,4 +41,4 @@ subscription services:
         - /subscriptions/manifests
     Learning Resources:
       url_rules:
-        - /subscriptions/learning-resources/*
+        - /subscriptions/learning-resources
