@@ -5,127 +5,127 @@ advisor:
     _scope: '[data-ouia-app-id="advisor"]'
     "Advisor - Card: Pathways": 
       selectors:
-        - '{}[data-testid="Pathways"]'
+        - '{} [data-testid="Pathways"]'
     "Advisor - Card: Incidents": 
       selectors:
-        - '{}[data-testid="incidents"]'
+        - '{} [data-testid="incidents"]'
     "Advisor - Card: Critical recommendations": 
       selectors:
-        - '{}[data-testid="Critical recommendations"]'
+        - '{} [data-testid="Critical recommendations"]'
     "Advisor - Card: Important recommendations": 
       selectors:
-        - '{}[data-testid="Important recommendations"]'
+        - '{} [data-testid="Important recommendations"]'
     "Recommendations - Link: Reset filters":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-m-link:contains("Reset filters")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-m-link:contains("Reset filters")'
     "Recommendations - Filter: Total risk":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Total risk")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Total risk")'
     "Recommendations - Filter: Name":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Name")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Name")'
     "Recommendations - Filter: Risk of change":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Risk of change")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Risk of change")'
     "Recommendations - Filter: Impact":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Impact")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Impact")'
     "Recommendations - Filter: Likelihood":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Likelihood")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Likelihood")'
     "Recommendations - Filter: Category":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Category")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Category")'
     "Recommendations - Filter: Incidents":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Incidents")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Incidents")'
     "Recommendations - Filter: Reboot required":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Reboot required")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Reboot required")'
     "Recommendations - Filter: Status":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Status")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-dropdown__menu-item:contains("Status")'
     "Recommendations - Filter: Systems impacted":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Systems impacted")'
+        - '{} [data-ouia-subnav="recommendations"] button:contains("Systems impacted")'
     "Recommendations - Link: Download executive report":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] [data-ouia-component-type="PF4/Button"]:contains("Download executive report")'
+        - '{} [data-ouia-subnav="recommendations"] [data-ouia-component-type="PF4/Button"]:contains("Download executive report")'
     "Recommendation view - Button: Remediate":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Remediate")'
+        - '{} [data-ouia-subnav="recommendations"] button:contains("Remediate")'
     "Recommendations - Button: Export to CSV":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Export to CSV")'
+        - '{} [data-ouia-subnav="recommendations"] button:contains("Export to CSV")'
     "Recommendations - Button: Export to JSON":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button:contains("Export to JSON")'
+        - '{} [data-ouia-subnav="recommendations"] button:contains("Export to JSON")'
     "Recommendations - Sort: Name":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Name")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Name")'
     "Recommendations - Sort: Modified":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Modified")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Modified")'
     "Recommendations - Sort: Category":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Category")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Category")'
     "Recommendations - Sort: Total risk":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Total risk")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Total risk")'
     "Recommendations - Sort: Systems":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Systems")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Systems")'
     "Recommendations - Sort: Remediation":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Remediation")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Remediation")'
     "Recommendations - Sort: Last seen":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Last seen")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("Last seen")'
     "Recommendations - Sort: First Impacted":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("First Impacted")'
+        - '{} [data-ouia-subnav="recommendations"] button.pf-c-table__button:contains("First Impacted")'
     "Topics - Sort: Affected systems":
       selectors:
-        - '{}[data-ouia-subnav="topics"] .pf-c-table__button:contains("Affected systems")'
+        - '{} [data-ouia-subnav="topics"] .pf-c-table__button:contains("Affected systems")'
     "Topics - Sort: Featured":
       selectors:
-        - '{}[data-ouia-subnav="topics"] button.pf-c-table__button:contains("Featured")'
+        - '{} [data-ouia-subnav="topics"] button.pf-c-table__button:contains("Featured")'
     "Systems - Sort: Recommendations":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Recommendations")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Recommendations")'
     "Systems - Sort: Last seen":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Last seen")'
     "Systems - Sort: Low":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Low")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Low")'
     "Systems - Sort: Moderate":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Moderate")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Moderate")'
     "Systems - Sort: Important":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Important")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Important")'
     "Systems - Sort: Critical":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-table__button:contains("Critical")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-table__button:contains("Critical")'
     "Systems - Button: Export to CSV":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to CSV")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to CSV")'
     "Systems - Button: Export to JSON":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to JSON")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to JSON")'
     "Systems - Button: Export to PDF":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to PDF")'
+        - '{} [data-ouia-subnav="systems"] button.pf-c-dropdown__menu-item:contains("Export to PDF")'
     "Recommendations - Link: Knowledgebase articles":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] a:contains("Knowledgebase article")'
+        - '{} [data-ouia-subnav="recommendations"] a:contains("Knowledgebase article")'
     "Recommendations - Button: Disable recommendation":
       selectors:
-        - '{}[data-ouia-subnav="recommendations"] .pf-c-dropdown__menu-item:contains("Disable recommendation")'
+        - '{} [data-ouia-subnav="recommendations"] .pf-c-dropdown__menu-item:contains("Disable recommendation")'
     "System view - Button: Remediate":
       selectors:
-        - '{}[data-ouia-subnav="systems"] button:contains("Remediate")'
+        - '{} [data-ouia-subnav="systems"] button:contains("Remediate")'
 
   pages:
     All pages:
