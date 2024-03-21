@@ -75,3 +75,6 @@ inventory:
     "Groups view - Group info tab - Button: Manage access":
       selectors:
         - '{}[data-ouia-subnav="groups"] .pf-c-button.pf-m-secondary:contains("Manage access")'
+    "Edge systems - Edge Tab across Insights":
+      selectors:
+        - '[data-ouia-bundle="insights"] [aria-label="Immutable tab"]'
