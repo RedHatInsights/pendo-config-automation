@@ -109,3 +109,12 @@ image builder:
     "Quickstart - Button: Build an Image with Custom Content - Button: Let Red Hat contact you":
       selectors:
         - '{} #qs-ib-custom-content-contact'
+    "Create blueprint wizard - Step: Content - Button: Search other repositories":
+      selectors:
+        - '{} .pf-m-primary:contains("Search other repositories")'
+    "Create blueprint wizard - Step: Content - Toggle: Other repositories":
+      selectors:
+        - '{} #toggle-other-repos.pf-v5-c-toggle-group__button:contains("Other repos")'
+    "Create blueprint wizard - Step: Content - Button: Add listed repositories": 
+      selectors:
+        - '{} .pf-m-primary:contains("Add listed repositories")'
