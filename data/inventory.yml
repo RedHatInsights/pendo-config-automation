@@ -37,6 +37,9 @@ inventory:
     Groups view:
       url_rules:
         - /insights/inventory/groups/**
+    Staleness and deletion:
+      url_rules:
+        - /insights/inventory/staleness-and-deletion
   features:
     _scope: '[data-ouia-app-id="inventory"]'
     "System row - Button: Delete":
@@ -78,3 +81,6 @@ inventory:
     "Edge systems - Edge Tab across Insights":
       selectors:
         - '[data-ouia-bundle="insights"] [aria-label="Immutable tab"]'
+    "Staleness and deletion - Save button":
+      selectors:
+        - '[data-ouia-component-id="OUIA-Generated-Button-primary-1"]'
