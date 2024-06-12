@@ -115,6 +115,6 @@ image builder:
     "Create blueprint wizard - Step: Content - Toggle: Other repositories":
       selectors:
         - '{} #toggle-other-repos.pf-v5-c-toggle-group__button:contains("Other repos")'
-    "Create blueprint wizard - Step: Content - Button: Add listed repositories": 
+    "Create blueprint wizard - Step: Content - Button: Add listed repositories":
       selectors:
         - '{} .pf-m-primary:contains("Add listed repositories")'
