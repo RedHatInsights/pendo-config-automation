@@ -11,8 +11,6 @@ cost management:
     OpenShift Overview:
       url_rules:
         - /openshift/cost-management?tabKey=0
-    OpenShift Overview:
-      url_rules:
         - /openshift/cost-management?tabKey=1
     OpenShift Details All:
       url_rules:
@@ -43,7 +41,7 @@ cost management:
     Amazon Web Services Group by Organizational Unit:
       url_rules:
         - /openshift/cost-management/aws?filter[limit]=10&filter[offset]=0&group_by[org_unit_id*
-        Amazon Web Services Group by Region:
+    Amazon Web Services Group by Region:
       url_rules:
         - /openshift/cost-management/aws?filter[limit]=10&filter[offset]=0&group_by[region]=*
     Amazon Web Services Group by Service:
