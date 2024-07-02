@@ -47,3 +47,4 @@ applications:
   - "iam"
   - "rhtpa"
   - "subscription-services"
+  - "no-resource-center"
