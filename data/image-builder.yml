@@ -112,9 +112,6 @@ image builder:
     "Blueprint list - Button: Build images":
       selectors:
         - '{} .pf-m-primary:contains("Build images")'
-    "Blueprint list - Button: Build images":
-      selectors:
-        - '{} .pf-m-primary:contains("Build images")'
     "Quickstart: Launch an AWS Image - Button: Let Red Hat contact you":
       selectors:
         - '{} #qs-ib-aws-launch-contact'
