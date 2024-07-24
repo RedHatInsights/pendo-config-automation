@@ -20,6 +20,7 @@ crc:
     Favorited services:
       url_rules:
         - /favoritedservices
+  data-ouia-component-id="AllServices-Dropdown-Ansible"
   features:
     _scope: '[data-ouia-app-id="landing"]'
     "Selector: Beta switcher":
@@ -34,6 +35,15 @@ crc:
     "Find an app or service":
       selectors:
         - '{} button:contains("Find an app or service")'
+    "Apps & Services Dropdown - Ansible":
+      selectors:
+        - '{} [data-ouia-component-id="AllServices-Dropdown-Ansible"]'
+    "Apps & Services Dropdown - RHEL":
+      selectors:
+        - '{} [data-ouia-component-id="AllServices-Dropdown-RHEL"]'
+    "Apps & Services Dropdown - Openshift":
+      selectors:
+        - '{} [data-ouia-component-id="AllServices-Dropdown-Openshift"]'
     "Apps & Services Dropdown - Application Services: Overview":
       selectors:
         - '{} a:contains("Overview")[href="application-services/overview"]'
@@ -175,6 +185,15 @@ crc:
     "Apps & Services Dropdown - Ansible Automation Platform: Overview":
       selectors:
         - '{} a:contains("Overview")[href="ansible/ansible-dashboard"]'
+    "Apps & Services Dropdown Sitewide - Ansible":
+      selectors:
+        - '{} [data-ouia-component-id="AllServices-Dropdown-Ansible"]'
+    "Apps & Services Dropdown Sitewide - RHEL":
+      selectors:
+        - '{} [data-ouia-component-id="AllServices-Dropdown-RHEL"]'
+    "Apps & Services Dropdown Sitewide - Openshift":
+      selectors:
+        - '{} [data-ouia-component-id="AllServices-Dropdown-Openshift"]'
     "Apps & Services Dropdown Sitewide - Application Services: Overview":
       selectors:
         - 'a:contains("Overview")[href="application-services/overview"]'
