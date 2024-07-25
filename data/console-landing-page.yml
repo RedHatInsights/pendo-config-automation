@@ -130,3 +130,48 @@ console landing page:
     "Console Landing Page - Link: Read - How to use the Cost Management API":
       selectors:
         - 'a[href="https://medium.com/@chargio/using-cost-management-through-the-api-with-a-token-1d0f4c3d349a"]'
+    "Console Landing Page - Button: Add widgets":
+      selectors:
+        - '{} [data-ouia-component-id="add-widget-button"] button:contains("Add widgets")'
+    "Console Landing Page - Menu button: remove widget":
+      selectors:
+        - '[data-ouia-component-id="remove-widget"]'
+    "Console Landing Page - Widget: landing RHEL widget":
+      selectors:
+        - '[data-ouia-component-id="landing-rhel-widget"]'
+    "Console Landing Page - Widget: landing Openshift widget":
+      selectors:
+        - '[data-ouia-component-id="landing-openshift-widget"]'
+    "Console Landing Page - Widget: landing explore capabilities widget":
+      selectors:
+        - '[data-ouia-component-id="landing-exploreCapabilities-widget"]'
+    "Console Landing Page - Widget: landing recently visited widget":
+      selectors:
+        - '[data-ouia-component-id="landing-recentlyVisited-widget"]'
+    "Console Landing Page - Widget: landing chrome favorite services widget":
+      selectors:
+        - '[data-ouia-component-id="chrome-favoriteServices-widget"]'
+    "Console Landing Page - Widget: landing Openshift AI widget":
+      selectors:
+        - '[data-ouia-component-id="landing-openshiftAi-widget"]'
+    "Console Landing Page - Widget: landing edge widget":
+      selectors:
+        - '[data-ouia-component-id="landing-edge-widget"]'
+    "Console Landing Page - Widget: landing ACS widget":
+      selectors:
+        - '[data-ouia-component-id="landing-acs-widget"]'
+    "Console Landing Page - Widget: landing learning resources widget":
+      selectors:
+        - '[data-ouia-component-id="learningResources-learningResources-widget"]'
+    "Console Landing Page - Widget: landing suport cases widget":
+      selectors:
+        - '[data-ouia-component-id="landing-supportCases-widget"]'
+    "Console Landing Page - Widget: landing subscriptions widget":
+      selectors:
+        - '[data-ouia-component-id="subscriptionInventory-subscriptions-widget"]'
+    "Console Landing Page - Widget: landing quay widget":
+      selectors:
+        - '[data-ouia-component-id="landing-quay-widget"]'
+    "Console Landing Page - Widget: landing ansible widget":
+      selectors:
+        - '[data-ouia-component-id="landing-ansible-widget"]'
