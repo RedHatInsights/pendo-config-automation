@@ -142,3 +142,6 @@ image builder:
     "Edge images list - Button: Actions dropdown":
       selectors:
         - '{} #image-set-details-dropdown'
+    "Images table banner - Button: View the difference":
+      selectors:
+        - '{} #blueprint_view_version_difference'
