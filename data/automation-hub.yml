@@ -32,3 +32,6 @@ automation hub:
     "Partners - Link: View collections":
       selectors:
         - '{} a:contains("View collections")'
+    "Partners - Button: View collections":
+      selectors:
+        - '{} a:contains("View collections")'
