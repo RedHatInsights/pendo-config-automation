@@ -23,6 +23,7 @@ applications:
   - "data-srvs-database-access"
   - "drift"
   - "edge-management"
+  - "idmsvc"
   - "insights-for-openshift"
   - "insights"
   - "inventory"
