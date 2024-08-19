@@ -48,3 +48,4 @@ applications:
   - "rhtpa"
   - "subscription-services"
   - "no-resource-center"
+  - "widgets"
