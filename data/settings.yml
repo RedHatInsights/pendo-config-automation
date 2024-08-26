@@ -2,72 +2,72 @@
 settings:
   features:
     _scope: '[data-ouia-bundle="settings"]'
-    "Sources - Button: AWS":
+    "Integrations - Button: AWS":
       selectors:
-        - '[data-ouia-app-id="sources"] div:contains("Amazon Web Services").disabled-tile-with-tooltip'
-    "Sources - Button: Microsoft Azure":
+        - '[data-ouia-app-id="integrations"] div:contains("Amazon Web Services").disabled-tile-with-tooltip'
+    "Integrations - Button: Microsoft Azure":
       selectors:
-        - '[data-ouia-app-id="sources"] div:contains("Microsoft Azure").disabled-tile-with-tooltip'
-    "Sources - Button: Save changes":
+        - '[data-ouia-app-id="integrations"] div:contains("Microsoft Azure").disabled-tile-with-tooltip'
+    "Integrations - Button: Save changes":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Save changes")'
-    "Sources - Link: Learn more about Red Hat Gold Images":
+        - '[data-ouia-app-id="integrations"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Save changes")'
+    "Integrations - Link: Learn more about Red Hat Gold Images":
       selectors:
-        - '[data-ouia-app-id="sources"] a:contains("Learn more about Red Hat gold images")'
-    "Sources - Link: Enable additional Insights services":
+        - '[data-ouia-app-id="integrations"] a:contains("Learn more about Red Hat gold images")'
+    "Integrations - Link: Enable additional Insights services":
       selectors:
-        - '[data-ouia-app-id="sources"] a:contains("Enable additional Insights services")'
-    "Sources - Link: Go to Subscription Watch":
+        - '[data-ouia-app-id="integrations"] a:contains("Enable additional Insights services")'
+    "Integrations - Link: Go to Subscription Watch":
       selectors:
-        - '[data-ouia-app-id="sources"] a:contains("Go to Subscription Watch")'
-    "Sources - Button: Add source":
+        - '[data-ouia-app-id="integrations"] a:contains("Go to Subscription Watch")'
+    "Integrations - Button: Add source":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-m-primary:contains("Add source")'
-    "Sources - Button: Add source at end of Sources wizard":
+        - '[data-ouia-app-id="integrations"] .pf-m-primary:contains("Add source")'
+    "Integrations - Button: Add source at end of Integrations wizard":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-c-wizard.sources .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Add")'
-    "Sources - Button: Exit button in cancel sources modal":
+        - '[data-ouia-app-id="integrations"] .pf-c-wizard.integrations .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Add")'
+    "Integrations - Button: Exit button in cancel integrations modal":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Exit")'
-    "Sources - Button: Remove source (menu button)":
+        - '[data-ouia-app-id="integrations"] .pf-m-primary[data-ouia-component-type="PF4/Button"]:contains("Exit")'
+    "Integrations - Button: Remove source (menu button)":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-c-dropdown__menu-item:contains("Remove")'
-    "Sources - Button: Remove source and its data":
+        - '[data-ouia-app-id="integrations"] .pf-c-dropdown__menu-item:contains("Remove")'
+    "Integrations - Button: Remove source and its data":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-c-modal-box.sources .pf-m-danger:contains("Remove source and its data")'
-    "Sources - Button: Edit credentials (menu button)":
+        - '[data-ouia-app-id="integrations"] .pf-c-modal-box.integrations .pf-m-danger:contains("Remove source and its data")'
+    "Integrations - Button: Edit credentials (menu button)":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-c-dropdown__menu-item:contains("Edit")'
-    "Sources - Button: Add application (wizard confirmation)":
+        - '[data-ouia-app-id="integrations"] .pf-c-dropdown__menu-item:contains("Edit")'
+    "Integrations - Button: Add application (wizard confirmation)":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-m-primary:contains("Add")'
-    "Sources - Button: Remove application (modal confirmation)":
+        - '[data-ouia-app-id="integrations"] .pf-m-primary:contains("Add")'
+    "Integrations - Button: Remove application (modal confirmation)":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-m-danger:contains("Remove")'
-    "Sources - Button: Cloud Sources tab":
+        - '[data-ouia-app-id="integrations"] .pf-m-danger:contains("Remove")'
+    "Integrations - Button: Cloud Integrations tab":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-c-tabs__link:contains("Cloud sources")'
-    "Sources - Button: Red Hat sources tab":
+        - '[data-ouia-app-id="integrations"] .pf-c-tabs__link:contains("Cloud integrations")'
+    "Integrations - Button: Red Hat integrations tab":
       selectors:
-        - '[data-ouia-app-id="sources"] .pf-c-tabs__link:contains("Red Hat sources")'
-    "Sources - Link: Use Red Hat gold images on AWS":
+        - '[data-ouia-app-id="integrations"] .pf-c-tabs__link:contains("Red Hat integrations")'
+    "Integrations - Link: Use Red Hat gold images on AWS":
       selectors:
-        - '[data-ouia-app-id="sources"] a.text:contains("Use Red Hat gold images on AWS")'
-    "Sources - Link: Use Red Hat gold images on Microsoft Azure":
+        - '[data-ouia-app-id="integrations"] a.text:contains("Use Red Hat gold images on AWS")'
+    "Integrations - Link: Use Red Hat gold images on Microsoft Azure":
       selectors:
-        - '[data-ouia-app-id="sources"] a.text:contains("Use Red Hat gold images on Microsoft Azure")'
-    "Sources - Link: Learn more about Red Hat Insights":
+        - '[data-ouia-app-id="integrations"] a.text:contains("Use Red Hat gold images on Microsoft Azure")'
+    "Integrations - Link: Learn more about Red Hat Insights":
       selectors:
-        - '[data-ouia-app-id="sources"] a.text:contains("Learn more about Red Hat Insights")'
-    "Sources - Link: Learn more about Subscriptions":
+        - '[data-ouia-app-id="integrations"] a.text:contains("Learn more about Red Hat Insights")'
+    "Integrations - Link: Learn more about Subscriptions":
       selectors:
-        - '[data-ouia-app-id="sources"] a.text:contains("Learn more about Subscriptions")'
-    "Sources - Link: Go to Subscriptions":
+        - '[data-ouia-app-id="integrations"] a.text:contains("Learn more about Subscriptions")'
+    "Integrations - Link: Go to Subscriptions":
       selectors:
-        - '[data-ouia-app-id="sources"] a.text:contains("Go to Subscriptions")'
-    "Sources - Button: Cancel Add source":
+        - '[data-ouia-app-id="integrations"] a.text:contains("Go to Subscriptions")'
+    "Integrations - Button: Cancel Add source":
       selectors:
-        - '[data-ouia-app-id="sources"] pf-c-wizard.sources .pf-m-primary:contains("Cancel")'
+        - '[data-ouia-app-id="integrations"] pf-c-wizard.integrations .pf-m-primary:contains("Cancel")'
     "Integrations - Button: Add integration":
       selectors:
         - '[data-ouia-app-id="integrations"] div.pf-c-toolbar__item:contains("Add integration")'
@@ -101,28 +101,28 @@ settings:
       url_rules:
         - /settings
         - /settings/**
-    Sources - All pages:
+    Integrations - All pages:
       url_rules:
-        - /settings/sources/*
-        - /settings/sources
-    Sources list:
+        - /settings/integrations/*
+        - /settings/integrations
+    Integrations list:
       url_rules:
-        - /settings/sources
-    Sources - Cloud sources:
+        - /settings/integrations
+    Integrations - Cloud integrations:
       url_rules:
-        - /settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud
-    Sources - Red Hat sources:
+        - /settings/integrations?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud
+    Integrations - Red Hat integrations:
       url_rules:
-        - /settings/sources?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
-    Sources - Specific source view:
+        - /settings/integrations?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
+    Integrations - Specific source view:
       url_rules:
-        - /settings/sources/detail/**
-    Sources - Add Cloud Source wizard:
+        - /settings/integrations/detail/**
+    Integrations - Add Cloud Source wizard:
       url_rules:
-        - /settings/sources/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud
-    Sources - Add Red Hat Source wizard:
+        - /settings/integrations/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Cloud
+    Integrations - Add Red Hat Source wizard:
       url_rules:
-        - /settings/sources/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
+        - /settings/integrations/new?sort_by[]=created_at:desc&limit=50&offset=0&activeVendor=Red%20Hat
     Integrations:
       url_rules:
         - /settings/integrations
@@ -153,12 +153,12 @@ settings:
     Applications - Advisor:
       url_rules:
         - /settings/applications/advisor
-    Sources - Add application wizard:
+    Integrations - Add application wizard:
       url_rules:
-        - /settings/sources/detail/*/add_app/**
-    Sources - Remove application modal:
+        - /settings/integrations/detail/*/add_app/**
+    Integrations - Remove application modal:
       url_rules:
-        - /settings/sources/detail/*/remove_app/**
-    Sources - Remove source modal:
+        - /settings/integrations/detail/*/remove_app/**
+    Integrations - Remove source modal:
       url_rules:
-        - /settings/sources/remove/**
+        - /settings/integrations/remove/**
