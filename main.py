@@ -41,77 +41,6 @@ def _pretty_time_delta(seconds):
     else:
         return "%ds" % (seconds,)
 
-def beta_pages(path, dry_run):
-  with open(path, 'r') as data:
-    yml = yaml.safe_load(data)
-    for name, group in yml.items():
-        name = f'_beta {name}'
-        log.info(f'Creating group: [{name}]')
-        if not dry_run:
-            pendo_group = client.create_group_idempotent(name, client.get_color(name, group))
-
-        if 'pages' in group:
-            for page_name, page in group['pages'].items():
-              beta_pages = {'url_rules': [] }
-              for i, url in enumerate(page['url_rules']):
-                  page['url_rules'][i] = '//*{}'.format(page['url_rules'][i])
-                  page['url_rules'][i] = page['url_rules'][i].replace('//*/', '//*/beta/')
-                  beta_pages['url_rules'].append(page['url_rules'][i])
-                  page['url_rules'][i] = page['url_rules'][i].replace('//*/beta/', '//*/preview/')
-                  beta_pages['url_rules'].append(page['url_rules'][i])
-
-              log.info(f'Creating page: [{page_name}] {beta_pages}')
-              if not dry_run:
-                  client.create_page_in_group(pendo_group, page_name, beta_pages)
-                  time.sleep(DELAY)
-
-def aggregate_pages(path, dry_run):
-  with open(path, 'r') as data:
-    yml = yaml.safe_load(data)
-    for name, group in yml.items():
-        name = f'_aggregate {name}'
-        log.info(f'Creating group: [{name}]')
-        if not dry_run:
-            pendo_group = client.create_group_idempotent(name, client.get_color(name, group))
-
-        if 'pages' in group:
-            for page_name, page in group['pages'].items():
-              aggregate_pages = {'url_rules': [] }
-              for i, url in enumerate(page['url_rules']):
-                  page['url_rules'][i] = '//*{}'.format(page['url_rules'][i])
-                  aggregate_pages['url_rules'].append(page['url_rules'][i])
-                  page['url_rules'][i] = page['url_rules'][i].replace('//*/', '//*/beta/')
-                  aggregate_pages['url_rules'].append(page['url_rules'][i])
-                  page['url_rules'][i] = page['url_rules'][i].replace('//*/beta/', '//*/preview/')
-                  aggregate_pages['url_rules'].append(page['url_rules'][i])
-
-              log.info(f'Creating page: [{page_name}] {aggregate_pages}')
-              if not dry_run:
-                  client.create_page_in_group(pendo_group, page_name, aggregate_pages)
-                  time.sleep(DELAY)
-
-def preview_pages(path, dry_run):
-  with open(path, 'r') as data:
-    yml = yaml.safe_load(data)
-    for name, group in yml.items():
-        name = f'_preview {name}'
-        log.info(f'Creating group: [{name}]')
-        if not dry_run:
-            pendo_group = client.create_group_idempotent(name, client.get_color(name, group))
-
-        if 'pages' in group:
-            for page_name, page in group['pages'].items():
-              preview_pages = {'url_rules': [] }
-              for i, url in enumerate(page['url_rules']):
-                  page['url_rules'][i] = '//*{}'.format(page['url_rules'][i])
-                  page['url_rules'][i] = page['url_rules'][i].replace('//*/', '//*/preview/')
-                  preview_pages['url_rules'].append(page['url_rules'][i])
-
-              log.info(f'Creating page: [{page_name}] {preview_pages}')
-              if not dry_run:
-                  client.create_page_in_group(pendo_group, page_name, preview_pages)
-                  time.sleep(DELAY)
-
 # Send the data to the pendo
 def main_loop(path, dry_run):
   with open(path, 'r') as data:
@@ -169,18 +98,9 @@ def build_app(appName, dry_run):
   appFile = appName + '.yml'
   fullPathname = location + appFile
   log.info(f'Using file: {appFile}')
-  # Aggregate pages
-  log.info('Creating aggregate pages')
-  aggregate_pages(fullPathname, dry_run)
   # Stable pages and features
   log.info('Creating stable pages and features')
   main_loop(fullPathname, dry_run)
-  # Beta pages and features
-  log.info('Creating beta pages and features')
-  beta_pages(fullPathname, dry_run)
-  # Preview pages and features
-  log.info('Creating preview pages and features')
-  preview_pages(fullPathname, dry_run)
 
   if not dry_run:
     generate_stash(appName)
