@@ -9,10 +9,10 @@ widgets:
     _scope: '.widgetLayout'
     "Console Landing Page - Button: Add widgets":
       selectors:
-        - '{} [data-ouia-component-id="add-widget-button"] button:contains("Add widgets")'
+        - '[data-ouia-component-id="add-widget-button"]'
     "Console Landing Page - Menu button: remove widget":
       selectors:
-        - '{} [data-ouia-component-id="remove-widget"]'
+        - '[data-ouia-component-id="remove-widget"]'
     "Console Landing Page - Widget: landing RHEL widget":
       selectors:
         - '{} [data-ouia-component-id="landing-rhel-widget"]'
