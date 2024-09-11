@@ -43,6 +43,45 @@ crc:
     "Apps & Services Dropdown - Openshift":
       selectors:
         - '[data-ouia-component-id="AllServices-Dropdown-Openshift"]'
+    "Apps & Services Dropdown - Favorites":
+      selectors:
+        - '[data-ouia-component-id="AllServices-favorites-Tab"]'
+    "Apps & Services Dropdown - AI/ML":
+      selectors:
+        - '[data-ouia-component-id="AllServices-ai-Tab"]'
+    "Apps & Services Dropdown - Automation":
+      selectors:
+        - '[data-ouia-component-id="AllServices-automation-Tab"]'
+    "Apps & Services Dropdown - Containers":
+      selectors:
+        - '[data-ouia-component-id="AllServices-containers-Tab"]'
+    "Apps & Services Dropdown - Deploy":
+      selectors:
+        - '[data-ouia-component-id="AllServices-deploy-Tab"]'
+    "Apps & Services Dropdown - Identity and Access Management":
+      selectors:
+        - '[data-ouia-component-id="AllServices-iam-Tab"]'
+    "Apps & Services Dropdown - Integrations and Notifications":
+      selectors:
+        - '[data-ouia-component-id="AllServices-integrations-notifications-Tab"]'
+    "Apps & Services Dropdown - Inventories":
+      selectors:
+        - '[data-ouia-component-id="AllServices-inventories-Tab"]'
+    "Apps & Services Dropdown - Observability and Monitoring":
+      selectors:
+        - '[data-ouia-component-id="AllServices-observe-Tab"]'
+    "Apps & Services Dropdown - Security":
+      selectors:
+        - '[data-ouia-component-id="AllServices-security-Tab"]'
+    "Apps & Services Dropdown - Subscriptions and Spend":
+      selectors:
+        - '[data-ouia-component-id="AllServices-subscriptions-Tab"]'
+    "Apps & Services Dropdown - System Configuration":
+      selectors:
+        - '[data-ouia-component-id="AllServices-systemConfiguration-Tab"]'
+    "Apps & Services Dropdown - Try and Buy":
+      selectors:
+        - '[data-ouia-component-id="AllServices-tryBuy-Tab"]'
     "Apps & Services Dropdown - Application Services: Overview":
       selectors:
         - '{} a:contains("Overview")[href="application-services/overview"]'
