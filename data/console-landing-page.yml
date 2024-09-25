@@ -145,6 +145,27 @@ console landing page:
     "Console Landing Page - Widget: landing explore capabilities widget":
       selectors:
         - '[data-ouia-component-id="landing-exploreCapabilities-widget"]'
+    "Console Landing Page - Widget: landing explore capabilities widget - Console Tour":
+      selectors:
+        - '[data-ouia-component-id="start-guided-tour-button"]'
+    "Console Landing Page - Widget: landing explore capabilities widget - ROSA":
+      selectors:
+        - '[data-ouia-component-id="try-rosa-button"]'
+    "Console Landing Page - Widget: landing explore capabilities widget - Openshift Sandbox":
+      selectors:
+        - '[data-ouia-component-id="explore-sandbox-button"]'
+    "Console Landing Page - Widget: landing explore capabilities widget - Insights":
+      selectors:
+        - '[data-ouia-component-id="analyze-risk-button"]'
+    "Console Landing Page - Widget: landing explore capabilities widget - Subscriptions":
+      selectors:
+        - '[data-ouia-component-id="explore-button"]'
+    "Console Landing Page - Widget: landing explore capabilities widget - CentOS":
+      selectors:
+        - '[data-ouia-component-id="cent-os-button"]'
+    "Console Landing Page - Widget: landing explore capabilities widget - Settings":
+      selectors:
+        - '[data-ouia-component-id="configure-settings-button"]'
     "Console Landing Page - Widget: landing recently visited widget":
       selectors:
         - '[data-ouia-component-id="landing-recentlyVisited-widget"]'
