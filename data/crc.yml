@@ -364,3 +364,21 @@ crc:
     "Apps & Services Dropdown Sitewide - Ansible Automation Platform: Overview":
       selectors:
         - 'a:contains("Overview")[href="ansible/ansible-dashboard"]'
+    "Settings Gear - Enable Preview mode":
+      selectors:
+        - '[data-ouia-component-id="PreviewSwitcher"]'
+    "Settings Gear - Integrations":
+      selectors:
+        - '[data-ouia-component-id="Integrations"]'
+    "Settings Gear - Notifications":
+      selectors:
+        - '[data-ouia-component-id="Notifications"]'
+    "Settings Gear - User Access":
+      selectors:
+        - '[data-ouia-component-id="User Access"]'
+    "Settings Gear - Authentication Policy":
+      selectors:
+        - '[data-ouia-component-id="Authentication Policy"]'
+    "Settings Gear - Service Accounts":
+      selectors:
+        - '[data-ouia-component-id="Service Accounts"]'
