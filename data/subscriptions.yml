@@ -4,9 +4,9 @@ subscriptions:
   pages:
     All pages:
       url_rules:
-        - /insights/subscriptions/**
-        - /openshift/subscriptions/**
-        - /openshift/quota/**
+        - /subscriptions/**
+        - /beta/subscriptions/**
+        - /preview/subscriptions/**
     Unentitled modal:
       url_rules:
         - /?not_entitled=subscriptions
