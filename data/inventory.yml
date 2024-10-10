@@ -31,12 +31,12 @@ inventory:
     System view - Resource Optimization tab:
       url_rules:
         - /insights/inventory/*?appName=ros
-    Groups list:
+    Workspaces list:
       url_rules:
-        - /insights/inventory/groups
-    Groups view:
+        - /insights/inventory/workspaces
+    Workspaces view:
       url_rules:
-        - /insights/inventory/groups/**
+        - /insights/inventory/workspaces/**
     Staleness and deletion:
       url_rules:
         - /insights/inventory/staleness-and-deletion
@@ -63,21 +63,21 @@ inventory:
     "System view - Tab: Resource Optimization":
       selectors:
         - '{} .pf-c-tabs__list button:contains("Resource Optimization")'
-    "Groups list - Button: Create group":
+    "Workspaces list - Button: Create workspace":
       selectors:
-        - '{}[data-ouia-subnav="groups"] .pf-c-button.pf-m-primary:contains("Create group")'
-    "Groups list - Expandable card: Create an Inventory group quickstart link":
+        - '[data-ouia-component-id="CreateGroupButton"]'
+    "Workspaces list - Expandable card: Create a workspace quickstart link":
       selectors:
-        - '{}[data-ouia-subnav="groups"] .pf-m-link.pf-c-button:contains("Create an Inventory group")'
-    "Groups list - Expandable card: Configure User Access for your Inventory groups link":
+        - '[data-ouia-component-id="OUIA-Generated-Button-link-1"]'
+    "Workspaces list - Expandable card: Configure User Access for your workspaces quickstart link":
       selectors:
-        - '{}[data-ouia-subnav="groups"] .pf-m-link.pf-c-button:contains("Create an Inventory group")'
-    "Groups view - Button: Add systems":
+        - '[data-ouia-component-id="OUIA-Generated-Button-link-2"]'
+    "Workspaces view - Button: Add systems":
       selectors:
-        - '{}[data-ouia-subnav="groups"] .pf-c-button.pf-m-primary:contains("Add systems")'
-    "Groups view - Group info tab - Button: Manage access":
+        - '[data-ouia-component-id="add-systems-button"]'
+    "Workspaces view - Workspace info tab - Button: Manage access":
       selectors:
-        - '{}[data-ouia-subnav="groups"] .pf-c-button.pf-m-secondary:contains("Manage access")'
+        - '[href="/iam/user-access"]:contains("Manage access")'
     "Edge systems - Edge Tab across Insights":
       selectors:
         - '[data-ouia-bundle="insights"] [aria-label="Immutable tab"]'
