@@ -84,3 +84,12 @@ inventory:
     "Staleness and deletion - Save button":
       selectors:
         - '[data-ouia-component-id="OUIA-Generated-Button-primary-1"]'
+    "System list - Export button":
+      selectors:
+        - '[data-ouia-component-id="Export"]'
+    "System list - Export to CSV button":
+      selectors:
+        - '[data-ouia-component-id="DownloadCSV"]'
+    "System list - Export to JSON button":
+      selectors:
+        - '[data-ouia-component-id="DownloadJSON"]'
