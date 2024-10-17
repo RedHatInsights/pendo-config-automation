@@ -38,8 +38,6 @@ crc:
 - 'data/crc.yml'
 dashboard:
 - 'data/dashboard.yml'
-drift:
-- 'data/drift.yml'
 fleet-management:
 - 'data/fleet-management.yml'
 insights-for-openshift:
