@@ -5,7 +5,6 @@ insights:
   - vulnerability
   - compliance
   - patch
-  - drift
   - policies
   - inventory
   - remediations
