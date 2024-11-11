@@ -73,7 +73,6 @@ image builder:
     "Launch wizard - Button: Launch":
       selectors:
         - '{} #wizard-provisioning-review-next-button'
-    _scope: '[data-ouia-bundle="insights"][data-ouia-app-id="image-builder"]'
     "Provision image wizard - Step: Account - Button: Next":
       selectors:
         - '{} [id="wizard-provisioning-account-next-button"]'
