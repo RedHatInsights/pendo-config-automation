@@ -100,7 +100,7 @@ image builder:
     "Provision image wizard - Step: Review - Button: Cancel":
       selectors:
         - '{} [id="wizard-provisioning-review-cancel-button"]'
-"Images list - Button: Launch":
+    "Images list - Button: Launch":
       selectors:
         - '{} .pf-m-link:contains("Launch")'
     "Images list - Button: Launch an AWS Image":
