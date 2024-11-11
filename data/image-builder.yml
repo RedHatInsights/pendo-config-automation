@@ -14,6 +14,9 @@ image builder:
       url_rules:
         - /insights/image-builder/imagewizard
         - /insights/image-builder/imagewizard/**
+    Edge images list:
+      url_rules:
+        - /insights/image-builder/manage-edge-images
   features:
     _scope: '[data-ouia-bundle="insights"][data-ouia-app-id="image-builder"]'
     "Create image wizard - Step: Output - Button: Next":
@@ -100,6 +103,15 @@ image builder:
     "Images list - Button: Build an Image with Custom Content":
       selectors:
         - '{} .pf-m-link:contains("Build an Image with Custom Content")'
+    "Images list - Button: Create blueprint":
+      selectors:
+        - '{} .pf-m-primary:contains("Create blueprint")'
+    "Images list - Button: Edit blueprint":
+      selectors:
+        - '{} .pf-v5-c-button:contains("Edit blueprint")'
+    "Blueprint list - Button: Build images":
+      selectors:
+        - '{} .pf-m-primary:contains("Build images")'
     "Quickstart: Launch an AWS Image - Button: Let Red Hat contact you":
       selectors:
         - '{} #qs-ib-aws-launch-contact'
@@ -118,3 +130,18 @@ image builder:
     "Create blueprint wizard - Step: Content - Button: Add listed repositories":
       selectors:
         - '{} .pf-m-primary:contains("Add listed repositories")'
+    "Images list- Horizontal Tab: Immutable(OSTree)":
+      selectors:
+        - '{} .pf-v5-c-tabs__item-text:contains("Immutable (OSTree)")'
+    "Edge images list- Button: Create new image":
+      selectors:
+        - '{} .pf-c-button:contains("Create new image")'
+    "Edge images list- Button: Download from Kebab":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("Download")'
+    "Edge images list - Button: Actions dropdown":
+      selectors:
+        - '{} #image-set-details-dropdown'
+    "Images table banner - Button: View the difference":
+      selectors:
+        - '{} #blueprint_view_version_difference'

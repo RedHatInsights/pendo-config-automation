@@ -1,6 +1,6 @@
 # Adding Data
 
-Each application should have their own file inside of `/data/APP.yml`. Whenever changing your selectors or pages, make sure you are upding the correct file.
+Each application should have their own file inside of `/data/APP.yml`. Whenever changing your selectors or pages, make sure you are updating the correct file.
 
 ## Adding a new app
 
@@ -67,7 +67,7 @@ For `Example Feature 1`, the full selector would be:
 
 `[data-ouia-bundle="foo"][data-ouia-app-id="bar"] .pf-c-button:contains("Wow!")`
 
-Spacing of the `{}` is important, because without the trailing space, like in the second exmaple, there is no space after the `data-ouia-app-id`.
+Spacing of the `{}` is important, because without the trailing space, like in the second example, there is no space after the `data-ouia-app-id`.
 
 If you are testing out selectors and want to double check your work before contributing, you can do
 
