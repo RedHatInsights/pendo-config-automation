@@ -34,6 +34,54 @@ crc:
     "Find an app or service":
       selectors:
         - '{} button:contains("Find an app or service")'
+    "Apps & Services Dropdown - Ansible":
+      selectors:
+        - '[data-ouia-component-id="AllServices-Dropdown-Ansible"]'
+    "Apps & Services Dropdown - RHEL":
+      selectors:
+        - '[data-ouia-component-id="AllServices-Dropdown-RHEL"]'
+    "Apps & Services Dropdown - Openshift":
+      selectors:
+        - '[data-ouia-component-id="AllServices-Dropdown-Openshift"]'
+    "Apps & Services Dropdown - Favorites":
+      selectors:
+        - '[data-ouia-component-id="AllServices-favorites-Tab"]'
+    "Apps & Services Dropdown - AI/ML":
+      selectors:
+        - '[data-ouia-component-id="AllServices-ai-Tab"]'
+    "Apps & Services Dropdown - Automation":
+      selectors:
+        - '[data-ouia-component-id="AllServices-automation-Tab"]'
+    "Apps & Services Dropdown - Containers":
+      selectors:
+        - '[data-ouia-component-id="AllServices-containers-Tab"]'
+    "Apps & Services Dropdown - Deploy":
+      selectors:
+        - '[data-ouia-component-id="AllServices-deploy-Tab"]'
+    "Apps & Services Dropdown - Identity and Access Management":
+      selectors:
+        - '[data-ouia-component-id="AllServices-iam-Tab"]'
+    "Apps & Services Dropdown - Integrations and Notifications":
+      selectors:
+        - '[data-ouia-component-id="AllServices-integrations-notifications-Tab"]'
+    "Apps & Services Dropdown - Inventories":
+      selectors:
+        - '[data-ouia-component-id="AllServices-inventories-Tab"]'
+    "Apps & Services Dropdown - Observability and Monitoring":
+      selectors:
+        - '[data-ouia-component-id="AllServices-observe-Tab"]'
+    "Apps & Services Dropdown - Security":
+      selectors:
+        - '[data-ouia-component-id="AllServices-security-Tab"]'
+    "Apps & Services Dropdown - Subscriptions and Spend":
+      selectors:
+        - '[data-ouia-component-id="AllServices-subscriptions-Tab"]'
+    "Apps & Services Dropdown - System Configuration":
+      selectors:
+        - '[data-ouia-component-id="AllServices-systemConfiguration-Tab"]'
+    "Apps & Services Dropdown - Try and Buy":
+      selectors:
+        - '[data-ouia-component-id="AllServices-tryBuy-Tab"]'
     "Apps & Services Dropdown - Application Services: Overview":
       selectors:
         - '{} a:contains("Overview")[href="application-services/overview"]'
@@ -67,9 +115,6 @@ crc:
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Advisor":
       selectors:
         - '{} a:contains("Advisor")[href="insights/advisor"]'
-    "Apps & Services Dropdown - Red Hat Enterprise Linux: Drift":
-      selectors:
-        - '{} a:contains("Drift")[href="insights/drift"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Inventory":
       selectors:
         - '{} a:contains("Inventory")[href="insights/inventory"]'
@@ -208,9 +253,6 @@ crc:
     "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Advisor":
       selectors:
         - 'a:contains("Advisor")[href="insights/advisor"]'
-    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Drift":
-      selectors:
-        - 'a:contains("Drift")[href="insights/drift"]'
     "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Inventory":
       selectors:
         - 'a:contains("Inventory")[href="insights/inventory"]'
@@ -316,3 +358,21 @@ crc:
     "Apps & Services Dropdown Sitewide - Ansible Automation Platform: Overview":
       selectors:
         - 'a:contains("Overview")[href="ansible/ansible-dashboard"]'
+    "Settings Gear - Enable Preview mode":
+      selectors:
+        - '[data-ouia-component-id="PreviewSwitcher"]'
+    "Settings Gear - Integrations":
+      selectors:
+        - '[data-ouia-component-id="Integrations"]'
+    "Settings Gear - Notifications":
+      selectors:
+        - '[data-ouia-component-id="Notifications"]'
+    "Settings Gear - User Access":
+      selectors:
+        - '[data-ouia-component-id="User Access"]'
+    "Settings Gear - Authentication Policy":
+      selectors:
+        - '[data-ouia-component-id="Authentication Policy"]'
+    "Settings Gear - Service Accounts":
+      selectors:
+        - '[data-ouia-component-id="Service Accounts"]'

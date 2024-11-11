@@ -1,0 +1,19 @@
+---
+iam:
+  color: 5
+  pages:
+    All pages:
+      url_rules:
+        - /iam/**
+    My user access:
+      url_rules:
+        - /iam/my-user-access
+    Authentication policy:
+      url_rules:
+        - /iam/authentication-policy/**
+    Authentication factors:
+      url_rules:
+        - /iam/authentication-policy/authentication-factors**
+    Learning resources:
+      url_rules:
+        - /iam/learning-resources/**

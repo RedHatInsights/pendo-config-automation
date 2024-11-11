@@ -4,9 +4,9 @@ subscriptions:
   pages:
     All pages:
       url_rules:
-        - /insights/subscriptions/**
-        - /openshift/subscriptions/**
-        - /openshift/quota/**
+        - /subscriptions/**
+        - /beta/subscriptions/**
+        - /preview/subscriptions/**
     Unentitled modal:
       url_rules:
         - /?not_entitled=subscriptions
@@ -33,6 +33,9 @@ subscriptions:
     Red Hat Enterprise Linux - Manifests:
       url_rules:
         - /insights/subscriptions/manifests
+    Inventory:
+      url_rules:
+        - /insights/subscriptions/inventory
   features:
     _scope: '[data-ouia-app-id="subscriptions"]'
     "Red Hat Enterprise Linux - Link: Learn more about Subscriptions reporting":

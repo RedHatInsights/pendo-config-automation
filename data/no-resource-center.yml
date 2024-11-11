@@ -1,0 +1,7 @@
+---
+no resource center:
+  color: 4
+  pages:
+    All pages:
+      url_rules:
+        - /**
