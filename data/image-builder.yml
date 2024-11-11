@@ -91,6 +91,33 @@ image builder:
     "Launch wizard - Button: Launch":
       selectors:
         - '.imageBuilder #wizard-provisioning-review-next-button'
+    "Provision image wizard - Step: Account - Button: Next":
+      selectors:
+        - '{} [id="wizard-provisioning-account-next-button"]'
+    "Provision image wizard - Step: Account - Button: Previous":
+      selectors:
+        - '{} [id="wizard-provisioning-account-previous-button"]'
+    "Provision image wizard - Step: Account - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-provisioning-account-cancel-button"]'
+    "Provision image wizard - Step: SSH - Button: Next":
+      selectors:
+        - '{} [id="wizard-provisioning-sshkey-next-button"]'
+    "Provision image wizard - Step: SSH - Button: Previous":
+      selectors:
+        - '{} [id="wizard-provisioning-sshkey-previous-button"]'
+    "Provision image wizard - Step: SSH - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-provisioning-sshkey-cancel-button"]'
+    "Provision image wizard - Step: Review - Button: Next":
+      selectors:
+        - '{} [id="wizard-provisioning-review-next-button"]'
+    "Provision image wizard - Step: Review - Button: Previous":
+      selectors:
+        - '{} [id="wizard-provisioning-review-previous-button"]'
+    "Provision image wizard - Step: Review - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-provisioning-review-cancel-button"]'
     "Images list - Button: Launch":
       selectors:
         - '{} .pf-m-link:contains("Launch")'
