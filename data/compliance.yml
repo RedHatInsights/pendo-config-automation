@@ -35,6 +35,9 @@ compliance:
     "Any - Button: Remediate":
       selectors:
         - '{} button:contains("Remediate")'
+    "Any - Button: Manage columns":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("Manage columns")'
     "Reports - Link: View report":
       selectors:
         - '{}[data-ouia-subnav="reports"] a:contains("View report")'
