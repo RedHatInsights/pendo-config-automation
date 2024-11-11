@@ -14,65 +14,110 @@ image builder:
       url_rules:
         - /insights/image-builder/imagewizard
         - /insights/image-builder/imagewizard/**
+    Edge images list:
+      url_rules:
+        - /insights/image-builder/manage-edge-images
   features:
     _scope: '[data-ouia-bundle="insights"][data-ouia-app-id="image-builder"]'
     "Create image wizard - Step: Output - Button: Next":
       selectors:
-        - '{} [id="wizard-imageoutput-next-button"]'
+        - '.imageBuilder #wizard-imageoutput-next-button'
     "Create image wizard - Step: Output - Button: Previous":
       selectors:
-        - '{} [id="wizard-imageoutput-previous-button"]'
+        - '.imageBuilder #wizard-imageoutput-previous-button'
     "Create image wizard - Step: Output - Button: Cancel":
       selectors:
-        - '{} [id="wizard-imageoutput-cancel-button"]'
+        - '.imageBuilder #wizard-imageoutput-cancel-button'
+    "Create image wizard - Step: Output - Button: Show information about release lifecycle":
+      selectors:
+        - '.imageBuilder #expandable-section-toggle-1705593973623ki9099aaanl:contains("Show information about release lifecycle")'
+    "Create image wizard - Step: Output - Link: View Red Hat Enterprise Linux Life Cycle dates":
+      selectors:
+        - '.imageBuilder .pf-m-link:contains("View Red Hat Enterprise Linux Life Cycle dates")'
     "Create image wizard - Step: Registration - Button: Next":
       selectors:
-        - '{} [id="wizard-registration-next-button"]'
+        - '.imageBuilder #wizard-registration-next-button'
     "Create image wizard - Step: Registration - Button: Previous":
       selectors:
-        - '{} [id="wizard-registration-previous-button"]'
+        - '.imageBuilder #wizard-registration-previous-button'
     "Create image wizard - Step: Registration - Button: Cancel":
       selectors:
-        - '{} [id="wizard-registration-cancel-button"]'
+        - '.imageBuilder #wizard-registration-cancel-button'
+    "Create image wizard - Step: Registration - Dropdown: Select activation key":
+      selectors:
+        - '.imageBuilder button:contains("Create activation key")'
+    "Create image wizard - Step: Registration - Registration: Register later":
+      selectors:
+        - '.imageBuilder #register-system-later'
+    "Create image wizard - Step: Registration - Registration: Register system now":
+      selectors:
+        - '.imageBuilder #register-system-now'
     "Create image wizard - Step: Filesystem - Button: Next":
       selectors:
-        - '{} [id="wizard-systemconfiguration-filesystem-next-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-filesystem-next-button'
     "Create image wizard - Step: Filesystem - Button: Previous":
       selectors:
-        - '{} [id="wizard-systemconfiguration-filesystem-previous-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-filesystem-previous-button'
     "Create image wizard - Step: Filesystem - Button: Cancel":
       selectors:
-        - '{} [id="wizard-systemconfiguration-filesystem-cancel-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-filesystem-cancel-button'
     "Create image wizard - Step: Content - Button: Next":
       selectors:
-        - '{} [id="wizard-systemconfiguration-packages-next-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-packages-next-button'
     "Create image wizard - Step: Content - Button: Previous":
       selectors:
-        - '{} [id="wizard-systemconfiguration-packages-previous-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-packages-previous-button'
     "Create image wizard - Step: Content - Button: Cancel":
       selectors:
-        - '{} [id="wizard-systemconfiguration-packages-cancel-button"]'
+        - '.imageBuilder #wizard-systemconfiguration-packages-cancel-button'
     "Create image wizard - Step: Details - Button: Next":
       selectors:
-        - '{} [id="wizard-details-next-button"]'
+        - '.imageBuilder #wizard-details-next-button'
     "Create image wizard - Step: Details - Button: Previous":
       selectors:
-        - '{} [id="wizard-details-previous-button"]'
+        - '.imageBuilder #wizard-details-previous-button'
     "Create image wizard - Step: Details - Button: Cancel":
       selectors:
-        - '{} [id="wizard-details-cancel-button"]'
+        - '.imageBuilder #wizard-details-cancel-button'
     "Create image wizard - Step: Review - Button: Create image":
       selectors:
-        - '{} [id="wizard-review-next-button"]'
+        - '.imageBuilder #wizard-review-next-button'
     "Create image wizard - Step: Review - Button: Previous":
       selectors:
-        - '{} [id="wizard-review-previous-button"]'
+        - '.imageBuilder #wizard-review-previous-button'
     "Create image wizard - Step: Review - Button: Cancel":
       selectors:
-        - '{} [id="wizard-review-cancel-button"]'
+        - '.imageBuilder #wizard-review-cancel-button'
     "Launch wizard - Button: Launch":
       selectors:
-        - '{} #wizard-provisioning-review-next-button'
+        - '.imageBuilder #wizard-provisioning-review-next-button'
+    "Provision image wizard - Step: Account - Button: Next":
+      selectors:
+        - '{} [id="wizard-provisioning-account-next-button"]'
+    "Provision image wizard - Step: Account - Button: Previous":
+      selectors:
+        - '{} [id="wizard-provisioning-account-previous-button"]'
+    "Provision image wizard - Step: Account - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-provisioning-account-cancel-button"]'
+    "Provision image wizard - Step: SSH - Button: Next":
+      selectors:
+        - '{} [id="wizard-provisioning-sshkey-next-button"]'
+    "Provision image wizard - Step: SSH - Button: Previous":
+      selectors:
+        - '{} [id="wizard-provisioning-sshkey-previous-button"]'
+    "Provision image wizard - Step: SSH - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-provisioning-sshkey-cancel-button"]'
+    "Provision image wizard - Step: Review - Button: Next":
+      selectors:
+        - '{} [id="wizard-provisioning-review-next-button"]'
+    "Provision image wizard - Step: Review - Button: Previous":
+      selectors:
+        - '{} [id="wizard-provisioning-review-previous-button"]'
+    "Provision image wizard - Step: Review - Button: Cancel":
+      selectors:
+        - '{} [id="wizard-provisioning-review-cancel-button"]'
     "Images list - Button: Launch":
       selectors:
         - '{} .pf-m-link:contains("Launch")'
@@ -85,6 +130,15 @@ image builder:
     "Images list - Button: Build an Image with Custom Content":
       selectors:
         - '{} .pf-m-link:contains("Build an Image with Custom Content")'
+    "Images list - Button: Create blueprint":
+      selectors:
+        - '{} .pf-m-primary:contains("Create blueprint")'
+    "Images list - Button: Edit blueprint":
+      selectors:
+        - '{} .pf-v5-c-button:contains("Edit blueprint")'
+    "Blueprint list - Button: Build images":
+      selectors:
+        - '{} .pf-m-primary:contains("Build images")'
     "Quickstart: Launch an AWS Image - Button: Let Red Hat contact you":
       selectors:
         - '{} #qs-ib-aws-launch-contact'
@@ -94,3 +148,27 @@ image builder:
     "Quickstart - Button: Build an Image with Custom Content - Button: Let Red Hat contact you":
       selectors:
         - '{} #qs-ib-custom-content-contact'
+    "Create blueprint wizard - Step: Content - Button: Search other repositories":
+      selectors:
+        - '{} .pf-m-primary:contains("Search other repositories")'
+    "Create blueprint wizard - Step: Content - Toggle: Other repositories":
+      selectors:
+        - '{} #toggle-other-repos.pf-v5-c-toggle-group__button:contains("Other repos")'
+    "Create blueprint wizard - Step: Content - Button: Add listed repositories":
+      selectors:
+        - '{} .pf-m-primary:contains("Add listed repositories")'
+    "Images list- Horizontal Tab: Immutable(OSTree)":
+      selectors:
+        - '{} .pf-v5-c-tabs__item-text:contains("Immutable (OSTree)")'
+    "Edge images list- Button: Create new image":
+      selectors:
+        - '{} .pf-c-button:contains("Create new image")'
+    "Edge images list- Button: Download from Kebab":
+      selectors:
+        - '{} .pf-c-dropdown__menu-item:contains("Download")'
+    "Edge images list - Button: Actions dropdown":
+      selectors:
+        - '{} #image-set-details-dropdown'
+    "Images table banner - Button: View the difference":
+      selectors:
+        - '{} #blueprint_view_version_difference'

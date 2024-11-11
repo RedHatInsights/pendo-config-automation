@@ -17,3 +17,18 @@ policies:
     "Policies - Button: Create policy":
       selectors:
         - '{} button:contains("Create policy").pf-c-button'
+    "Policies - Step: Create Policy - Button:Next":
+      selectors:
+        - '{} button:contains("Next").pf-c-button'
+    "Policies - Step: Policy Details - Button:Next":
+      selectors:
+        - '{} button:contains("Next").pf-c-button'
+    "Policies - Step: Conditions - Button:Next":
+      selectors:
+        - '{} button:contains("Next").pf-c-button'
+    "Policies - Step: Trigger actions - Button:Next":
+      selectors:
+        - '{} button:contains("Next").pf-c-button'
+    "Policies - Step: Review and enable - Button:Next":
+      selectors:
+        - '{} button:contains("Next").pf-c-button'

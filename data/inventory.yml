@@ -31,6 +31,15 @@ inventory:
     System view - Resource Optimization tab:
       url_rules:
         - /insights/inventory/*?appName=ros
+    Workspaces list:
+      url_rules:
+        - /insights/inventory/workspaces
+    Workspaces view:
+      url_rules:
+        - /insights/inventory/workspaces/**
+    Staleness and deletion:
+      url_rules:
+        - /insights/inventory/staleness-and-deletion
   features:
     _scope: '[data-ouia-app-id="inventory"]'
     "System row - Button: Delete":
@@ -54,3 +63,36 @@ inventory:
     "System view - Tab: Resource Optimization":
       selectors:
         - '{} .pf-c-tabs__list button:contains("Resource Optimization")'
+    "Workspaces list - Button: Create workspace":
+      selectors:
+        - '[data-ouia-component-id="CreateGroupButton"]'
+    "Workspaces list - Expandable card: Create a workspace quickstart link":
+      selectors:
+        - '[data-ouia-component-id="OUIA-Generated-Button-link-1"]'
+    "Workspaces list - Expandable card: Configure User Access for your workspaces quickstart link":
+      selectors:
+        - '[data-ouia-component-id="OUIA-Generated-Button-link-2"]'
+    "Workspaces view - Button: Add systems":
+      selectors:
+        - '[data-ouia-component-id="add-systems-button"]'
+    "Workspaces view - Workspace info tab - Button: Manage access":
+      selectors:
+        - '[href="/iam/user-access"]:contains("Manage access")'
+    "Edge systems - Edge Tab across Insights":
+      selectors:
+        - '[data-ouia-bundle="insights"] [aria-label="Immutable tab"]'
+    "Staleness and deletion - Save button":
+      selectors:
+        - '[data-ouia-component-id="OUIA-Generated-Button-primary-1"]'
+    "System list - Export button":
+      selectors:
+        - '[data-ouia-component-id="Export"]'
+    "System list - Export to CSV button":
+      selectors:
+        - '[data-ouia-component-id="DownloadCSV"]'
+    "System list - Export to JSON button":
+      selectors:
+        - '[data-ouia-component-id="DownloadJSON"]'
+    "About system inventory":
+      selectors:
+        - '[data-ouia-component-id="AboutInventorySystemsPopover"]'

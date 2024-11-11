@@ -2,43 +2,107 @@
 cost management:
   color: 6
   pages:
-    All pages.post04262021:
+    All pages:
       url_rules:
         - /openshift/cost-management/**
-        - /openshift/cost-management/
-    Overview.post04262021:
+    Overview All:
       url_rules:
         - /openshift/cost-management/
-    OpenShift.post04262021:
+    OpenShift Overview:
+      url_rules:
+        - /openshift/cost-management?tabKey=0
+        - /openshift/cost-management?tabKey=1
+    OpenShift Details All:
       url_rules:
         - /openshift/cost-management/ocp
         - /openshift/cost-management/ocp/**
-    Amazon Web Services.post04262021:
+    OpenShift Details Group by Cluster:
+      url_rules:
+        - /openshift/cost-management/ocp?filter[limit]=10&filter[offset]=0&group_by[cluster]=*
+    OpenShift Details Group by Node:
+      url_rules:
+        - /openshift/cost-management/ocp?filter[limit]=10&filter[offset]=0&group_by[node]=*
+    OpenShift Details Group by Project:
+      url_rules:
+        - /openshift/cost-management/ocp?filter[limit]=10&filter[offset]=0&group_by[project]=*
+    OpenShift Details Group by Tag:
+      url_rules:
+        - /openshift/cost-management/ocp?filter[limit]=10&filter[offset]=0&group_by[tag*
+    Amazon Web Services All:
       url_rules:
         - /openshift/cost-management/aws
         - /openshift/cost-management/aws/**
-        - /openshift/cost-management/infrastructure/aws
-        - /openshift/cost-management/infrastructure/aws/**
-        - /openshift/cost-management/details/aws
-    Microsoft Azure.post04262021:
+    Amazon Web Services Group by Account:
+      url_rules:
+        - /openshift/cost-management/aws?filter[limit]=10&filter[offset]=0&group_by[account]=*
+    Amazon Web Services Group by Cost Category:
+      url_rules:
+        - /openshift/cost-management/aws?filter[limit]=10&filter[offset]=0&group_by[aws_category:*
+    Amazon Web Services Group by Organizational Unit:
+      url_rules:
+        - /openshift/cost-management/aws?filter[limit]=10&filter[offset]=0&group_by[org_unit_id*
+    Amazon Web Services Group by Region:
+      url_rules:
+        - /openshift/cost-management/aws?filter[limit]=10&filter[offset]=0&group_by[region]=*
+    Amazon Web Services Group by Service:
+      url_rules:
+        - /openshift/cost-management/aws?filter[limit]=10&filter[offset]=0&group_by[service]=*
+    Amazon Web Services Group by Tag:
+      url_rules:
+        - /openshift/cost-management/aws?filter[limit]=10&filter[offset]=0&group_by[tag:*
+    Microsoft Azure All:
       url_rules:
         - /openshift/cost-management/azure
         - /openshift/cost-management/azure/**
-        - /openshift/cost-management/infrastructure/azure
-        - /openshift/cost-management/infrastructure/azure/**
-    Google Cloud Platform.post04262021:
+    Microsoft Azure Group by Account:
+      url_rules:
+        - /openshift/cost-management/azure?filter[limit]=10&filter[offset]=0&group_by[subscription_guid]=*
+    Microsoft Azure Group by Region:
+      url_rules:
+        - /openshift/cost-management/azure?filter[limit]=10&filter[offset]=0&group_by[resource_location]=*
+    Microsoft Azure Group by Service:
+      url_rules:
+        - /openshift/cost-management/azure?filter[limit]=10&filter[offset]=0&group_by[service_name]=*
+    Microsoft Azure Group by Tag:
+      url_rules:
+        - /openshift/cost-management/azure?filter[limit]=10&filter[offset]=0&group_by[tag:*
+    Google Cloud Platform All:
       url_rules:
         - /openshift/cost-management/gcp
         - /openshift/cost-management/gcp/**
-    Cost Models.post04262021:
+    Google Cloud Platform Group by Account:
       url_rules:
-        - /openshift/cost-management/cost-models
-        - /openshift/cost-management/cost-models/**
-    Explorer.post04262021:
+        - /openshift/cost-management/gcp?filter[limit]=10&filter[offset]=0&group_by[account]=*
+    Google Cloud Platform Group by GCP Project:
+      url_rules:
+        - /openshift/cost-management/gcp?filter[limit]=10&filter[offset]=0&group_by[gcp_project]=*
+    Google Cloud Platform Group by Region:
+      url_rules:
+        - /openshift/cost-management/gcp?filter[limit]=10&filter[offset]=0&group_by[region]=*
+    Google Cloud Platform Group by Service:
+      url_rules:
+        - /openshift/cost-management/gcp?filter[limit]=10&filter[offset]=0&group_by[service]=*
+    Google Cloud Platform Group by Tag:
+      url_rules:
+        - /openshift/cost-management/gcp?filter[limit]=10&filter[offset]=0&group_by[tag:*
+    Oracle All:
+      url_rules:
+        - /openshift/cost-management/oci
+        - /openshift/cost-management/oci/**
+    Settings All:
+      url_rules:
+        - /openshift/cost-management/settings/
+    Cost Model Detail:
+      url_rules:
+        - /openshift/cost-management/settings/cost-model/*
+    Cost Explorer All:
       url_rules:
         - /openshift/cost-management/explorer/
         - /openshift/cost-management/explorer/*
-    Optimizations:
+    Optimizations All:
       url_rules:
         - /openshift/cost-management/optimizations
         - /openshift/cost-management/otpimizations/**
+    Optimizations Breakdown:
+      url_rules:
+        - /openshift/cost-management/optimizations/breakdown*
