@@ -115,9 +115,6 @@ crc:
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Advisor":
       selectors:
         - '{} a:contains("Advisor")[href="insights/advisor"]'
-    "Apps & Services Dropdown - Red Hat Enterprise Linux: Drift":
-      selectors:
-        - '{} a:contains("Drift")[href="insights/drift"]'
     "Apps & Services Dropdown - Red Hat Enterprise Linux: Inventory":
       selectors:
         - '{} a:contains("Inventory")[href="insights/inventory"]'
@@ -256,9 +253,6 @@ crc:
     "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Advisor":
       selectors:
         - 'a:contains("Advisor")[href="insights/advisor"]'
-    "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Drift":
-      selectors:
-        - 'a:contains("Drift")[href="insights/drift"]'
     "Apps & Services Dropdown Sitewide - Red Hat Enterprise Linux: Inventory":
       selectors:
         - 'a:contains("Inventory")[href="insights/inventory"]'
