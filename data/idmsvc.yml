@@ -1,0 +1,48 @@
+---
+idmsvc:
+  pages:
+    All pages:
+      url_rules:
+        - /settings/idmsvc
+        - /settings/idmsvc/**
+    Domains List:
+      url_rules:
+        - /settings/idmsvc/domains
+    Domain Details:
+      url_rules:
+        - /settings/idmsvc/domains/details/**
+    Register identity domain wizard:
+      url_rules:
+        - /settings/idmsvc/domains/wizard
+  features:
+    _scope: '[data-ouia-bundle="settings"][data-ouia-app-id="idmsvc"]'
+    "Register domain wizard - Step: Preparation - Button: Next":
+      selectors:
+        - '{} .wizardPage [data-ouia-component-id="ButtonWizardPreparationNext"]'
+    "Register domain wizard - Step: Registration - Button: Next":
+      selectors:
+        - '{} .wizardPage [data-ouia-component-id="ButtonWizardRegistrationNext"]'
+    "Register domain wizard - Step: Registration - Button: Back":
+      selectors:
+        - '{} .wizardPage [data-ouia-component-id="ButtonWizardRegistrationBack"]'
+    "Register domain wizard - Step: Details - Button: Next":
+      selectors:
+        - '{} .wizardPage [data-ouia-component-id="ButtonWizardDetailsNext"]'
+    "Register domain wizard - Step: Details - Button: Back":
+      selectors:
+        - '{} .wizardPage [data-ouia-component-id="ButtonWizardDetailsBack"]'
+    "Register domain wizard - Step: Review - Button: Finish":
+      selectors:
+        - '{} .wizardPage [data-ouia-component-id="ButtonWizardReviewFinish"]'
+    "Register domain wizard - Step: Review - Button: Back":
+      selectors:
+        - '{} .wizardPage [data-ouia-component-id="ButtonWizardReviewBack"]'
+    "Register domain wizard - Step: all - Button: Cancel":
+      selectors:
+        - '{} .wizardPage [data-ouia-component-id="ButtonWizardCancel"]'
+    "Modal cancel registration - Button: Cancel":
+      selectors:
+        - '[data-ouia-component-id="ButtonModalCancelRegistrationCancel"]'
+    "Modal cancel registration - Button: Continue":
+      selectors:
+        - '[data-ouia-component-id="ButtonModalCancelRegistrationContinue"]'
