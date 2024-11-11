@@ -21,7 +21,6 @@ applications:
   - "dashboard"
   - "data-srvs-data-science"
   - "data-srvs-database-access"
-  - "drift"
   - "edge-management"
   - "idmsvc"
   - "insights-for-openshift"
