@@ -84,3 +84,6 @@ inventory:
     "Staleness and deletion - Save button":
       selectors:
         - '[data-ouia-component-id="OUIA-Generated-Button-primary-1"]'
+    "About system inventory":
+      selectors:
+        - '[data-ouia-component-id="AboutInventorySystemsPopover"]'
