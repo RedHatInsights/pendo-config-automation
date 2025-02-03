@@ -16,6 +16,7 @@ subscription services:
       url_rules:
         - /subscriptions/usage/rhel
         - /subscriptions/usage/openshift
+        - /subscriptions/usage/ansible
         - /subscriptions/usage/rhods
         - /subscriptions/usage/rhacs
     Subscriptions Usage - RHEL:
