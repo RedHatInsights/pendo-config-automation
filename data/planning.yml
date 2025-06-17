@@ -36,6 +36,9 @@ planning:
     "Life Cycle - View toggle button: All":
       selectors:
         - '{} [id="lifecycle"] button:contains("All")'
+    "Life Cycle - Link: Systems":
+      selectors:
+        - '{} [id="lifecycle"] [data-ouia-componenet-id*="OUIA-Generated-Button-link"]'
     "Life Cycle - Button: Page info":
       selectors:
         - '{} [aria-label="Life cycle information"]'
@@ -57,6 +60,9 @@ planning:
     "Roadmap - Card: Additions and enhancements":
       selectors:
         - '{} [data-ouia-component-id="upcoming-additions"]'
+    "Roadmap - Link: Potentially affected systems":
+      selectors:
+        - '{} [id="roadmap"] [data-ouia-componenet-id*="OUIA-Generated-Button-link"]'
     "Roadmap - Link: Tracking ticket":
       selectors:
         - '{} [href*="issues.redhat.com"]'
