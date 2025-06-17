@@ -12,15 +12,15 @@ planning:
         - /insights/planning/lifecycle
     Life Cycle RHEL:
       url_rules:
-        - insights/planning?lifecycleDropdown=Red+Hat+Enterprise+Linux
+        - /insights/planning?lifecycleDropdown=Red+Hat+Enterprise+Linux
         - /insights/planning/lifecycle?lifecycleDropdown=Red+Hat+Enterprise+Linux
     Life Cycle RHEL 8 App Streams:
       url_rules:
-        - insights/planning?lifecycleDropdown=RHEL+8+Application+Streams
+        - /insights/planning?lifecycleDropdown=RHEL+8+Application+Streams
         - /insights/planning/lifecycle?lifecycleDropdown=RHEL+8+Application+Streams
     Life Cycle RHEL 9 App Streams:
       url_rules:
-        - insights/planning?lifecycleDropdown=RHEL+9+Application+Streams
+        - /insights/planning?lifecycleDropdown=RHEL+9+Application+Streams
         - /insights/planning/lifecycle?lifecycleDropdown=RHEL+9+Application+Streams
     Roadmap:
       url_rules:
