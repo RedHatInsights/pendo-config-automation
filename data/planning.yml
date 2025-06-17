@@ -1,0 +1,71 @@
+---
+planning:
+  color: 8
+  pages:
+    All pages:
+      url_rules:
+        - /insights/planning
+        - /insights/planning/**
+    Life Cycle All:
+      url_rules:
+        - /insights/planning
+        - /insights/planning/lifecycle
+    Life Cycle RHEL:
+      url_rules:
+        - /insights/planning?lifecycleDropdown=Red+Hat+Enterprise+Linux
+        - /insights/planning/lifecycle?lifecycleDropdown=Red+Hat+Enterprise+Linux
+    Life Cycle RHEL 8 App Streams:
+      url_rules:
+        - /insights/planning?lifecycleDropdown=RHEL+8+Application+Streams
+        - /insights/planning/lifecycle?lifecycleDropdown=RHEL+8+Application+Streams
+    Life Cycle RHEL 9 App Streams:
+      url_rules:
+        - /insights/planning?lifecycleDropdown=RHEL+9+Application+Streams
+        - /insights/planning/lifecycle?lifecycleDropdown=RHEL+9+Application+Streams
+    Roadmap:
+      url_rules:
+        - /insights/planning/roadmap
+  features:
+    _scope: '[data-ouia-bundle="insights"][data-ouia-app-id="planning"]'
+    "Life Cycle - View toggle button: Installed only":
+      selectors:
+        - '{} [id="lifecycle"] button:contains("Installed only")'
+    "Life Cycle - View toggle button: Installed and related":
+      selectors:
+        - '{} [id="lifecycle"] button:contains("Installed and related")'
+    "Life Cycle - View toggle button: All":
+      selectors:
+        - '{} [id="lifecycle"] button:contains("All")'
+    "Life Cycle - Link: Systems":
+      selectors:
+        - '{} [id="lifecycle"] [data-ouia-component-id*="OUIA-Generated-Button-link"]'
+    "Life Cycle - Button: Page info":
+      selectors:
+        - '{} [aria-label="Life cycle information"]'
+    "Life Cycle - Button: Rolling application streams info":
+      selectors:
+        - '{} [aria-label="Rolling application streams are not shown"]'
+    "Roadmap - View toggle button: Relevant only":
+      selectors:
+        - '{} [id="roadmap"] button:contains("Relevant only")'
+    "Roadmap - View toggle button: All":
+      selectors:
+        - '{} [id="roadmap"] button:contains("All")'
+    "Roadmap - Card: Deprecations":
+      selectors:
+        - '{} [data-ouia-component-id="upcoming-deprecations"]'
+    "Roadmap - Card: Changes":
+      selectors:
+        - '{} [data-ouia-component-id="upcoming-changes"]'
+    "Roadmap - Card: Additions and enhancements":
+      selectors:
+        - '{} [data-ouia-component-id="upcoming-additions"]'
+    "Roadmap - Link: Potentially affected systems":
+      selectors:
+        - '{} [id="roadmap"] [data-ouia-component-id*="OUIA-Generated-Button-link"]'
+    "Roadmap - Link: Tracking ticket":
+      selectors:
+        - '{} [href*="issues.redhat.com"]'
+    "Roadmap - Button: Page info":
+      selectors:
+        - '{} [aria-label="Roadmap information"]'
