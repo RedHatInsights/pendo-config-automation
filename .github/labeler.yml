@@ -38,16 +38,12 @@ crc:
 - 'data/crc.yml'
 dashboard:
 - 'data/dashboard.yml'
-fleet-management:
-- 'data/fleet-management.yml'
 insights-for-openshift:
 - 'data/insights-for-openshift.yml'
 insights:
 - 'data/insights.yml'
 inventory:
 - 'data/inventory.yml'
-manage-images:
-- 'data/manage-images.yml'
 openshift:
 - 'data/openshift.yml'
 patch:
