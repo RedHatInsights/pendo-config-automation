@@ -38,7 +38,7 @@ planning:
         - '{} [id="lifecycle"] button:contains("All")'
     "Life Cycle - Link: Systems":
       selectors:
-        - '{} [id="lifecycle"] [data-ouia-componenet-id*="OUIA-Generated-Button-link"]'
+        - '{} [id="lifecycle"] [data-ouia-component-id*="OUIA-Generated-Button-link"]'
     "Life Cycle - Button: Page info":
       selectors:
         - '{} [aria-label="Life cycle information"]'
@@ -62,7 +62,7 @@ planning:
         - '{} [data-ouia-component-id="upcoming-additions"]'
     "Roadmap - Link: Potentially affected systems":
       selectors:
-        - '{} [id="roadmap"] [data-ouia-componenet-id*="OUIA-Generated-Button-link"]'
+        - '{} [id="roadmap"] [data-ouia-component-id*="OUIA-Generated-Button-link"]'
     "Roadmap - Link: Tracking ticket":
       selectors:
         - '{} [href*="issues.redhat.com"]'
