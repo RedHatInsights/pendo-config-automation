@@ -1,3 +1,5 @@
+This repository is archived. For any future Pendo updates, please do it through the Pendo UI!
+
 # pendo-config-automation
 
 Automated way to publish rules for pages and features to Pendo.
